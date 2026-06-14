@@ -1,0 +1,275 @@
+==============================================================
+DATA OVERVIEW REPORT
+Generated: 2026-06-06T15:57:09.157394+00:00
+==============================================================
+
+==============================================================
+1. FULL CORPUS COLLECTION (Steps 1-8)
+==============================================================
+  Category     Party     Videos   Comments   Threads    Pairs
+  --------------------------------------------------------
+  climate      AfD           41      12744      8416     3837
+  climate      AfD          345     108034     79164    26279
+  climate      Linke         17       1975      1045      777
+  climate      Linke         41       3162      1767     1179
+  migration    AfD          168      76659     52931    21062
+  migration    AfD          442     303859    230955    65248
+  migration    Linke         25       3171      2015      939
+  migration    Linke         64      16655      9027     6646
+  climate      AfD          386     120778     87580    30116  <- subtotal
+  climate      Linke         58       5137      2812     1956  <- subtotal
+  migration    AfD          610     380518    283886    86310  <- subtotal
+  migration    Linke         89      19826     11042     7585  <- subtotal
+  --------------------------------------------------------
+  TOTAL                    1143     526259    385320   125967
+
+==============================================================
+2. STRATIFIED SAMPLE (Step 8)
+==============================================================
+  Stratum                 Available  Sampled   Comments    Pairs
+  ------------------------------------------------------------
+  climate_AfD                  9839      500       2632     1999
+  climate_Linke                 723      500       2204     1442
+  migration_AfD               26704      500       2691     1984
+  migration_Linke              2595      500       2683     1874
+  ------------------------------------------------------------
+  TOTAL                                                             7299
+
+==============================================================
+3. ANNOTATION OVERVIEW
+==============================================================
+  Total sampled pairs:       7277   100%
+  Gold annotated:             700   9.6%
+  LLM annotated:             6577   90.4%
+  Failed annotations:          55
+
+  Stratum                   Total     Gold      LLM   Failed
+  --------------------------------------------------------
+  climate_AfD                1999      175     1824        7
+  climate_Linke              1420      175     1245        5
+  migration_AfD              1984      175     1809       19
+  migration_Linke            1874      175     1699       24
+
+==============================================================
+4. LABEL DISTRIBUTIONS BY PARTY x TOPIC
+==============================================================
+
+-- CLIMATE_AFD --------------------------------------------
+  Pairs: 1999
+  Stance:
+    Against       595   29.9%  ######--------------
+    Neutral      1259   63.2%  #############-------
+    Support       139    7.0%  #-------------------
+  Interaction quality (4-bin):
+    Constructive                    390   19.5%  ####----------------
+    Slight/Neutral                  257   12.9%  ###-----------------
+    Moderately Destructive          916   45.8%  #########-----------
+    Highly Destructive              436   21.8%  ####----------------
+  Interaction quality (5-class):
+    Constructive Disagreement           301   15.1%  ###-----------------
+    Constructive Agreement               89    4.5%  #-------------------
+    Neutral/Rephrase                    257   12.9%  ###-----------------
+    Destructive Agreement               916   45.8%  #########-----------
+    Destructive Disagreement            436   21.8%  ####----------------
+  Interaction quality (3-bin summary):
+    Constructive                    390   19.5%  ####----------------
+    Neutral/Rephrase                257   12.9%  ###-----------------
+    Destructive                    1352   67.6%  ##############------
+  Agreement/Disagreement split:
+    Agreement                      1005   50.3%  ##########----------
+    Neutral                         257   12.9%  ###-----------------
+    Disagreement                    737   36.9%  #######-------------
+  Techniques (% of pairs containing technique):
+    Loaded_Language                              1038   51.9%
+    Name_Calling,Labeling                         776   38.8%
+    Exaggeration,Minimisation                     504   25.2%
+    Doubt                                         272   13.6%
+    Appeal_to_fear-prejudice                      235   11.8%
+    Slogans/Thought-terminating_Cliches           192    9.6%
+    Causal_Oversimplification                     189    9.5%
+    Flag-Waving                                   155    7.8%
+    Appeal_to_Time                                 87    4.4%
+    Black-and-White_Fallacy                        73    3.7%
+    Repetition                                     66    3.3%
+    Appeal_to_Authority                            64    3.2%
+    Whataboutism,Straw_Men                         53    2.7%
+    Bandwagon,Reductio_ad_hitlerum                 36    1.8%
+
+-- CLIMATE_LINKE ------------------------------------------
+  Pairs: 1420
+  Stance:
+    Against       152   10.7%  ##------------------
+    Neutral      1032   72.9%  ###############-----
+    Support       232   16.4%  ###-----------------
+  Interaction quality (4-bin):
+    Constructive                    543   38.2%  ########------------
+    Slight/Neutral                  244   17.2%  ###-----------------
+    Moderately Destructive          251   17.7%  ####----------------
+    Highly Destructive              382   26.9%  #####---------------
+  Interaction quality (5-class):
+    Constructive Disagreement           387   27.3%  #####---------------
+    Constructive Agreement              156   11.0%  ##------------------
+    Neutral/Rephrase                    244   17.2%  ###-----------------
+    Destructive Agreement               251   17.7%  ####----------------
+    Destructive Disagreement            382   26.9%  #####---------------
+  Interaction quality (3-bin summary):
+    Constructive                    543   38.2%  ########------------
+    Neutral/Rephrase                244   17.2%  ###-----------------
+    Destructive                     633   44.6%  #########-----------
+  Agreement/Disagreement split:
+    Agreement                       407   28.7%  ######--------------
+    Neutral                         244   17.2%  ###-----------------
+    Disagreement                    769   54.2%  ###########---------
+  Techniques (% of pairs containing technique):
+    Loaded_Language                               628   44.2%
+    Name_Calling,Labeling                         426   30.0%
+    Exaggeration,Minimisation                     356   25.1%
+    Doubt                                         192   13.5%
+    Causal_Oversimplification                     184   13.0%
+    Slogans/Thought-terminating_Cliches           142   10.0%
+    Appeal_to_fear-prejudice                       93    6.5%
+    Appeal_to_Authority                            67    4.7%
+    Black-and-White_Fallacy                        67    4.7%
+    Flag-Waving                                    56    3.9%
+    Repetition                                     55    3.9%
+    Appeal_to_Time                                 41    2.9%
+    Bandwagon,Reductio_ad_hitlerum                 35    2.5%
+    Whataboutism,Straw_Men                         33    2.3%
+
+-- MIGRATION_AFD ------------------------------------------
+  Pairs: 1984
+  Stance:
+    Against      1126   57.2%  ###########---------
+    Neutral       743   37.7%  ########------------
+    Support       100    5.1%  #-------------------
+  Interaction quality (4-bin):
+    Constructive                    313   15.8%  ###-----------------
+    Slight/Neutral                  241   12.1%  ##------------------
+    Moderately Destructive         1081   54.5%  ###########---------
+    Highly Destructive              349   17.6%  ####----------------
+  Interaction quality (5-class):
+    Constructive Disagreement           244   12.3%  ##------------------
+    Constructive Agreement               69    3.5%  #-------------------
+    Neutral/Rephrase                    241   12.1%  ##------------------
+    Destructive Agreement              1081   54.5%  ###########---------
+    Destructive Disagreement            349   17.6%  ####----------------
+  Interaction quality (3-bin summary):
+    Constructive                    313   15.8%  ###-----------------
+    Neutral/Rephrase                241   12.1%  ##------------------
+    Destructive                    1430   72.1%  ##############------
+  Agreement/Disagreement split:
+    Agreement                      1150   58.0%  ############--------
+    Neutral                         241   12.1%  ##------------------
+    Disagreement                    593   29.9%  ######--------------
+  Techniques (% of pairs containing technique):
+    Loaded_Language                              1064   53.6%
+    Name_Calling,Labeling                         679   34.2%
+    Exaggeration,Minimisation                     522   26.3%
+    Appeal_to_fear-prejudice                      346   17.4%
+    Causal_Oversimplification                     224   11.3%
+    Flag-Waving                                   221   11.1%
+    Slogans/Thought-terminating_Cliches           203   10.2%
+    Doubt                                         171    8.6%
+    Appeal_to_Time                                121    6.1%
+    Black-and-White_Fallacy                        99    5.0%
+    Repetition                                     66    3.3%
+    Appeal_to_Authority                            46    2.3%
+    Whataboutism,Straw_Men                         42    2.1%
+    Bandwagon,Reductio_ad_hitlerum                 41    2.1%
+
+-- MIGRATION_LINKE ----------------------------------------
+  Pairs: 1874
+  Stance:
+    Against       487   26.2%  #####---------------
+    Neutral       971   52.3%  ##########----------
+    Support       399   21.5%  ####----------------
+  Interaction quality (4-bin):
+    Constructive                    691   36.9%  #######-------------
+    Slight/Neutral                  249   13.3%  ###-----------------
+    Moderately Destructive          315   16.8%  ###-----------------
+    Highly Destructive              619   33.0%  #######-------------
+  Interaction quality (5-class):
+    Constructive Disagreement           552   29.5%  ######--------------
+    Constructive Agreement              139    7.4%  #-------------------
+    Neutral/Rephrase                    249   13.3%  ###-----------------
+    Destructive Agreement               315   16.8%  ###-----------------
+    Destructive Disagreement            619   33.0%  #######-------------
+  Interaction quality (3-bin summary):
+    Constructive                    691   36.9%  #######-------------
+    Neutral/Rephrase                249   13.3%  ###-----------------
+    Destructive                     934   49.8%  ##########----------
+  Agreement/Disagreement split:
+    Agreement                       454   24.2%  #####---------------
+    Neutral                         249   13.3%  ###-----------------
+    Disagreement                   1171   62.5%  ############--------
+  Techniques (% of pairs containing technique):
+    Loaded_Language                               904   48.2%
+    Name_Calling,Labeling                         662   35.3%
+    Exaggeration,Minimisation                     517   27.6%
+    Causal_Oversimplification                     259   13.8%
+    Doubt                                         202   10.8%
+    Appeal_to_fear-prejudice                      188   10.0%
+    Slogans/Thought-terminating_Cliches           171    9.1%
+    Black-and-White_Fallacy                       101    5.4%
+    Whataboutism,Straw_Men                         94    5.0%
+    Flag-Waving                                    93    5.0%
+    Bandwagon,Reductio_ad_hitlerum                 55    2.9%
+    Appeal_to_Time                                 51    2.7%
+    Appeal_to_Authority                            49    2.6%
+    Repetition                                     42    2.2%
+
+==============================================================
+4b. OVERALL TECHNIQUE TOTALS (all strata combined)
+==============================================================
+  Technique                                     Count  % pairs
+  --------------------------------------------------------------
+  Loaded_Language                                3634    49.9%
+  Name_Calling,Labeling                          2543    34.9%
+  Exaggeration,Minimisation                      1899    26.1%
+  Appeal_to_fear-prejudice                        862    11.8%
+  Causal_Oversimplification                       856    11.8%
+  Doubt                                           837    11.5%
+  Slogans/Thought-terminating_Cliches             708     9.7%
+  Flag-Waving                                     525     7.2%
+  Black-and-White_Fallacy                         340     4.7%
+  Appeal_to_Time                                  300     4.1%
+  Repetition                                      229     3.1%
+  Appeal_to_Authority                             226     3.1%
+  Whataboutism,Straw_Men                          222     3.1%
+  Bandwagon,Reductio_ad_hitlerum                  167     2.3%
+
+==============================================================
+5. THREAD SCORE DISTRIBUTIONS BY PARTY x TOPIC
+==============================================================
+
+-- CLIMATE_AFD --------------------------------------------
+  Total threads: 500
+    Constructive                     64   12.8%  ###-----------------
+    Slight/Neutral                  118   23.6%  #####---------------
+    Moderately Destructive          270   54.0%  ###########---------
+    Highly Destructive               48    9.6%  ##------------------
+
+-- CLIMATE_LINKE ------------------------------------------
+  Total threads: 500
+    Constructive                    158   31.6%  ######--------------
+    Slight/Neutral                  133   26.6%  #####---------------
+    Moderately Destructive          130   26.0%  #####---------------
+    Highly Destructive               79   15.8%  ###-----------------
+
+-- MIGRATION_AFD ------------------------------------------
+  Total threads: 500
+    Constructive                     53   10.6%  ##------------------
+    Slight/Neutral                  100   20.0%  ####----------------
+    Moderately Destructive          299   59.8%  ############--------
+    Highly Destructive               48    9.6%  ##------------------
+
+-- MIGRATION_LINKE ----------------------------------------
+  Total threads: 500
+    Constructive                    137   27.4%  #####---------------
+    Slight/Neutral                  136   27.2%  #####---------------
+    Moderately Destructive          130   26.0%  #####---------------
+    Highly Destructive               97   19.4%  ####----------------
+
+==============================================================
+END OF REPORT
+==============================================================

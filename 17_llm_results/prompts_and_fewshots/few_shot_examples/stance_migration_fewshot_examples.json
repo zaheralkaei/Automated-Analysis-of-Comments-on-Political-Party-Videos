@@ -1,0 +1,38 @@
+[
+  {
+    "PairID": "mNnX_k9Blfw_UgzKT7F6NpH5Bmt_x3d4AaABAg.AHsMAmfl_KIAHsMqVu16oo",
+    "VideoID": "mNnX_k9Blfw",
+    "Topic": "migration",
+    "ParentText": "Was das für ein Wahnsinn ist🤯 bei uns gibt es Gegenden da sieht man und hört man keinen Deutschen mehr! Das kann doch nicht unsere Zukunft sein! Es reicht sowas von!",
+    "ChildText": "Das ist bei uns ebenso.",
+    "InteractionScore": -0.5,
+    "InteractionLabel": "-0.5  Destructive Agreement",
+    "StanceLabel": 0,
+    "Techniques": [],
+    "StanceName": "Against"
+  },
+  {
+    "PairID": "8vwbPCpeV8M_UgylwSVjJYAbcCmRAf94AaABAg.9mnnN_psC8_9n3dvVZlWJG",
+    "VideoID": "8vwbPCpeV8M",
+    "Topic": "migration",
+    "ParentText": "Warum Stoppt niemand diesen Wahnsinn",
+    "ChildText": "Wer  soll das  machen",
+    "InteractionScore": 0.0,
+    "InteractionLabel": "0.0  Neutral / Rephrase",
+    "StanceLabel": 1,
+    "Techniques": [],
+    "StanceName": "Neutral"
+  },
+  {
+    "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9eX-OKFAvx",
+    "VideoID": "2E4s7MQUIFI",
+    "Topic": "migration",
+    "ParentText": "Können doch gerne ein paar Migranten bei sich zuhause aufnehmen",
+    "ChildText": "Ich nehme gerne Flüchtlinge auf!",
+    "InteractionScore": 1.0,
+    "InteractionLabel": "+1.0  Constructive Disagreement",
+    "StanceLabel": 2,
+    "Techniques": [],
+    "StanceName": "Support"
+  }
+]

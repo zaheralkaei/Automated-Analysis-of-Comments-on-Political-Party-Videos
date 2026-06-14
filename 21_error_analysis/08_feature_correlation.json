@@ -1,0 +1,330 @@
+{
+  "interaction": {
+    "family_used": "shallow_XGB_B+S+T+E2",
+    "n_pairs": 1088,
+    "n_features_tested": 21,
+    "top_correlations": {
+      "sent_compound": {
+        "pearson_r": 0.0617,
+        "pval": 0.041976,
+        "abs_r": 0.0617
+      },
+      "sent_neg": {
+        "pearson_r": -0.06,
+        "pval": 0.047926,
+        "abs_r": 0.06
+      },
+      "parent_len_words": {
+        "pearson_r": 0.0438,
+        "pval": 0.149035,
+        "abs_r": 0.0438
+      },
+      "sent_neu": {
+        "pearson_r": 0.0408,
+        "pval": 0.179128,
+        "abs_r": 0.0408
+      },
+      "child_excl_count": {
+        "pearson_r": -0.036,
+        "pval": 0.235016,
+        "abs_r": 0.036
+      },
+      "sent_pos": {
+        "pearson_r": 0.035,
+        "pval": 0.248905,
+        "abs_r": 0.035
+      },
+      "child_quest_count": {
+        "pearson_r": -0.0315,
+        "pval": 0.299399,
+        "abs_r": 0.0315
+      },
+      "child_intensifier_count": {
+        "pearson_r": 0.0306,
+        "pval": 0.313905,
+        "abs_r": 0.0306
+      },
+      "child_caps_ratio": {
+        "pearson_r": -0.0293,
+        "pval": 0.334074,
+        "abs_r": 0.0293
+      },
+      "child_first_person_ratio": {
+        "pearson_r": -0.0289,
+        "pval": 0.341093,
+        "abs_r": 0.0289
+      }
+    },
+    "all_correlations": {
+      "child_len_words": {
+        "pearson_r": -0.017,
+        "pval": 0.575565,
+        "abs_r": 0.017
+      },
+      "parent_len_words": {
+        "pearson_r": 0.0438,
+        "pval": 0.149035,
+        "abs_r": 0.0438
+      },
+      "len_ratio": {
+        "pearson_r": 0.0088,
+        "pval": 0.772063,
+        "abs_r": 0.0088
+      },
+      "child_ttr": {
+        "pearson_r": 0.0275,
+        "pval": 0.364799,
+        "abs_r": 0.0275
+      },
+      "vocab_overlap": {
+        "pearson_r": 0.0236,
+        "pval": 0.437716,
+        "abs_r": 0.0236
+      },
+      "child_excl_count": {
+        "pearson_r": -0.036,
+        "pval": 0.235016,
+        "abs_r": 0.036
+      },
+      "child_quest_count": {
+        "pearson_r": -0.0315,
+        "pval": 0.299399,
+        "abs_r": 0.0315
+      },
+      "child_caps_ratio": {
+        "pearson_r": -0.0293,
+        "pval": 0.334074,
+        "abs_r": 0.0293
+      },
+      "child_neg_count": {
+        "pearson_r": -0.0264,
+        "pval": 0.383911,
+        "abs_r": 0.0264
+      },
+      "child_intensifier_count": {
+        "pearson_r": 0.0306,
+        "pval": 0.313905,
+        "abs_r": 0.0306
+      },
+      "mention_count": {
+        "pearson_r": 0.0173,
+        "pval": 0.568419,
+        "abs_r": 0.0173
+      },
+      "child_political_count": {
+        "pearson_r": 0.0085,
+        "pval": 0.780378,
+        "abs_r": 0.0085
+      },
+      "has_url": {
+        "pearson_r": 0.0058,
+        "pval": 0.849668,
+        "abs_r": 0.0058
+      },
+      "child_first_person_ratio": {
+        "pearson_r": -0.0289,
+        "pval": 0.341093,
+        "abs_r": 0.0289
+      },
+      "child_avg_word_len": {
+        "pearson_r": -0.027,
+        "pval": 0.374279,
+        "abs_r": 0.027
+      },
+      "word_count_diff": {
+        "pearson_r": 0.0071,
+        "pval": 0.81452,
+        "abs_r": 0.0071
+      },
+      "parent_caps_ratio": {
+        "pearson_r": -0.0197,
+        "pval": 0.516412,
+        "abs_r": 0.0197
+      },
+      "sent_pos": {
+        "pearson_r": 0.035,
+        "pval": 0.248905,
+        "abs_r": 0.035
+      },
+      "sent_neg": {
+        "pearson_r": -0.06,
+        "pval": 0.047926,
+        "abs_r": 0.06
+      },
+      "sent_neu": {
+        "pearson_r": 0.0408,
+        "pval": 0.179128,
+        "abs_r": 0.0408
+      },
+      "sent_compound": {
+        "pearson_r": 0.0617,
+        "pval": 0.041976,
+        "abs_r": 0.0617
+      }
+    }
+  },
+  "stance": {
+    "family_used": "shallow_XGB_B+bert_pca",
+    "n_pairs": 1088,
+    "n_features_tested": 21,
+    "top_correlations": {
+      "mention_count": {
+        "pearson_r": -0.1292,
+        "pval": 1.9e-05,
+        "abs_r": 0.1292
+      },
+      "child_quest_count": {
+        "pearson_r": -0.0633,
+        "pval": 0.03688,
+        "abs_r": 0.0633
+      },
+      "sent_pos": {
+        "pearson_r": 0.0515,
+        "pval": 0.089245,
+        "abs_r": 0.0515
+      },
+      "parent_len_words": {
+        "pearson_r": 0.0487,
+        "pval": 0.108172,
+        "abs_r": 0.0487
+      },
+      "sent_neu": {
+        "pearson_r": -0.039,
+        "pval": 0.198073,
+        "abs_r": 0.039
+      },
+      "child_caps_ratio": {
+        "pearson_r": -0.0333,
+        "pval": 0.272122,
+        "abs_r": 0.0333
+      },
+      "child_ttr": {
+        "pearson_r": 0.0308,
+        "pval": 0.309728,
+        "abs_r": 0.0308
+      },
+      "child_political_count": {
+        "pearson_r": -0.0298,
+        "pval": 0.326597,
+        "abs_r": 0.0298
+      },
+      "word_count_diff": {
+        "pearson_r": 0.0269,
+        "pval": 0.374884,
+        "abs_r": 0.0269
+      },
+      "child_neg_count": {
+        "pearson_r": -0.0213,
+        "pval": 0.483379,
+        "abs_r": 0.0213
+      }
+    },
+    "all_correlations": {
+      "child_len_words": {
+        "pearson_r": 0.0014,
+        "pval": 0.962216,
+        "abs_r": 0.0014
+      },
+      "parent_len_words": {
+        "pearson_r": 0.0487,
+        "pval": 0.108172,
+        "abs_r": 0.0487
+      },
+      "len_ratio": {
+        "pearson_r": 0.0003,
+        "pval": 0.993257,
+        "abs_r": 0.0003
+      },
+      "child_ttr": {
+        "pearson_r": 0.0308,
+        "pval": 0.309728,
+        "abs_r": 0.0308
+      },
+      "vocab_overlap": {
+        "pearson_r": -0.0195,
+        "pval": 0.521593,
+        "abs_r": 0.0195
+      },
+      "child_excl_count": {
+        "pearson_r": -0.0051,
+        "pval": 0.867698,
+        "abs_r": 0.0051
+      },
+      "child_quest_count": {
+        "pearson_r": -0.0633,
+        "pval": 0.03688,
+        "abs_r": 0.0633
+      },
+      "child_caps_ratio": {
+        "pearson_r": -0.0333,
+        "pval": 0.272122,
+        "abs_r": 0.0333
+      },
+      "child_neg_count": {
+        "pearson_r": -0.0213,
+        "pval": 0.483379,
+        "abs_r": 0.0213
+      },
+      "child_intensifier_count": {
+        "pearson_r": 0.0195,
+        "pval": 0.520977,
+        "abs_r": 0.0195
+      },
+      "mention_count": {
+        "pearson_r": -0.1292,
+        "pval": 1.9e-05,
+        "abs_r": 0.1292
+      },
+      "child_political_count": {
+        "pearson_r": -0.0298,
+        "pval": 0.326597,
+        "abs_r": 0.0298
+      },
+      "has_url": {
+        "pearson_r": 0.0076,
+        "pval": 0.801306,
+        "abs_r": 0.0076
+      },
+      "child_first_person_ratio": {
+        "pearson_r": 0.0034,
+        "pval": 0.910955,
+        "abs_r": 0.0034
+      },
+      "child_avg_word_len": {
+        "pearson_r": 0.0127,
+        "pval": 0.676701,
+        "abs_r": 0.0127
+      },
+      "word_count_diff": {
+        "pearson_r": 0.0269,
+        "pval": 0.374884,
+        "abs_r": 0.0269
+      },
+      "parent_caps_ratio": {
+        "pearson_r": 0.0178,
+        "pval": 0.557309,
+        "abs_r": 0.0178
+      },
+      "sent_pos": {
+        "pearson_r": 0.0515,
+        "pval": 0.089245,
+        "abs_r": 0.0515
+      },
+      "sent_neg": {
+        "pearson_r": 0.0092,
+        "pval": 0.762947,
+        "abs_r": 0.0092
+      },
+      "sent_neu": {
+        "pearson_r": -0.039,
+        "pval": 0.198073,
+        "abs_r": 0.039
+      },
+      "sent_compound": {
+        "pearson_r": 0.0155,
+        "pval": 0.608643,
+        "abs_r": 0.0155
+      }
+    }
+  }
+}

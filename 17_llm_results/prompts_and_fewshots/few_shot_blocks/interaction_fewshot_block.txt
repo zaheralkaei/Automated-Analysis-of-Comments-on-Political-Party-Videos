@@ -1,0 +1,42 @@
+Here are examples of the task:
+
+--- Example 1 ---
+PARENT COMMENT:
+Auf 26 kinder ist meine Tochter 1 von 4 Deutschen.
+
+Wenn ich sie von der Schule abhole, stehen da 8 Kopftücher und 2 normale.
+
+KOTZT MICH AN
+CHILD COMMENT:
+Da freut sich Frau Weidel!
+Answer: {"score": -1.0, "label": "Destructive Disagreement"}
+
+--- Example 2 ---
+PARENT COMMENT:
+Was das für ein Wahnsinn ist🤯 bei uns gibt es Gegenden da sieht man und hört man keinen Deutschen mehr! Das kann doch nicht unsere Zukunft sein! Es reicht sowas von!
+CHILD COMMENT:
+Das ist bei uns ebenso.
+Answer: {"score": -0.5, "label": "Destructive Agreement"}
+
+--- Example 3 ---
+PARENT COMMENT:
+Könnt ihr bitte eure Wortwahl für die Videotitel überarbeiten? Das ist ja furchtbare. Bro? Ernsthaft?
+CHILD COMMENT:
+richtiger bruh moment
+Answer: {"score": 0.0, "label": "Neutral/Rephrase"}
+
+--- Example 4 ---
+PARENT COMMENT:
+*_Kommunaler Wohnungsbau statt Miethaie & Betongold!_*
+CHILD COMMENT:
+Und deshalb brauchen Kommunen wieder mehr Geld.
+Answer: {"score": 0.5, "label": "Constructive Agreement"}
+
+--- Example 5 ---
+PARENT COMMENT:
+Ja die Flüchtlinge brauchen ja keine Wohnung, is schon klar 😂😂😂
+CHILD COMMENT:
+Wir hätten auch ohne Geflüchtete eine Wohnungskrise. 10000 Menschen abschieben bringt nichts.
+Answer: {"score": 1.0, "label": "Constructive Disagreement"}
+
+Now classify the following:

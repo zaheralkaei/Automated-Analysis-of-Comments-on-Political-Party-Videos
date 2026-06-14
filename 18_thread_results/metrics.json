@@ -1,0 +1,186 @@
+{
+  "approach_A": {
+    "macro_f1": 0.4649,
+    "accuracy": 0.5031,
+    "macro_precision": 0.4707,
+    "macro_recall": 0.5011,
+    "kappa_quadratic": 0.416,
+    "model_used": "XGB_B+S+T+E2",
+    "n_threads": 652
+  },
+  "approach_B": {
+    "LR": {
+      "macro_f1": 0.3525,
+      "accuracy": 0.3604,
+      "macro_precision": 0.3454,
+      "macro_recall": 0.3816,
+      "kappa_quadratic": 0.2536
+    },
+    "RF": {
+      "macro_f1": 0.3757,
+      "accuracy": 0.4693,
+      "macro_precision": 0.4287,
+      "macro_recall": 0.3742,
+      "kappa_quadratic": 0.2984
+    },
+    "SVM": {
+      "macro_f1": 0.3267,
+      "accuracy": 0.365,
+      "macro_precision": 0.323,
+      "macro_recall": 0.3473,
+      "kappa_quadratic": 0.213
+    },
+    "SVM_RBF": {
+      "macro_f1": 0.3786,
+      "accuracy": 0.4018,
+      "macro_precision": 0.4042,
+      "macro_recall": 0.3974,
+      "kappa_quadratic": 0.2928
+    },
+    "XGB": {
+      "macro_f1": 0.3742,
+      "accuracy": 0.4494,
+      "macro_precision": 0.3996,
+      "macro_recall": 0.369,
+      "kappa_quadratic": 0.2527
+    }
+  },
+  "per_topic": {
+    "climate": {
+      "n_threads": 318,
+      "macro_f1": 0.4538,
+      "bin_distribution": {
+        "Constructive": 58,
+        "Slight/Neutral": 102,
+        "Moderately Destructive": 128,
+        "Highly Destructive": 30
+      }
+    },
+    "migration": {
+      "n_threads": 334,
+      "macro_f1": 0.4759,
+      "bin_distribution": {
+        "Constructive": 55,
+        "Slight/Neutral": 100,
+        "Moderately Destructive": 149,
+        "Highly Destructive": 30
+      }
+    },
+    "chi2_test": {
+      "chi2": 1.2997,
+      "p_value": 0.729216
+    }
+  },
+  "error_analysis": {
+    "Slight/Neutral -> Moderately Destructive": [
+      {
+        "ThreadID": "UgxYbv35TzSEvf2k-a94AaABAg",
+        "pred_mean_score": -0.5
+      },
+      {
+        "ThreadID": "Ugx4Dt9dwKgTd7ps0l94AaABAg",
+        "pred_mean_score": -0.75
+      },
+      {
+        "ThreadID": "UgzJvDgtou_Baael-8t4AaABAg",
+        "pred_mean_score": -0.5
+      },
+      {
+        "ThreadID": "Ugxr1pI2IrBDY5rHWlV4AaABAg",
+        "pred_mean_score": -0.5
+      },
+      {
+        "ThreadID": "Ugx1wOHyzm5SuGkQsqB4AaABAg",
+        "pred_mean_score": -0.5
+      }
+    ],
+    "Slight/Neutral -> Constructive": [
+      {
+        "ThreadID": "UgyJQXmuCOMYFK7py5d4AaABAg",
+        "pred_mean_score": 1.0
+      },
+      {
+        "ThreadID": "Ugy8Zhf1uq01WLy4Jud4AaABAg",
+        "pred_mean_score": 0.3077
+      },
+      {
+        "ThreadID": "UgzePrnbM9YHn0K2c6d4AaABAg",
+        "pred_mean_score": 1.0
+      },
+      {
+        "ThreadID": "UgxJdowRrwsBwcivNQJ4AaABAg",
+        "pred_mean_score": 0.3333
+      },
+      {
+        "ThreadID": "UgzE-wR4fkRsowDe-sd4AaABAg",
+        "pred_mean_score": 0.3333
+      }
+    ],
+    "Moderately Destructive -> Highly Destructive": [
+      {
+        "ThreadID": "UgzVq_y_0FBjnz9ku8J4AaABAg",
+        "pred_mean_score": -1.0
+      },
+      {
+        "ThreadID": "Ugwq1dhXCLgNnUH4QBx4AaABAg",
+        "pred_mean_score": -1.0
+      },
+      {
+        "ThreadID": "UgypUc8B7yRPi-wvyvR4AaABAg",
+        "pred_mean_score": -1.0
+      },
+      {
+        "ThreadID": "Ugwwllzh7M_d9qRwwv14AaABAg",
+        "pred_mean_score": -1.0
+      },
+      {
+        "ThreadID": "UgyWf2qOym2mzPUQnml4AaABAg",
+        "pred_mean_score": -1.0
+      }
+    ],
+    "Moderately Destructive -> Slight/Neutral": [
+      {
+        "ThreadID": "UgxYfVxs5DozMAcu1uV4AaABAg",
+        "pred_mean_score": 0.0
+      },
+      {
+        "ThreadID": "UgyRjFNi9IHiHYsv-Od4AaABAg",
+        "pred_mean_score": -0.2
+      },
+      {
+        "ThreadID": "UgxKJJTP3CYXXebzMm54AaABAg",
+        "pred_mean_score": -0.25
+      },
+      {
+        "ThreadID": "UgzmNFGyjBezW9YMUqZ4AaABAg",
+        "pred_mean_score": 0.0
+      },
+      {
+        "ThreadID": "Ugx7zGWjpYHJdZ3-zxJ4AaABAg",
+        "pred_mean_score": -0.25
+      }
+    ],
+    "Constructive -> Moderately Destructive": [
+      {
+        "ThreadID": "Ugx2cS0177hgmzr1pnR4AaABAg",
+        "pred_mean_score": -0.5
+      },
+      {
+        "ThreadID": "UgwSOWl6LOTwaRF1jhh4AaABAg",
+        "pred_mean_score": -0.5
+      },
+      {
+        "ThreadID": "Ugzubfad6SoBCx9VgNx4AaABAg",
+        "pred_mean_score": -0.5
+      },
+      {
+        "ThreadID": "Ugy50pMd6cDULXagPCR4AaABAg",
+        "pred_mean_score": -0.5
+      },
+      {
+        "ThreadID": "UgwlyTXrV0nOmNCGh8p4AaABAg",
+        "pred_mean_score": -0.5
+      }
+    ]
+  }
+}

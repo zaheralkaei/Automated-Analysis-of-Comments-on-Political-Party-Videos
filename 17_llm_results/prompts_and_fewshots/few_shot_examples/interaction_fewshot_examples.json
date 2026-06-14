@@ -1,0 +1,67 @@
+[
+  {
+    "PairID": "mNnX_k9Blfw_UgxcEWFF1N7swmunfK54AaABAg.AHtaIy-6h0iAI1L0cqcHDT",
+    "VideoID": "mNnX_k9Blfw",
+    "Topic": "migration",
+    "ParentText": "Auf 26 kinder ist meine Tochter 1 von 4 Deutschen.\n\nWenn ich sie von der Schule abhole, stehen da 8 Kopftücher und 2 normale.\n\nKOTZT MICH AN",
+    "ChildText": "Da freut sich Frau Weidel!",
+    "InteractionScore": -1.0,
+    "InteractionLabel": "-1.0  Destructive Disagreement",
+    "StanceLabel": 1,
+    "Techniques": [],
+    "InteractionScore_snapped": -1.0,
+    "InteractionLabel_resolved": "Destructive Disagreement"
+  },
+  {
+    "PairID": "mNnX_k9Blfw_UgzKT7F6NpH5Bmt_x3d4AaABAg.AHsMAmfl_KIAHsMqVu16oo",
+    "VideoID": "mNnX_k9Blfw",
+    "Topic": "migration",
+    "ParentText": "Was das für ein Wahnsinn ist🤯 bei uns gibt es Gegenden da sieht man und hört man keinen Deutschen mehr! Das kann doch nicht unsere Zukunft sein! Es reicht sowas von!",
+    "ChildText": "Das ist bei uns ebenso.",
+    "InteractionScore": -0.5,
+    "InteractionLabel": "-0.5  Destructive Agreement",
+    "StanceLabel": 0,
+    "Techniques": [],
+    "InteractionScore_snapped": -0.5,
+    "InteractionLabel_resolved": "Destructive Agreement"
+  },
+  {
+    "PairID": "4oWNKOs5LiM_Ugy62dRy3UsF8_cmuSB4AaABAg.AUApTs-yYINAUB707N5fI5",
+    "VideoID": "4oWNKOs5LiM",
+    "Topic": "climate",
+    "ParentText": "Könnt ihr bitte eure Wortwahl für die Videotitel überarbeiten? Das ist ja furchtbare. Bro? Ernsthaft?",
+    "ChildText": "richtiger bruh moment",
+    "InteractionScore": 0.0,
+    "InteractionLabel": " 0.0  Neutral / Rephrase",
+    "StanceLabel": 1,
+    "Techniques": [],
+    "InteractionScore_snapped": 0.0,
+    "InteractionLabel_resolved": "Neutral/Rephrase"
+  },
+  {
+    "PairID": "Qyds5R3ORmc_Ugz6-7dvrwL9s8XOdkB4AaABAg.AEHmg4tE-W-AEJyTaBfqq_",
+    "VideoID": "Qyds5R3ORmc",
+    "Topic": "migration",
+    "ParentText": "*_Kommunaler Wohnungsbau statt Miethaie & Betongold!_*",
+    "ChildText": "Und deshalb brauchen Kommunen wieder mehr Geld.",
+    "InteractionScore": 0.5,
+    "InteractionLabel": "+0.5  Constructive Agreement",
+    "StanceLabel": 1,
+    "Techniques": [],
+    "InteractionScore_snapped": 0.5,
+    "InteractionLabel_resolved": "Constructive Agreement"
+  },
+  {
+    "PairID": "repy4Y7GKM4_UgyFQH-8r2BIG-NmcS54AaABAg.A4flY5WiUwUA4qMYFfWiQE",
+    "VideoID": "repy4Y7GKM4",
+    "Topic": "migration",
+    "ParentText": "Ja die Flüchtlinge brauchen ja keine Wohnung, is schon klar 😂😂😂",
+    "ChildText": "Wir hätten auch ohne Geflüchtete eine Wohnungskrise. 10000 Menschen abschieben bringt nichts.",
+    "InteractionScore": 1.0,
+    "InteractionLabel": "+1.0  Constructive Disagreement",
+    "StanceLabel": 2,
+    "Techniques": [],
+    "InteractionScore_snapped": 1.0,
+    "InteractionLabel_resolved": "Constructive Disagreement"
+  }
+]

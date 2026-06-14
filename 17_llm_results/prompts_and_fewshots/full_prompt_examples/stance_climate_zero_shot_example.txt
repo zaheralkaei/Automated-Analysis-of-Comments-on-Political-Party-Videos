@@ -1,0 +1,54 @@
+========================================================================
+TASK: stance  |  TOPIC: climate  |  SHOT: zero_shot
+========================================================================
+
+--- SYSTEM PROMPT ---
+You are tasked with analyzing a pair of text entries, a "Comment" and its "Parent Comment", to determine the stance towards climate action and climate policy.
+1. Read and understand the Parent Comment's climate stance
+2. Analyze how the Response Comment relates to it, watching for:
+
+Classify as 0 (Against / Climate Skeptic) if the comment:
+- denies or downplays climate change or its human causes
+- criticizes climate policy as economically harmful or ideologically driven
+- mocks climate activists or climate science
+- agrees with climate-skeptic parent comments
+- disagrees with pro-climate-action parent comments
+- frames climate measures as unnecessary, exaggerated, or a hoax
+- expresses opposition to renewable energy mandates or energy transition
+
+Classify as 1 (Neutral) if the comment:
+- makes factual statements without a clear stance
+- asks genuine clarifying questions
+- discusses unrelated aspects
+- is too ambiguous to determine a stance
+- cannot be clearly connected to climate views
+
+Classify as 2 (Support / Pro-Climate Action) if the comment:
+- supports climate science or urgent climate action
+- challenges climate-skeptic views or disagrees with climate-skeptic parent comments
+- agrees with pro-climate-action comments
+- highlights the dangers of inaction or climate consequences
+- defends renewable energy, emissions reductions, or climate policy
+- criticizes fossil fuel industries or insufficient climate measures
+- shares concern about climate impacts on society or nature
+
+CRUCIAL:
+- Context determines meaning of short/ambiguous responses
+- Watch for irony and references to specific policies (Energiewende, CO2-Steuer, etc.)
+- Personal experiences and economic arguments often reveal stance
+- Framing climate policy as "ideology" or "religion" typically signals skepticism (0)
+
+CRUCIAL: Neutral (1) is NOT emotional neutrality — it means the comment's stance toward climate action CANNOT be reliably determined.
+Use 0 or 2 ONLY when the stance is clear and unambiguous. When in doubt, use 1.
+Comments can be angry, sarcastic, or politically charged and still be Neutral if they don't reveal a clear stance on the topic.
+
+Respond ONLY with a JSON object: {"label": <int>} where 0=Against, 1=Neutral, 2=Support.
+
+--- USER MESSAGE ---
+PARENT COMMENT:
+Herr Dr. Spaniel, Sie haben doch keine Ahnung. Wenn wir nun nicht endlich eine CO2 Steuer bezahlen,  wird das Klima umkippen und in 10 bis 12 Jahren ist die Erde nicht mehr bewohnbar! Aber mit einer richtig hohen CO2 Steuer retten wir das Klima. So okay,  genug schwachsinniges Grünengelaber geschrieben. Sie können sich den Mund fusselig reden, die Hirntoten der Altpartein, allen voran die Grünen kriegen es nicht in ihre Birne. System runter gefahren wegen Stromausfall!
+
+CHILD COMMENT:
+Nicht zu vergessen Reichweite ich fahre mit unserem Airsoft Team 400 km wir haben einen Diesel mit 70l Tank und können die Strecke Problemlos Fahren selbst ein Tesla Modell S kommt da nicht mit und das Auto ist beladen
+
+Classify the stance of the child comment toward the video topic.

@@ -1,0 +1,14 @@
+category,party,channel,videos,comments,threads,pairs
+climate,AfD,AfD TV,41,12744,8416,3837
+climate,AfD,AfD-Fraktion Bundestag,345,108034,79164,26279
+climate,Linke,Die Linke im Bundestag,17,1975,1045,777
+climate,Linke,DieLinke,41,3162,1767,1179
+migration,AfD,AfD TV,168,76659,52931,21062
+migration,AfD,AfD-Fraktion Bundestag,442,303859,230955,65248
+migration,Linke,Die Linke im Bundestag,25,3171,2015,939
+migration,Linke,DieLinke,64,16655,9027,6646
+climate,AfD,SUBTOTAL,386,120778,87580,30116
+climate,Linke,SUBTOTAL,58,5137,2812,1956
+migration,AfD,SUBTOTAL,610,380518,283886,86310
+migration,Linke,SUBTOTAL,89,19826,11042,7585
+TOTAL,,,1143,526259,385320,125967

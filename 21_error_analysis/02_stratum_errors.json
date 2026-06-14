@@ -1,0 +1,240 @@
+{
+  "interaction": {
+    "shallow_XGB_B+S+T+E2": {
+      "climate|AfD": {
+        "category": "climate",
+        "party": "AfD",
+        "n": 304,
+        "n_errors": 104,
+        "error_rate": 0.3421,
+        "macro_f1": 0.5134
+      },
+      "climate|Linke": {
+        "category": "climate",
+        "party": "Linke",
+        "n": 202,
+        "n_errors": 85,
+        "error_rate": 0.4208,
+        "macro_f1": 0.5256
+      },
+      "migration|AfD": {
+        "category": "migration",
+        "party": "AfD",
+        "n": 305,
+        "n_errors": 97,
+        "error_rate": 0.318,
+        "macro_f1": 0.5011
+      },
+      "migration|Linke": {
+        "category": "migration",
+        "party": "Linke",
+        "n": 277,
+        "n_errors": 105,
+        "error_rate": 0.3791,
+        "macro_f1": 0.5455
+      },
+      "__ALL__": {
+        "n": 1088,
+        "n_errors": 391,
+        "error_rate": 0.3594
+      }
+    },
+    "bert_xlmr": {
+      "climate|AfD": {
+        "category": "climate",
+        "party": "AfD",
+        "n": 304,
+        "n_errors": 117,
+        "error_rate": 0.3849,
+        "macro_f1": 0.5074
+      },
+      "climate|Linke": {
+        "category": "climate",
+        "party": "Linke",
+        "n": 202,
+        "n_errors": 90,
+        "error_rate": 0.4455,
+        "macro_f1": 0.5001
+      },
+      "migration|AfD": {
+        "category": "migration",
+        "party": "AfD",
+        "n": 305,
+        "n_errors": 114,
+        "error_rate": 0.3738,
+        "macro_f1": 0.4732
+      },
+      "migration|Linke": {
+        "category": "migration",
+        "party": "Linke",
+        "n": 277,
+        "n_errors": 134,
+        "error_rate": 0.4838,
+        "macro_f1": 0.4442
+      },
+      "__ALL__": {
+        "n": 1088,
+        "n_errors": 455,
+        "error_rate": 0.4182
+      }
+    },
+    "llm_gemma4_31b_full_instructions_zero_shot": {
+      "climate|AfD": {
+        "category": "climate",
+        "party": "AfD",
+        "n": 304,
+        "n_errors": 106,
+        "error_rate": 0.3487,
+        "macro_f1": 0.5626
+      },
+      "climate|Linke": {
+        "category": "climate",
+        "party": "Linke",
+        "n": 202,
+        "n_errors": 53,
+        "error_rate": 0.2624,
+        "macro_f1": 0.693
+      },
+      "migration|AfD": {
+        "category": "migration",
+        "party": "AfD",
+        "n": 305,
+        "n_errors": 108,
+        "error_rate": 0.3541,
+        "macro_f1": 0.5985
+      },
+      "migration|Linke": {
+        "category": "migration",
+        "party": "Linke",
+        "n": 277,
+        "n_errors": 69,
+        "error_rate": 0.2491,
+        "macro_f1": 0.7061
+      },
+      "__ALL__": {
+        "n": 1088,
+        "n_errors": 336,
+        "error_rate": 0.3088
+      }
+    }
+  },
+  "stance": {
+    "shallow_XGB_B+bert_pca": {
+      "climate|AfD": {
+        "category": "climate",
+        "party": "AfD",
+        "n": 304,
+        "n_errors": 94,
+        "error_rate": 0.3092,
+        "macro_f1": 0.5798
+      },
+      "climate|Linke": {
+        "category": "climate",
+        "party": "Linke",
+        "n": 202,
+        "n_errors": 52,
+        "error_rate": 0.2574,
+        "macro_f1": 0.5072
+      },
+      "migration|AfD": {
+        "category": "migration",
+        "party": "AfD",
+        "n": 305,
+        "n_errors": 128,
+        "error_rate": 0.4197,
+        "macro_f1": 0.4389
+      },
+      "migration|Linke": {
+        "category": "migration",
+        "party": "Linke",
+        "n": 277,
+        "n_errors": 103,
+        "error_rate": 0.3718,
+        "macro_f1": 0.5019
+      },
+      "__ALL__": {
+        "n": 1088,
+        "n_errors": 377,
+        "error_rate": 0.3465
+      }
+    },
+    "bert_xlmr": {
+      "climate|AfD": {
+        "category": "climate",
+        "party": "AfD",
+        "n": 304,
+        "n_errors": 100,
+        "error_rate": 0.3289,
+        "macro_f1": 0.5592
+      },
+      "climate|Linke": {
+        "category": "climate",
+        "party": "Linke",
+        "n": 202,
+        "n_errors": 56,
+        "error_rate": 0.2772,
+        "macro_f1": 0.4868
+      },
+      "migration|AfD": {
+        "category": "migration",
+        "party": "AfD",
+        "n": 305,
+        "n_errors": 123,
+        "error_rate": 0.4033,
+        "macro_f1": 0.4402
+      },
+      "migration|Linke": {
+        "category": "migration",
+        "party": "Linke",
+        "n": 277,
+        "n_errors": 102,
+        "error_rate": 0.3682,
+        "macro_f1": 0.5361
+      },
+      "__ALL__": {
+        "n": 1088,
+        "n_errors": 381,
+        "error_rate": 0.3502
+      }
+    },
+    "llm_gemma4_31b_full_instructions_zero_shot": {
+      "climate|AfD": {
+        "category": "climate",
+        "party": "AfD",
+        "n": 304,
+        "n_errors": 48,
+        "error_rate": 0.1579,
+        "macro_f1": 0.7791
+      },
+      "climate|Linke": {
+        "category": "climate",
+        "party": "Linke",
+        "n": 202,
+        "n_errors": 30,
+        "error_rate": 0.1485,
+        "macro_f1": 0.7525
+      },
+      "migration|AfD": {
+        "category": "migration",
+        "party": "AfD",
+        "n": 305,
+        "n_errors": 58,
+        "error_rate": 0.1902,
+        "macro_f1": 0.7777
+      },
+      "migration|Linke": {
+        "category": "migration",
+        "party": "Linke",
+        "n": 277,
+        "n_errors": 56,
+        "error_rate": 0.2022,
+        "macro_f1": 0.7861
+      },
+      "__ALL__": {
+        "n": 1088,
+        "n_errors": 192,
+        "error_rate": 0.1765
+      }
+    }
+  }
+}

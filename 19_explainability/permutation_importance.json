@@ -1,0 +1,1192 @@
+{
+  "interaction": {
+    "LR": [
+      {
+        "feature": "mention_count",
+        "importance": 0.022007,
+        "std": 0.004975
+      },
+      {
+        "feature": "parent_len_words",
+        "importance": 0.021708,
+        "std": 0.00623
+      },
+      {
+        "feature": "child_len_words",
+        "importance": 0.019082,
+        "std": 0.005485
+      },
+      {
+        "feature": "word_count_diff",
+        "importance": 0.007716,
+        "std": 0.006184
+      },
+      {
+        "feature": "vocab_overlap",
+        "importance": 0.007298,
+        "std": 0.003672
+      },
+      {
+        "feature": "child_first_person_ratio",
+        "importance": 0.006091,
+        "std": 0.004509
+      },
+      {
+        "feature": "child_caps_ratio",
+        "importance": 0.005906,
+        "std": 0.005157
+      },
+      {
+        "feature": "child_ttr",
+        "importance": 0.004979,
+        "std": 0.005833
+      },
+      {
+        "feature": "len_ratio",
+        "importance": 0.004685,
+        "std": 0.003661
+      },
+      {
+        "feature": "child_political_count",
+        "importance": 0.004474,
+        "std": 0.003199
+      },
+      {
+        "feature": "child_neg_count",
+        "importance": 0.004216,
+        "std": 0.005603
+      },
+      {
+        "feature": "child_quest_count",
+        "importance": 0.003667,
+        "std": 0.004379
+      },
+      {
+        "feature": "sent_pos",
+        "importance": 0.002224,
+        "std": 0.002492
+      },
+      {
+        "feature": "sent_neg",
+        "importance": 0.001157,
+        "std": 0.002408
+      },
+      {
+        "feature": "sent_compound",
+        "importance": 0.000347,
+        "std": 0.001713
+      },
+      {
+        "feature": "sent_neu",
+        "importance": 0.000315,
+        "std": 0.002586
+      },
+      {
+        "feature": "has_url",
+        "importance": 0.000297,
+        "std": 0.000708
+      },
+      {
+        "feature": "child_avg_word_len",
+        "importance": 0.000236,
+        "std": 0.002754
+      },
+      {
+        "feature": "parent_caps_ratio",
+        "importance": -0.00024,
+        "std": 0.003121
+      },
+      {
+        "feature": "child_intensifier_count",
+        "importance": -0.000514,
+        "std": 0.000761
+      },
+      {
+        "feature": "child_excl_count",
+        "importance": -0.000898,
+        "std": 0.003822
+      }
+    ],
+    "RF": [
+      {
+        "feature": "child_len_words",
+        "importance": 0.038755,
+        "std": 0.009307
+      },
+      {
+        "feature": "child_quest_count",
+        "importance": 0.01049,
+        "std": 0.006238
+      },
+      {
+        "feature": "mention_count",
+        "importance": 0.00674,
+        "std": 0.00338
+      },
+      {
+        "feature": "child_first_person_ratio",
+        "importance": 0.004125,
+        "std": 0.003208
+      },
+      {
+        "feature": "sent_pos",
+        "importance": 0.003377,
+        "std": 0.003644
+      },
+      {
+        "feature": "child_caps_ratio",
+        "importance": 0.003328,
+        "std": 0.006726
+      },
+      {
+        "feature": "vocab_overlap",
+        "importance": 0.003168,
+        "std": 0.004616
+      },
+      {
+        "feature": "child_neg_count",
+        "importance": 0.001362,
+        "std": 0.001912
+      },
+      {
+        "feature": "child_avg_word_len",
+        "importance": 0.001176,
+        "std": 0.003254
+      },
+      {
+        "feature": "child_excl_count",
+        "importance": 2.6e-05,
+        "std": 0.001936
+      },
+      {
+        "feature": "has_url",
+        "importance": 0.0,
+        "std": 0.0
+      },
+      {
+        "feature": "child_intensifier_count",
+        "importance": -4.4e-05,
+        "std": 0.000501
+      },
+      {
+        "feature": "word_count_diff",
+        "importance": -0.000421,
+        "std": 0.002352
+      },
+      {
+        "feature": "child_political_count",
+        "importance": -0.000524,
+        "std": 0.000932
+      },
+      {
+        "feature": "len_ratio",
+        "importance": -0.002068,
+        "std": 0.002882
+      },
+      {
+        "feature": "parent_len_words",
+        "importance": -0.002317,
+        "std": 0.003147
+      },
+      {
+        "feature": "parent_caps_ratio",
+        "importance": -0.003113,
+        "std": 0.003371
+      },
+      {
+        "feature": "sent_compound",
+        "importance": -0.003148,
+        "std": 0.002821
+      },
+      {
+        "feature": "child_ttr",
+        "importance": -0.003729,
+        "std": 0.004838
+      },
+      {
+        "feature": "sent_neg",
+        "importance": -0.003875,
+        "std": 0.00339
+      },
+      {
+        "feature": "sent_neu",
+        "importance": -0.006027,
+        "std": 0.004136
+      }
+    ],
+    "SVM": [
+      {
+        "feature": "mention_count",
+        "importance": 0.023742,
+        "std": 0.002655
+      },
+      {
+        "feature": "parent_len_words",
+        "importance": 0.018435,
+        "std": 0.005038
+      },
+      {
+        "feature": "child_len_words",
+        "importance": 0.013878,
+        "std": 0.005548
+      },
+      {
+        "feature": "vocab_overlap",
+        "importance": 0.007108,
+        "std": 0.005208
+      },
+      {
+        "feature": "child_ttr",
+        "importance": 0.006493,
+        "std": 0.004311
+      },
+      {
+        "feature": "child_neg_count",
+        "importance": 0.005713,
+        "std": 0.005478
+      },
+      {
+        "feature": "child_caps_ratio",
+        "importance": 0.005342,
+        "std": 0.004677
+      },
+      {
+        "feature": "len_ratio",
+        "importance": 0.005246,
+        "std": 0.003695
+      },
+      {
+        "feature": "sent_compound",
+        "importance": 0.003298,
+        "std": 0.002147
+      },
+      {
+        "feature": "child_avg_word_len",
+        "importance": 0.002974,
+        "std": 0.002043
+      },
+      {
+        "feature": "child_excl_count",
+        "importance": 0.002074,
+        "std": 0.002499
+      },
+      {
+        "feature": "child_first_person_ratio",
+        "importance": 0.001795,
+        "std": 0.003081
+      },
+      {
+        "feature": "parent_caps_ratio",
+        "importance": 0.001245,
+        "std": 0.002715
+      },
+      {
+        "feature": "child_quest_count",
+        "importance": 0.000746,
+        "std": 0.004736
+      },
+      {
+        "feature": "has_url",
+        "importance": 0.000265,
+        "std": 0.000918
+      },
+      {
+        "feature": "sent_neg",
+        "importance": -0.000896,
+        "std": 0.002322
+      },
+      {
+        "feature": "child_political_count",
+        "importance": -0.000957,
+        "std": 0.003354
+      },
+      {
+        "feature": "child_intensifier_count",
+        "importance": -0.002146,
+        "std": 0.001853
+      },
+      {
+        "feature": "word_count_diff",
+        "importance": -0.004112,
+        "std": 0.007145
+      },
+      {
+        "feature": "sent_pos",
+        "importance": -0.004262,
+        "std": 0.002487
+      },
+      {
+        "feature": "sent_neu",
+        "importance": -0.00515,
+        "std": 0.00312
+      }
+    ],
+    "XGB": [
+      {
+        "feature": "child_len_words",
+        "importance": 0.07481,
+        "std": 0.010783
+      },
+      {
+        "feature": "mention_count",
+        "importance": 0.021511,
+        "std": 0.004167
+      },
+      {
+        "feature": "child_first_person_ratio",
+        "importance": 0.015197,
+        "std": 0.004612
+      },
+      {
+        "feature": "child_neg_count",
+        "importance": 0.011854,
+        "std": 0.004734
+      },
+      {
+        "feature": "child_caps_ratio",
+        "importance": 0.009423,
+        "std": 0.004461
+      },
+      {
+        "feature": "child_quest_count",
+        "importance": 0.007642,
+        "std": 0.00686
+      },
+      {
+        "feature": "sent_pos",
+        "importance": 0.006348,
+        "std": 0.00563
+      },
+      {
+        "feature": "sent_neu",
+        "importance": 0.00549,
+        "std": 0.005679
+      },
+      {
+        "feature": "child_avg_word_len",
+        "importance": 0.004173,
+        "std": 0.005034
+      },
+      {
+        "feature": "len_ratio",
+        "importance": 0.003685,
+        "std": 0.005221
+      },
+      {
+        "feature": "vocab_overlap",
+        "importance": 0.002944,
+        "std": 0.003542
+      },
+      {
+        "feature": "child_excl_count",
+        "importance": 0.002478,
+        "std": 0.002863
+      },
+      {
+        "feature": "word_count_diff",
+        "importance": 0.001692,
+        "std": 0.002555
+      },
+      {
+        "feature": "sent_compound",
+        "importance": 0.000209,
+        "std": 0.002205
+      },
+      {
+        "feature": "has_url",
+        "importance": 0.0,
+        "std": 0.0
+      },
+      {
+        "feature": "parent_caps_ratio",
+        "importance": -0.000264,
+        "std": 0.007694
+      },
+      {
+        "feature": "child_intensifier_count",
+        "importance": -0.00031,
+        "std": 0.000517
+      },
+      {
+        "feature": "parent_len_words",
+        "importance": -0.00049,
+        "std": 0.007224
+      },
+      {
+        "feature": "sent_neg",
+        "importance": -0.000839,
+        "std": 0.001297
+      },
+      {
+        "feature": "child_political_count",
+        "importance": -0.001523,
+        "std": 0.001086
+      },
+      {
+        "feature": "child_ttr",
+        "importance": -0.002774,
+        "std": 0.002351
+      }
+    ]
+  },
+  "stance": {
+    "LR": [
+      {
+        "feature": "xlmr_13",
+        "importance": 0.003737,
+        "std": 0.002409
+      },
+      {
+        "feature": "xlmr_10",
+        "importance": 0.003196,
+        "std": 0.004136
+      },
+      {
+        "feature": "xlmr_3",
+        "importance": 0.002487,
+        "std": 0.003009
+      },
+      {
+        "feature": "xlmr_12",
+        "importance": 0.002448,
+        "std": 0.002141
+      },
+      {
+        "feature": "xlmr_6",
+        "importance": 0.001943,
+        "std": 0.002015
+      },
+      {
+        "feature": "xlmr_7",
+        "importance": 0.001902,
+        "std": 0.002452
+      },
+      {
+        "feature": "xlmr_14",
+        "importance": 0.001696,
+        "std": 0.003401
+      },
+      {
+        "feature": "xlmr_4",
+        "importance": 0.001473,
+        "std": 0.00272
+      },
+      {
+        "feature": "xlmr_15",
+        "importance": 0.00139,
+        "std": 0.002714
+      },
+      {
+        "feature": "xlmr_11",
+        "importance": 0.000465,
+        "std": 0.001086
+      },
+      {
+        "feature": "xlmr_1",
+        "importance": 0.000188,
+        "std": 0.000454
+      },
+      {
+        "feature": "xlmr_0",
+        "importance": 0.000148,
+        "std": 0.004376
+      },
+      {
+        "feature": "xlmr_5",
+        "importance": 0.000104,
+        "std": 0.001746
+      },
+      {
+        "feature": "xlmr_8",
+        "importance": 9.5e-05,
+        "std": 0.001156
+      },
+      {
+        "feature": "xlmr_9",
+        "importance": -0.0006,
+        "std": 0.001559
+      },
+      {
+        "feature": "xlmr_2",
+        "importance": -0.000789,
+        "std": 0.0028
+      }
+    ],
+    "RF": [
+      {
+        "feature": "xlmr_13",
+        "importance": 0.002764,
+        "std": 0.002181
+      },
+      {
+        "feature": "xlmr_5",
+        "importance": 0.001931,
+        "std": 0.001895
+      },
+      {
+        "feature": "xlmr_1",
+        "importance": 0.000992,
+        "std": 0.001612
+      },
+      {
+        "feature": "xlmr_9",
+        "importance": 0.000579,
+        "std": 0.001712
+      },
+      {
+        "feature": "xlmr_0",
+        "importance": 9.1e-05,
+        "std": 0.001214
+      },
+      {
+        "feature": "xlmr_11",
+        "importance": -3.2e-05,
+        "std": 0.000875
+      },
+      {
+        "feature": "xlmr_12",
+        "importance": -6.2e-05,
+        "std": 0.004367
+      },
+      {
+        "feature": "xlmr_7",
+        "importance": -0.000309,
+        "std": 0.002534
+      },
+      {
+        "feature": "xlmr_10",
+        "importance": -0.000362,
+        "std": 0.000861
+      },
+      {
+        "feature": "xlmr_3",
+        "importance": -0.000678,
+        "std": 0.001
+      },
+      {
+        "feature": "xlmr_8",
+        "importance": -0.000894,
+        "std": 0.000923
+      },
+      {
+        "feature": "xlmr_6",
+        "importance": -0.001001,
+        "std": 0.002893
+      },
+      {
+        "feature": "xlmr_14",
+        "importance": -0.001121,
+        "std": 0.003054
+      },
+      {
+        "feature": "xlmr_2",
+        "importance": -0.001129,
+        "std": 0.002268
+      },
+      {
+        "feature": "xlmr_4",
+        "importance": -0.002214,
+        "std": 0.002582
+      },
+      {
+        "feature": "xlmr_15",
+        "importance": -0.002775,
+        "std": 0.001994
+      }
+    ],
+    "SVM": [
+      {
+        "feature": "xlmr_12",
+        "importance": 0.004751,
+        "std": 0.002681
+      },
+      {
+        "feature": "xlmr_13",
+        "importance": 0.003922,
+        "std": 0.004662
+      },
+      {
+        "feature": "xlmr_6",
+        "importance": 0.003452,
+        "std": 0.001872
+      },
+      {
+        "feature": "xlmr_15",
+        "importance": 0.00331,
+        "std": 0.001791
+      },
+      {
+        "feature": "xlmr_8",
+        "importance": 0.003224,
+        "std": 0.002827
+      },
+      {
+        "feature": "xlmr_0",
+        "importance": 0.002717,
+        "std": 0.002627
+      },
+      {
+        "feature": "xlmr_10",
+        "importance": 0.002689,
+        "std": 0.002265
+      },
+      {
+        "feature": "xlmr_9",
+        "importance": 0.002613,
+        "std": 0.002955
+      },
+      {
+        "feature": "xlmr_2",
+        "importance": 0.001695,
+        "std": 0.004193
+      },
+      {
+        "feature": "xlmr_1",
+        "importance": 0.001449,
+        "std": 0.003872
+      },
+      {
+        "feature": "xlmr_3",
+        "importance": 0.001192,
+        "std": 0.002963
+      },
+      {
+        "feature": "xlmr_5",
+        "importance": 0.001102,
+        "std": 0.00381
+      },
+      {
+        "feature": "xlmr_14",
+        "importance": -6e-06,
+        "std": 0.005321
+      },
+      {
+        "feature": "xlmr_4",
+        "importance": -0.000105,
+        "std": 0.004342
+      },
+      {
+        "feature": "xlmr_7",
+        "importance": -0.002355,
+        "std": 0.003629
+      },
+      {
+        "feature": "xlmr_11",
+        "importance": -0.004254,
+        "std": 0.004882
+      }
+    ],
+    "XGB": [
+      {
+        "feature": "xlmr_1",
+        "importance": 0.00641,
+        "std": 0.002266
+      },
+      {
+        "feature": "xlmr_2",
+        "importance": 0.004106,
+        "std": 0.003876
+      },
+      {
+        "feature": "xlmr_7",
+        "importance": 0.003383,
+        "std": 0.002143
+      },
+      {
+        "feature": "xlmr_3",
+        "importance": 0.002664,
+        "std": 0.000877
+      },
+      {
+        "feature": "xlmr_11",
+        "importance": 0.000333,
+        "std": 0.001285
+      },
+      {
+        "feature": "xlmr_9",
+        "importance": 0.000242,
+        "std": 0.001259
+      },
+      {
+        "feature": "xlmr_6",
+        "importance": 0.000216,
+        "std": 0.000352
+      },
+      {
+        "feature": "xlmr_5",
+        "importance": 0.000116,
+        "std": 0.002194
+      },
+      {
+        "feature": "xlmr_0",
+        "importance": 4.5e-05,
+        "std": 0.000802
+      },
+      {
+        "feature": "xlmr_4",
+        "importance": -9.6e-05,
+        "std": 0.000601
+      },
+      {
+        "feature": "xlmr_12",
+        "importance": -0.000322,
+        "std": 0.001524
+      },
+      {
+        "feature": "xlmr_10",
+        "importance": -0.00044,
+        "std": 0.000593
+      },
+      {
+        "feature": "xlmr_8",
+        "importance": -0.000464,
+        "std": 0.000597
+      },
+      {
+        "feature": "xlmr_14",
+        "importance": -0.00126,
+        "std": 0.002609
+      },
+      {
+        "feature": "xlmr_13",
+        "importance": -0.001832,
+        "std": 0.001501
+      },
+      {
+        "feature": "xlmr_15",
+        "importance": -0.001902,
+        "std": 0.002101
+      }
+    ]
+  },
+  "techniques": {
+    "LR": [
+      {
+        "feature": "child_ttr",
+        "importance": 0.005309,
+        "std": 0.001378
+      },
+      {
+        "feature": "vocab_overlap",
+        "importance": 0.004547,
+        "std": 0.001216
+      },
+      {
+        "feature": "child_caps_ratio",
+        "importance": 0.002919,
+        "std": 0.000901
+      },
+      {
+        "feature": "child_len_words",
+        "importance": 0.002558,
+        "std": 0.001047
+      },
+      {
+        "feature": "parent_caps_ratio",
+        "importance": 0.002007,
+        "std": 0.000536
+      },
+      {
+        "feature": "child_avg_word_len",
+        "importance": 0.001898,
+        "std": 0.001388
+      },
+      {
+        "feature": "sent_compound",
+        "importance": 0.001838,
+        "std": 0.000669
+      },
+      {
+        "feature": "sent_neu",
+        "importance": 0.001682,
+        "std": 0.000884
+      },
+      {
+        "feature": "child_first_person_ratio",
+        "importance": 0.001324,
+        "std": 0.000856
+      },
+      {
+        "feature": "parent_len_words",
+        "importance": 0.001321,
+        "std": 0.000843
+      },
+      {
+        "feature": "word_count_diff",
+        "importance": 0.001281,
+        "std": 0.001099
+      },
+      {
+        "feature": "child_excl_count",
+        "importance": 0.001201,
+        "std": 0.001015
+      },
+      {
+        "feature": "child_quest_count",
+        "importance": 0.00114,
+        "std": 0.000542
+      },
+      {
+        "feature": "sent_neg",
+        "importance": 0.001007,
+        "std": 0.000808
+      },
+      {
+        "feature": "sent_pos",
+        "importance": 0.000862,
+        "std": 0.000618
+      },
+      {
+        "feature": "mention_count",
+        "importance": 0.000203,
+        "std": 0.000941
+      },
+      {
+        "feature": "child_political_count",
+        "importance": -5.5e-05,
+        "std": 0.000661
+      },
+      {
+        "feature": "has_url",
+        "importance": -0.000122,
+        "std": 0.000592
+      },
+      {
+        "feature": "child_neg_count",
+        "importance": -0.000158,
+        "std": 0.001009
+      },
+      {
+        "feature": "len_ratio",
+        "importance": -0.000376,
+        "std": 0.000521
+      },
+      {
+        "feature": "child_intensifier_count",
+        "importance": -0.000573,
+        "std": 0.000566
+      }
+    ],
+    "RF": [
+      {
+        "feature": "child_len_words",
+        "importance": 0.011832,
+        "std": 0.004499
+      },
+      {
+        "feature": "child_ttr",
+        "importance": 0.008628,
+        "std": 0.00401
+      },
+      {
+        "feature": "word_count_diff",
+        "importance": 0.006121,
+        "std": 0.00211
+      },
+      {
+        "feature": "len_ratio",
+        "importance": 0.005785,
+        "std": 0.002474
+      },
+      {
+        "feature": "child_caps_ratio",
+        "importance": 0.004661,
+        "std": 0.000749
+      },
+      {
+        "feature": "child_excl_count",
+        "importance": 0.004638,
+        "std": 0.00116
+      },
+      {
+        "feature": "parent_len_words",
+        "importance": 0.00212,
+        "std": 0.00161
+      },
+      {
+        "feature": "child_avg_word_len",
+        "importance": 0.001733,
+        "std": 0.001462
+      },
+      {
+        "feature": "sent_neg",
+        "importance": 0.001558,
+        "std": 0.001471
+      },
+      {
+        "feature": "parent_caps_ratio",
+        "importance": 0.000903,
+        "std": 0.001337
+      },
+      {
+        "feature": "sent_neu",
+        "importance": 0.000745,
+        "std": 0.001304
+      },
+      {
+        "feature": "sent_pos",
+        "importance": 0.000668,
+        "std": 0.001023
+      },
+      {
+        "feature": "vocab_overlap",
+        "importance": 0.00035,
+        "std": 0.000208
+      },
+      {
+        "feature": "child_first_person_ratio",
+        "importance": 0.000341,
+        "std": 0.000176
+      },
+      {
+        "feature": "child_intensifier_count",
+        "importance": 0.000311,
+        "std": 0.000567
+      },
+      {
+        "feature": "child_quest_count",
+        "importance": 0.000233,
+        "std": 0.000803
+      },
+      {
+        "feature": "mention_count",
+        "importance": 0.0,
+        "std": 0.0
+      },
+      {
+        "feature": "has_url",
+        "importance": 0.0,
+        "std": 0.0
+      },
+      {
+        "feature": "child_political_count",
+        "importance": -3.7e-05,
+        "std": 0.00011
+      },
+      {
+        "feature": "sent_compound",
+        "importance": -0.000277,
+        "std": 0.001211
+      },
+      {
+        "feature": "child_neg_count",
+        "importance": -0.000313,
+        "std": 0.000236
+      }
+    ],
+    "SVM": [
+      {
+        "feature": "child_ttr",
+        "importance": 0.00526,
+        "std": 0.001404
+      },
+      {
+        "feature": "word_count_diff",
+        "importance": 0.003765,
+        "std": 0.001845
+      },
+      {
+        "feature": "child_caps_ratio",
+        "importance": 0.003131,
+        "std": 0.00169
+      },
+      {
+        "feature": "child_first_person_ratio",
+        "importance": 0.002318,
+        "std": 0.001698
+      },
+      {
+        "feature": "sent_compound",
+        "importance": 0.001184,
+        "std": 0.001231
+      },
+      {
+        "feature": "child_neg_count",
+        "importance": 0.001151,
+        "std": 0.001205
+      },
+      {
+        "feature": "child_political_count",
+        "importance": 0.000908,
+        "std": 0.000671
+      },
+      {
+        "feature": "child_len_words",
+        "importance": 0.000728,
+        "std": 0.001213
+      },
+      {
+        "feature": "vocab_overlap",
+        "importance": 0.000597,
+        "std": 0.001508
+      },
+      {
+        "feature": "child_intensifier_count",
+        "importance": 0.00029,
+        "std": 0.000603
+      },
+      {
+        "feature": "child_quest_count",
+        "importance": 6.2e-05,
+        "std": 0.000812
+      },
+      {
+        "feature": "sent_neg",
+        "importance": 6.1e-05,
+        "std": 0.001508
+      },
+      {
+        "feature": "child_avg_word_len",
+        "importance": 5.6e-05,
+        "std": 0.001192
+      },
+      {
+        "feature": "parent_caps_ratio",
+        "importance": 4.3e-05,
+        "std": 0.001099
+      },
+      {
+        "feature": "has_url",
+        "importance": -1.2e-05,
+        "std": 0.00051
+      },
+      {
+        "feature": "sent_pos",
+        "importance": -2.8e-05,
+        "std": 0.000757
+      },
+      {
+        "feature": "sent_neu",
+        "importance": -0.000167,
+        "std": 0.001493
+      },
+      {
+        "feature": "parent_len_words",
+        "importance": -0.000379,
+        "std": 0.001425
+      },
+      {
+        "feature": "child_excl_count",
+        "importance": -0.000421,
+        "std": 0.000919
+      },
+      {
+        "feature": "mention_count",
+        "importance": -0.000457,
+        "std": 0.001316
+      },
+      {
+        "feature": "len_ratio",
+        "importance": -0.001046,
+        "std": 0.001148
+      }
+    ],
+    "XGB": [
+      {
+        "feature": "child_len_words",
+        "importance": 0.021755,
+        "std": 0.002451
+      },
+      {
+        "feature": "child_ttr",
+        "importance": 0.007727,
+        "std": 0.001595
+      },
+      {
+        "feature": "len_ratio",
+        "importance": 0.00493,
+        "std": 0.001029
+      },
+      {
+        "feature": "child_caps_ratio",
+        "importance": 0.00471,
+        "std": 0.00054
+      },
+      {
+        "feature": "child_excl_count",
+        "importance": 0.003484,
+        "std": 0.001027
+      },
+      {
+        "feature": "child_avg_word_len",
+        "importance": 0.002833,
+        "std": 0.001224
+      },
+      {
+        "feature": "sent_compound",
+        "importance": 0.002402,
+        "std": 0.001148
+      },
+      {
+        "feature": "parent_len_words",
+        "importance": 0.002375,
+        "std": 0.002364
+      },
+      {
+        "feature": "vocab_overlap",
+        "importance": 0.0022,
+        "std": 0.002494
+      },
+      {
+        "feature": "parent_caps_ratio",
+        "importance": 0.001953,
+        "std": 0.001589
+      },
+      {
+        "feature": "child_quest_count",
+        "importance": 0.001475,
+        "std": 0.000604
+      },
+      {
+        "feature": "sent_pos",
+        "importance": 0.001474,
+        "std": 0.00101
+      },
+      {
+        "feature": "child_neg_count",
+        "importance": 0.000621,
+        "std": 0.000416
+      },
+      {
+        "feature": "sent_neu",
+        "importance": 0.000527,
+        "std": 0.000395
+      },
+      {
+        "feature": "child_intensifier_count",
+        "importance": 0.000382,
+        "std": 0.000219
+      },
+      {
+        "feature": "sent_neg",
+        "importance": 3.7e-05,
+        "std": 0.001207
+      },
+      {
+        "feature": "mention_count",
+        "importance": 0.0,
+        "std": 0.0
+      },
+      {
+        "feature": "child_political_count",
+        "importance": 0.0,
+        "std": 0.0
+      },
+      {
+        "feature": "has_url",
+        "importance": 0.0,
+        "std": 0.0
+      },
+      {
+        "feature": "word_count_diff",
+        "importance": -8.2e-05,
+        "std": 0.001773
+      },
+      {
+        "feature": "child_first_person_ratio",
+        "importance": -0.000168,
+        "std": 0.000965
+      }
+    ]
+  }
+}

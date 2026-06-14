@@ -1,0 +1,659 @@
+{
+  "interaction": {
+    "families": [
+      "bert",
+      "llm",
+      "shallow"
+    ],
+    "n_shared_pairs": 1088,
+    "full_agreement_count": 440,
+    "full_agreement_rate": 0.4044,
+    "pairwise_agreement_rate": {
+      "bert_vs_llm": 0.5239,
+      "bert_vs_shallow": 0.6425,
+      "llm_vs_shallow": 0.5322
+    },
+    "disagreement_examples": [
+      {
+        "PairID": "J1TtGHgiQEQ_Ugyh-B7aHiVId0O6GNd4AaABAg.A4faIkDAFtZA4fbwJ5kFoa",
+        "y_true": 3,
+        "preds": {
+          "bert": 1,
+          "llm": 3,
+          "shallow": 1
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Ich hoffe auch dass die vielen guten Türken um uns herum zu unserem Land stehen. Wir müssen uns gemeinsam gegen dieses radikale Geschwür wehren🙌."
+      },
+      {
+        "PairID": "mrsoDH2A8jw_UgzQczTQPAQOSv6cOy54AaABAg.9KWA_NuV_yB9KZUhGHuj1U",
+        "y_true": 2,
+        "preds": {
+          "bert": 4,
+          "llm": 2,
+          "shallow": 2
+        },
+        "correct_families": [
+          "llm",
+          "shallow"
+        ],
+        "category": "climate",
+        "party": "AfD",
+        "ChildText": "@User_154939 Wer hat denn den Ruf,  und wollte das legalisieren 😉."
+      },
+      {
+        "PairID": "_w9kUZcU4LA_UgxuQBHpV2RkMR0_KTp4AaABAg.AJUWxi3RRtVAJUXNNGFvrn",
+        "y_true": 1,
+        "preds": {
+          "bert": 3,
+          "llm": 1,
+          "shallow": 1
+        },
+        "correct_families": [
+          "llm",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Nur noch AFD 💙💙💙"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxcfNXTpFYaNujJxSZ4AaABAg.AEHIE0B_tLwAEHZBuxchUT",
+        "y_true": 3,
+        "preds": {
+          "bert": 4,
+          "llm": 3,
+          "shallow": 4
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "Du musst unbedingt das Video anschauen. Da geht es ja darum wie man mit einem Gesprächspartner umgeht, der einen nicht reden lässt. Wenn ich das Wort habe, der Moderator hat Hr. Van Aken das Wort erte"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxDu-nUuWGw6yNHYPt4AaABAg.AEJ_1JH4I3mAEskPp7bbrk",
+        "y_true": 0,
+        "preds": {
+          "bert": 1,
+          "llm": 0,
+          "shallow": 0
+        },
+        "correct_families": [
+          "llm",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "@User_46166 Ja genau, deshalb explodiert auch die Zustimmung zur Linken!🤣🤣🤣 Dummer..."
+      },
+      {
+        "PairID": "a6w9Lfvcb8Q_UgxiSB5vCuxFXJYRZXB4AaABAg.ABdSnwYIl6RABf45QueAR2",
+        "y_true": 2,
+        "preds": {
+          "bert": 3,
+          "llm": 2,
+          "shallow": 4
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "climate",
+        "party": "Linke",
+        "ChildText": "Aber Achtung!\n\nLaut StVO ist die Vorschrift ohne Ampel oder Beschilderung aber Rechts vor Links."
+      },
+      {
+        "PairID": "ON0xT0rBeds_Ugx8L9it_x-3xHa16lN4AaABAg.ARtFp5YVJTSARtQSytwWDy",
+        "y_true": 4,
+        "preds": {
+          "bert": 4,
+          "llm": 2,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "Wie wär's denn mal mit Waffenlieferungen an die Demonstranten/Opposition!?\n--> würde mehr bringen als lauwarme Worte!"
+      },
+      {
+        "PairID": "mrsoDH2A8jw_UgzQczTQPAQOSv6cOy54AaABAg.9KWA_NuV_yB9KWVt5HPIg7",
+        "y_true": 1,
+        "preds": {
+          "bert": 0,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "shallow"
+        ],
+        "category": "climate",
+        "party": "AfD",
+        "ChildText": "@User_154939 Von euch obrigkeitshörigen und paranoiden Corona-Hysteriker müssen wir uns nichts sagen lassen, eure Merkel liest euch jeden Abend aus dem Märchenbuch vor und ihr Schnullis glaubt jedes W"
+      },
+      {
+        "PairID": "VrEnAgHBSOc_UgzRQmtCU1M36gWwzDh4AaABAg.AT84aeSJy6yATFhUPd90hk",
+        "y_true": 4,
+        "preds": {
+          "bert": 0,
+          "llm": 0,
+          "shallow": 4
+        },
+        "correct_families": [
+          "shallow"
+        ],
+        "category": "climate",
+        "party": "Linke",
+        "ChildText": "​@User_21984\nSiehst Du? Du hast Fragen!  \nUnd wen fragst Du?\nRichtig! Die LINKE !\nWarum, weil die Ideen haben, kreativ sind! Weil die aus Scheisse Gold machen. Weil for nicht ausgeben und immer eine I"
+      },
+      {
+        "PairID": "u3-yU16Enfs_Ugxy5w9tPznV6DEidTd4AaABAg.9i0N-tbJDnz9i0p8lSH2UQ",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 2,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Nicht  mehr  lange !  Die  Wirtschaft  wird  bald  nicht  mehr  überleben.  STEUERGELDER  ?????"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAEJ_ybsvi_V",
+        "y_true": 1,
+        "preds": {
+          "bert": 4,
+          "llm": 1,
+          "shallow": 1
+        },
+        "correct_families": [
+          "llm",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "@User_23425 Ich kann deine Erfahrung absolut bestätigen! Die kostenlosen Sprachkurse wurden häufig nur interesselos abgesessen oder die Leute kamen einfach nicht. Und, ja, ich weiß, wovon ich rede!"
+      },
+      {
+        "PairID": "lG156KWmHa8_Ugzu0D56AQGTmfCuwtJ4AaABAg.9mgPTkb8v8U9mho26kl6Gx",
+        "y_true": 0,
+        "preds": {
+          "bert": 1,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Nee.....in ein Flugzeug setzen und über dem Meer raus lassen."
+      },
+      {
+        "PairID": "bEsFAWsvj04_UgypdFeL0zyZcr3UMNB4AaABAg.9UX5N85QEGw9UXVBf9dGHM",
+        "y_true": 1,
+        "preds": {
+          "bert": 4,
+          "llm": 3,
+          "shallow": 1
+        },
+        "correct_families": [
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Its ja auch nur ein Spruch. Sie und ihre Auftraggeber befürworten das mehr als nur."
+      },
+      {
+        "PairID": "expB5ZRlP64_Ugy2Zp6EsL_aeC3Hdgd4AaABAg.ADsnLgnEjbmADszD1NZNWS",
+        "y_true": 4,
+        "preds": {
+          "bert": 1,
+          "llm": 4,
+          "shallow": 2
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "Wagenknecht und Lafontaine hatten gute Gründe, zu gehen."
+      },
+      {
+        "PairID": "J1TtGHgiQEQ_UgyzRInVlQp276L3f4J4AaABAg.A4mBrYK43NqA4mhyfCNNQ7",
+        "y_true": 0,
+        "preds": {
+          "bert": 0,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "llm"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Deshalb gehst du Einzeller auch ständig auf Seiten , wo diese Ideologie für Eselliebhaber auseinandergenommen wird."
+      },
+      {
+        "PairID": "oOgc61xpF4Q_UgzmNFGyjBezW9YMUqZ4AaABAg.A8dgXLUJ9jYA8jceQeKVFy",
+        "y_true": 0,
+        "preds": {
+          "bert": 0,
+          "llm": 2,
+          "shallow": 2
+        },
+        "correct_families": [
+          "bert"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "@User_51859 auf keinen Fall."
+      },
+      {
+        "PairID": "2E4s7MQUIFI_UgytRUjQZjkfgmkL6EV4AaABAg.A9dgrbGUw0GA9e5HaR5t-6",
+        "y_true": 2,
+        "preds": {
+          "bert": 1,
+          "llm": 2,
+          "shallow": 2
+        },
+        "correct_families": [
+          "llm",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "@User_88753 gebe mich geschlagen. s.u."
+      },
+      {
+        "PairID": "61XL3yHFuPg_UgwJLcGXFCBH9OrhDcR4AaABAg.9E-EnFn5bUj9E9l0DhgNJe",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 2,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Kallergieplan muß es heißen."
+      },
+      {
+        "PairID": "Tt_Og1CUsrg_UgyeltpnZ_s7x9SAGA14AaABAg.94tdnPzCNPA94u2GtoHWdA",
+        "y_true": 4,
+        "preds": {
+          "bert": 4,
+          "llm": 2,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Wobei diese Zitate angezweifelt werden - man müsste zuverlässige Quellen finden, die das belegen."
+      },
+      {
+        "PairID": "HXEAHjxO1Mc_UgyseGWHr55Dqh3YCjJ4AaABAg.APpZL3ARQbHAPuPM1XEFvP",
+        "y_true": 3,
+        "preds": {
+          "bert": 1,
+          "llm": 3,
+          "shallow": 4
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "climate",
+        "party": "Linke",
+        "ChildText": "@User_20874 Der Bauer macht Angst vor den Aktivisten, damit der Metzger schnell mund ungesehen das Bolzenschussgerät ansetzen kann. \n\nTja so funktioniert Kapitallismus und Konservatismus. Und die ganz"
+      }
+    ]
+  },
+  "stance": {
+    "families": [
+      "bert",
+      "llm",
+      "shallow"
+    ],
+    "n_shared_pairs": 1088,
+    "full_agreement_count": 549,
+    "full_agreement_rate": 0.5046,
+    "pairwise_agreement_rate": {
+      "bert_vs_llm": 0.6498,
+      "bert_vs_shallow": 0.7004,
+      "llm_vs_shallow": 0.6222
+    },
+    "disagreement_examples": [
+      {
+        "PairID": "J1TtGHgiQEQ_Ugyh-B7aHiVId0O6GNd4AaABAg.A4faIkDAFtZA4fbwJ5kFoa",
+        "y_true": 0,
+        "preds": {
+          "bert": 0,
+          "llm": 1,
+          "shallow": 0
+        },
+        "correct_families": [
+          "bert",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Ich hoffe auch dass die vielen guten Türken um uns herum zu unserem Land stehen. Wir müssen uns gemeinsam gegen dieses radikale Geschwür wehren🙌."
+      },
+      {
+        "PairID": "61XL3yHFuPg_UgymkTBdaQ5P5DzNtxF4AaABAg.9E-GWG8N_mu9EJYq4LxN0b",
+        "y_true": 0,
+        "preds": {
+          "bert": 0,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "llm"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Hoffentlich!!!!"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxDu-nUuWGw6yNHYPt4AaABAg.AEJ_1JH4I3mAEskPp7bbrk",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "@User_46166 Ja genau, deshalb explodiert auch die Zustimmung zur Linken!🤣🤣🤣 Dummer..."
+      },
+      {
+        "PairID": "ON0xT0rBeds_Ugx8L9it_x-3xHa16lN4AaABAg.ARtFp5YVJTSARtQSytwWDy",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 1,
+          "shallow": 0
+        },
+        "correct_families": [
+          "bert",
+          "llm"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "Wie wär's denn mal mit Waffenlieferungen an die Demonstranten/Opposition!?\n--> würde mehr bringen als lauwarme Worte!"
+      },
+      {
+        "PairID": "EsOAdVHEYbE_UgwbrtXmQpJMH5WLz9p4AaABAg.9EE1--dWYu29EGEy8V57wm",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 1,
+          "shallow": 0
+        },
+        "correct_families": [
+          "bert",
+          "llm"
+        ],
+        "category": "climate",
+        "party": "AfD",
+        "ChildText": "@User_300963 nun ... da wird es bei Ihnen aber recht dünn wenn sie in der Wahlkabine stehen ...\n\nihre Aussage zur AfD ist natürlich richtig, dennoch ist diese Partei bisher nur in Opositionen in Lände"
+      },
+      {
+        "PairID": "a9B8KeKgd8k_Ugzi7UPVhLmJAKoxySB4AaABAg.9FOXGij8st_9FOa9CZ4TXv",
+        "y_true": 1,
+        "preds": {
+          "bert": 0,
+          "llm": 1,
+          "shallow": 1
+        },
+        "correct_families": [
+          "llm",
+          "shallow"
+        ],
+        "category": "climate",
+        "party": "AfD",
+        "ChildText": "Sie hat es schon getan!"
+      },
+      {
+        "PairID": "VrEnAgHBSOc_UgzRQmtCU1M36gWwzDh4AaABAg.AT84aeSJy6yATFhUPd90hk",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 2,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "shallow"
+        ],
+        "category": "climate",
+        "party": "Linke",
+        "ChildText": "​@User_21984\nSiehst Du? Du hast Fragen!  \nUnd wen fragst Du?\nRichtig! Die LINKE !\nWarum, weil die Ideen haben, kreativ sind! Weil die aus Scheisse Gold machen. Weil for nicht ausgeben und immer eine I"
+      },
+      {
+        "PairID": "u3-yU16Enfs_Ugxy5w9tPznV6DEidTd4AaABAg.9i0N-tbJDnz9i0p8lSH2UQ",
+        "y_true": 0,
+        "preds": {
+          "bert": 1,
+          "llm": 0,
+          "shallow": 0
+        },
+        "correct_families": [
+          "llm",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Nicht  mehr  lange !  Die  Wirtschaft  wird  bald  nicht  mehr  überleben.  STEUERGELDER  ?????"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAEJ_ybsvi_V",
+        "y_true": 0,
+        "preds": {
+          "bert": 1,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "@User_23425 Ich kann deine Erfahrung absolut bestätigen! Die kostenlosen Sprachkurse wurden häufig nur interesselos abgesessen oder die Leute kamen einfach nicht. Und, ja, ich weiß, wovon ich rede!"
+      },
+      {
+        "PairID": "XXoE5qXtkHY_UgzFx0rIQKo9gFs7XBV4AaABAg.9FblzpP094B9Fc0_nbFuZ4",
+        "y_true": 0,
+        "preds": {
+          "bert": 2,
+          "llm": 0,
+          "shallow": 0
+        },
+        "correct_families": [
+          "llm",
+          "shallow"
+        ],
+        "category": "climate",
+        "party": "AfD",
+        "ChildText": "Das Land zukleistern mit Windrädern und Solaranlagen ist demnach die Lösung? \nDeutschland ist auf seinem Weg der \"Energiewende\" so allein wie mit seiner \"Willkommenskultur\".\r\n\r\nLt. DENA-STUDIE (Deutsc"
+      },
+      {
+        "PairID": "lG156KWmHa8_Ugzu0D56AQGTmfCuwtJ4AaABAg.9mgPTkb8v8U9mho26kl6Gx",
+        "y_true": 0,
+        "preds": {
+          "bert": 0,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "llm"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Nee.....in ein Flugzeug setzen und über dem Meer raus lassen."
+      },
+      {
+        "PairID": "bEsFAWsvj04_UgypdFeL0zyZcr3UMNB4AaABAg.9UX5N85QEGw9UXVBf9dGHM",
+        "y_true": 0,
+        "preds": {
+          "bert": 2,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Its ja auch nur ein Spruch. Sie und ihre Auftraggeber befürworten das mehr als nur."
+      },
+      {
+        "PairID": "1eUG3aYpHWY_UgyuLluoJyRjtHd2DDx4AaABAg.9gXiGtXRAA29gYBj0tYM2n",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 1,
+          "shallow": 0
+        },
+        "correct_families": [
+          "bert",
+          "llm"
+        ],
+        "category": "climate",
+        "party": "AfD",
+        "ChildText": "Wandere doch mal aus. 2015 waren die genannten noch nicht an der Regierung. Das mal zu Deinem Bildungsniveau. 😂😂😂😂"
+      },
+      {
+        "PairID": "J1TtGHgiQEQ_UgyzRInVlQp276L3f4J4AaABAg.A4mBrYK43NqA4mhyfCNNQ7",
+        "y_true": 0,
+        "preds": {
+          "bert": 1,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Deshalb gehst du Einzeller auch ständig auf Seiten , wo diese Ideologie für Eselliebhaber auseinandergenommen wird."
+      },
+      {
+        "PairID": "61XL3yHFuPg_UgwJLcGXFCBH9OrhDcR4AaABAg.9E-EnFn5bUj9E9l0DhgNJe",
+        "y_true": 0,
+        "preds": {
+          "bert": 0,
+          "llm": 0,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "llm"
+        ],
+        "category": "migration",
+        "party": "AfD",
+        "ChildText": "Kallergieplan muß es heißen."
+      },
+      {
+        "PairID": "HXEAHjxO1Mc_UgyseGWHr55Dqh3YCjJ4AaABAg.APpZL3ARQbHAPuPM1XEFvP",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 2,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "shallow"
+        ],
+        "category": "climate",
+        "party": "Linke",
+        "ChildText": "@User_20874 Der Bauer macht Angst vor den Aktivisten, damit der Metzger schnell mund ungesehen das Bolzenschussgerät ansetzen kann. \n\nTja so funktioniert Kapitallismus und Konservatismus. Und die ganz"
+      },
+      {
+        "PairID": "En-ko2OErwE_UgzrtDRUz8CzqmTMoi94AaABAg.AIzYkZGiO8mAPNdW-BfQtl",
+        "y_true": 0,
+        "preds": {
+          "bert": 2,
+          "llm": 0,
+          "shallow": 0
+        },
+        "correct_families": [
+          "llm",
+          "shallow"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "Bruder weil als Migrant man besonders sich benehmen sollte wenn man in eine andere kultur einreist und zweitens weil kriminelle migranten einfach leichter zum Abschieben sind"
+      },
+      {
+        "PairID": "GRVILGRSag8_UgzeyZlaVix8gY5N1JV4AaABAg.AN8JtkuygKyAN8U65bP0fc",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 2,
+          "shallow": 1
+        },
+        "correct_families": [
+          "bert",
+          "shallow"
+        ],
+        "category": "climate",
+        "party": "Linke",
+        "ChildText": "​@User_76092 Dann würden die richtigen merken, dass sie seit Jahrzehnten die falschen wählen."
+      },
+      {
+        "PairID": "vNiJ8A1OZwU_Ugw18qU5qTA63Q_penN4AaABAg.AQrtiGq6pDKAQrxH6HSw66",
+        "y_true": 2,
+        "preds": {
+          "bert": 0,
+          "llm": 2,
+          "shallow": 1
+        },
+        "correct_families": [
+          "llm"
+        ],
+        "category": "climate",
+        "party": "Linke",
+        "ChildText": "❤ ganz genau, und über die Feiertage immer weiter aktiv bleiben ❤👍 ‼️ Richtig Wälder und Rasen müssen konsequent Artenvielfaltig sein!"
+      },
+      {
+        "PairID": "kvqJGabgao8_UgxnwrXUJRvxumUVgZJ4AaABAg.ATIMldzVG35ATIP5Dh3rF9",
+        "y_true": 1,
+        "preds": {
+          "bert": 1,
+          "llm": 2,
+          "shallow": 0
+        },
+        "correct_families": [
+          "bert"
+        ],
+        "category": "migration",
+        "party": "Linke",
+        "ChildText": "Also Vorteile scheint sich vorallem der AFD-Clan mit seiner Vetternwirtschaft und  Steuerhinterziehungen zu erschleichen!\nAber naja, die sind eh bald vergessen 😂"
+      }
+    ]
+  }
+}

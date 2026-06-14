@@ -1,0 +1,652 @@
+{"ThreadID": "UgyJQXmuCOMYFK7py5d4AaABAg", "VideoID": "-jc4cfE7Mok", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxYbv35TzSEvf2k-a94AaABAg", "VideoID": "03PxJ6gmfWo", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugx4Dt9dwKgTd7ps0l94AaABAg", "VideoID": "1eUG3aYpHWY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgzJvDgtou_Baael-8t4AaABAg", "VideoID": "1eUG3aYpHWY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzsF6W8SF6_1VcEqoF4AaABAg", "VideoID": "1y83BTCxccs", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "Ugx_6DLbA0XXXzGFgJF4AaABAg", "VideoID": "26XwmBX8_9U", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgzLVcg8kweVRqbkXIh4AaABAg", "VideoID": "27acPLs8As0", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "Ugy8Zhf1uq01WLy4Jud4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.3077}
+{"ThreadID": "UgzVq_y_0FBjnz9ku8J4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxkJq5Pvrl97MysvQh4AaABAg", "VideoID": "483ra5MLbUo", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.6}
+{"ThreadID": "UgwTCiDovYzQOvyLubB4AaABAg", "VideoID": "4oWNKOs5LiM", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxYfVxs5DozMAcu1uV4AaABAg", "VideoID": "561vf7Hnepc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgzMrowOHrNahCQGUp14AaABAg", "VideoID": "561vf7Hnepc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzePrnbM9YHn0K2c6d4AaABAg", "VideoID": "5xv44uRG700", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugx26kYVqHdlNm_YtiB4AaABAg", "VideoID": "61XL3yHFuPg", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgzhXNoHvqjoHmMJ5oV4AaABAg", "VideoID": "6i8D-gCh690", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugxr1pI2IrBDY5rHWlV4AaABAg", "VideoID": "8AyfvLm9Wfg", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgySA_Yc39U65813pId4AaABAg", "VideoID": "9utgQOQ4ylc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.375}
+{"ThreadID": "UgyHvoLAKvzzMwzc_7x4AaABAg", "VideoID": "CfIA490rTNQ", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxWOAIfov8ZD54IZ4p4AaABAg", "VideoID": "EsOAdVHEYbE", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.625}
+{"ThreadID": "Ugz40IvQeRCchgTwQnN4AaABAg", "VideoID": "Ff3fFj3msiY", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyseGWHr55Dqh3YCjJ4AaABAg", "VideoID": "HXEAHjxO1Mc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugx1wOHyzm5SuGkQsqB4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxJdowRrwsBwcivNQJ4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.3333}
+{"ThreadID": "UgzxrMo9x4JYKCAaDKJ4AaABAg", "VideoID": "KNirVat8c98", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.4286}
+{"ThreadID": "UgwadljY0lk181hdH2B4AaABAg", "VideoID": "Kb2zh_XQMQ8", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.75}
+{"ThreadID": "UgzUn7ftFxJNRYMMLAN4AaABAg", "VideoID": "KrHzZy9TAic", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "Ugwq1dhXCLgNnUH4QBx4AaABAg", "VideoID": "KyNua7-q36w", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxepXzSztdk4MoyGJt4AaABAg", "VideoID": "ON0xT0rBeds", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyIx2om1Jz0ZTi0Eyt4AaABAg", "VideoID": "ON0xT0rBeds", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyRjFNi9IHiHYsv-Od4AaABAg", "VideoID": "PPjRqPUmPvk", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": -0.2}
+{"ThreadID": "UgxKJJTP3CYXXebzMm54AaABAg", "VideoID": "QPBO7KVI-TE", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "Ugz5ICKoExxKEsul2b54AaABAg", "VideoID": "QoRDSATBf1U", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxE3dskiuyvhmXO_DR4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.2105}
+{"ThreadID": "UgypUc8B7yRPi-wvyvR4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz6-7dvrwL9s8XOdkB4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.8125}
+{"ThreadID": "UgzE-wR4fkRsowDe-sd4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.3333}
+{"ThreadID": "UgwAPZZscNqE1arGDD54AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgyeltpnZ_s7x9SAGA14AaABAg", "VideoID": "Tt_Og1CUsrg", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxPoULGVgciJJ0ApTd4AaABAg", "VideoID": "UQsevMhswEs", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgwEk4LTZM5yJjsg7b54AaABAg", "VideoID": "Uq_tXqrhkus", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.6667}
+{"ThreadID": "UgxKzEzxqzB2Ed1xn2h4AaABAg", "VideoID": "Uv9iR4HWSIw", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgwICzSrJbmP9lc2dgl4AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugwt0SBuUfN84nKZ5zt4AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgzRQmtCU1M36gWwzDh4AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwegUuK_E0f4E131d14AaABAg", "VideoID": "WPDqtwuXiPk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgxUbVHXF3kamfRzVyN4AaABAg", "VideoID": "W_ruQlie9ag", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.0833}
+{"ThreadID": "UgxH6qK2dFDgOjbb4TB4AaABAg", "VideoID": "Xw8enEYHPnY", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwJ3UhNg66j41aQXut4AaABAg", "VideoID": "YyLL93TmVjw", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwYVVTzeeEX7cSYeA14AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxUJTRt6EzgZy3_rtZ4AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugwwllzh7M_d9qRwwv14AaABAg", "VideoID": "a9B8KeKgd8k", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyTDan4hzV2eUcHWGh4AaABAg", "VideoID": "bEsFAWsvj04", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugx3YXwpmIiG5TZQpfZ4AaABAg", "VideoID": "brUMn--G3b4", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "UgzG7N6Fc_dGrT0jnNR4AaABAg", "VideoID": "c7z1R_eXONA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw9PS9QeEMMhD-fHwx4AaABAg", "VideoID": "cA96V0Tqe1Y", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy8QW-HO-J1oLpTW414AaABAg", "VideoID": "dDGWntK0r3o", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgybHLKLqCDWbGidwbd4AaABAg", "VideoID": "gC-kDfnA68c", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.2143}
+{"ThreadID": "UgwFd85QKf6kZpZwBW54AaABAg", "VideoID": "hH7gDTruejQ", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugx2cS0177hgmzr1pnR4AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzIrWDnQp9bPSIshKZ4AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.1667}
+{"ThreadID": "UgxotuAYTmplnm3i2-14AaABAg", "VideoID": "kqqgFHSsJs4", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugym5jIXygwbeNU2c2d4AaABAg", "VideoID": "kqqgFHSsJs4", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.3}
+{"ThreadID": "Ugw2j5TVYLR_yN0n2Hl4AaABAg", "VideoID": "mw-35k8Fu6w", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxLKJqJiZDU3jdJKDp4AaABAg", "VideoID": "nsAy0uNq8p4", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzmNFGyjBezW9YMUqZ4AaABAg", "VideoID": "oOgc61xpF4Q", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgiUPbgt_pmvXHgCoAEC", "VideoID": "oOk7ori_ExE", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "UgyWf2qOym2mzPUQnml4AaABAg", "VideoID": "odXMmIr_kNA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxToaTfFOai6M0weJh4AaABAg", "VideoID": "rZlrVpF6O30", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwrHlV1waLnAf1jJop4AaABAg", "VideoID": "rv_OHT2CmIM", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyW32pWkh51F7-8Pj14AaABAg", "VideoID": "tT5BolbyRqI", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "Ugy-WLnhmNuAghiuJ9R4AaABAg", "VideoID": "tWJhS3gZnDY", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.375}
+{"ThreadID": "UgzUq2leDlCrml2cnnh4AaABAg", "VideoID": "tWJhS3gZnDY", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgxXEYJWCHMred8oAid4AaABAg", "VideoID": "u5wrsbY8vjY", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyNdmPgvUDuhxk8-JR4AaABAg", "VideoID": "uMbKPbNYVY8", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyQoct04X0Bflu91Sl4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugz08hOBGcYi8D-kigd4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Constructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyJNDuPxueCiCE4PWx4AaABAg", "VideoID": "wit8lkyq5rg", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "Ugy1bBNlICyz5s-w2cl4AaABAg", "VideoID": "wjJgQs1wdho", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw7gzdkUiFnGI3fIZ54AaABAg", "VideoID": "ww8NV1PYAJA", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz7GDjWtJfpuTebKHB4AaABAg", "VideoID": "x2rnYnNOHrA", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwKMJbwTdwn-zdTWfB4AaABAg", "VideoID": "xUv4NmkVNRk", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "Ugxnm8K44GqOt-M8AAB4AaABAg", "VideoID": "0AV90VZPCKA", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzzgCtev7_gj57Nqed4AaABAg", "VideoID": "0bqxQdi_e4U", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzUoeL0G1M8pq8WAUh4AaABAg", "VideoID": "1b_fhIc9BCc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyKG6gFdxUdTVcGPQZ4AaABAg", "VideoID": "1b_fhIc9BCc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugx3Pc6w93ltyLRQKK14AaABAg", "VideoID": "1eUG3aYpHWY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy7JeI1an5GPvNAYst4AaABAg", "VideoID": "26XwmBX8_9U", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzzDb_78SAJSbCVlTl4AaABAg", "VideoID": "4eI8XvYvN0s", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxrYlA1GLHXD3zYo4Z4AaABAg", "VideoID": "4eI8XvYvN0s", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugx7zGWjpYHJdZ3-zxJ4AaABAg", "VideoID": "8b4RcqEFJ44", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgyoZHQdA_FN75EDwuN4AaABAg", "VideoID": "a9B8KeKgd8k", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzqp8aIKZ6lAb_0bkl4AaABAg", "VideoID": "aDbCT1CdSuo", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyD1fcl0cPmMlapST14AaABAg", "VideoID": "AdVcczlRomw", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.3333}
+{"ThreadID": "UgzDgp1mnmQn2eBwoet4AaABAg", "VideoID": "cZ8tR6ds9dU", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzoUJSprUtTe3tbapN4AaABAg", "VideoID": "CzVksVQiyXw", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwbrtXmQpJMH5WLz9p4AaABAg", "VideoID": "EsOAdVHEYbE", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgyXCwS86wS62GJmXop4AaABAg", "VideoID": "EsOAdVHEYbE", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz2qkXp8vWJ-NOs2Kd4AaABAg", "VideoID": "EwqXTn3jJnk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxlZu4o3nIi8Ykw2fV4AaABAg", "VideoID": "eXdkETk4GhU", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgzV3bfRfgkz-b6IFut4AaABAg", "VideoID": "F75YnBxPVbw", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgyLH__guffNnkyLg694AaABAg", "VideoID": "Ff3fFj3msiY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugz5DeaYKoN7p3nXmHB4AaABAg", "VideoID": "Ff3fFj3msiY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxWRSfQ0RQiUW-qagp4AaABAg", "VideoID": "FF6hD7bDudo", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgziwbJMYe4XQm825J94AaABAg", "VideoID": "G3SEJEG5nOM", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwUqK8YzpyPY13KKyB4AaABAg", "VideoID": "gbz_LecnBGs", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwSOWl6LOTwaRF1jhh4AaABAg", "VideoID": "hAB3zYIMF9Y", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwyttwxhfDoYd1Zwrt4AaABAg", "VideoID": "hAB3zYIMF9Y", "Topic": "climate", "y_true": "Constructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugxc1Deriv-tyeUuTit4AaABAg", "VideoID": "KNirVat8c98", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyI5yyvOGuHY8Z7LtR4AaABAg", "VideoID": "kqqgFHSsJs4", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzQczTQPAQOSv6cOy54AaABAg", "VideoID": "mrsoDH2A8jw", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "Ugw1Li7QPtv30PVCfGh4AaABAg", "VideoID": "nTrRzo94BTc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzAc3YgLTkChG6swbB4AaABAg", "VideoID": "O-2CNQg69zo", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyRcWtFf2KRvpv6mqB4AaABAg", "VideoID": "re_ny5B15xA", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzKdwbFX6F16s7jT494AaABAg", "VideoID": "rO6qrjOB_po", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwyRZzG5EjTQNtSJYJ4AaABAg", "VideoID": "SprMcgfgqYI", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0833}
+{"ThreadID": "Ugx41koHCQOP_Qd6sVl4AaABAg", "VideoID": "TcEuuL6iTF0", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.625}
+{"ThreadID": "UgypwfzUBnNu6CuYVLF4AaABAg", "VideoID": "tMHZe4hakc0", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwOc1U2-MNMqi5T5YB4AaABAg", "VideoID": "tMHZe4hakc0", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxOgWQvFaz5UiOyURN4AaABAg", "VideoID": "tWJhS3gZnDY", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "Ugz0zEhBCezgIyOXDXd4AaABAg", "VideoID": "tWJhS3gZnDY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyjkxmBmknHYeQ08WJ4AaABAg", "VideoID": "uitHKFQsHLM", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgzNnPpVwGxfiGysfOh4AaABAg", "VideoID": "VBqyp3R_6EY", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgweXwcEQ0pUtVJ1V0x4AaABAg", "VideoID": "wBZqDljlQHk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz6UvLyMO_CdaxjmHR4AaABAg", "VideoID": "x2rnYnNOHrA", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgzKvuC9kNKDWy9yMrp4AaABAg", "VideoID": "x2rnYnNOHrA", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugzdj4UUui8-Evjhpyl4AaABAg", "VideoID": "XHt20WuROPU", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzFx0rIQKo9gFs7XBV4AaABAg", "VideoID": "XXoE5qXtkHY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxlnudAF7gylEeAqhR4AaABAg", "VideoID": "XXoE5qXtkHY", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxRGD08bf6F7YMyAN14AaABAg", "VideoID": "Y7sJzBORXXw", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyx733ut5SrFmW3RUd4AaABAg", "VideoID": "yQfNrYG8hTo", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugz1sraXvz_uLUHBUl14AaABAg", "VideoID": "y05Ej7x_Z18", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgyTrGjTHzUa1SvoWXB4AaABAg", "VideoID": "3yoqzm26WCc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugy6Jw8LPelU9xhKYNt4AaABAg", "VideoID": "FGNRGstQUe4", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzi7UPVhLmJAKoxySB4AaABAg", "VideoID": "a9B8KeKgd8k", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwYKszy_XjqyHRMBot4AaABAg", "VideoID": "kqqgFHSsJs4", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugx7Ka8G5wVuP5FjQsh4AaABAg", "VideoID": "LhbLu-lYQ90", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugymaptl8pkjHzfwGsp4AaABAg", "VideoID": "v4cYM5f5K_Y", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxgFP6Y0IscC7Vd1Ot4AaABAg", "VideoID": "AZrgLtnugPc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugxb2s8YBGSKjjqXCT94AaABAg", "VideoID": "muRmzWMbevQ", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwvhuuS6tsb2-1hKwx4AaABAg", "VideoID": "4XzbKp5QMZQ", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy_D8eTYUlHKBQAnv54AaABAg", "VideoID": "HM4DHx83qEY", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyuLluoJyRjtHd2DDx4AaABAg", "VideoID": "1eUG3aYpHWY", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzjGJaMkwKmq2tpGVB4AaABAg", "VideoID": "F06RKatZGCw", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": -0.125}
+{"ThreadID": "Ugxl6IGG5njvTB-Fqzp4AaABAg", "VideoID": "Aq7ryGkapuE", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugy7meCBn9dqF3W4IG94AaABAg", "VideoID": "q3mDkDkW-gg", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugxr9XoZRrxNLnR24514AaABAg", "VideoID": "bDPGywNXpAg", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwOCrwtHOz_0fxYasd4AaABAg", "VideoID": "m3JgdtZ4Uew", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwnvpFaIMpBT6TqwcF4AaABAg", "VideoID": "TcEuuL6iTF0", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz9ER_7eIxfnR1t9il4AaABAg", "VideoID": "EtYV7Y-OENI", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxNeRWGSDXcgscq9Vd4AaABAg", "VideoID": "hdGv0rFeFSg", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "Ugzubfad6SoBCx9VgNx4AaABAg", "VideoID": "YyLL93TmVjw", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgztyvQRM4UQ8ZouBad4AaABAg", "VideoID": "_mRLOtbVa-Q", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugz4Ad4qiyex_mqlzAd4AaABAg", "VideoID": "RU_vmGjwEBk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy50pMd6cDULXagPCR4AaABAg", "VideoID": "tMHZe4hakc0", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyeh4W56md3NUVnovR4AaABAg", "VideoID": "nshuTCDLxrY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz7VE8eeUCX23_hCMt4AaABAg", "VideoID": "5TFsplJkkKk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyk9nZZ1ZZfPWsoKU94AaABAg", "VideoID": "AdVcczlRomw", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgweFuFC6CNIQB1yijt4AaABAg", "VideoID": "hdGv0rFeFSg", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxUMjHFbv6x0p9sn4l4AaABAg", "VideoID": "GRW4ac7bRkQ", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugwx7ykWQ91MWIfr4V94AaABAg", "VideoID": "EsOAdVHEYbE", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxspJDMK9zzq9corVt4AaABAg", "VideoID": "qaThP9P5ezU", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugylw2W_OBs8Rq3t5y14AaABAg", "VideoID": "_bHi09-Z7cQ", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzfm8y_qeF5dwFodz54AaABAg", "VideoID": "m3JgdtZ4Uew", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz4RVA4Dchk9sX2U2x4AaABAg", "VideoID": "lck4alEFVbo", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyL3L1dQQSUJ5P2eEh4AaABAg", "VideoID": "R4LRqEazb18", "Topic": "climate", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwlyTXrV0nOmNCGh8p4AaABAg", "VideoID": "EsOAdVHEYbE", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwqaZMvZPHWb9Td_Cl4AaABAg", "VideoID": "mrsoDH2A8jw", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzpxSzdZZu9uC-5D2p4AaABAg", "VideoID": "4eI8XvYvN0s", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugzj4pq4hpCV__GfbuJ4AaABAg", "VideoID": "1eUG3aYpHWY", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwC4e5fXd0a4RJ8lh14AaABAg", "VideoID": "TI0T1pGMPUM", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz0VYp_rjlFmFhjsjx4AaABAg", "VideoID": "fJtJk2USDZE", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "Ugx6gb_7zJ7-bB5MCZN4AaABAg", "VideoID": "nddNHtMoqXg", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxcseMpuGNGcfiA66N4AaABAg", "VideoID": "WGlMpT_dXb0", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzZkL9zi42UKpED0c14AaABAg", "VideoID": "jQqVY4crRmY", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw4B2y3sw96S_NRP8d4AaABAg", "VideoID": "EsOAdVHEYbE", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgzMLnKvt0qWR8693hZ4AaABAg", "VideoID": "P0kMaS6zSNE", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugww7kdJTh_iltjTTLB4AaABAg", "VideoID": "Es61Sx1a6lE", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz8qI_4cKsY_Eq5UIx4AaABAg", "VideoID": "GRW4ac7bRkQ", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyNbyVu9tyv0_oY1P54AaABAg", "VideoID": "XHt20WuROPU", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzL8O2tgo_K3uyQuE54AaABAg", "VideoID": "C1sbYVcIK-I", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzl0Sc8sfT4wlDu7Hx4AaABAg", "VideoID": "0bqxQdi_e4U", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyL-krZSF2FpPmeECN4AaABAg", "VideoID": "5TFsplJkkKk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyV4UVDZtaA45t_oD54AaABAg", "VideoID": "KNirVat8c98", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyhBbLy1gGxJKW4rbV4AaABAg", "VideoID": "1eUG3aYpHWY", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzdkvWB-Oc1NjFTpmt4AaABAg", "VideoID": "TI0T1pGMPUM", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyZlPL4bYUgsgcll2t4AaABAg", "VideoID": "aYDViM0uegw", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "UgzzMEyD_7yfrdDnSEV4AaABAg", "VideoID": "c26W8Kr-3pE", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz1Q6aD8jXzMuLxx4l4AaABAg", "VideoID": "eif6OpfdR7Q", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxVKw6KvRD5yz3qaPx4AaABAg", "VideoID": "cZ8tR6ds9dU", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxNIB3VKMaEe_t5VDF4AaABAg", "VideoID": "AdVcczlRomw", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwWDNQDnWYpn6PHmz14AaABAg", "VideoID": "NetfaXZLqmw", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwIYo46TZltAKIjLyJ4AaABAg", "VideoID": "qaI_vbvlJuI", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgzdCfCdOSJI_QT952F4AaABAg", "VideoID": "q3mDkDkW-gg", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgxziYreQmGRLhem5wV4AaABAg", "VideoID": "a9B8KeKgd8k", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxoCmcmw8NIVTpGScR4AaABAg", "VideoID": "_bHi09-Z7cQ", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyEn-n8XZTgbq2pbjR4AaABAg", "VideoID": "gNGQfpUTxik", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxWBZqw2SARVGyW_RF4AaABAg", "VideoID": "byULNSSCGq0", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz1vn5jaO5Ia4uQnL94AaABAg", "VideoID": "wBZqDljlQHk", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyn9Z4fZ8rHLWQ5RoR4AaABAg", "VideoID": "1eUG3aYpHWY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy7v0HlUDph3mJc01d4AaABAg", "VideoID": "tMHZe4hakc0", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugwv53qjSfYEhw8Y3x14AaABAg", "VideoID": "w_TcXMl7SkU", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwXaXFwWku7QP1MikR4AaABAg", "VideoID": "HaY8lEyvrz4", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzy5U8v-9oWFtm7WYt4AaABAg", "VideoID": "hdGv0rFeFSg", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzCzccrDYg4aPhVhxR4AaABAg", "VideoID": "KNirVat8c98", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugx_Oi8j8JI4mjW_MqB4AaABAg", "VideoID": "yQ1o56b6U1I", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwhKjYcWjF2BRL97Sl4AaABAg", "VideoID": "0N1qQOL2GZA", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyrdqApKxjnnFPxSMZ4AaABAg", "VideoID": "ql4kstYKAZ0", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.1667}
+{"ThreadID": "UgzbO26FxoI1zAQhoaF4AaABAg", "VideoID": "483ra5MLbUo", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugwr2roS4DkQhPRQ4th4AaABAg", "VideoID": "VkaHEoND_sM", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw4dAfqOjtxGlmfBn54AaABAg", "VideoID": "4XzbKp5QMZQ", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwqNqZ08SQ0iCdpDc14AaABAg", "VideoID": "v4cYM5f5K_Y", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxX95lAdkZJFoBn62N4AaABAg", "VideoID": "xOfBxIY13So", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "Ugz5Rey3EfNxlDOqh6B4AaABAg", "VideoID": "Qe00bF4TdjA", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.1667}
+{"ThreadID": "UgzjOAPun5MyY2RhwlR4AaABAg", "VideoID": "SprMcgfgqYI", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwZK-8XvC6GGwTxlD54AaABAg", "VideoID": "6R8kBJKwahk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugwx_gNruH1tbAaJBuJ4AaABAg", "VideoID": "nTrRzo94BTc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzQm4nwhZHuasHwybJ4AaABAg", "VideoID": "8b4RcqEFJ44", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwKfxTpPJfpB9lLz8p4AaABAg", "VideoID": "kqqgFHSsJs4", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwMwJcdr9kn2AE34xZ4AaABAg", "VideoID": "a9B8KeKgd8k", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxC3brFaMr4pplMk_94AaABAg", "VideoID": "GRW4ac7bRkQ", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxDn0oUaydN3VWTrgB4AaABAg", "VideoID": "hH7gDTruejQ", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxlndUtcixD0Wf1Ixx4AaABAg", "VideoID": "EsOAdVHEYbE", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz4OwM93agMYkKDIG94AaABAg", "VideoID": "P7RNRZxZTaE", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "Ugyzg_TJg4wtbcvaxCt4AaABAg", "VideoID": "iVPW3eRY33c", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugwhk-gUvNKxV7GmY2N4AaABAg", "VideoID": "S1ed7jbjNc4", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugy5giJQyDlmxhLz8xR4AaABAg", "VideoID": "TcEuuL6iTF0", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyzMolyaO29qsnFFcd4AaABAg", "VideoID": "tMHZe4hakc0", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxIxnA01iP1u8DTgtx4AaABAg", "VideoID": "FF6hD7bDudo", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxhHrIcL2ucD8RPF_t4AaABAg", "VideoID": "FF6hD7bDudo", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwTF9mQTvsK5yZvHZp4AaABAg", "VideoID": "EsOAdVHEYbE", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzrwjz2yuo8SJY1AN94AaABAg", "VideoID": "5j7R4yvHk0g", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgxnBfAkF9feeTcJ1A14AaABAg", "VideoID": "2PnFPF1eHHc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.6667}
+{"ThreadID": "UgyurvgErehpW83Am954AaABAg", "VideoID": "Uv9iR4HWSIw", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxObxM_-YJ7pGA10yl4AaABAg", "VideoID": "1Nyff2B3XzM", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwZMQPfG9BsRwS7nb54AaABAg", "VideoID": "4oWNKOs5LiM", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyYBzf_Sv8oX5-yOQN4AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugy6fcCrsKXWpfcysUV4AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugx75xCFXs3CHoWsU654AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzriYr-fXPMYlH8j914AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz5Y7xscViit_vQjx94AaABAg", "VideoID": "a6w9Lfvcb8Q", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgxiSB5vCuxFXJYRZXB4AaABAg", "VideoID": "a6w9Lfvcb8Q", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzEqX3S7URmIzpCPCB4AaABAg", "VideoID": "b4fLjOVoKag", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyBSCWHdR8V6Q0Hlnx4AaABAg", "VideoID": "CbLw6ps-qi0", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.1667}
+{"ThreadID": "UgzeyZlaVix8gY5N1JV4AaABAg", "VideoID": "GRVILGRSag8", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz4aZohccJ_odvnr994AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "UgwNf23n5ve029J80rt4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.1667}
+{"ThreadID": "Ugze25YCpVYzfHV1UXF4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyIwT_vo7yhLEAsbLN4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwHaRnBXKowzdIu1vR4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgzwDwQfPkvtsi4uJJZ4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwfF65_01_doCmM2NB4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzG2SMEre2M99wPIqZ4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgxjOtZb_t-NC4XOx154AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "Ugx4BUTKAiKrKXt2ko94AaABAg", "VideoID": "HXEAHjxO1Mc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgzRMRK4keWwFQszzpJ4AaABAg", "VideoID": "HXEAHjxO1Mc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugw62qItZfdT3qSEz9p4AaABAg", "VideoID": "I5TxzJSUz98", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzjuqIWDHnWZlZSVcl4AaABAg", "VideoID": "ILC9CYg5d7o", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugw_aIwHjqIjbEdVG_F4AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwUpmkLhPM7oMhFgiJ4AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.1667}
+{"ThreadID": "Ugyue19ZRTu-WEO6CSR4AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxqIS2dfj4w9VpHjO54AaABAg", "VideoID": "KLJBTxmT1Xk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgxHcbpH7DbwRfXY7eJ4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxVzmUD-RrhY9df7CR4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzHBptXVj_y-yqc9Bp4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwsvMWrREBVbI3UXfV4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxUbP3iu47cv_BmogZ4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyDB-7VpkulG-uYB2h4AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgzxQwNd1Fxh5r6yihZ4AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwyBscXyJPCXHk1Lb54AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgzJN91rDjxpdpy8cfZ4AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy60RZGNTA0L_vWyNF4AaABAg", "VideoID": "WPDqtwuXiPk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz50pU8irMQ-dGXS8J4AaABAg", "VideoID": "XnhWptOoBLQ", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgxM3guitvr_n6yq6WN4AaABAg", "VideoID": "yrfMJ93fcSs", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzOZ7KShsDw8dZSj9t4AaABAg", "VideoID": "KLJBTxmT1Xk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxJwoQuC2ipBoCY_V54AaABAg", "VideoID": "tWGHJvA0pXE", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyc9GTcbMXA6mqzKMp4AaABAg", "VideoID": "fYQ5RVktyxs", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyA66nnxui7pNsOFxB4AaABAg", "VideoID": "1y83BTCxccs", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzGZm6vNxjatCNIbFN4AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugy62dRy3UsF8_cmuSB4AaABAg", "VideoID": "4oWNKOs5LiM", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugz2ksKOnK5m5JMIbsR4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugy9VVeWgAbe9gbtxsV4AaABAg", "VideoID": "9UaxSz1_2S0", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz4ClIgTb51tc-d2Jt4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwcsrW8PPjUcxB1vB14AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzVTKVAcwMPQSEmNzl4AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugyuj7j86pfyMUPYIyN4AaABAg", "VideoID": "STGMi7ZpGZ8", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugz4vWmIs7ybUIHj3QF4AaABAg", "VideoID": "WPDqtwuXiPk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgxVBJoc47KeEeou6o54AaABAg", "VideoID": "4oWNKOs5LiM", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyagPtcKckhVu_D0pN4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugwv3SXg-y74bap7ZkN4AaABAg", "VideoID": "wjJgQs1wdho", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugwn7TNlmIpRorV9kdd4AaABAg", "VideoID": "STGMi7ZpGZ8", "Topic": "climate", "y_true": "Constructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgxpPMOcyFiDfnIPdWl4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzAFaNHRIhjEypqt954AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugy4fcfUK3It8DJ7PIt4AaABAg", "VideoID": "yrfMJ93fcSs", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugx9Ft0BXS0C5UNz1uV4AaABAg", "VideoID": "4oWNKOs5LiM", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwF2tr-jlucsOn217h4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugx5756Ci2yMJ_3Lqu94AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugyb93fx-okPZOOl_PN4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxkSlrj4m2IQgGWmiZ4AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzGo0ijxtzJrgKkqPR4AaABAg", "VideoID": "b4fLjOVoKag", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgypTeec2Q0vXQYsnjh4AaABAg", "VideoID": "HXEAHjxO1Mc", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzQZxLBHhpUClsvgwN4AaABAg", "VideoID": "WPDqtwuXiPk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxWwN-VkhCsCd7jIeJ4AaABAg", "VideoID": "KLJBTxmT1Xk", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxljGSgWvy5cPyQsB54AaABAg", "VideoID": "9UaxSz1_2S0", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgxgTWmJ2wM2JtvlZeR4AaABAg", "VideoID": "GRVILGRSag8", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugy8KVeWYgOrGqa0CYR4AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwlXnecd3DWTLQrnFd4AaABAg", "VideoID": "-jc4cfE7Mok", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzgTkGF2Ms33trPj7J4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyBa7VJ99przb2kjWR4AaABAg", "VideoID": "a6w9Lfvcb8Q", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwsVqfB_t9UgKOfV194AaABAg", "VideoID": "KyNua7-q36w", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwQWNwP8zrmAkm2QGB4AaABAg", "VideoID": "wjJgQs1wdho", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyaVZ1oyC5SPF14UhN4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugzrh1VUkW8pqA21zAN4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugz_O6RAE7ZsXDOYrRx4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxB0QbOLemhZAXbQjh4AaABAg", "VideoID": "HXEAHjxO1Mc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwByeeXeS9EbHivax94AaABAg", "VideoID": "ILC9CYg5d7o", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyvtzvxJEK05lkPNrl4AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxBaLLCdmmKQVmNeNZ4AaABAg", "VideoID": "wjJgQs1wdho", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugyd-kWmnDNaW52Hgap4AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugzr-FoXkuMRxVAPOwB4AaABAg", "VideoID": "wjJgQs1wdho", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzjHcoL8jet6bshEX54AaABAg", "VideoID": "KyNua7-q36w", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugw18qU5qTA63Q_penN4AaABAg", "VideoID": "vNiJ8A1OZwU", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgxLpTzY-qbIg4CMljp4AaABAg", "VideoID": "KyNua7-q36w", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugww1dV_-D_QwihA9-54AaABAg", "VideoID": "tWGHJvA0pXE", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugx4giv915Ac6VSzJJt4AaABAg", "VideoID": "vNiJ8A1OZwU", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugw6x1qJxQDOzp9MiNF4AaABAg", "VideoID": "-jc4cfE7Mok", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwtMEVcNanyGSxKuzd4AaABAg", "VideoID": "HXEAHjxO1Mc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "Ugw3_SHE_p4GFWg3fT14AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw0Q6dTn8GzQNd1hGp4AaABAg", "VideoID": "a6w9Lfvcb8Q", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgzazXU1Wokcc-PS_4t4AaABAg", "VideoID": "1Nyff2B3XzM", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz8JdYJlhy6E0n5Rfp4AaABAg", "VideoID": "a6w9Lfvcb8Q", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugzt5BRZuGI3XlTpTGd4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugy8w2y0vlTiEEgvevB4AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzl5mGLj2XK7dy6C4B4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyTb2tBNh7zao1cIuB4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugwq0y58YveTuV7NQnB4AaABAg", "VideoID": "1y83BTCxccs", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgybqnvCIo-09v_BqXR4AaABAg", "VideoID": "KLJBTxmT1Xk", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzkX84EgckNIYjmeVt4AaABAg", "VideoID": "a1pCCuJHibk", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxF0P9npQwHlbN_s-94AaABAg", "VideoID": "wjJgQs1wdho", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.6667}
+{"ThreadID": "Ugwv5rE44wmNECfCAQR4AaABAg", "VideoID": "-jc4cfE7Mok", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgxJV1mFXydSleb-Li14AaABAg", "VideoID": "WPDqtwuXiPk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugxs7kI56NVCev9ADN14AaABAg", "VideoID": "a6w9Lfvcb8Q", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "Ugx8HJg6zDPzGL6rf4R4AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugx2kbohkE2RawbEi-Z4AaABAg", "VideoID": "1Nyff2B3XzM", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugy9D3lrq_7GLtDBTtp4AaABAg", "VideoID": "ioyfuDqZmZk", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugz4C2oXosUY9eTQqa94AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzAp56-dIaxuzWKP_J4AaABAg", "VideoID": "HXEAHjxO1Mc", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyJbRkmI5OVIaghgk94AaABAg", "VideoID": "wjJgQs1wdho", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwYtXa0xLyhbxiddbh4AaABAg", "VideoID": "v2oSMS0fZz4", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyGTyE6iJONNIS9_md4AaABAg", "VideoID": "1Nyff2B3XzM", "Topic": "climate", "y_true": "Constructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwQN7QDe7LmLuJcVN14AaABAg", "VideoID": "STGMi7ZpGZ8", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyhxGGxWQl8Wbb04WZ4AaABAg", "VideoID": "Hh7sba8b0Oc", "Topic": "climate", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwKV1p98CUtwg5Aqad4AaABAg", "VideoID": "VrEnAgHBSOc", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwY2eGdkTHmvm4laYh4AaABAg", "VideoID": "STGMi7ZpGZ8", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwPbNGZ69l4kQN2wFd4AaABAg", "VideoID": "2fSv493XzrY", "Topic": "climate", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyCBqiYjwVWS1lPU5Z4AaABAg", "VideoID": "1y83BTCxccs", "Topic": "climate", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugy0EwoFNmkWwdDZjQJ4AaABAg", "VideoID": "HXEAHjxO1Mc", "Topic": "climate", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgzEJUAKDQ5KqaJFSPR4AaABAg", "VideoID": "0VxmbG_rMbk", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyBx5BpMeaW_SX9IbZ4AaABAg", "VideoID": "3iiNSZperdI", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy8_GtiroaK5gO2mE14AaABAg", "VideoID": "3JMwPtrmtZ4", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy32jXL16fP57zYlNB4AaABAg", "VideoID": "5hHkJeF77vY", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwezOZDNrQ9y980vZt4AaABAg", "VideoID": "61XL3yHFuPg", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgymkTBdaQ5P5DzNtxF4AaABAg", "VideoID": "61XL3yHFuPg", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwuOGo9A4HQaVTIlS94AaABAg", "VideoID": "6uWE_K7z0Yk", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgyK0WupfakKyrRPHZl4AaABAg", "VideoID": "8HjnZSYls-c", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgylwSVjJYAbcCmRAf94AaABAg", "VideoID": "8vwbPCpeV8M", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgypG0PYE2dTRn-gIYV4AaABAg", "VideoID": "9825tTj26_I", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgypWdribWJAe40GJF54AaABAg", "VideoID": "9kcdXGIzu54", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzM1Rz48nAYUPrMysF4AaABAg", "VideoID": "_9wDuU0GIJU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "Ugz12v1r_UsDFWAx5v54AaABAg", "VideoID": "CQR6xfRhiMg", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz5ytUAA7k90mTecfh4AaABAg", "VideoID": "DzuIU3c5RRw", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugxp24HpIxg8xVh28kd4AaABAg", "VideoID": "Em4WkXB1bEI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.375}
+{"ThreadID": "Ugw8Veqo7cBzpGB8wuJ4AaABAg", "VideoID": "H189w4_82Dw", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyCS3vct9qljK1Vl6F4AaABAg", "VideoID": "H8f7d2LUFFs", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.1667}
+{"ThreadID": "UgwY_NoSDoH4XhxjGjp4AaABAg", "VideoID": "itD6yXkO7qg", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgyzRInVlQp276L3f4J4AaABAg", "VideoID": "J1TtGHgiQEQ", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyh-B7aHiVId0O6GNd4AaABAg", "VideoID": "J1TtGHgiQEQ", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugx8B9ig7rFksa0jSmZ4AaABAg", "VideoID": "JRIZCwVdUAM", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxEcIKBdlTzv2CQO8B4AaABAg", "VideoID": "jyoC1ARLNyQ", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgySa1YLZc-02O8RNHl4AaABAg", "VideoID": "KCcugsXF8m8", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwU5-oVZeOrV2_cY8l4AaABAg", "VideoID": "M1xySs_ZTXk", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugypwc4hj7CigV1xKDV4AaABAg", "VideoID": "mNnX_k9Blfw", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxcEWFF1N7swmunfK54AaABAg", "VideoID": "mNnX_k9Blfw", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgwWSopzoqpgLAtt7jR4AaABAg", "VideoID": "mNnX_k9Blfw", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxEl6ozyf4b0nqsXXl4AaABAg", "VideoID": "mNnX_k9Blfw", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyqAR06bpvN2_ioQhB4AaABAg", "VideoID": "MrmuIDLQWXw", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugzc_gNvlqxqHAgFU9p4AaABAg", "VideoID": "mw-35k8Fu6w", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugxtg8V9r_bJuyWGaWZ4AaABAg", "VideoID": "MW2ap6osShU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugx1MOWvHU-GxI_RZih4AaABAg", "VideoID": "nhrQrziOmoc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzktyeLlN0H78IE6FR4AaABAg", "VideoID": "odXMmIr_kNA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwdZqx3qdTsOE8Vl-t4AaABAg", "VideoID": "oJVrgAel8K8", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugz1zGz42xhAyDNAPZJ4AaABAg", "VideoID": "QnSWV1WQf0c", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxTiSKdPH3grsIsdmR4AaABAg", "VideoID": "QpZd_pYnIDo", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyWxtU45TFcbsp-2hd4AaABAg", "VideoID": "QpZd_pYnIDo", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": -0.125}
+{"ThreadID": "Ugx6nS12xqucgjPd8IF4AaABAg", "VideoID": "QpZd_pYnIDo", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyNnKy8aMU9vOCmVpZ4AaABAg", "VideoID": "RlLBt2OYHH8", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.1429}
+{"ThreadID": "UgyZr87XwHn2oHOtYuN4AaABAg", "VideoID": "ukI6RNk2CA4", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxH-Zy3iyD21ha2LO94AaABAg", "VideoID": "uMbKPbNYVY8", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgxC5kW2jJdxUx9BXFp4AaABAg", "VideoID": "uqKL9A4rBfY", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugzevqzw3mmjXFc-tMZ4AaABAg", "VideoID": "uqKL9A4rBfY", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.3333}
+{"ThreadID": "Ugzqb8AyNs07qZQPIXl4AaABAg", "VideoID": "vfjg7FbVgkM", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgztFz-ehCZwp-RKUol4AaABAg", "VideoID": "X7Se7nABZWI", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.2222}
+{"ThreadID": "Ugwspk2LId8Jdc7heOF4AaABAg", "VideoID": "X7Se7nABZWI", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyqvtUM2GkJN4kxhvp4AaABAg", "VideoID": "XYH0zjRzcQg", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzARm_3HKJ6wIdI3IB4AaABAg", "VideoID": "ykyD5QjqKoU", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugxsg6qvSanw9cr5gBB4AaABAg", "VideoID": "z095WXRHmFA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw79hn-3uEhXVeaLgN4AaABAg", "VideoID": "ZwnFCxsGesg", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugymoi1Be5M5LrrHSqt4AaABAg", "VideoID": "9kcdXGIzu54", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgziLCvyuBYuB_ApisV4AaABAg", "VideoID": "WqhrlxIarPk", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzBMPH1xWvxZeE-uoJ4AaABAg", "VideoID": "PPjRqPUmPvk", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwLUoSacFZjTvnipcV4AaABAg", "VideoID": "EjBwr4-3_rA", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxsEleeOLYB2-z6Z4V4AaABAg", "VideoID": "5hHkJeF77vY", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugxh8j5zgM76onIr5Xl4AaABAg", "VideoID": "oJVrgAel8K8", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxEBn26ajDEFT4Uoul4AaABAg", "VideoID": "9N1FutrVy-M", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwUhMSE9n77kwCaBM14AaABAg", "VideoID": "TB9dG9luTr4", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwfXpaioTFowRkkFuZ4AaABAg", "VideoID": "_9wDuU0GIJU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzu0D56AQGTmfCuwtJ4AaABAg", "VideoID": "lG156KWmHa8", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxP7cd_513N8kdPiTl4AaABAg", "VideoID": "QnSWV1WQf0c", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzF7WVLWtiaB52DROZ4AaABAg", "VideoID": "INYHeAvMsvs", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwicVvTUnwA16fOtRV4AaABAg", "VideoID": "plYwA3vSEg0", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugz6ZXtA1GHSgFzT-st4AaABAg", "VideoID": "X7Se7nABZWI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzk4FhltJIF5dyZBVR4AaABAg", "VideoID": "ykyD5QjqKoU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwQM9D7ThCN_sigJ8B4AaABAg", "VideoID": "9N1FutrVy-M", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyj4axQ_YlYdabpc4l4AaABAg", "VideoID": "GT8cWP5OBIE", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy-oM12tmzTBbsT_1l4AaABAg", "VideoID": "-7xrJwRWo5k", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugxy5w9tPznV6DEidTd4AaABAg", "VideoID": "u3-yU16Enfs", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyi71FXbx_DRziDvyB4AaABAg", "VideoID": "Bbmcsm7vcSM", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzk-lKiEH1-uXFJToV4AaABAg", "VideoID": "hQG4_okBIfA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxQiGjVt_vXqtPSg0N4AaABAg", "VideoID": "LCCsuE2pG40", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyzZ1Y0fgalSkcUhbl4AaABAg", "VideoID": "6hLsxkD7DiA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyJwPdLr8HB8o1v1Ut4AaABAg", "VideoID": "PPjRqPUmPvk", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.4286}
+{"ThreadID": "UgxqA4w4PuaeQGhvwi14AaABAg", "VideoID": "6vsjfMPTYKg", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz98iIk12QEKmIBd-B4AaABAg", "VideoID": "hQG4_okBIfA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgymovdIa09XzjENUCl4AaABAg", "VideoID": "anKw-OyS5Z4", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxuQBHpV2RkMR0_KTp4AaABAg", "VideoID": "_w9kUZcU4LA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgywdyeN4tnCfIQfTsR4AaABAg", "VideoID": "Natrx8E0AwQ", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugybef54gsaksBysgpR4AaABAg", "VideoID": "DvxMo7A83wE", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "UgzcBNlzVZMxd4lXU4Z4AaABAg", "VideoID": "Ec-KqpZu_OU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyIZf-sh90tuzos4yp4AaABAg", "VideoID": "ce0ENokxoJg", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyj9wOpOrs6dCyPP294AaABAg", "VideoID": "AsTggz--XB0", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgyfWvRIeycFNSbhHKB4AaABAg", "VideoID": "F5i1r5CChyM", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxMXOMyf-AhBo0BTI54AaABAg", "VideoID": "X7Se7nABZWI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwivUs6a7eqW553q1N4AaABAg", "VideoID": "UKCTnQpcqPE", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyL5lo7YXnKWr83V5x4AaABAg", "VideoID": "ksbNSKIyjw0", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgxHr2eK7JNjCXnkiMN4AaABAg", "VideoID": "j6BwYgXmK44", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxzarSoGullxjSr6KV4AaABAg", "VideoID": "PLkbKr2OCj8", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyNDm-49RAp-yspgMZ4AaABAg", "VideoID": "J1TtGHgiQEQ", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugxg0lJUD0sTzb9pBy94AaABAg", "VideoID": "9R06OCb1gSk", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugx5jPpdoJcvBiBO6Wh4AaABAg", "VideoID": "cRvupgVT-qo", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw07rZHpIutCbHliet4AaABAg", "VideoID": "eETzt5qnmEU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzEn919Q-ODT0GJawp4AaABAg", "VideoID": "42Qh8NxHWPk", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzC2Lsm7hGXAkGal9h4AaABAg", "VideoID": "rSRWoWxHYt8", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxYBnbCasiH4hg083d4AaABAg", "VideoID": "lG156KWmHa8", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwaIucHrKDmX3mXr4h4AaABAg", "VideoID": "1M0QdAIJSRs", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugz2PISuGFSYkm8otFl4AaABAg", "VideoID": "mNnX_k9Blfw", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwRaWByY8d-M82TLhJ4AaABAg", "VideoID": "8nw2BpjYz4o", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwJP5KVKULB6fjtJUx4AaABAg", "VideoID": "X7Se7nABZWI", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugw_klWweIWK_XMEk6R4AaABAg", "VideoID": "-7xrJwRWo5k", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy8y6w58qvdqgwMnPp4AaABAg", "VideoID": "IBeypgGqM28", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwVOKufh_dwdFKrEYR4AaABAg", "VideoID": "IDI5BRaZG9Q", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzAi1Z2Wu3vYMZrkFl4AaABAg", "VideoID": "oY1wnsX67eQ", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzumIPrd7XOhFwdoJl4AaABAg", "VideoID": "EROxE0gufgk", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwnZ3Wbv4uyYkDxqZF4AaABAg", "VideoID": "plYwA3vSEg0", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugyyw0RZwrkR1VbW66d4AaABAg", "VideoID": "mw-35k8Fu6w", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgxMyVWmxmOUswNoRpV4AaABAg", "VideoID": "6ULXsUmbYw8", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgykEms1O8-WcYNcROt4AaABAg", "VideoID": "rZlrVpF6O30", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": -0.1667}
+{"ThreadID": "Ugxekinsstns6A5gECp4AaABAg", "VideoID": "MxcFoQGpN4s", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxqNZaX5BNjBkH2fU14AaABAg", "VideoID": "kys1QnNblWQ", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxwBkOiZjiMdjNR2Md4AaABAg", "VideoID": "PPjRqPUmPvk", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.625}
+{"ThreadID": "UgywZTXMRir5IS-TOMx4AaABAg", "VideoID": "6i8D-gCh690", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyzj1KZ8v1z4lXT1HZ4AaABAg", "VideoID": "H8f7d2LUFFs", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwS3hZ6Mgmqy2Ny0uJ4AaABAg", "VideoID": "w0FpFbOKXWU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugwyop-TIeyKR5CcB4t4AaABAg", "VideoID": "fdZJuAJ6XzQ", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzxAT61QALTjtfKbVh4AaABAg", "VideoID": "lG156KWmHa8", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzi8oBUHoIe-ycEqgt4AaABAg", "VideoID": "Ez0kSon3DmY", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyou6YpFEUuhqd02CF4AaABAg", "VideoID": "H189w4_82Dw", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwovyZMMEVmtpjy3Yp4AaABAg", "VideoID": "V4oXilJcdIM", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugw2AxphHKtCQ-5-YCt4AaABAg", "VideoID": "q0400T0Qri0", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwxMkaygDYcXfx28094AaABAg", "VideoID": "n4bgBtWJ86s", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugyp4H_sOcRFgwio5Yl4AaABAg", "VideoID": "QPBO7KVI-TE", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwszoT-m4VYdRHHVUp4AaABAg", "VideoID": "QYgQVU22q6g", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgypdFeL0zyZcr3UMNB4AaABAg", "VideoID": "bEsFAWsvj04", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.3}
+{"ThreadID": "Ugz1p-61bzcGvpcfgpx4AaABAg", "VideoID": "6hLsxkD7DiA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzW6BBGEbuPpRGegPd4AaABAg", "VideoID": "vjMjdVRwzF4", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyFrYcb6JSWzvqii7t4AaABAg", "VideoID": "22UZnhBPqHE", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwJLcGXFCBH9OrhDcR4AaABAg", "VideoID": "61XL3yHFuPg", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "Ugwc_eTJQVfxv58x1pN4AaABAg", "VideoID": "-7xrJwRWo5k", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzTg6qleikHRctJwP54AaABAg", "VideoID": "-7xrJwRWo5k", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugz_hv2NNt0kJLdK0SJ4AaABAg", "VideoID": "ESetW0m2EoA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw_pbh9Wo1UgeEgRNN4AaABAg", "VideoID": "mw-35k8Fu6w", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgxPkRhnl66fEph3JWt4AaABAg", "VideoID": "6uWE_K7z0Yk", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyU54pK8E1v0jrNq8R4AaABAg", "VideoID": "4dm3GOcq6Io", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugxg5Kivr9cEeHJ3x7J4AaABAg", "VideoID": "2ujz_neJiOA", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwWilYJwWdMDr1R0vB4AaABAg", "VideoID": "V-P1-JGsIkk", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgypwiSTrUV3f3Xv1E14AaABAg", "VideoID": "NO0Lf0x0vLw", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyh78uckzSDBSF389t4AaABAg", "VideoID": "6uWE_K7z0Yk", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwOQIlPQzVafxovpl94AaABAg", "VideoID": "BZiViq3Mu8U", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwwZ_QcASqK1DDTlbh4AaABAg", "VideoID": "J1TtGHgiQEQ", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwVcW-tpog5NyCwteh4AaABAg", "VideoID": "DWKpnt7wRDA", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwWh9AhXWqsv2s--T94AaABAg", "VideoID": "FqZ8eKFJZU4", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxDgxICWK80ZpxZzsp4AaABAg", "VideoID": "8nw2BpjYz4o", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.6667}
+{"ThreadID": "Ugx_bA-NaC1OINejEod4AaABAg", "VideoID": "6uWE_K7z0Yk", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw-tl_NpXhfXCRJ-1Z4AaABAg", "VideoID": "wyNgNBGeWj8", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.6667}
+{"ThreadID": "Ugz8FTcpB8Mk7d0ZRK54AaABAg", "VideoID": "xto1V4pFLiQ", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzyN9AbY1GM1GC1Hc14AaABAg", "VideoID": "odXMmIr_kNA", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugx0BfedyAnrUIghvRd4AaABAg", "VideoID": "0g8nnp7tB70", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz4Di29pL44cXBtU7l4AaABAg", "VideoID": "0g8nnp7tB70", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgzcBsdNLj-nYojNk2l4AaABAg", "VideoID": "27acPLs8As0", "Topic": "migration", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxJZda-Q1HHZVsJCkB4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxGHimYB8jkouF1TsV4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyoCZCYD3du8mlreqd4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "Ugw0ium6mLLPGK_GOCB4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxhPi0G67zmx5hhIEB4AaABAg", "VideoID": "5xv44uRG700", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugwvch_7jEGcEm9aaF14AaABAg", "VideoID": "5xv44uRG700", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzZXz2AFUXxtYbmnSB4AaABAg", "VideoID": "5xv44uRG700", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxiN7ARdgJ424jp-x54AaABAg", "VideoID": "5xv44uRG700", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "UgxHtyADsA0msC6OuaZ4AaABAg", "VideoID": "AqpU8NnJwWY", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwhDThduZVKfg4M5Fh4AaABAg", "VideoID": "AqpU8NnJwWY", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugxx7AaXFL6nrsPG01d4AaABAg", "VideoID": "AqpU8NnJwWY", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugwa_myx9OhmK6LwvIx4AaABAg", "VideoID": "eKTOWD3Xzfw", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.3333}
+{"ThreadID": "UgycBvT_c-8R0TdERkh4AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzvhO9CU_aamVvh-YZ4AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxJ06icLwnQKwMLPsV4AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyHETbulczzWf14z3t4AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugy2o_tXjEBO4xTU3I94AaABAg", "VideoID": "EVDlxIdk6bI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "Ugwh4HLM7TviDvzrAYh4AaABAg", "VideoID": "expB5ZRlP64", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugy2Zp6EsL_aeC3Hdgd4AaABAg", "VideoID": "expB5ZRlP64", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.3333}
+{"ThreadID": "UgzdZThjhIYJoQWgTOt4AaABAg", "VideoID": "isc6Hay1JYs", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugxi9XgNRSW1fDJm6rp4AaABAg", "VideoID": "jLSHHfOCnKI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugy8wLvhrIfeo6y5bbl4AaABAg", "VideoID": "K4UIQgrNPx0", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "UgwC8V9ohdWt72pWZu14AaABAg", "VideoID": "ktDLL7nyW8A", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzrEzV7J-zrS2OVKj94AaABAg", "VideoID": "kvqJGabgao8", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyDmISOlfzIY2DrcZh4AaABAg", "VideoID": "kvqJGabgao8", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.1}
+{"ThreadID": "Ugx8L9it_x-3xHa16lN4AaABAg", "VideoID": "ON0xT0rBeds", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwQ-IicIbCp9Ek-8Gd4AaABAg", "VideoID": "QezmXQhapuk", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyesfuAILU5aQhUhrp4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxDu-nUuWGw6yNHYPt4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.3333}
+{"ThreadID": "UgyCQbmcRDObHItEnNl4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugxa3GpWc-jraM1Ubc14AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugw5Jyv501ZO1SzwBNB4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "UgxSN7e70m8iQazP2_p4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxTykVR2e2bOCNBEiJ4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.3333}
+{"ThreadID": "UgzOxHC9yHAuMbHp-Fd4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwahMxluxa0HIH5izp4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugxq7bTd0UVahAhYN8N4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugg2dw8pK44K83gCoAEC", "VideoID": "RPfktIoeJO8", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxegCwrWLwDiKDnNbx4AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.625}
+{"ThreadID": "UgxRJalINve8I9v8QsB4AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzeTA_ROVHiKzcGOwZ4AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugyly5-b0fGtx3h6fiR4AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugy4FVYzuW-BIHrM_DZ4AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgxUaa612am47Ur2biV4AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgxWHzvHp28KdXeoTHd4AaABAg", "VideoID": "wit8lkyq5rg", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugy3Hz9vOv8R0ZLMUyJ4AaABAg", "VideoID": "wit8lkyq5rg", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyTMREDyBxJ0Ktc7HJ4AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxNivaebrfoZBYn1ot4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgybFi3garhSY0YxOoZ4AaABAg", "VideoID": "FYNLr7tVR7I", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugzb_4QhcPG5l1dmf1R4AaABAg", "VideoID": "repy4Y7GKM4", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgypwUATr7vmU6y2Nvx4AaABAg", "VideoID": "isc6Hay1JYs", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgwIwo183Ei8QaI5K394AaABAg", "VideoID": "rv_OHT2CmIM", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugzc_TVEpgVaSUs0VEp4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgxH2dCfiMhkhF7VUIN4AaABAg", "VideoID": "isc6Hay1JYs", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz9t98UqZhVb3Px3jl4AaABAg", "VideoID": "isc6Hay1JYs", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyjqGk7lpkeTSNO8OV4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxCRoRPIpyWM94oAAh4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwlNB0xbKf5Z_Utl-94AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwQP4AoFXafI5evULB4AaABAg", "VideoID": "K4UIQgrNPx0", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugw-b91DbCpqqGOskvN4AaABAg", "VideoID": "6-j9bB_klfk", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugzivjoup1s0rPj64hF4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxfDgLsEpshioqh6894AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgylBQdFz1BzJ0Lb0Q14AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugw6Hk6_RnDeTC74IWV4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugycqmt2Vl31lP0xgGd4AaABAg", "VideoID": "oOgc61xpF4Q", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugyq7ch7oXWLl-1N7s14AaABAg", "VideoID": "uuOs-cHRrvo", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzlOnqMJwxBqj2hZt94AaABAg", "VideoID": "rv_OHT2CmIM", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyrJEq7iPxjnyeU9VB4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyCbiyFC0PXY5IC4b94AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwBTiZTIy4wqcBgqOJ4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyAKr4PnJI1T08Zeil4AaABAg", "VideoID": "bJ7v7RDHdY0", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgyAoDVWB34MmSJdIVl4AaABAg", "VideoID": "Kb2zh_XQMQ8", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugw1-DAI1-y_EF6zMNB4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzuEdO1a5hbGqH5-vF4AaABAg", "VideoID": "5xv44uRG700", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgweQZUQOkT81GxxPXt4AaABAg", "VideoID": "repy4Y7GKM4", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgxnLIr3QzDWTw1uSh54AaABAg", "VideoID": "UQsevMhswEs", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzrtDRUz8CzqmTMoi94AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyR8pouuaUDD2dXbrB4AaABAg", "VideoID": "bJ7v7RDHdY0", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzuFBgzEuILUe6NqE94AaABAg", "VideoID": "0g8nnp7tB70", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.1667}
+{"ThreadID": "Ugxs1huRzNtJHMIGgmR4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz73PkSMGfhjuccpQh4AaABAg", "VideoID": "Lw7dnOCXWn0", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgweSyb2F5cZbx6U9wp4AaABAg", "VideoID": "expB5ZRlP64", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugwd-FNV05-X-ga75St4AaABAg", "VideoID": "kvqJGabgao8", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 0.75}
+{"ThreadID": "UgzxzKblcW5NQI6SRZ14AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugxfn0vTZnGc8Zz5uiN4AaABAg", "VideoID": "Kb2zh_XQMQ8", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwaWdv78FoBGg_sx_N4AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxrJH3FZDxCnTqOQlx4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.25}
+{"ThreadID": "UgzBaloUSjJdrvyI4fZ4AaABAg", "VideoID": "bQCDrwWlTGA", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugxh5gdhgAYqJrBqYcx4AaABAg", "VideoID": "kC_mtpsvUJo", "Topic": "migration", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgynNBbVSde2cxORtcl4AaABAg", "VideoID": "ktDLL7nyW8A", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 0.25}
+{"ThreadID": "Ugxgz0FjeNeg19_5Re14AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwHA9-5bx8VAuUY51Z4AaABAg", "VideoID": "wit8lkyq5rg", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzFs6h7hSQRxKPEPwV4AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxUqdQK1-X4Oeet2W94AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzTnJyxoDAtNAhlXmR4AaABAg", "VideoID": "7oYKt-1gQSA", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwwAoNxdSSUxg9eyHN4AaABAg", "VideoID": "expB5ZRlP64", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzJ8iKUrDj6-r6seL54AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzTjGfCVu3e5L-eODl4AaABAg", "VideoID": "isc6Hay1JYs", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzGSMBsD08L8cl_kjB4AaABAg", "VideoID": "FYNLr7tVR7I", "Topic": "migration", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgzJGD3MQguYSJsW8FZ4AaABAg", "VideoID": "isc6Hay1JYs", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzDpQv3CnVxKdnG8BB4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxsqlJyQz8ukm5osMZ4AaABAg", "VideoID": "0g8nnp7tB70", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyhmLIXUrv72BieggZ4AaABAg", "VideoID": "5xv44uRG700", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwIKAVBF9DQLqq6zCV4AaABAg", "VideoID": "6-j9bB_klfk", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugz00ZXW7hskEtA2t9p4AaABAg", "VideoID": "T4QMZxnHP5Q", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugw6xWPcy0A9nEVNw694AaABAg", "VideoID": "ktDLL7nyW8A", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzcjs5hUkv73yVgMWl4AaABAg", "VideoID": "27acPLs8As0", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxtKh4XEjYGYxwGva54AaABAg", "VideoID": "6-j9bB_klfk", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxI1VrJloLAbDEHSft4AaABAg", "VideoID": "27acPLs8As0", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgytRUjQZjkfgmkL6EV4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Constructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgyYfxDvgczoEMH5Oq54AaABAg", "VideoID": "K4UIQgrNPx0", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxWCBkP_tq1HuLeDud4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugwr-WQ2dZWA3YBiQVt4AaABAg", "VideoID": "03PxJ6gmfWo", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.3333}
+{"ThreadID": "UgyhJYq2LNy2wiD_hZ54AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgwpU8H82mT9e4XiOux4AaABAg", "VideoID": "wit8lkyq5rg", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.5}
+{"ThreadID": "UgyKNZJka6nCXeDCix14AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugx-30PmwwPj3P3LWuh4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxzKaf_5GOA_w4c7Zd4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzAcG38KSUYQWnBTcN4AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgyzrR1U0kYGNuyf1UB4AaABAg", "VideoID": "bQCDrwWlTGA", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwT5aMPTcGMcecmJY54AaABAg", "VideoID": "repy4Y7GKM4", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxOV1Paj70PpSLoTI94AaABAg", "VideoID": "0Cn_dUB5RYk", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxXtObpL7oQrdI4SaF4AaABAg", "VideoID": "repy4Y7GKM4", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugzoz4YBJifbSG2FOSh4AaABAg", "VideoID": "rv_OHT2CmIM", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "Ugwi2ZTvaGN6dn9AZzF4AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgzIgn9x8IC4i7Nobqp4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxFFaZCEy0NuASfLoF4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxCnyeD4WNZYlOvuaZ4AaABAg", "VideoID": "g8Gac6muoiM", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgxnwrXUJRvxumUVgZJ4AaABAg", "VideoID": "kvqJGabgao8", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyORrV7846-8a4hjm94AaABAg", "VideoID": "TtX1dH3rRqU", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugz46VgLc8-7wUxLIyR4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "Ugyhas7GbtoGGxrTMlJ4AaABAg", "VideoID": "isc6Hay1JYs", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgxcfNXTpFYaNujJxSZ4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 0.3333}
+{"ThreadID": "UgxcgYC_4cyuocEOyH14AaABAg", "VideoID": "sNbVF9xEA0w", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": 0.0}
+{"ThreadID": "UgytCuC-vf6SgLzw3Nt4AaABAg", "VideoID": "2E4s7MQUIFI", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.75}
+{"ThreadID": "Ugzb8yfzugzOkBU5iap4AaABAg", "VideoID": "Qyds5R3ORmc", "Topic": "migration", "y_true": "Highly Destructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgyhUxzVba_USj3Bpax4AaABAg", "VideoID": "UpnMazw8xRc", "Topic": "migration", "y_true": "Constructive", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgxQ_es_8a4q5E-WE0p4AaABAg", "VideoID": "isc6Hay1JYs", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Slight/Neutral", "pred_mean_score": -0.2}
+{"ThreadID": "UgwDwFyuuSl8z44Caut4AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "Ugye1HTkd-qTQ8E1Pr14AaABAg", "VideoID": "En-ko2OErwE", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}
+{"ThreadID": "UgzuaxEAFMJXmcJfwZN4AaABAg", "VideoID": "repy4Y7GKM4", "Topic": "migration", "y_true": "Moderately Destructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "Ugxao_FcEbENZ4Y6dsx4AaABAg", "VideoID": "bQCDrwWlTGA", "Topic": "migration", "y_true": "Slight/Neutral", "y_pred": "Constructive", "pred_mean_score": 1.0}
+{"ThreadID": "UgwPHnmqbFJCa0n5LLJ4AaABAg", "VideoID": "yW5blRcGA7M", "Topic": "migration", "y_true": "Constructive", "y_pred": "Highly Destructive", "pred_mean_score": -1.0}
+{"ThreadID": "UgwnoxoiDLhvC3R3jy94AaABAg", "VideoID": "wit8lkyq5rg", "Topic": "migration", "y_true": "Constructive", "y_pred": "Moderately Destructive", "pred_mean_score": -0.5}

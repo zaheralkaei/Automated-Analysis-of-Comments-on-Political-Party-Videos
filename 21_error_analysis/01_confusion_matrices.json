@@ -1,0 +1,3076 @@
+{
+  "interaction": {
+    "shallow_XGB_B+S+T+E2": {
+      "macro_f1": 0.5514,
+      "n_test": 1088,
+      "labels": [
+        "Destructive Disagreement",
+        "Destructive Agreement",
+        "Neutral/Rephrase",
+        "Constructive Agreement",
+        "Constructive Disagreement"
+      ],
+      "confusion_matrix": [
+        [
+          167,
+          55,
+          12,
+          0,
+          31
+        ],
+        [
+          32,
+          307,
+          20,
+          7,
+          18
+        ],
+        [
+          12,
+          39,
+          67,
+          6,
+          25
+        ],
+        [
+          2,
+          22,
+          5,
+          11,
+          17
+        ],
+        [
+          28,
+          38,
+          17,
+          5,
+          145
+        ]
+      ],
+      "offdiag_examples": {
+        "0->1": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Destructive Agreement",
+          "count": 55,
+          "examples": [
+            {
+              "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8lpvpF4h1t",
+              "ParentText": "Bett, Brot und Seife. Dann hauen sie von alleine ab, wir müssen nicht Milliarden für Rückflieger ausgeben.",
+              "ChildText": "Worte bringen nichts raus das elende stinkende araberpack.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "ON0xT0rBeds_UgyIx2om1Jz0ZTi0Eyt4AaABAg.ARtQJZqrFmoARtSnjXvU3V",
+              "ParentText": "Wie wär's denn mal mit Waffenlieferungen an die Demonstranten/Opposition!?\n--> würde mehr bringen als lauwarme Worte!",
+              "ChildText": "Ja, genau! Sollen sich alle tot metzeln oder was?\nWas ist das denn für ein blöder Kommentar!\nMan sollte das dringend auf anderem Wege lösen!\nGing ja früher auch immer wieder. Nur heutzutage scheint das gar nicht mehr versucht zu werden.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "uitHKFQsHLM_UgyjkxmBmknHYeQ08WJ4AaABAg.9W0NfS-NEhs9WnG7CE9VsS",
+              "ParentText": "Seine Redezeit war sogut wie vorbei, also zieht das nicht ins lächerliche",
+              "ChildText": "@User_237049 Arschlöcher",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "0->2": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 12,
+          "examples": [
+            {
+              "PairID": "03PxJ6gmfWo_UgxYbv35TzSEvf2k-a94AaABAg.AIcbe56dNDRAIckscHRsIa",
+              "ParentText": "Falsch. Wir haben in beiden Wahlgängen geschlossen gegen Merz gestimmt.",
+              "ChildText": "​@User_06317😂😂😂 Der war gut..",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "dDGWntK0r3o_Ugy8QW-HO-J1oLpTW414AaABAg.9P5He27egtD9P5O43FN0_4",
+              "ParentText": "@User_245212 wenn die Afd gewählt werden sollte wird aber alles schlimmer",
+              "ChildText": "@User_350806 Siecher Siecher",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "mrsoDH2A8jw_UgzQczTQPAQOSv6cOy54AaABAg.9KWA_NuV_yB9KXvnF9B1iH",
+              "ParentText": "@User_128053 Noch so n Typ... Diggie, sowas wie in den 40er wird’s nicht geben, da die Mehrheit hier keine extreme Rechte oder Linke wählen wird.",
+              "ChildText": "@User_154939 gute Besserung",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "0->4": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 31,
+          "examples": [
+            {
+              "PairID": "Ff3fFj3msiY_Ugz40IvQeRCchgTwQnN4AaABAg.9I_X-j5H8D-9I_Yf4iaH2z",
+              "ParentText": "Herr Kotré irrt, Kernenergie IST schmutzig, gefährlich UND kann bei Mißbrauch tödlich enden!",
+              "ChildText": "Genauso wie  mit dem Gabel und Küchenmesser falche nutzen",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAEHqXmuJE4X",
+              "ParentText": "Sprachkurse finanzieren : das kann ich als Sozialarbeiterin bei der Arbeitsbeschaffung nur Unterschreiben. Viele Migranten wollen arbeiten, wir bekommen bei meiner Arbeit jeden Tag mindestens von 3 Leuten Anfrage zur Hilfe beim Arbeit suchen. Die WOLLEN! und jetzt wird aber die Finanzierung der Spra",
+              "ChildText": "chantale heul leise. diese menschen, die grösstenteils illegal hier sind haben kein recht auf finanzierung von irgendwelchen sprachkursen. das einzige worauf sie recht haben ist die sofortige abschiebung und bis dahin geht es in die abschiebehaft",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "Qyds5R3ORmc_UgzE-wR4fkRsowDe-sd4AaABAg.AEHvfk2jpawAEI7TS5Bi7c",
+              "ParentText": "@FurstvonBismarck-ne3so Werden sie nicht, Sie müssen nur bei den Kommentaren von \"Topkommentare\" auf \"neueste zuerst\" umstellen. \nVersuchen Sie es einmal, ich glaube fest an Ihre Fähigkeit, die Funktionsweise der Sozialen Medien zu erlernen.",
+              "ChildText": "@User_35914 Ich wage noch einen Versuch. Ihr mimimi ist überflüssig, da ich mich als NICHT am Stockholm-Syndrom leidender ethnischer Türke nicht darüber beklage. Ich biedere mich bestimmt nicht irgendwelchen AfDlern an, um Akzeptanz zu erfahren. Das hält mich aber nicht davon ab, objektiv zu bleiben",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "1->0": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 32,
+          "examples": [
+            {
+              "PairID": "61XL3yHFuPg_Ugx26kYVqHdlNm_YtiB4AaABAg.9E-D65Q0vcH9E3kPcE9HgD",
+              "ParentText": "@User_310043 na ich weéss. Vor Jahren fuhr Papst Johannes nach Afrika und predigte dort GEGEN Kondome,mehr muss man dazu nicht schreiben!",
+              "ChildText": "@User_168962 \nJa, natürlich hat es etwas geholfen,\ndie Bevölkerung hat sich seitdem etwa verdoppelt!\nDiesen Überschuss bekommen wir nun als Geschenk in Gestalt\n junger Testosteronäffchen.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9SfjTNoX7wO",
+              "ParentText": "@User_124006 warum ignorierst du jetzt meine Frage und stellst den Verdacht auf, dass ich linksextrem sei?",
+              "ChildText": "@User_195857 Sie kann nicht anders...",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "KrHzZy9TAic_UgzUn7ftFxJNRYMMLAN4AaABAg.9j3UYPxbl6t9j3piR0KZOw",
+              "ParentText": "Muss er nicht. Ich habe genügend Servierpersonen ohne Maske gesehen - der macht das freiwillig.",
+              "ChildText": "@User_260158 er identifiziert sich als ein Hund mit dem Maulkorb.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "1->2": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 20,
+          "examples": [
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0WJ68qaWj",
+              "ParentText": "@User_361706 Stimmt. Herr Brandner ist keine Schönheitskönigin.",
+              "ChildText": "@User_278205 😁😂🤣",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "8b4RcqEFJ44_Ugx7zGWjpYHJdZ3-zxJ4AaABAg.ACGUEjZjvIzADKHep-NgqK",
+              "ParentText": "@User_266792 Man kennt ja diese Dame. Es ist immer wieder die gleiche Vorgehensweise.",
+              "ChildText": "@User_202216 Dame??? Wo denn?",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "KNirVat8c98_UgzxrMo9x4JYKCAaDKJ4AaABAg.9_USvZq43vD9_Yv-3Vk4pP",
+              "ParentText": "Talent würde ich sowas nicht nennen.",
+              "ChildText": "@User_147162 😉",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "1->3": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Constructive Agreement",
+          "count": 7,
+          "examples": [
+            {
+              "PairID": "F75YnBxPVbw_UgzV3bfRfgkz-b6IFut4AaABAg.9UtPzNgoM_j9Uu-wlIpH0M",
+              "ParentText": "Mit einer 3G Regelung in Bussen, Bahn usw. wird den Bürgern das Recht auf Grundversorgung genommen. Ich hoffe sehr, dass sich damit  Gerichte auseinandersetzen werden, denn die Grundversorgung muß uneingeschränkt gewährleistet sein.  Deshalb gehört 3G für öffentliche. Verkehrsmittel umgehend wieder ",
+              "ChildText": "Das werden die Gerichte sicherlich nicht.Ein Abendessen bei Madame Merkel wird es schon richten,leider wohl in die falsche Richtung.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "Hh7sba8b0Oc_Ugz4aZohccJ_odvnr994AaABAg.APUZMjtzR6VAPiT7XpjWR_",
+              "ParentText": "Das schöne an dieser Rede ist eigentlich, dass schrittweise genau die Argumentationen, die so gerne gegen die EE aufgeführt werden angesprochen und kurz entkrägtet wurden, ohne dabei absolute einseitige Wege propagiert wurde. Sie lässt Raum für die Diskussion, wie man das bewerkstelligen kann, währe",
+              "ChildText": "Die Linke ist jetzt eine Alternative. SPD und CDU versagen wieder mal vollständig. Ich wähle die Linke oder die Grünen",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "HXEAHjxO1Mc_Ugx4BUTKAiKrKXt2ko94AaABAg.APpsfSuZQ1RAPqPTqYUEhX",
+              "ParentText": "Links setzt sich am deutlichsten für die Bürger ein!",
+              "ChildText": "Ist ja auch einfach, wenn alle anderen offensichtlich gegen uns arbeiten 😘",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        },
+        "1->4": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 18,
+          "examples": [
+            {
+              "PairID": "SprMcgfgqYI_UgwyRZzG5EjTQNtSJYJ4AaABAg.9WrDq0FiKbt9WrXStm4MZx",
+              "ParentText": "@User_348150 An China zahlt die BRD zur Zeit 430 Millionen, nur Syrien bekommt 630 Millionen.",
+              "ChildText": "@User_195678 vom Focus , 630 Millionen Euro: Warum Deutschland Entwicklungshilfe an Weltmacht China zahlt . Syrien erhielt im Jahr 2019 rund 683,5 Millionen Euro Entwicklungshilfe von Deutschland. \nEgal wer  und wieviel , es ist unser Steuergeld . Und Rentner sammeln Flaschen und viele  Millionen Ki",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "_bHi09-Z7cQ_UgxoCmcmw8NIVTpGScR4AaABAg.9hPZ3kxlKyC9hPZO5TupdY",
+              "ParentText": "Die Fähigkeit und das Niveau dieser Regierung zeigt sich in ihrer Disziplin, Herzlichen Glückwunsch.",
+              "ChildText": "Ich kann überhaupt nicht verstehen, dass solch Verhalten nicht geahndet wird. \n\nDas ist ja schlimmer als Kindergarten. Dagegen muss es doch eine Handhabe geben. Sonst sanktionieren sie ja auch alles, was sie wollen.\n\nAber natürlich, der Unterschied zwischen demokratisch gewählten und demokratisch ge",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "ioyfuDqZmZk_Ugyue19ZRTu-WEO6CSR4AaABAg.AEo47B_JOzXAEor6KqsXgS",
+              "ParentText": "​@User_49457 das ist doch zusätzlich ein Thema der linken. Immobilienpreise usw. Da wollen sie doch auch Gesetzliche Grenzen einführen, dass aus Wohnraum kein unnötiger Übergewinn erzeugt wird.",
+              "ChildText": "@User_69457 Das ist ja auch in Ordnung dagegen sage ich nichts aber das man einen Gewinn machen möchte wenn man vermietet das ist klar das kapieren die linken nicht die kennen nur den Erfolgreichen Leuten weg nehmen und Hartz 4 geben)))",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "2->0": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Destructive Disagreement",
+          "count": 12,
+          "examples": [
+            {
+              "PairID": "2E4s7MQUIFI_UgzVq_y_0FBjnz9ku8J4AaABAg.A9ekmckEt7jA9fOJ-9Zm0G",
+              "ParentText": "mir kommt das Kotzen bei solchen Tönen.Geh doch nach Hamburg zur Islamismus- ISIS Demo",
+              "ChildText": "@User_85067 hä? Was genau meinst du?",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "Uv9iR4HWSIw_UgxKzEzxqzB2Ed1xn2h4AaABAg.9FJUQ3xnPmM9FP6A0Ee-tI",
+              "ParentText": "Das ist ja klar, die Ideen und Anregungen kommen von den anderen, deshalb ist",
+              "ChildText": "@User_219097 ist was? hamma an Text vergessen?",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "xUv4NmkVNRk_UgwKMJbwTdwn-zdTWfB4AaABAg.9QehLFZkX379QjxO430tWX",
+              "ParentText": "@User_111962 = SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SA",
+              "ChildText": "@User_243864 Sehr Konstruktiver Beitrag.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "2->1": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Destructive Agreement",
+          "count": 39,
+          "examples": [
+            {
+              "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21z8d-lEI",
+              "ParentText": "Dann wählt doch endlich die AFD die brauchen jetzt viele viele Stimmen.",
+              "ChildText": "@User_264788 meine Stimme haben sie schon immer gehabt.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "Uq_tXqrhkus_UgwEk4LTZM5yJjsg7b54AaABAg.8v26PWmZEiw8v4G5c1NnV8",
+              "ParentText": "Wie kann man AFD nicht wählen ? Angesichts der Verrückten, dekadenten, Weltfremden Realität's \nVerweigerer der gesamten Kaste der Altparteien ! ?",
+              "ChildText": "Bad Max .......... okay :) Danke",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "nsAy0uNq8p4_UgxLKJqJiZDU3jdJKDp4AaABAg.A0rR7caSaQPA0s7i1wThDw",
+              "ParentText": "Wir müssen unbedingt Einschreiten bevor es zu spät ist für Deutschland 🇩🇪🕊️\nfür Frieden für unsere Kinder und Enkelkinder...🕊️🕊️☮️☮️☮️☮️☮️☮️☮️☮️☮️☮️☮️☮️\nWert Euch doch endlich.... gegen diese Verbrecher...\ndie uns in einen \nKrieg 💥 bringen\nUND  selber\nFeige in einen \nB U N K E R  sitzen.....\nAndere ",
+              "ChildText": "Das sogenannte Friedenszeichen ist die umgedrehte Algiz-Rune = Todesrune, sehr schädlich! Einfach mal googeln.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "2->3": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Constructive Agreement",
+          "count": 6,
+          "examples": [
+            {
+              "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA94nGx4QSte",
+              "ParentText": "​@User_60291 Die Hoffnung stirbt zuletzt, aber sie stirbt. Ich sehe eine schwache Linke, welche in meinen Augen keine gute Oppositionsarbeit macht und sogar häufig rechtspopulistisch wirkt. Ob nun NSDAP oder SED, Ost oder West, arm oder reich, schlau oder dumm, vermutlich ist der Mensch einfach zu p",
+              "ChildText": "​@User_81021 ein Schulabschluss garantiert keine bessere Arbeit. Es kann nicht unbegrenzt gute Jobs für alle geben. Mein Abi hat mir auch quasi nichts gebracht. Das macht aber Deutschland nicht schlechter. Immerhin wurde der Mindestlohn eingeführt. Der Steuerfreibetrag wurde angehoben.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "WPDqtwuXiPk_UgwegUuK_E0f4E131d14AaABAg.9S68warThBz9SInx-wgFLR",
+              "ParentText": "Hallo Linke, wie steht ihr zu den zukünftigen Corona Maßnahmen ?",
+              "ChildText": "Nachrichten anschauen und besser zur Information über gehen \nIst in allen Umfragen vorgelegt worden. \nHerzlichen Dank",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "xOfBxIY13So_UgxX95lAdkZJFoBn62N4AaABAg.9Eqv5zLAOUi9EtWFDdkAyk",
+              "ParentText": "Mein Vater fährt schon seit über 30 Jahren LKW in Deutschland, er meinte, dass es einen erheblichen Fachkräftemangel in diesem Bereich gibt!!! Und wir sind eine türkische Familie!!!",
+              "ChildText": "Dann seit Ihr bei der AFD auch an der richtigen Stelle.\nNur diese Partei handelt und aggiert vernünftig und mittig - Sie gehört endlich an die Macht!\nBitte endlich vernünftig wählen!",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        },
+        "2->4": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Constructive Disagreement",
+          "count": 25,
+          "examples": [
+            {
+              "PairID": "brUMn--G3b4_Ugx3YXwpmIiG5TZQpfZ4AaABAg.9mt14TA4ys79mtHmkhy2Qz",
+              "ParentText": "Herr Brandner wie immer Top. Man schaue nur auf die Reaktion der Präsidentin. Das sagt mal wieder alles.\nAFD und nur noch AFD anders geht es nicht mehr.",
+              "ChildText": "Sind schon wieder 2 Antworten gelöscht worden? 😬",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "rZlrVpF6O30_UgxToaTfFOai6M0weJh4AaABAg.9bla8l8fXeY9br2V8wWSaK",
+              "ParentText": "@User_35469 Sehr geehrte Frau Seifert, keiner muss hier etwas opfern.",
+              "ChildText": "@User_357049 Wieder jemand, der besser weiß wie ich heiße als ich ... ;-)\n\nAntwort ist jedenfalls selbsterklärend für die momentane Situation.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "SprMcgfgqYI_UgwyRZzG5EjTQNtSJYJ4AaABAg.9WrDq0FiKbt9WtOHvDFqng",
+              "ParentText": "@User_235442 \nNicht wollen, sondern können, weil sie selbst den Strom benötigen. Was dann!\nWir schrammen doch sowieso schon ständig am Blackout entlang.\nDer berühmte Satz \"Es ist nicht die Frage ob, sondern wann!\"",
+              "ChildText": "@User_296443 Ja aber der Grund für einen Blackout ist ein anderer",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "3->0": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 2,
+          "examples": [
+            {
+              "PairID": "TI0T1pGMPUM_UgzdkvWB-Oc1NjFTpmt4AaABAg.9ioTq0S7u0L9lTrf9SPLZ0",
+              "ParentText": "Das Volk  muss mal  aufstehen  und sich nix mehr gefallen lassen",
+              "ChildText": "Ich bin Russland Deutsche hab mit Nachbar gesprochen, die antwortete mir uns geht doch gut! Das ist Problem",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "Hh7sba8b0Oc_UgwNf23n5ve029J80rt4AaABAg.APVg8luyYzyAPZMk_Geyzw",
+              "ParentText": "​@ralfulrich6254wenigstens weiß du das. Andere labern nur das nach was sie hören. \nEs ist immer gut seine eigenen Grenzen zu kennen.  Denn dann weiß man welches Wissen man sich noch aneignen kann um den Horizont zu erweitern. \nNur Dumme glauben alles zu wissen weil ihr Horizont dermaßen beengt ist u",
+              "ChildText": "@User_21502 da hast du recht. Man lernt nie aus.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "3->1": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Destructive Agreement",
+          "count": 22,
+          "examples": [
+            {
+              "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+              "ParentText": "Die AFD ist für mich die einzige Partei die seit Jahren vor diesen Themen gewarnt haben, nun bewahrheitet sich alles... Deshalb nur noch die AFD!",
+              "ChildText": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "ioyfuDqZmZk_Ugx2cS0177hgmzr1pnR4AaABAg.AEqLfse2ScpAEvPjy-R5d-",
+              "ParentText": "Da wird der Alice ganz schwindelig 😵‍💫",
+              "ChildText": "Die hat ihren Hauptwohnsitz in einem Land, das eine Vermögenssteuer hat.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "oOk7ori_ExE_UgiUPbgt_pmvXHgCoAEC.8QFFZf3_5Hs8QFVS823yDi",
+              "ParentText": "Man kann auf jedem Haus auch Solarzellen bauen , wenn man will ! Und auf jedem Haus das bringt eine ganze Menge !! #DIELINKE",
+              "ChildText": "Na dann sthet doch schon viel Fläche zur Verfügenung, wenn die Vorraussezung stimmt !",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "3->2": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 5,
+          "examples": [
+            {
+              "PairID": "26XwmBX8_9U_Ugx_6DLbA0XXXzGFgJF4AaABAg.AStMfoTptZUAStMt0vg54W",
+              "ParentText": "Sehr gute Berichterstattung von Herrn Hilse. Weg mit den Altparteien und Kriegstreibern. Raus aus der EU und WHO und UNO unbedingt Die AFD hat die besten Politiker für Deutschland Punkt.",
+              "ChildText": "und auch raus aus der Nato",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "Hh7sba8b0Oc_Ugz4aZohccJ_odvnr994AaABAg.APUZMjtzR6VAPWgSnEIhKE",
+              "ParentText": "Das schöne an dieser Rede ist eigentlich, dass schrittweise genau die Argumentationen, die so gerne gegen die EE aufgeführt werden angesprochen und kurz entkrägtet wurden, ohne dabei absolute einseitige Wege propagiert wurde. Sie lässt Raum für die Diskussion, wie man das bewerkstelligen kann, währe",
+              "ChildText": "Starke Rede, alle Argumente auf den Punkt gebracht!",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "expB5ZRlP64_Ugy2Zp6EsL_aeC3Hdgd4AaABAg.ADsnLgnEjbmADtXs7pSvPP",
+              "ParentText": "Es ist wunderbar, dass die Wagenknecht weg ist und wir endlich wieder eine stabile Linke haben ! Meine Stimme ist euch sicher 👍",
+              "ChildText": "Seit die Wagenknecht weg ist wähle ich wieder die DIE LiNKE.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "3->4": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 17,
+          "examples": [
+            {
+              "PairID": "HXEAHjxO1Mc_UgyseGWHr55Dqh3YCjJ4AaABAg.APpZL3ARQbHAPuPM1XEFvP",
+              "ParentText": "@User_81780 die lieben ihren metzger. aber angst haben sie vor dem aktivisten dem das tierwohl am herzen liegt. davor warnt sie der metzger nämlich stets und ständig.",
+              "ChildText": "@User_20874 Der Bauer macht Angst vor den Aktivisten, damit der Metzger schnell mund ungesehen das Bolzenschussgerät ansetzen kann. \n\nTja so funktioniert Kapitallismus und Konservatismus. Und die ganzen Schafe rennen den Metzger hinterher weil er Ihn Futter verspricht, vor den Bolzenschussgerät.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "v2oSMS0fZz4_UgyQoct04X0Bflu91Sl4AaABAg.AKLRWv7bMzkAKnj6MpZhWL",
+              "ParentText": "Ganz im Ernst wer Strompreise mit Faschismus vergleicht verhöhnt die Opfer des 2 weltkriegs und besitz null Respekt und Anstand",
+              "ChildText": "@User_76564 Öhm, jedes mal wenn die Welt Linker wurde wurde sie für alle besser. Jedes mal wo die Welt rechter wurde war es für alle Schlechter....",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "4eI8XvYvN0s_UgzpxSzdZZu9uC-5D2p4AaABAg.ACg-3otUrg0ACgN87Z3pMC",
+              "ParentText": "Ist auch nur eine Behauptung. Wer hann das bestätigen oder beweisen?",
+              "ChildText": "@User_252797 wenn die AfD auch nur eine kleine, missverständliche Äußerung tut, wird sofort von der Presse „Lüge, Lüge“ gerufen. \nDa hier keinerlei Widerspruch erfolgt, können wir uns darauf verlassen, dass alles stimmt, was er sagt.\nAnsonsten kannst du ja googeln .",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "4->0": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 28,
+          "examples": [
+            {
+              "PairID": "odXMmIr_kNA_UgyWf2qOym2mzPUQnml4AaABAg.8xSGyC2CGVX9IG_PJ-MNcA",
+              "ParentText": "@User_296751 Eigenlob stinkt , Anderslob winkt. Mein Deutschlehrer  hat mir gesagt : Zitat: Wenn Du immer gleich schreibst ist es kein Fehler .Zitat Ende. Wer sagt denn ,das der Duden recht hat ? Du????",
+              "ChildText": "@User_381104 Dass der Duden recht hat, ist eine Tatsache. Die kannst du woanders anzweifeln, ähnlich verhält es sich mit dem Blamieren.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "uMbKPbNYVY8_UgyNdmPgvUDuhxk8-JR4AaABAg.9X8FHyOgSca9XRD74fCVLx",
+              "ParentText": "@jnk751Alsoooo… alles was sie gerade an Argumenten gebracht haben , kann man ohne viel nachzudenken sofort widerlegen, aber ich habe so fern das über ihre Mutter zutrifft was sie behaupten, vollen Respekt vor dem was ihre Mutter geleistet hat.Denn das muss echt sehr sehr vieles sein. Einen schönen A",
+              "ChildText": "@User_230706 Wenn das so einfach zu widerlegen ist, dann wird das für Sie nicht lange dauern. Vielleicht haben sie ja schon mal was von der Diktierfunktion gehört. Da brauchen Sie Ihre netten Fingerchen gar nicht in Bewegung setzen! 😉",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "R4LRqEazb18_UgyL3L1dQQSUJ5P2eEh4AaABAg.9_fo9neqPPI9aL5u6Y0wwW",
+              "ParentText": "Das ist Ökosozialismus in Reinkultur. \nDeshalb AfD meine Partei für Deutschland",
+              "ChildText": "Steckt auch was hinter Ihrem ausgedachten Begriff \"Ökosozialismus\"?",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "4->1": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Destructive Agreement",
+          "count": 38,
+          "examples": [
+            {
+              "PairID": "KNirVat8c98_UgzxrMo9x4JYKCAaDKJ4AaABAg.9_USvZq43vD9_WsP_WFMLR",
+              "ParentText": "Herr Scholz hat wirklich Talent sich rauszureden und uns alle zu belügen. Ein echter Politiker!",
+              "ChildText": "Er stellt sich aber den Fragen direkt und beantwortet sie. Kann mich nicht daran erinnern, dass Merkel so etwas gemacht hat.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "Tt_Og1CUsrg_UgyeltpnZ_s7x9SAGA14AaABAg.94tdnPzCNPA94u2GtoHWdA",
+              "ParentText": "*DAS  WIRD  DER  SPD  ABER  GEFALLEN*\nHelmut Schmidt wusste schon, *das geht nicht gut*                 *O-Ton*  1995\n\n\"Muslime können sich *nicht* in unsere Gesellschaft integrieren. \n\nWer bei Muslimen von Integration spricht ist entweder dumm  *oder aber, er führt Böses im Schilde\"*\n\n*Wer den Will",
+              "ChildText": "Wobei diese Zitate angezweifelt werden - man müsste zuverlässige Quellen finden, die das belegen.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0UB87Qs3y",
+              "ParentText": "Mal so nebenbei: Pumuckl schwafelt irgendwas von Pult säubern - wichtiger wäre es den Präsidenten-Platz zu säubern…🤔",
+              "ChildText": "Ein gute Sitzungspräsidentin ! Da sollte man Ihre Rede am 25.06.2021 mal hören bezugnehmend auf diese Rede des AfD Politikers. Dort hat sie allen Politikern ins Gewissen geredet. Da wurde keine Partei ausgenommen !",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "4->2": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 17,
+          "examples": [
+            {
+              "PairID": "QPBO7KVI-TE_UgxKJJTP3CYXXebzMm54AaABAg.94IUS1V3wB694NDai2iuMe",
+              "ParentText": "@jesuskommtbald70  das stimmt was du sagst und in Bawü gab es noch extra Geld 15.000 pro Person und 1% Zinsen bei der Bank bei Aufnahme eines Kredits",
+              "ChildText": "@User_288740 wahrscheinlich nicht überall, sonst hätten mir die Personen was erzählt. Kommt wohl auf die Zeit an, wann die gekommen sind!",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "v2oSMS0fZz4_Ugz08hOBGcYi8D-kigd4AaABAg.AKXORD9nOmiAKYs7J4tDRP",
+              "ParentText": "90€ im Jahr könnt ihr euch auch sonst wo hinstecken",
+              "ChildText": "Das gilt vielleicht für dich. Andere können das Geld gut brauchen!",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "AdVcczlRomw_UgyD1fcl0cPmMlapST14AaABAg.9gGrgXNKNUy9gH9m3I3b5I",
+              "ParentText": "Nein das Volk kann sie abschalten jeder einzelne muss sein Stimme  erheben",
+              "ChildText": "@User_340351 Ich fürchte, da kannst Du lange warten...",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "4->3": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Constructive Agreement",
+          "count": 5,
+          "examples": [
+            {
+              "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACqs34KqMje",
+              "ParentText": "Die Ticketpreise bei der Bahn sind eine absolute Frechheit. Teilweise haben sich Streckenpreise im Nahverkehr mehr als verdoppelt in den letzten Jahren. Die Tages-/Ländertickets (gilt ab 9 Uhr, nur bis zur Ländergrenze, etc) sind auch eine Zumutung. Und jetzt wird auch noch das 49€ Ticket 20% teurer",
+              "ChildText": "Ja,denn bei mir in der kleinsten Großstadt Niedersachsen, kostet die  Monatskarte BUS ( wir haben nur Bus) fast 75 € . Nur für die Stadt. 58 € für DEUTSCHLAND.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "Kb2zh_XQMQ8_UgwadljY0lk181hdH2B4AaABAg.A8WwRM3avNSA9nR21c6FI5",
+              "ParentText": "Na klar hilft es gegen Wohnungsmangel.....",
+              "ChildText": "Schon vor 2015 wurden die Sozialwohnungen von 4 mio auf 1 mio reduziert... Ich erinnere mich noch gut wie ab ca 2009 die Mieten explodiert sind... Aber ja... Die Einwanderer sind Schuld... 🙄",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "VBqyp3R_6EY_UgzNnPpVwGxfiGysfOh4AaABAg.9DV8xa58AKu9DY7dPwNfwN",
+              "ParentText": "@-Billerboller-Klangtherapie Wieso Verbote, davon habe ich nichts gesagt. Ich habe gesagt, E-Autos sind schon heute marktfähig. Schau dir Horst Lüning an, der hat die Gesamtkosten pro Kilometer für ein Tesla Model 3 ausgerechnet und ist bei 30 Cent pro Kilometer angekommen, was in etwa einem Kompakt",
+              "ChildText": "@User_249108 \nNunja... das mit der Haltbarkeit liegt nach meiner Meinung eher an der weitverbreiteten, grundsätzlichen Einstellung einem Auto, oder überhaupt einem hochwertigen Konsumgut gegenüber.\nIch erlebe fast täglich, wie Kunden mit einem erst 4- jährigen Fahrzeug bereits aufheulen, wenn mal ei",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        }
+      }
+    },
+    "bert_xlmr": {
+      "macro_f1": 0.5054,
+      "n_test": 1088,
+      "labels": [
+        "Destructive Disagreement",
+        "Destructive Agreement",
+        "Neutral/Rephrase",
+        "Constructive Agreement",
+        "Constructive Disagreement"
+      ],
+      "confusion_matrix": [
+        [
+          154,
+          47,
+          13,
+          0,
+          51
+        ],
+        [
+          42,
+          255,
+          25,
+          14,
+          48
+        ],
+        [
+          19,
+          32,
+          60,
+          10,
+          28
+        ],
+        [
+          2,
+          22,
+          5,
+          13,
+          15
+        ],
+        [
+          25,
+          20,
+          18,
+          19,
+          151
+        ]
+      ],
+      "offdiag_examples": {
+        "0->1": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Destructive Agreement",
+          "count": 47,
+          "examples": [
+            {
+              "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8lpvpF4h1t",
+              "ParentText": "Bett, Brot und Seife. Dann hauen sie von alleine ab, wir müssen nicht Milliarden für Rückflieger ausgeben.",
+              "ChildText": "Worte bringen nichts raus das elende stinkende araberpack.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "Ff3fFj3msiY_Ugz40IvQeRCchgTwQnN4AaABAg.9I_X-j5H8D-9I_Yf4iaH2z",
+              "ParentText": "Herr Kotré irrt, Kernenergie IST schmutzig, gefährlich UND kann bei Mißbrauch tödlich enden!",
+              "ChildText": "Genauso wie  mit dem Gabel und Küchenmesser falche nutzen",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "ON0xT0rBeds_UgyIx2om1Jz0ZTi0Eyt4AaABAg.ARtQJZqrFmoARtSnjXvU3V",
+              "ParentText": "Wie wär's denn mal mit Waffenlieferungen an die Demonstranten/Opposition!?\n--> würde mehr bringen als lauwarme Worte!",
+              "ChildText": "Ja, genau! Sollen sich alle tot metzeln oder was?\nWas ist das denn für ein blöder Kommentar!\nMan sollte das dringend auf anderem Wege lösen!\nGing ja früher auch immer wieder. Nur heutzutage scheint das gar nicht mehr versucht zu werden.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "0->2": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 13,
+          "examples": [
+            {
+              "PairID": "gC-kDfnA68c_UgybHLKLqCDWbGidwbd4AaABAg.9-67RZLO6Ez9-YTy4ewU2Z",
+              "ParentText": "Hans Landa Schon klar😏. Ich bin übrigens Lehrerin und ich weiß wie leicht es ist Schüler zu beeinflussen. Im Übrigen muss man nicht der AFD hinterherlaufen um zu erkennen was hier läuft!",
+              "ChildText": "@User_335762 in wie vielen Schulen warst du um dich deswegen zu erkundigen?",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "XXoE5qXtkHY_UgxlnudAF7gylEeAqhR4AaABAg.9FbGth7mii29Fd7bHRHZ8c",
+              "ParentText": "@User_342262 Ist klar lass dir paar Synapsen wachsen Trottel erst informieren dann schreiben ist klar das dieses Jahr mehr Strom importiert wird da viele zu Hause sitzen trotzdem steigt der Anteil der erneuerbaren Energie und dieses Jahr bleibt es trotzdem dabei das wir mehr exportieren als importie",
+              "ChildText": "@User_300676 😄😄 ich sagte schon \nBla bla .....",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "v2oSMS0fZz4_UgxUbP3iu47cv_BmogZ4AaABAg.AKKFCjePMOrAKOpOOodqTE",
+              "ParentText": "So nämlich! Die Zukunft ist links! ❤",
+              "ChildText": "Ähhh... leider nein.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "0->4": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 51,
+          "examples": [
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9eMHiPe7YD",
+              "ParentText": "@User_80778 Die haben alle eine ganz kleine Wohnung.",
+              "ChildText": "@User_00950 Du meinst die Zweitwohnung...für die man 2.000€ abrechnen kann?!",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+              "ParentText": "@User_80778 \"für die\" genau. Der Staat bezahlt Einfamilienhäuser für Flüchtlinge.  Entweder bist du ein Russenbot oder hast eine Psychose.",
+              "ChildText": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "Qyds5R3ORmc_UgzE-wR4fkRsowDe-sd4AaABAg.AEHvfk2jpawAEI7TS5Bi7c",
+              "ParentText": "@FurstvonBismarck-ne3so Werden sie nicht, Sie müssen nur bei den Kommentaren von \"Topkommentare\" auf \"neueste zuerst\" umstellen. \nVersuchen Sie es einmal, ich glaube fest an Ihre Fähigkeit, die Funktionsweise der Sozialen Medien zu erlernen.",
+              "ChildText": "@User_35914 Ich wage noch einen Versuch. Ihr mimimi ist überflüssig, da ich mich als NICHT am Stockholm-Syndrom leidender ethnischer Türke nicht darüber beklage. Ich biedere mich bestimmt nicht irgendwelchen AfDlern an, um Akzeptanz zu erfahren. Das hält mich aber nicht davon ab, objektiv zu bleiben",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "1->0": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 42,
+          "examples": [
+            {
+              "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8mWP_FqJfB",
+              "ParentText": "​​@Kingside88Ist einem Bekannten auch passiert, der hat ihm dann Arbeit gegeben. Er sollte das Gartenhaus neu streichen, das hat er dann auch gemacht. Allerdings hat er sämtliche Fensterscheiben mitgestrichen 😂😂😂😂",
+              "ChildText": "@User_204314 Oh man da musste ich lachen. Dein Bekannter höchstwahrscheinlich nicht. Das ist wirklich blöd",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9SfjTNoX7wO",
+              "ParentText": "@User_124006 warum ignorierst du jetzt meine Frage und stellst den Verdacht auf, dass ich linksextrem sei?",
+              "ChildText": "@User_195857 Sie kann nicht anders...",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "cA96V0Tqe1Y_Ugw9PS9QeEMMhD-fHwx4AaABAg.93tnqaWE_Yf93vU46IoReo",
+              "ParentText": "Alleine die Ignoranz von Altmeier und Co sagt doch schon alles über unsere Regierung und unsere Demokratie aus, wählt die AfD sie muss Bundesweit dringend auf 30 Prozent kommen",
+              "ChildText": "Mit dem Messer geht es besser.  In diesem Sinne liebe DEUTSCHE MITZIVILISTEN - Nehmt die ZUKUNFT Eure eigene Hand.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "1->2": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 25,
+          "examples": [
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0WJ68qaWj",
+              "ParentText": "@User_361706 Stimmt. Herr Brandner ist keine Schönheitskönigin.",
+              "ChildText": "@User_278205 😁😂🤣",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "8b4RcqEFJ44_Ugx7zGWjpYHJdZ3-zxJ4AaABAg.ACGUEjZjvIzADKHep-NgqK",
+              "ParentText": "@User_266792 Man kennt ja diese Dame. Es ist immer wieder die gleiche Vorgehensweise.",
+              "ChildText": "@User_202216 Dame??? Wo denn?",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "KNirVat8c98_UgzxrMo9x4JYKCAaDKJ4AaABAg.9_USvZq43vD9_Yv-3Vk4pP",
+              "ParentText": "Talent würde ich sowas nicht nennen.",
+              "ChildText": "@User_147162 😉",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "1->3": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Constructive Agreement",
+          "count": 14,
+          "examples": [
+            {
+              "PairID": "tMHZe4hakc0_UgypwfzUBnNu6CuYVLF4AaABAg.91cVtUz0xgq91duigqUDCm",
+              "ParentText": "Der deutsche Diesel ist mit seinem supermodernem Abgasreinigungsverfahren mit unter das Umweltfreundlichste was die europäische-, angeführt von der deutschen Wirtschaft für die Menschen getan hat.",
+              "ChildText": "Vollkommen richtig: um so schlimmer den Dieselmotor gleich sofort abzusägen. Die Wähler werden das hoffentlich erkennen von welchen Parteien das kam.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "NetfaXZLqmw_UgwWDNQDnWYpn6PHmz14AaABAg.9oob0aWonCK9owHZOnkJSV",
+              "ParentText": "\"Märchenonkel\" ist genau die richtige Bezeichnung für den Habeck\n💙💙💙💙💙💙",
+              "ChildText": "Ich hätte hier noch ganz andere Bezeichnungen für diesen Herrn, aber leider würde ich dann wohl gesperrt werden😡",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "Hh7sba8b0Oc_Ugz4aZohccJ_odvnr994AaABAg.APUZMjtzR6VAPiT7XpjWR_",
+              "ParentText": "Das schöne an dieser Rede ist eigentlich, dass schrittweise genau die Argumentationen, die so gerne gegen die EE aufgeführt werden angesprochen und kurz entkrägtet wurden, ohne dabei absolute einseitige Wege propagiert wurde. Sie lässt Raum für die Diskussion, wie man das bewerkstelligen kann, währe",
+              "ChildText": "Die Linke ist jetzt eine Alternative. SPD und CDU versagen wieder mal vollständig. Ich wähle die Linke oder die Grünen",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        },
+        "1->4": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 48,
+          "examples": [
+            {
+              "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+              "ParentText": "Und was macht ihr mit den deutschen Sozialbetrügern??",
+              "ChildText": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "Hh7sba8b0Oc_Ugx1wOHyzm5SuGkQsqB4AaABAg.APVQkjjL6CRAPX0qCwiKfQ",
+              "ParentText": "super Rede, leider kommt sie nicht an. Dazu bräuchte es Gehienmasse.",
+              "ChildText": "Ja, davon haben Konservative zwar etwas, aber sie ist so konserviert worden, dass sie sich seit deren Jugend nicht mehr weiterentwickelt hat. Anders gesagt: Die stehen eines Morgens auf, sehen, wie die Welt an diesen Tag ist, und ab da hat sie so zu bleiben.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "PPjRqPUmPvk_UgyRjFNi9IHiHYsv-Od4AaABAg.9TnLELoGnGw9TnpCfaJ36r",
+              "ParentText": "@User_290574 So ist es, allerdings dabei, DASS sie tricksen müssen, um überhaupt die AfD einigermaßen unten zu halten, sind die Verbrecher sich grundsätzlich einig! Denn SO viele, wie ich vor diesen Wahlen gehört habe, dass sie AfD wählen wollen, habe ich vorher NIE gehört. \nUntereinander gönnt natü",
+              "ChildText": "@User_65358 SO IST ES. \nDieses \"jeder gegen jeden\"/Depression ist Systembedingt. \"Unser\" Systemansatz ist so. Folglich \"muss\" auch jeder den Anderen schlecht machen und lügen, damit er besser da steht und einen vermeidlichen Wettbewerbsvorteil hat. \"Unser\" System ist schon klever (im Negaitven) durc",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "2->0": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Destructive Disagreement",
+          "count": 19,
+          "examples": [
+            {
+              "PairID": "Uv9iR4HWSIw_UgxKzEzxqzB2Ed1xn2h4AaABAg.9FJUQ3xnPmM9FP6A0Ee-tI",
+              "ParentText": "Das ist ja klar, die Ideen und Anregungen kommen von den anderen, deshalb ist",
+              "ChildText": "@User_219097 ist was? hamma an Text vergessen?",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "xUv4NmkVNRk_UgwKMJbwTdwn-zdTWfB4AaABAg.9QehLFZkX379QjxO430tWX",
+              "ParentText": "@User_111962 = SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SA",
+              "ChildText": "@User_243864 Sehr Konstruktiver Beitrag.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "cZ8tR6ds9dU_UgzDgp1mnmQn2eBwoet4AaABAg.9h1jcbL8Hyj9h22GDJQrCh",
+              "ParentText": "Aber ihr habt sie trotzdem wiedergewählt 🤷🏻",
+              "ChildText": "🤦🏼‍♂️🤦🏼‍♂️🤦🏼‍♂️",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "2->1": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Destructive Agreement",
+          "count": 32,
+          "examples": [
+            {
+              "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21z8d-lEI",
+              "ParentText": "Dann wählt doch endlich die AFD die brauchen jetzt viele viele Stimmen.",
+              "ChildText": "@User_264788 meine Stimme haben sie schon immer gehabt.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "Uq_tXqrhkus_UgwEk4LTZM5yJjsg7b54AaABAg.8v26PWmZEiw8v4G5c1NnV8",
+              "ParentText": "Wie kann man AFD nicht wählen ? Angesichts der Verrückten, dekadenten, Weltfremden Realität's \nVerweigerer der gesamten Kaste der Altparteien ! ?",
+              "ChildText": "Bad Max .......... okay :) Danke",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "nsAy0uNq8p4_UgxLKJqJiZDU3jdJKDp4AaABAg.A0rR7caSaQPA0s7i1wThDw",
+              "ParentText": "Wir müssen unbedingt Einschreiten bevor es zu spät ist für Deutschland 🇩🇪🕊️\nfür Frieden für unsere Kinder und Enkelkinder...🕊️🕊️☮️☮️☮️☮️☮️☮️☮️☮️☮️☮️☮️☮️\nWert Euch doch endlich.... gegen diese Verbrecher...\ndie uns in einen \nKrieg 💥 bringen\nUND  selber\nFeige in einen \nB U N K E R  sitzen.....\nAndere ",
+              "ChildText": "Das sogenannte Friedenszeichen ist die umgedrehte Algiz-Rune = Todesrune, sehr schädlich! Einfach mal googeln.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "2->3": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Constructive Agreement",
+          "count": 10,
+          "examples": [
+            {
+              "PairID": "WPDqtwuXiPk_UgwegUuK_E0f4E131d14AaABAg.9S68warThBz9SInx-wgFLR",
+              "ParentText": "Hallo Linke, wie steht ihr zu den zukünftigen Corona Maßnahmen ?",
+              "ChildText": "Nachrichten anschauen und besser zur Information über gehen \nIst in allen Umfragen vorgelegt worden. \nHerzlichen Dank",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "EsOAdVHEYbE_UgwbrtXmQpJMH5WLz9p4AaABAg.9EE1--dWYu29EFufIitCPJ",
+              "ParentText": "Sehr gute Rede Herr Gauland\nWarum wird das unflätige Verhalten derjenigen,die die Wahrheit nicht hören wollen ,vom Bundestagspräsident gerügt.",
+              "ChildText": "Werner Ott wahrscheinlich einiges. Bin nun leider mal politisch anders orientiert.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "HM4DHx83qEY_Ugy_D8eTYUlHKBQAnv54AaABAg.9brX19lzyYX9bwdWjTG1Nw",
+              "ParentText": "Richtig der soll Rad fahren,damit die Straße frei ist, deshalb spart ma n sich ein Tempolimit ☝👍",
+              "ChildText": "@User_39613 Dann muß auch keiner mehr zur Arbeit fahren, upps und dann.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        },
+        "2->4": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Constructive Disagreement",
+          "count": 28,
+          "examples": [
+            {
+              "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA94nGx4QSte",
+              "ParentText": "​@User_60291 Die Hoffnung stirbt zuletzt, aber sie stirbt. Ich sehe eine schwache Linke, welche in meinen Augen keine gute Oppositionsarbeit macht und sogar häufig rechtspopulistisch wirkt. Ob nun NSDAP oder SED, Ost oder West, arm oder reich, schlau oder dumm, vermutlich ist der Mensch einfach zu p",
+              "ChildText": "​@User_81021 ein Schulabschluss garantiert keine bessere Arbeit. Es kann nicht unbegrenzt gute Jobs für alle geben. Mein Abi hat mir auch quasi nichts gebracht. Das macht aber Deutschland nicht schlechter. Immerhin wurde der Mindestlohn eingeführt. Der Steuerfreibetrag wurde angehoben.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "561vf7Hnepc_UgxYfVxs5DozMAcu1uV4AaABAg.9_1oDpryT3W9_23xHn7clr",
+              "ParentText": "@User_261464 Du tust auch so, als hättest Du Verstand ! 😄",
+              "ChildText": "@User_314279 ich kann damit umgehen...es ist einfach meine Meinung",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "kqqgFHSsJs4_UgxotuAYTmplnm3i2-14AaABAg.AJO8z9_3rSFAJvd599-4qb",
+              "ParentText": "​@User_165369 musst du nicht, halte dich einfach nur an die wissenschaftlichen Erkenntnisse. Dann hätten wir schon mal eine seriöse Ausgangsbasis.",
+              "ChildText": "@User_291219 Was war denn an seiner Rede so falsch?",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "3->0": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 2,
+          "examples": [
+            {
+              "PairID": "Hh7sba8b0Oc_UgwNf23n5ve029J80rt4AaABAg.APVg8luyYzyAPZMk_Geyzw",
+              "ParentText": "​@ralfulrich6254wenigstens weiß du das. Andere labern nur das nach was sie hören. \nEs ist immer gut seine eigenen Grenzen zu kennen.  Denn dann weiß man welches Wissen man sich noch aneignen kann um den Horizont zu erweitern. \nNur Dumme glauben alles zu wissen weil ihr Horizont dermaßen beengt ist u",
+              "ChildText": "@User_21502 da hast du recht. Man lernt nie aus.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "PPjRqPUmPvk_UgyJwPdLr8HB8o1v1Ut4AaABAg.9TnMTMC4E9P9Tsg2ccbkPz",
+              "ParentText": "Solange die Bevölkerung die AfD wählt, ändert sich auch nichts. Aus Unrecht kann kein Recht erwachsen. Die AfD ist nichts weiter als eine gesteuerte Opposition, die euch im BRD Kreisverkehr gefangen hält. Lernt eure Geschichte kennen!",
+              "ChildText": "@User_215825 Du hast recht,\nTROTZDEM ist die AfD das kleinere Übel von allen. \nWenn´s nach mir geht = https://de.wikipedia.org/wiki/Georg_Friedrich_Prinz_von_Preu%C3%9Fen",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "3->1": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Destructive Agreement",
+          "count": 22,
+          "examples": [
+            {
+              "PairID": "26XwmBX8_9U_Ugx_6DLbA0XXXzGFgJF4AaABAg.AStMfoTptZUAStMt0vg54W",
+              "ParentText": "Sehr gute Berichterstattung von Herrn Hilse. Weg mit den Altparteien und Kriegstreibern. Raus aus der EU und WHO und UNO unbedingt Die AFD hat die besten Politiker für Deutschland Punkt.",
+              "ChildText": "und auch raus aus der Nato",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+              "ParentText": "Die AFD ist für mich die einzige Partei die seit Jahren vor diesen Themen gewarnt haben, nun bewahrheitet sich alles... Deshalb nur noch die AFD!",
+              "ChildText": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "HXEAHjxO1Mc_UgyseGWHr55Dqh3YCjJ4AaABAg.APpZL3ARQbHAPuPM1XEFvP",
+              "ParentText": "@User_81780 die lieben ihren metzger. aber angst haben sie vor dem aktivisten dem das tierwohl am herzen liegt. davor warnt sie der metzger nämlich stets und ständig.",
+              "ChildText": "@User_20874 Der Bauer macht Angst vor den Aktivisten, damit der Metzger schnell mund ungesehen das Bolzenschussgerät ansetzen kann. \n\nTja so funktioniert Kapitallismus und Konservatismus. Und die ganzen Schafe rennen den Metzger hinterher weil er Ihn Futter verspricht, vor den Bolzenschussgerät.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "3->2": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 5,
+          "examples": [
+            {
+              "PairID": "VrEnAgHBSOc_UgyDB-7VpkulG-uYB2h4AaABAg.AT8XcvO7icIATA83rS6R8h",
+              "ParentText": "Das gabs bei mir auch. Ich habs aber nicht gemacht. Hast du das Gefühl, dass es dir später den Autoführerschein leichter gemacht hat?",
+              "ChildText": "​@User_70154 Ich Denke schon. 1. Ich konnte das meiste vom theoretischen Teil, weil ich das schon vorher hatte. 2. Ich wusste wie man sich im Straßenverkehr verhält, weil ich ja schon Fahrerfahrungen hatte.\n \nAber mein Fahrlehrer hat sofort gemerkt das ich schon viel Mofa gefahren bin, weil ich imme",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "HXEAHjxO1Mc_UgwtMEVcNanyGSxKuzd4AaABAg.APrrz5UP6FjAPul6k4N0EO",
+              "ParentText": "Die beste LINKE, die wir je hatten!",
+              "ChildText": "❤ ja und es werden immer mehr Neumitglieder ❤.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAEHfQlWHrUG",
+              "ParentText": "Ich habe da ein weiteres Problem tatsächlich. \nWenn ich einen Spanischkurs mache und sage: ich brauche den für meinen Beruf, dann kann ich den steuerlich geltend machen. \nWenn ich einen Deutschkurs mache, dann kommt der Staat und sagt: Ja, aber die deutsche Sprache verwendest du auch im Alltag. Dami",
+              "ChildText": "@User_76176 Krass das wusste ich gar nicht",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "3->4": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 15,
+          "examples": [
+            {
+              "PairID": "oOk7ori_ExE_UgiUPbgt_pmvXHgCoAEC.8QFFZf3_5Hs8QFVS823yDi",
+              "ParentText": "Man kann auf jedem Haus auch Solarzellen bauen , wenn man will ! Und auf jedem Haus das bringt eine ganze Menge !! #DIELINKE",
+              "ChildText": "Na dann sthet doch schon viel Fläche zur Verfügenung, wenn die Vorraussezung stimmt !",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "tT5BolbyRqI_UgyW32pWkh51F7-8Pj14AaABAg.ASHjstd4MAcASHvToKEzPk",
+              "ParentText": "Die Politiker von der großen, wirtschaftspolitischen Einheitspartei AfD, CDU/CSU, SPD, FDP und Grüne dienen nicht den Menschen, wie es in einer Demokratie eigentlich sein sollte, sondern sie dienen ausschließlich dem Kapital. Deswegen kommt es in der Politik des Öfteren zu politischen Entscheidungen",
+              "ChildText": "Alle deutschen Parteien, außer der ÖDP, der kleinsten Parteien *und* Der Linken sind verfassungswidrig bzw. feindlich, Demokratiefeindlich und korrupt, deshalb sollten sie wegen möglichen Verbotsverfahren geprüft und angezeigt werden.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "v2oSMS0fZz4_UgyQoct04X0Bflu91Sl4AaABAg.AKLRWv7bMzkAKnj6MpZhWL",
+              "ParentText": "Ganz im Ernst wer Strompreise mit Faschismus vergleicht verhöhnt die Opfer des 2 weltkriegs und besitz null Respekt und Anstand",
+              "ChildText": "@User_76564 Öhm, jedes mal wenn die Welt Linker wurde wurde sie für alle besser. Jedes mal wo die Welt rechter wurde war es für alle Schlechter....",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "4->0": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 25,
+          "examples": [
+            {
+              "PairID": "ON0xT0rBeds_UgxepXzSztdk4MoyGJt4AaABAg.ARtJB7RL1R5ARtTss-lpmR",
+              "ParentText": "Und was ist mit den über Eine Million Menschen die für ihr Land auf die Straße gehen und habt ihr darüber nachgedacht wer da gegen die Regierung demonstriert das der Mossad der Israelis das angezettelt hat.\nLeute wie wäre es wenn ihr euch um Deutschland kümmert, hier wird die Opposition bekämpft abe",
+              "ChildText": "du bist ja komisch, alle rechtsradikalen sollten das mal mitmachen. schon das rumgeheule von rechts als ein paar Tage Stromausfall in Berlin war . In  der Ukraine hats mal  unter -20 Grad. \nDie Menschen in Krisengebieten haben es verdient, egal wo, dass man zumindest das macht was möglich ist",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "VrEnAgHBSOc_UgzRQmtCU1M36gWwzDh4AaABAg.AT84aeSJy6yATFhUPd90hk",
+              "ParentText": "@User_08073 Dann erklär mir mal, wie die Wirtschaft im Sozialismus in einem Land funktionieren soll, das über keinerlei Rohstoffe verfügt, wie nicht zukunftsfähige erneuerbare Energien langfristig dazu beitragen sollen, die Welt zu verbessern, und wieso ihr denkt, dass durch mehr Gelddrucken die Pre",
+              "ChildText": "​@User_21984\nSiehst Du? Du hast Fragen!  \nUnd wen fragst Du?\nRichtig! Die LINKE !\nWarum, weil die Ideen haben, kreativ sind! Weil die aus Scheisse Gold machen. Weil for nicht ausgeben und immer eine Idee haben.\nPS.\nIch habe immer noch keine Idee von Dir gehört.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "uMbKPbNYVY8_UgyNdmPgvUDuhxk8-JR4AaABAg.9X8FHyOgSca9XRD74fCVLx",
+              "ParentText": "@jnk751Alsoooo… alles was sie gerade an Argumenten gebracht haben , kann man ohne viel nachzudenken sofort widerlegen, aber ich habe so fern das über ihre Mutter zutrifft was sie behaupten, vollen Respekt vor dem was ihre Mutter geleistet hat.Denn das muss echt sehr sehr vieles sein. Einen schönen A",
+              "ChildText": "@User_230706 Wenn das so einfach zu widerlegen ist, dann wird das für Sie nicht lange dauern. Vielleicht haben sie ja schon mal was von der Diktierfunktion gehört. Da brauchen Sie Ihre netten Fingerchen gar nicht in Bewegung setzen! 😉",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "4->1": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Destructive Agreement",
+          "count": 20,
+          "examples": [
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0UB87Qs3y",
+              "ParentText": "Mal so nebenbei: Pumuckl schwafelt irgendwas von Pult säubern - wichtiger wäre es den Präsidenten-Platz zu säubern…🤔",
+              "ChildText": "Ein gute Sitzungspräsidentin ! Da sollte man Ihre Rede am 25.06.2021 mal hören bezugnehmend auf diese Rede des AfD Politikers. Dort hat sie allen Politikern ins Gewissen geredet. Da wurde keine Partei ausgenommen !",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "a9B8KeKgd8k_UgyoZHQdA_FN75EDwuN4AaABAg.9FOYENlbSNy9FPuqi6wYio",
+              "ParentText": "Man teste immer mehr und immer mehr, da hat man selbstverständlich auch mehr positiv und falsch positiv Getestete!",
+              "ChildText": "@User_346472 \"... wenn es mehr IQ-Tests geben würde, hätten wir auch mehr Idioten!\"",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "gbz_LecnBGs_UgwUqK8YzpyPY13KKyB4AaABAg.9pisDwHJQvd9pjiPv01p9s",
+              "ParentText": "Die Medien berichten nicht mehr über Habeck/ Graichen. Ich hoffe dass dieses Thema nicht weiterhin verschwiegen werden kann.",
+              "ChildText": "Genauso wenig wird über Beatrix von Storch's verbindung zum Mövenpick Milliardär Augsut Fink besprochen oder ihre Vernetztung im Adel🧐",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "4->2": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 18,
+          "examples": [
+            {
+              "PairID": "TcEuuL6iTF0_UgwnvpFaIMpBT6TqwcF4AaABAg.9RuZrtg3HT09_oVqtI87uX",
+              "ParentText": "Grüner Sinn ,wirrer Geist .",
+              "ChildText": "Begründung bitte",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "EsOAdVHEYbE_UgxWOAIfov8ZD54IZ4p4AaABAg.9EElQsd6kQp9FPPduCtX9Q",
+              "ParentText": "Kannst du zählen? Vermutlich nicht...",
+              "ChildText": "@User_118982 das sind zahlen vom Bundesministerium für Migration und Flüchtlinge.\nDa gibt's nichts zu zählen.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "b4fLjOVoKag_UgzEqX3S7URmIzpCPCB4AaABAg.ANAVblvbHEzANDuXAqC-vT",
+              "ParentText": "Wow.....voll besetzter Bundestag. Das grenzt an Arbeitsverweigerung.",
+              "ChildText": "Die meiste parlamentarische Arbeit wird in den sogenannten Ausschüssen gemacht.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "4->3": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Constructive Agreement",
+          "count": 19,
+          "examples": [
+            {
+              "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACqs34KqMje",
+              "ParentText": "Die Ticketpreise bei der Bahn sind eine absolute Frechheit. Teilweise haben sich Streckenpreise im Nahverkehr mehr als verdoppelt in den letzten Jahren. Die Tages-/Ländertickets (gilt ab 9 Uhr, nur bis zur Ländergrenze, etc) sind auch eine Zumutung. Und jetzt wird auch noch das 49€ Ticket 20% teurer",
+              "ChildText": "Ja,denn bei mir in der kleinsten Großstadt Niedersachsen, kostet die  Monatskarte BUS ( wir haben nur Bus) fast 75 € . Nur für die Stadt. 58 € für DEUTSCHLAND.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "Kb2zh_XQMQ8_UgwadljY0lk181hdH2B4AaABAg.A8WwRM3avNSA9nR21c6FI5",
+              "ParentText": "Na klar hilft es gegen Wohnungsmangel.....",
+              "ChildText": "Schon vor 2015 wurden die Sozialwohnungen von 4 mio auf 1 mio reduziert... Ich erinnere mich noch gut wie ab ca 2009 die Mieten explodiert sind... Aber ja... Die Einwanderer sind Schuld... 🙄",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "u5wrsbY8vjY_UgxXEYJWCHMred8oAid4AaABAg.A22Op8F5EmYA2e2nKG_W-s",
+              "ParentText": "@User_53129 genau und wegen dieser unbändigen Liebe zur Demokratie, sollte man keine Partei verbieten die von millionen Bürgern gewählt worden ist. Man sollte die Leute die eine unliebsame Partei wählen auch nicht alle diffamieren. Auch sollte man Entscheidungen der Menschen sich zum Beispiel gegen ",
+              "ChildText": "@User_38821 Können wir uns drauf einigen, obwohl ich zu den Geimpften zähle, diese Entscheidung aber klar wegen der Vorerkrankungen meiner Frau und mir getroffen habe. Wer es nicht getan hat, hatte sicher seine Gründe. Nur mit manchen Theorien konnte ich mich nicht anfreunden und mit denen, die solc",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        }
+      }
+    },
+    "bert_gbert": {
+      "macro_f1": 0.5048,
+      "n_test": 1088,
+      "labels": [
+        "Destructive Disagreement",
+        "Destructive Agreement",
+        "Neutral/Rephrase",
+        "Constructive Agreement",
+        "Constructive Disagreement"
+      ],
+      "confusion_matrix": [
+        [
+          145,
+          59,
+          20,
+          2,
+          39
+        ],
+        [
+          26,
+          276,
+          28,
+          17,
+          37
+        ],
+        [
+          18,
+          38,
+          72,
+          3,
+          18
+        ],
+        [
+          0,
+          18,
+          8,
+          11,
+          20
+        ],
+        [
+          27,
+          20,
+          26,
+          25,
+          135
+        ]
+      ],
+      "offdiag_examples": {
+        "0->1": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Destructive Agreement",
+          "count": 59,
+          "examples": [
+            {
+              "PairID": "03PxJ6gmfWo_UgxYbv35TzSEvf2k-a94AaABAg.AIcbe56dNDRAIckscHRsIa",
+              "ParentText": "Falsch. Wir haben in beiden Wahlgängen geschlossen gegen Merz gestimmt.",
+              "ChildText": "​@User_06317😂😂😂 Der war gut..",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8lpvpF4h1t",
+              "ParentText": "Bett, Brot und Seife. Dann hauen sie von alleine ab, wir müssen nicht Milliarden für Rückflieger ausgeben.",
+              "ChildText": "Worte bringen nichts raus das elende stinkende araberpack.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "Ff3fFj3msiY_Ugz40IvQeRCchgTwQnN4AaABAg.9I_X-j5H8D-9I_Yf4iaH2z",
+              "ParentText": "Herr Kotré irrt, Kernenergie IST schmutzig, gefährlich UND kann bei Mißbrauch tödlich enden!",
+              "ChildText": "Genauso wie  mit dem Gabel und Küchenmesser falche nutzen",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "0->2": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 20,
+          "examples": [
+            {
+              "PairID": "4oWNKOs5LiM_UgwTCiDovYzQOvyLubB4AaABAg.AUB_DOVJlcgAUDLl2kY56B",
+              "ParentText": "Die AFD erkennt unsere Probleme",
+              "ChildText": "😂 weil Putler sie aufklärt?",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "Hh7sba8b0Oc_UgxJdowRrwsBwcivNQJ4AaABAg.APX4z9DP6DoAPZVDMudv4m",
+              "ParentText": "Kurze Frage in die Runde: ist hier jemand mit Kompetenz im Bereich Energieversorgung? Ich meine mit einer Ausbildung in Energietechnik oder Mitarbeiter von Energiekonzernen? Jemand, der schon mal in der Branche gearbeitet hat und versteht, wie man Energienetze aufbaut? Also nicht nur von Diskussione",
+              "ChildText": "so, mittlerweile steht's 3:0 in puncto argumenten.\nich könnte noch seitenweise weitere argumente posten, aber um es mit ralfis worten zu sagen: Wozu sollte ich weiter mit dir reden, wenn du dich nicht auskennst?\n\nmal sehen, ob unser kompetenzmonster nun irgendwie inhaltlich kontern kann......",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "SprMcgfgqYI_UgwyRZzG5EjTQNtSJYJ4AaABAg.9WrDq0FiKbt9WuRWev-NYG",
+              "ParentText": "Wen dann doch Strom eingekauft werden muss,wer liefert den dann den Strom und wie wird er produziert? Da kommt dann das nächstgelegene AKW zum Zuge. Weil im Einkaufs Land andere Bestimmungen gelten",
+              "ChildText": "Dort gelten schließlich auch andere Rechtschreibregeln.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "0->3": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Constructive Agreement",
+          "count": 2,
+          "examples": [
+            {
+              "PairID": "eXdkETk4GhU_UgxlZu4o3nIi8Ykw2fV4AaABAg.9M8wJDs7niV9M9EhjQOj1b",
+              "ParentText": "Ich verstehe nicht warum es keine Strafen für Zwischenrufe gibt!",
+              "ChildText": "Weil es erlaubt ist. Aber um das zu wissen müsste mann sich informieren.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "0g8nnp7tB70_UgxsqlJyQz8ukm5osMZ4AaABAg.AEh4QyXNN52AEmAprliUkl",
+              "ParentText": "Bleibt stark gegen rechts, gegen Rassismus, Klassismus und Faschisten❤",
+              "ChildText": "Da sind die Linken auf den Demos ja weit vorne ….",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        },
+        "0->4": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 39,
+          "examples": [
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9eMHiPe7YD",
+              "ParentText": "@User_80778 Die haben alle eine ganz kleine Wohnung.",
+              "ChildText": "@User_00950 Du meinst die Zweitwohnung...für die man 2.000€ abrechnen kann?!",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+              "ParentText": "@User_80778 \"für die\" genau. Der Staat bezahlt Einfamilienhäuser für Flüchtlinge.  Entweder bist du ein Russenbot oder hast eine Psychose.",
+              "ChildText": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "Qyds5R3ORmc_UgzE-wR4fkRsowDe-sd4AaABAg.AEHvfk2jpawAEI7TS5Bi7c",
+              "ParentText": "@FurstvonBismarck-ne3so Werden sie nicht, Sie müssen nur bei den Kommentaren von \"Topkommentare\" auf \"neueste zuerst\" umstellen. \nVersuchen Sie es einmal, ich glaube fest an Ihre Fähigkeit, die Funktionsweise der Sozialen Medien zu erlernen.",
+              "ChildText": "@User_35914 Ich wage noch einen Versuch. Ihr mimimi ist überflüssig, da ich mich als NICHT am Stockholm-Syndrom leidender ethnischer Türke nicht darüber beklage. Ich biedere mich bestimmt nicht irgendwelchen AfDlern an, um Akzeptanz zu erfahren. Das hält mich aber nicht davon ab, objektiv zu bleiben",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "1->0": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 26,
+          "examples": [
+            {
+              "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8mWP_FqJfB",
+              "ParentText": "​​@Kingside88Ist einem Bekannten auch passiert, der hat ihm dann Arbeit gegeben. Er sollte das Gartenhaus neu streichen, das hat er dann auch gemacht. Allerdings hat er sämtliche Fensterscheiben mitgestrichen 😂😂😂😂",
+              "ChildText": "@User_204314 Oh man da musste ich lachen. Dein Bekannter höchstwahrscheinlich nicht. Das ist wirklich blöd",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0__t6hMyQ",
+              "ParentText": "@User_148787 \n\nTotalitarismus ist Totalitarismus!\nDer NationalSOZIALISMUS hatte auch Aspekte der Diktatur des Proletariats. Daher bleibt auf Parteilinie!\n\"Impfen macht frei!\"\nWeiß doch jeder! Stand ja auch schon über den Eingängen zu den Konzentrationslagern. Oder stand da \"Duschen macht frei!\" ? Eg",
+              "ChildText": "@User_169825 hmmm steht doch jetzt überall in den Main stream Medien. Aber wir wissen ja alle wie ihr Kommunisten denkt und wieviele tote auf eure Kappe gehen.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "eXdkETk4GhU_UgxlZu4o3nIi8Ykw2fV4AaABAg.9M8wJDs7niV9M8y6tDFtge",
+              "ParentText": "Ich verstehe nicht warum es keine Strafen für Zwischenrufe gibt!",
+              "ChildText": "Die dümmsten rufen am lautesten- zumindest hab ich den Eindruck",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "1->2": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 28,
+          "examples": [
+            {
+              "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9SfjTNoX7wO",
+              "ParentText": "@User_124006 warum ignorierst du jetzt meine Frage und stellst den Verdacht auf, dass ich linksextrem sei?",
+              "ChildText": "@User_195857 Sie kann nicht anders...",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "1b_fhIc9BCc_UgyKG6gFdxUdTVcGPQZ4AaABAg.9lWWFwKLHsw9lWi7JxCJsA",
+              "ParentText": "Ja hoffentlich 💙👍",
+              "ChildText": "@User_176589 💙👍 Danke",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "8b4RcqEFJ44_Ugx7zGWjpYHJdZ3-zxJ4AaABAg.ACGUEjZjvIzADKHep-NgqK",
+              "ParentText": "@User_266792 Man kennt ja diese Dame. Es ist immer wieder die gleiche Vorgehensweise.",
+              "ChildText": "@User_202216 Dame??? Wo denn?",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "1->3": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Constructive Agreement",
+          "count": 17,
+          "examples": [
+            {
+              "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+              "ParentText": "Und was macht ihr mit den deutschen Sozialbetrügern??",
+              "ChildText": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21DGgBARq",
+              "ParentText": "Habe den Eindruck das viele unserer Bundesminster keine Ahnung von Ihren Job haben .Es wird immer schlimmer mit dem Versagen die unsere Volksvertreter sind.",
+              "ChildText": "Dann wählt doch endlich die AFD die brauchen jetzt viele viele Stimmen.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "tMHZe4hakc0_UgypwfzUBnNu6CuYVLF4AaABAg.91cVtUz0xgq91duigqUDCm",
+              "ParentText": "Der deutsche Diesel ist mit seinem supermodernem Abgasreinigungsverfahren mit unter das Umweltfreundlichste was die europäische-, angeführt von der deutschen Wirtschaft für die Menschen getan hat.",
+              "ChildText": "Vollkommen richtig: um so schlimmer den Dieselmotor gleich sofort abzusägen. Die Wähler werden das hoffentlich erkennen von welchen Parteien das kam.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        },
+        "1->4": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 37,
+          "examples": [
+            {
+              "PairID": "SprMcgfgqYI_UgwyRZzG5EjTQNtSJYJ4AaABAg.9WrDq0FiKbt9WrXStm4MZx",
+              "ParentText": "@User_348150 An China zahlt die BRD zur Zeit 430 Millionen, nur Syrien bekommt 630 Millionen.",
+              "ChildText": "@User_195678 vom Focus , 630 Millionen Euro: Warum Deutschland Entwicklungshilfe an Weltmacht China zahlt . Syrien erhielt im Jahr 2019 rund 683,5 Millionen Euro Entwicklungshilfe von Deutschland. \nEgal wer  und wieviel , es ist unser Steuergeld . Und Rentner sammeln Flaschen und viele  Millionen Ki",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "tWJhS3gZnDY_Ugy-WLnhmNuAghiuJ9R4AaABAg.9c_nHuAK_nE9covLy5peuG",
+              "ParentText": "@User_185546\nDu hast sicher alle Tassen im Schrank, aber nicht der Reihe nacn.",
+              "ChildText": "@User_179297 .....und auch nicht der Größe nach angeordnet. Ja.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "x2rnYnNOHrA_Ugz6UvLyMO_CdaxjmHR4AaABAg.AOhFBeqXO4bAOhHZv3GNkr",
+              "ParentText": "Eine total verblödete Regierung Die gehören nicht nur eingesperrt sondern.......",
+              "ChildText": "Auch Teile der Gesellschaft bitte dazu kalkulieren",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "2->0": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Destructive Disagreement",
+          "count": 18,
+          "examples": [
+            {
+              "PairID": "xUv4NmkVNRk_UgwKMJbwTdwn-zdTWfB4AaABAg.9QehLFZkX379QjxO430tWX",
+              "ParentText": "@User_111962 = SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SA",
+              "ChildText": "@User_243864 Sehr Konstruktiver Beitrag.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "561vf7Hnepc_UgxYfVxs5DozMAcu1uV4AaABAg.9_1oDpryT3W9_Gy-JHSjxM",
+              "ParentText": "@User_353217 verdammt... Gut, dass ich Dich habe Mando",
+              "ChildText": "@User_224821 RICHTIG!!\n....und weshalb ist das so?\nWeshalb sind wir alle eng verwandt?\nBin mal gespannt was du so drauf hast.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "FF6hD7bDudo_UgxWRSfQ0RQiUW-qagp4AaABAg.9XnHBan7ouN9XuqJaO9ddT",
+              "ParentText": "Es wird  ja  schon  gesagt  wir  sind  mittlerweile  ein dummland .",
+              "ChildText": "@User_218546  schreibt:\n\"Es wird  ja  schon  gesagt  wir  sind  mittlerweile  ein dummland\"\n\nUnd in welchen Land leben Sie Inge Nack Den sollte man zum Mond schießen ?\n\n ...........",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "2->1": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Destructive Agreement",
+          "count": 38,
+          "examples": [
+            {
+              "PairID": "561vf7Hnepc_UgxYfVxs5DozMAcu1uV4AaABAg.9_1oDpryT3W9_23xHn7clr",
+              "ParentText": "@User_261464 Du tust auch so, als hättest Du Verstand ! 😄",
+              "ChildText": "@User_314279 ich kann damit umgehen...es ist einfach meine Meinung",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "Uq_tXqrhkus_UgwEk4LTZM5yJjsg7b54AaABAg.8v26PWmZEiw8v4G5c1NnV8",
+              "ParentText": "Wie kann man AFD nicht wählen ? Angesichts der Verrückten, dekadenten, Weltfremden Realität's \nVerweigerer der gesamten Kaste der Altparteien ! ?",
+              "ChildText": "Bad Max .......... okay :) Danke",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "4eI8XvYvN0s_UgxrYlA1GLHXD3zYo4Z4AaABAg.ACfvGC-naCtACgcHaUYW8_",
+              "ParentText": "Der Mann ist bei einer Behörde beschäftigt, schon mal darüber nachgedacht, dass der Staat direkt hinter dieser Tat stecken könnte?",
+              "ChildText": "auf diese Idee waere ich nie gekommen..",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "2->3": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Constructive Agreement",
+          "count": 3,
+          "examples": [
+            {
+              "PairID": "Uv9iR4HWSIw_UgxKzEzxqzB2Ed1xn2h4AaABAg.9FJUQ3xnPmM9FOSnH3syob",
+              "ParentText": "Mein Gott,  was ist an diesen Argumenten falsch? Keiner von den Altparteien bejaht die Aussage! Also, man kann nur  noch die AfD wählen! Die Altparteien sind selbst Schuld!",
+              "ChildText": "Das ist ja klar, die Ideen und Anregungen kommen von den anderen, deshalb ist",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "HM4DHx83qEY_Ugy_D8eTYUlHKBQAnv54AaABAg.9brX19lzyYX9bwdWjTG1Nw",
+              "ParentText": "Richtig der soll Rad fahren,damit die Straße frei ist, deshalb spart ma n sich ein Tempolimit ☝👍",
+              "ChildText": "@User_39613 Dann muß auch keiner mehr zur Arbeit fahren, upps und dann.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "xOfBxIY13So_UgxX95lAdkZJFoBn62N4AaABAg.9Eqv5zLAOUi9EtWFDdkAyk",
+              "ParentText": "Mein Vater fährt schon seit über 30 Jahren LKW in Deutschland, er meinte, dass es einen erheblichen Fachkräftemangel in diesem Bereich gibt!!! Und wir sind eine türkische Familie!!!",
+              "ChildText": "Dann seit Ihr bei der AFD auch an der richtigen Stelle.\nNur diese Partei handelt und aggiert vernünftig und mittig - Sie gehört endlich an die Macht!\nBitte endlich vernünftig wählen!",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        },
+        "2->4": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Constructive Disagreement",
+          "count": 18,
+          "examples": [
+            {
+              "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA94nGx4QSte",
+              "ParentText": "​@User_60291 Die Hoffnung stirbt zuletzt, aber sie stirbt. Ich sehe eine schwache Linke, welche in meinen Augen keine gute Oppositionsarbeit macht und sogar häufig rechtspopulistisch wirkt. Ob nun NSDAP oder SED, Ost oder West, arm oder reich, schlau oder dumm, vermutlich ist der Mensch einfach zu p",
+              "ChildText": "​@User_81021 ein Schulabschluss garantiert keine bessere Arbeit. Es kann nicht unbegrenzt gute Jobs für alle geben. Mein Abi hat mir auch quasi nichts gebracht. Das macht aber Deutschland nicht schlechter. Immerhin wurde der Mindestlohn eingeführt. Der Steuerfreibetrag wurde angehoben.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "kqqgFHSsJs4_UgxotuAYTmplnm3i2-14AaABAg.AJO8z9_3rSFAJvd599-4qb",
+              "ParentText": "​@User_165369 musst du nicht, halte dich einfach nur an die wissenschaftlichen Erkenntnisse. Dann hätten wir schon mal eine seriöse Ausgangsbasis.",
+              "ChildText": "@User_291219 Was war denn an seiner Rede so falsch?",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "tWJhS3gZnDY_UgzUq2leDlCrml2cnnh4AaABAg.9c_hmzwJp7m9ca0AMLcm3E",
+              "ParentText": "hattest du in der schule deutsch als fremdsprache? ich mein ja nur, bei der grammatikalischen hilfsbedürftigkeit :)",
+              "ChildText": "@User_313484 Satzanfang immer GROSS und dann werden einige Wörter am Wortbeginn mit einem GROSSEN Buchstaben geschrieben.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "3->1": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Destructive Agreement",
+          "count": 18,
+          "examples": [
+            {
+              "PairID": "26XwmBX8_9U_Ugx_6DLbA0XXXzGFgJF4AaABAg.AStMfoTptZUAStMt0vg54W",
+              "ParentText": "Sehr gute Berichterstattung von Herrn Hilse. Weg mit den Altparteien und Kriegstreibern. Raus aus der EU und WHO und UNO unbedingt Die AFD hat die besten Politiker für Deutschland Punkt.",
+              "ChildText": "und auch raus aus der Nato",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+              "ParentText": "Die AFD ist für mich die einzige Partei die seit Jahren vor diesen Themen gewarnt haben, nun bewahrheitet sich alles... Deshalb nur noch die AFD!",
+              "ChildText": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "HXEAHjxO1Mc_UgyseGWHr55Dqh3YCjJ4AaABAg.APpZL3ARQbHAPuPM1XEFvP",
+              "ParentText": "@User_81780 die lieben ihren metzger. aber angst haben sie vor dem aktivisten dem das tierwohl am herzen liegt. davor warnt sie der metzger nämlich stets und ständig.",
+              "ChildText": "@User_20874 Der Bauer macht Angst vor den Aktivisten, damit der Metzger schnell mund ungesehen das Bolzenschussgerät ansetzen kann. \n\nTja so funktioniert Kapitallismus und Konservatismus. Und die ganzen Schafe rennen den Metzger hinterher weil er Ihn Futter verspricht, vor den Bolzenschussgerät.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "3->2": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 8,
+          "examples": [
+            {
+              "PairID": "ioyfuDqZmZk_Ugx2cS0177hgmzr1pnR4AaABAg.AEqLfse2ScpAEvPjy-R5d-",
+              "ParentText": "Da wird der Alice ganz schwindelig 😵‍💫",
+              "ChildText": "Die hat ihren Hauptwohnsitz in einem Land, das eine Vermögenssteuer hat.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "Ff3fFj3msiY_Ugz5DeaYKoN7p3nXmHB4AaABAg.9IZrx6VHwp89Ic0-lvc_UR",
+              "ParentText": "@User_173314 \nDie Wähler behaupten ja immer noch das Merkel und Co ihre Arbeit sehr gut machen.\nMal sehen was sie sagen wenn sie mit ihren Geschäften Pleite sind.",
+              "ChildText": "@User_381378 Ja, die Umfragen...\nEs ist immer die Frage, wer, wo und wie befragt wird...  🤨",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "ql4kstYKAZ0_UgyrdqApKxjnnFPxSMZ4AaABAg.93u4fmxFkIg93w7ytgPHYx",
+              "ParentText": "\"Nüchtern betrachtet sind Fahrräder im hohen Maße unpraktisch und gefährlich.\" Und wenn ich aus der Kneipe komme?",
+              "ChildText": "Ich hatte den Satz erst gar nicht verstanden wie Spaniel das gemeint hat ... d.h. je mehr ich saufe, desto ungefährlicher wird es.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "3->4": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 20,
+          "examples": [
+            {
+              "PairID": "oOk7ori_ExE_UgiUPbgt_pmvXHgCoAEC.8QFFZf3_5Hs8QFVS823yDi",
+              "ParentText": "Man kann auf jedem Haus auch Solarzellen bauen , wenn man will ! Und auf jedem Haus das bringt eine ganze Menge !! #DIELINKE",
+              "ChildText": "Na dann sthet doch schon viel Fläche zur Verfügenung, wenn die Vorraussezung stimmt !",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "tT5BolbyRqI_UgyW32pWkh51F7-8Pj14AaABAg.ASHjstd4MAcASHvToKEzPk",
+              "ParentText": "Die Politiker von der großen, wirtschaftspolitischen Einheitspartei AfD, CDU/CSU, SPD, FDP und Grüne dienen nicht den Menschen, wie es in einer Demokratie eigentlich sein sollte, sondern sie dienen ausschließlich dem Kapital. Deswegen kommt es in der Politik des Öfteren zu politischen Entscheidungen",
+              "ChildText": "Alle deutschen Parteien, außer der ÖDP, der kleinsten Parteien *und* Der Linken sind verfassungswidrig bzw. feindlich, Demokratiefeindlich und korrupt, deshalb sollten sie wegen möglichen Verbotsverfahren geprüft und angezeigt werden.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "v2oSMS0fZz4_UgyQoct04X0Bflu91Sl4AaABAg.AKLRWv7bMzkAKnj6MpZhWL",
+              "ParentText": "Ganz im Ernst wer Strompreise mit Faschismus vergleicht verhöhnt die Opfer des 2 weltkriegs und besitz null Respekt und Anstand",
+              "ChildText": "@User_76564 Öhm, jedes mal wenn die Welt Linker wurde wurde sie für alle besser. Jedes mal wo die Welt rechter wurde war es für alle Schlechter....",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "4->0": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 27,
+          "examples": [
+            {
+              "PairID": "rv_OHT2CmIM_UgwrHlV1waLnAf1jJop4AaABAg.A8w1yuytl0RA98NmaWxudF",
+              "ParentText": "Die Abgeordnete Carola Rackete hat am Donnerstag für eine Resolution gestimmt, in der die Mitgliedstaaten der EU aufgefordert werden, »Einschränkungen des Einsatzes westlicher Waffen gegen legitime militärische Ziele im Hoheitsgebiet Russlands unverzüglich aufzuheben.\n\nWas seid ihr für ein widerlich",
+              "ChildText": "Ist nicht Putin derjenige, der ein fremdes Hoheitsgebiet beschießt?\nDarf der Angegriffene sich nicht so wehren, wie es nötig ist?",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "uMbKPbNYVY8_UgyNdmPgvUDuhxk8-JR4AaABAg.9X8FHyOgSca9XRD74fCVLx",
+              "ParentText": "@jnk751Alsoooo… alles was sie gerade an Argumenten gebracht haben , kann man ohne viel nachzudenken sofort widerlegen, aber ich habe so fern das über ihre Mutter zutrifft was sie behaupten, vollen Respekt vor dem was ihre Mutter geleistet hat.Denn das muss echt sehr sehr vieles sein. Einen schönen A",
+              "ChildText": "@User_230706 Wenn das so einfach zu widerlegen ist, dann wird das für Sie nicht lange dauern. Vielleicht haben sie ja schon mal was von der Diktierfunktion gehört. Da brauchen Sie Ihre netten Fingerchen gar nicht in Bewegung setzen! 😉",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "v2oSMS0fZz4_Ugz08hOBGcYi8D-kigd4AaABAg.AKXORD9nOmiAKYs7J4tDRP",
+              "ParentText": "90€ im Jahr könnt ihr euch auch sonst wo hinstecken",
+              "ChildText": "Das gilt vielleicht für dich. Andere können das Geld gut brauchen!",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "4->1": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Destructive Agreement",
+          "count": 20,
+          "examples": [
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0UB87Qs3y",
+              "ParentText": "Mal so nebenbei: Pumuckl schwafelt irgendwas von Pult säubern - wichtiger wäre es den Präsidenten-Platz zu säubern…🤔",
+              "ChildText": "Ein gute Sitzungspräsidentin ! Da sollte man Ihre Rede am 25.06.2021 mal hören bezugnehmend auf diese Rede des AfD Politikers. Dort hat sie allen Politikern ins Gewissen geredet. Da wurde keine Partei ausgenommen !",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "gbz_LecnBGs_UgwUqK8YzpyPY13KKyB4AaABAg.9pisDwHJQvd9pjiPv01p9s",
+              "ParentText": "Die Medien berichten nicht mehr über Habeck/ Graichen. Ich hoffe dass dieses Thema nicht weiterhin verschwiegen werden kann.",
+              "ChildText": "Genauso wenig wird über Beatrix von Storch's verbindung zum Mövenpick Milliardär Augsut Fink besprochen oder ihre Vernetztung im Adel🧐",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "hAB3zYIMF9Y_UgwSOWl6LOTwaRF1jhh4AaABAg.9JsZTExM3ai9JzauxZmCm4",
+              "ParentText": "Sehr gute Rede mit Hand und Fuß und absolut wahr.E-Mobilität ist ein nicht zu Ende gedachtes Gebilde,man sieht nur bei der Vermarktung den geldbringenden Teil des Ganzen .Den kostintensivsten und schädlichsten Teil verschweigt man.Doch kann nicht Jemand diesen widerlichen Zwischenrufern die Schnüss ",
+              "ChildText": "E-Mobilität wurde schon bis zum Ende durchdacht und dann aufgegeben... 1910! 🤔😉😊",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "4->2": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 26,
+          "examples": [
+            {
+              "PairID": "-jc4cfE7Mok_UgyJQXmuCOMYFK7py5d4AaABAg.9xV_ugP97ok9xykW3kP3CY",
+              "ParentText": "@User_65939 Vielleicht solltest DU ...dich mit dem Strafgesetzbuch beschäftigen ..dann kommst nicht mit dem Schwachsinn um der Ecke ...",
+              "ChildText": "@User_05329 Also Fakt ist, sie wurde Frei gesprochen und das kann sicher kein Zufall sein oder daran liegen das dass Italienische Gericht sie so sehr mochte",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "QPBO7KVI-TE_UgxKJJTP3CYXXebzMm54AaABAg.94IUS1V3wB694NDai2iuMe",
+              "ParentText": "@jesuskommtbald70  das stimmt was du sagst und in Bawü gab es noch extra Geld 15.000 pro Person und 1% Zinsen bei der Bank bei Aufnahme eines Kredits",
+              "ChildText": "@User_288740 wahrscheinlich nicht überall, sonst hätten mir die Personen was erzählt. Kommt wohl auf die Zeit an, wann die gekommen sind!",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "Tt_Og1CUsrg_UgyeltpnZ_s7x9SAGA14AaABAg.94tdnPzCNPA94u2GtoHWdA",
+              "ParentText": "*DAS  WIRD  DER  SPD  ABER  GEFALLEN*\nHelmut Schmidt wusste schon, *das geht nicht gut*                 *O-Ton*  1995\n\n\"Muslime können sich *nicht* in unsere Gesellschaft integrieren. \n\nWer bei Muslimen von Integration spricht ist entweder dumm  *oder aber, er führt Böses im Schilde\"*\n\n*Wer den Will",
+              "ChildText": "Wobei diese Zitate angezweifelt werden - man müsste zuverlässige Quellen finden, die das belegen.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "4->3": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Constructive Agreement",
+          "count": 25,
+          "examples": [
+            {
+              "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACqs34KqMje",
+              "ParentText": "Die Ticketpreise bei der Bahn sind eine absolute Frechheit. Teilweise haben sich Streckenpreise im Nahverkehr mehr als verdoppelt in den letzten Jahren. Die Tages-/Ländertickets (gilt ab 9 Uhr, nur bis zur Ländergrenze, etc) sind auch eine Zumutung. Und jetzt wird auch noch das 49€ Ticket 20% teurer",
+              "ChildText": "Ja,denn bei mir in der kleinsten Großstadt Niedersachsen, kostet die  Monatskarte BUS ( wir haben nur Bus) fast 75 € . Nur für die Stadt. 58 € für DEUTSCHLAND.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "VBqyp3R_6EY_UgzNnPpVwGxfiGysfOh4AaABAg.9DV8xa58AKu9DY7dPwNfwN",
+              "ParentText": "@-Billerboller-Klangtherapie Wieso Verbote, davon habe ich nichts gesagt. Ich habe gesagt, E-Autos sind schon heute marktfähig. Schau dir Horst Lüning an, der hat die Gesamtkosten pro Kilometer für ein Tesla Model 3 ausgerechnet und ist bei 30 Cent pro Kilometer angekommen, was in etwa einem Kompakt",
+              "ChildText": "@User_249108 \nNunja... das mit der Haltbarkeit liegt nach meiner Meinung eher an der weitverbreiteten, grundsätzlichen Einstellung einem Auto, oder überhaupt einem hochwertigen Konsumgut gegenüber.\nIch erlebe fast täglich, wie Kunden mit einem erst 4- jährigen Fahrzeug bereits aufheulen, wenn mal ei",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "YyLL93TmVjw_Ugzubfad6SoBCx9VgNx4AaABAg.9nZzKKK2Ecf9nb002f2kXz",
+              "ParentText": "Der Saal wird immer leerer. Kein Bock arbeiten, die Herrschaften?\nUnd noch was :wie lange wollt ihr denn noch reden, diskutieren, kritisieren... Wo sind die Taten.? Machen sie Vorschläge. Wir machen mit. Sonst von reden kommen wir nicht weiter",
+              "ChildText": "Da war ja nun wohl ein ganz gezielter und deutlicher Vorschlag in der Rede, wie man es machen sollte und könnte. Das war nicht nur Gerede. Das war Politik mit gesunden Menschenverstand.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        }
+      }
+    },
+    "llm_gemma4_31b_full_instructions_zero_shot": {
+      "macro_f1": 0.6549,
+      "n_test": 1088,
+      "labels": [
+        "Destructive Disagreement",
+        "Destructive Agreement",
+        "Neutral/Rephrase",
+        "Constructive Agreement",
+        "Constructive Disagreement"
+      ],
+      "confusion_matrix": [
+        [
+          228,
+          14,
+          7,
+          0,
+          16
+        ],
+        [
+          51,
+          211,
+          29,
+          76,
+          17
+        ],
+        [
+          23,
+          7,
+          102,
+          10,
+          7
+        ],
+        [
+          3,
+          1,
+          5,
+          41,
+          7
+        ],
+        [
+          33,
+          2,
+          19,
+          9,
+          170
+        ]
+      ],
+      "offdiag_examples": {
+        "0->1": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Destructive Agreement",
+          "count": 14,
+          "examples": [
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+              "ParentText": "@User_80778 \"für die\" genau. Der Staat bezahlt Einfamilienhäuser für Flüchtlinge.  Entweder bist du ein Russenbot oder hast eine Psychose.",
+              "ChildText": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8lpvpF4h1t",
+              "ParentText": "Bett, Brot und Seife. Dann hauen sie von alleine ab, wir müssen nicht Milliarden für Rückflieger ausgeben.",
+              "ChildText": "Worte bringen nichts raus das elende stinkende araberpack.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "W_ruQlie9ag_UgxUbVHXF3kamfRzVyN4AaABAg.9OPJQoeC6969OPN0bQlIa4",
+              "ParentText": "Wunderbar, muss ich mir merken: „Gendersprache ist Idiotensprache!“ Super! Drei Worte, alles ausgedrückt!",
+              "ChildText": "Ja, dümmer geht es nicht. Und so eine Aussage in einer Debatte um das Klimaschutzgesetz. Ich bin mir sicher, dass du es dir auch deswegen gut merken kannst, weil die Aussage nur aus drei Worten besteht. Mehr ist vermutlich auch unzumutbar.",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "0->2": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 7,
+          "examples": [
+            {
+              "PairID": "gC-kDfnA68c_UgybHLKLqCDWbGidwbd4AaABAg.9-67RZLO6Ez9-YTy4ewU2Z",
+              "ParentText": "Hans Landa Schon klar😏. Ich bin übrigens Lehrerin und ich weiß wie leicht es ist Schüler zu beeinflussen. Im Übrigen muss man nicht der AFD hinterherlaufen um zu erkennen was hier läuft!",
+              "ChildText": "@User_335762 in wie vielen Schulen warst du um dich deswegen zu erkundigen?",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "XXoE5qXtkHY_UgxlnudAF7gylEeAqhR4AaABAg.9FbGth7mii29FfqzUZD5wW",
+              "ParentText": "@User_69457 Du machst dich hier voll zum Horst 😅 ....\nHabe mal geschaut ,was du noch so kommentierst 😂😂 Außer Flitzpiepe und Hühnerkacke, ist da nicht viel ....\nWie alt bist du ?    10 Jahre ?\n😃😂😁😀😅",
+              "ChildText": "@User_342262 Flitzpiepe",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "muRmzWMbevQ_Ugxb2s8YBGSKjjqXCT94AaABAg.9LaXjPNJMdE9Lbq0IoHxWv",
+              "ParentText": "Afd will Migranten abschieben du hirni.",
+              "ChildText": "@User_335264 🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑2000 €",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "0->4": {
+          "true_label": "Destructive Disagreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 16,
+          "examples": [
+            {
+              "PairID": "EsOAdVHEYbE_UgxWOAIfov8ZD54IZ4p4AaABAg.9EElQsd6kQp9EFUTzRsfVh",
+              "ParentText": "Und wenn es so weitergeht dann haben wir mehr Migranten als Deutsche in diesen Land",
+              "ChildText": "dann macht halt endlich mal Kinder, ihr Deutsche, statt immer nur die olle Opferrolle und Jammerlappen Schau... aber ihr habt keinen Bock auf Verantwortung...lieber Tinder Dates ausmachen, wenn überhaupt Dates stattfinden. \nKinder? Viel zu teuer, stressig und dreckig...außerdem wer will denn Kinder ",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "Ff3fFj3msiY_Ugz40IvQeRCchgTwQnN4AaABAg.9I_X-j5H8D-9I_Yf4iaH2z",
+              "ParentText": "Herr Kotré irrt, Kernenergie IST schmutzig, gefährlich UND kann bei Mißbrauch tödlich enden!",
+              "ChildText": "Genauso wie  mit dem Gabel und Küchenmesser falche nutzen",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "KyNua7-q36w_Ugwq1dhXCLgNnUH4QBx4AaABAg.APMGVIiLxrDAPOIoFcsnll",
+              "ParentText": "😂😂😂😂😂😂Dieter Dehm , Urgestein der Linken, war gestern auf der ach so rechten Buchmesse „Seitenwende“ die ihr mit der Antifa bekämpft habt, Genossen. Ich wette das Dieter Dehm einer der sehr wenigen ehrlichen Linken ist, der auch links argumentieren kann. \nDer Rest von Euch ist einfach nur dümmstes p",
+              "ChildText": "Hast du auch irgend ein substanzielles argument oder nur geschwurbel?",
+              "true_label": "Destructive Disagreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "1->0": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 51,
+          "examples": [
+            {
+              "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9SfjTNoX7wO",
+              "ParentText": "@User_124006 warum ignorierst du jetzt meine Frage und stellst den Verdacht auf, dass ich linksextrem sei?",
+              "ChildText": "@User_195857 Sie kann nicht anders...",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "KrHzZy9TAic_UgzUn7ftFxJNRYMMLAN4AaABAg.9j3UYPxbl6t9j3piR0KZOw",
+              "ParentText": "Muss er nicht. Ich habe genügend Servierpersonen ohne Maske gesehen - der macht das freiwillig.",
+              "ChildText": "@User_260158 er identifiziert sich als ein Hund mit dem Maulkorb.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gUIr3sPO8Z",
+              "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+              "ChildText": "Als ob diese Entschuldigung seine Aussage ungeschehen macht...",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "1->2": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 29,
+          "examples": [
+            {
+              "PairID": "c7z1R_eXONA_UgzG7N6Fc_dGrT0jnNR4AaABAg.A9SFH5no31MAACsQ-Byqeg",
+              "ParentText": "Olaf hat Schiss vor der Vertrauensfrage!!!",
+              "ChildText": "Kann man den nicht einfach rausschmeissen? Und Rest der Ampel gleich mit?",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "xUv4NmkVNRk_UgwKMJbwTdwn-zdTWfB4AaABAg.9QehLFZkX379QpGVbmUCpy",
+              "ParentText": "@User_243864 Sehr Konstruktiver Beitrag.",
+              "ChildText": "@User_111962 hahaha echt 😂😂😂",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "1b_fhIc9BCc_UgyKG6gFdxUdTVcGPQZ4AaABAg.9lWWFwKLHsw9lWi7JxCJsA",
+              "ParentText": "Ja hoffentlich 💙👍",
+              "ChildText": "@User_176589 💙👍 Danke",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "1->3": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Constructive Agreement",
+          "count": 76,
+          "examples": [
+            {
+              "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+              "ParentText": "Und was macht ihr mit den deutschen Sozialbetrügern??",
+              "ChildText": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8mWP_FqJfB",
+              "ParentText": "​​@Kingside88Ist einem Bekannten auch passiert, der hat ihm dann Arbeit gegeben. Er sollte das Gartenhaus neu streichen, das hat er dann auch gemacht. Allerdings hat er sämtliche Fensterscheiben mitgestrichen 😂😂😂😂",
+              "ChildText": "@User_204314 Oh man da musste ich lachen. Dein Bekannter höchstwahrscheinlich nicht. Das ist wirklich blöd",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "PPjRqPUmPvk_UgyRjFNi9IHiHYsv-Od4AaABAg.9TnLELoGnGw9TnpCfaJ36r",
+              "ParentText": "@User_290574 So ist es, allerdings dabei, DASS sie tricksen müssen, um überhaupt die AfD einigermaßen unten zu halten, sind die Verbrecher sich grundsätzlich einig! Denn SO viele, wie ich vor diesen Wahlen gehört habe, dass sie AfD wählen wollen, habe ich vorher NIE gehört. \nUntereinander gönnt natü",
+              "ChildText": "@User_65358 SO IST ES. \nDieses \"jeder gegen jeden\"/Depression ist Systembedingt. \"Unser\" Systemansatz ist so. Folglich \"muss\" auch jeder den Anderen schlecht machen und lügen, damit er besser da steht und einen vermeidlichen Wettbewerbsvorteil hat. \"Unser\" System ist schon klever (im Negaitven) durc",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        },
+        "1->4": {
+          "true_label": "Destructive Agreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 17,
+          "examples": [
+            {
+              "PairID": "EsOAdVHEYbE_UgwbrtXmQpJMH5WLz9p4AaABAg.9EE1--dWYu29EEkHCqCMrz",
+              "ParentText": "Sehr gute Rede Herr Gauland\nWarum wird das unflätige Verhalten derjenigen,die die Wahrheit nicht hören wollen ,vom Bundestagspräsident gerügt.",
+              "ChildText": "Weil der Redner der AFD angehört.",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "KNirVat8c98_UgzxrMo9x4JYKCAaDKJ4AaABAg.9_USvZq43vD9_V0NQlCZnW",
+              "ParentText": "Die Wähler wollten das ! SPD....",
+              "ChildText": "@User_140560 ich glaube da wurde irgendwie nachgeholfen",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "1eUG3aYpHWY_UgyhBbLy1gGxJKW4rbV4AaABAg.9gUIxm9wKM09gUJXRr4Bew",
+              "ParentText": "Curio als Kanzler, dann würde es voran gehen.",
+              "ChildText": "Nein Curio als Innenminister und Alice als Kanzlerin, Chrupalla Vizekanzler",
+              "true_label": "Destructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "2->0": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Destructive Disagreement",
+          "count": 23,
+          "examples": [
+            {
+              "PairID": "tWJhS3gZnDY_UgzUq2leDlCrml2cnnh4AaABAg.9c_hmzwJp7m9ca0AMLcm3E",
+              "ParentText": "hattest du in der schule deutsch als fremdsprache? ich mein ja nur, bei der grammatikalischen hilfsbedürftigkeit :)",
+              "ChildText": "@User_313484 Satzanfang immer GROSS und dann werden einige Wörter am Wortbeginn mit einem GROSSEN Buchstaben geschrieben.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "xUv4NmkVNRk_UgwKMJbwTdwn-zdTWfB4AaABAg.9QehLFZkX379QjxO430tWX",
+              "ParentText": "@User_111962 = SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SA",
+              "ChildText": "@User_243864 Sehr Konstruktiver Beitrag.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "4eI8XvYvN0s_UgxrYlA1GLHXD3zYo4Z4AaABAg.ACfvGC-naCtACgcHaUYW8_",
+              "ParentText": "Der Mann ist bei einer Behörde beschäftigt, schon mal darüber nachgedacht, dass der Staat direkt hinter dieser Tat stecken könnte?",
+              "ChildText": "auf diese Idee waere ich nie gekommen..",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "2->1": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Destructive Agreement",
+          "count": 7,
+          "examples": [
+            {
+              "PairID": "ioyfuDqZmZk_UgzIrWDnQp9bPSIshKZ4AaABAg.AEo3miMBKskAEswzRVlORf",
+              "ParentText": "@User_58334  ne vermögenssteuer",
+              "ChildText": "@User_01507  that's right!",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "KNirVat8c98_UgzCzccrDYg4aPhVhxR4AaABAg.9_UHPXHLf859_UUZjcU-Wm",
+              "ParentText": "Arroganz hoffentlich bekommen alle Beteiligten ihre gerechte Strafe .Wir haben etwas gemacht 🤥Ja armes Deutschland 👏👏",
+              "ChildText": "Die RAF Zeit ist nicht lange her!",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "FF6hD7bDudo_UgxIxnA01iP1u8DTgtx4AaABAg.9XnNFbNjWAR9XppPDyTbRX",
+              "ParentText": "Habeck macht seinen Job ganz gut. \nDas Ungeziefer wurde gewählt. \nDer Wähler muss die Folgen spüren.\nWas soll die Aufregung.",
+              "ChildText": "Wäre ein gutes Thema für ein neues Habeck-Kinderbuch",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "2->3": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Constructive Agreement",
+          "count": 10,
+          "examples": [
+            {
+              "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21z8d-lEI",
+              "ParentText": "Dann wählt doch endlich die AFD die brauchen jetzt viele viele Stimmen.",
+              "ChildText": "@User_264788 meine Stimme haben sie schon immer gehabt.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "F06RKatZGCw_UgzjGJaMkwKmq2tpGVB4AaABAg.9rDpSqwNSlr9rDuvEdxtWg",
+              "ParentText": "💙 Wir, die Junge Gemeinde aus der Lüneburger Heide sagen nur noch, und zwar nur noch die Alternative für Deutschland.💙",
+              "ChildText": "Wir brauchen 100 Tausende Wahlbeobachter!!\nDie Wahl in Berlin hat gezeigt was hinter den Kulissen passiert ist und die Wahl musste zum Teil neu stattfinden!!",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "qaThP9P5ezU_UgxspJDMK9zzq9corVt4AaABAg.9lJlo6L7w_G9lOJLYdUP3J",
+              "ParentText": "Ford in Köln ist doch das beste Beispiel. Nur meidet jeder die Kritik an der Ampel um Ärger aus dem Weg zu gehen. Das ist Demokratie in Deutschland heute, armes Deutschland.",
+              "ChildText": "Wenn die Amis zukünftig selbst entwickeln wollen und nicht mehr in Deutschland, dann sollte man als Verbraucher Ford hart boykottieren.",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        },
+        "2->4": {
+          "true_label": "Neutral/Rephrase",
+          "pred_label": "Constructive Disagreement",
+          "count": 7,
+          "examples": [
+            {
+              "PairID": "W_ruQlie9ag_UgxUbVHXF3kamfRzVyN4AaABAg.9OPJQoeC6969OcA7-u054V",
+              "ParentText": "@User_92994 Sage uns ein Paar die dir einfallen, ich würde gerne  diese Akademiker Googlen.",
+              "ChildText": "@User_146448 Alter ... der Bundestag ist voll von Akademikern",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gUaxvKiMCa",
+              "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+              "ChildText": "me, von der Strasse ist Merz ganz gewiss nicht.\nWar leitend bei Blackrock,WEF\nHatte in seiner aktiven Zeit im Bundestag 150(!!!!) Neben/Beraterjobs,\nSieht in den erneuerbaren Energien große Chancen (für Black Rock)",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "SprMcgfgqYI_UgwyRZzG5EjTQNtSJYJ4AaABAg.9WrDq0FiKbt9WtOHvDFqng",
+              "ParentText": "@User_235442 \nNicht wollen, sondern können, weil sie selbst den Strom benötigen. Was dann!\nWir schrammen doch sowieso schon ständig am Blackout entlang.\nDer berühmte Satz \"Es ist nicht die Frage ob, sondern wann!\"",
+              "ChildText": "@User_296443 Ja aber der Grund für einen Blackout ist ein anderer",
+              "true_label": "Neutral/Rephrase",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "3->0": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 3,
+          "examples": [
+            {
+              "PairID": "v2oSMS0fZz4_UgyQoct04X0Bflu91Sl4AaABAg.AKLRWv7bMzkAKnj6MpZhWL",
+              "ParentText": "Ganz im Ernst wer Strompreise mit Faschismus vergleicht verhöhnt die Opfer des 2 weltkriegs und besitz null Respekt und Anstand",
+              "ChildText": "@User_76564 Öhm, jedes mal wenn die Welt Linker wurde wurde sie für alle besser. Jedes mal wo die Welt rechter wurde war es für alle Schlechter....",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "4eI8XvYvN0s_UgzpxSzdZZu9uC-5D2p4AaABAg.ACg-3otUrg0ACgN87Z3pMC",
+              "ParentText": "Ist auch nur eine Behauptung. Wer hann das bestätigen oder beweisen?",
+              "ChildText": "@User_252797 wenn die AfD auch nur eine kleine, missverständliche Äußerung tut, wird sofort von der Presse „Lüge, Lüge“ gerufen. \nDa hier keinerlei Widerspruch erfolgt, können wir uns darauf verlassen, dass alles stimmt, was er sagt.\nAnsonsten kannst du ja googeln .",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "4oWNKOs5LiM_UgxVBJoc47KeEeou6o54AaABAg.AUB94tt13oRAUDb--eafKA",
+              "ParentText": "​@User_07929 hoffentlich verstehst du irgendwann mal, dass es nicht um links oder rechts geht sondern wie man alle oder zumindest so viele wie möglich/nötig vereint. Worte sind die niedrigste Form der Kommunikation. Entscheidend ist was davor steht und was danach kommt.",
+              "ChildText": "@User_78260 ja es geht um oben gegen unten. Nur haben die oben die rechten auf ihre Seite gezogen. Propaganda und Beeinflussung des Meinungskorridor sind die Kriegsführung der Milliardäre. Vielleicht versteht das auch der Otto Normalverbraucher bald… viel Glück 🌈🍀😜😘",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "3->1": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Destructive Agreement",
+          "count": 1,
+          "examples": [
+            {
+              "PairID": "9kcdXGIzu54_UgypWdribWJAe40GJF54AaABAg.9nyn1y-6dgt9o-v2iajqry",
+              "ParentText": "Warum schmeißt man diese Zwischenrufer nicht raus? Bei uns in der Schule gab es so was nicht. Frage: In welche Schule sind diese Leute gegangen?",
+              "ChildText": "Frage ist auch wie die erzogen wurden . Sowas haben wir schon vor der Schule von den Eltern gelernt .",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "3->2": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 5,
+          "examples": [
+            {
+              "PairID": "ioyfuDqZmZk_Ugx2cS0177hgmzr1pnR4AaABAg.AEqLfse2ScpAEvPjy-R5d-",
+              "ParentText": "Da wird der Alice ganz schwindelig 😵‍💫",
+              "ChildText": "Die hat ihren Hauptwohnsitz in einem Land, das eine Vermögenssteuer hat.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "Ff3fFj3msiY_Ugz5DeaYKoN7p3nXmHB4AaABAg.9IZrx6VHwp89Ic0-lvc_UR",
+              "ParentText": "@User_173314 \nDie Wähler behaupten ja immer noch das Merkel und Co ihre Arbeit sehr gut machen.\nMal sehen was sie sagen wenn sie mit ihren Geschäften Pleite sind.",
+              "ChildText": "@User_381378 Ja, die Umfragen...\nEs ist immer die Frage, wer, wo und wie befragt wird...  🤨",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "ql4kstYKAZ0_UgyrdqApKxjnnFPxSMZ4AaABAg.93u4fmxFkIg93w7ytgPHYx",
+              "ParentText": "\"Nüchtern betrachtet sind Fahrräder im hohen Maße unpraktisch und gefährlich.\" Und wenn ich aus der Kneipe komme?",
+              "ChildText": "Ich hatte den Satz erst gar nicht verstanden wie Spaniel das gemeint hat ... d.h. je mehr ich saufe, desto ungefährlicher wird es.",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "3->4": {
+          "true_label": "Constructive Agreement",
+          "pred_label": "Constructive Disagreement",
+          "count": 7,
+          "examples": [
+            {
+              "PairID": "gC-kDfnA68c_UgybHLKLqCDWbGidwbd4AaABAg.9-67RZLO6Ez9-6lz_hMZP6",
+              "ParentText": "Wer von Lehrkräften zu was gezwungen wird sollte umgehend Anzeige erstatten.",
+              "ChildText": "Funktioniert aber nicht. Macht einen zum Paria. Die Welle läßt sowas von grüßen!",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "TI0T1pGMPUM_UgzdkvWB-Oc1NjFTpmt4AaABAg.9ioTq0S7u0L9lTrf9SPLZ0",
+              "ParentText": "Das Volk  muss mal  aufstehen  und sich nix mehr gefallen lassen",
+              "ChildText": "Ich bin Russland Deutsche hab mit Nachbar gesprochen, die antwortete mir uns geht doch gut! Das ist Problem",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            },
+            {
+              "PairID": "v2oSMS0fZz4_UgwsvMWrREBVbI3UXfV4AaABAg.AKKJle_vAV1AKKL0A0AF8P",
+              "ParentText": "Ich checke nicht wie man solche und viele weitere Fakten einfach ignorieren kann und sein (Wahl-)Verhalten nicht ändert. Ergibt keinen Sinn für mich",
+              "ChildText": "Die Linke hat in meinen Augen nicht viel mit dem Kommunismus zu tun.  Zumindest nicht in dem Ausmaß, in dem die Hater die Linke darstellen wollen. Auch vermehrte Verstaatlichung und freie Wirtschaft schließen sich für mich nicht aus.\nEin gutes Beispiel wären Rasthöfe an Autobahnen oder riesige Wohnu",
+              "true_label": "Constructive Agreement",
+              "pred_label": "Constructive Disagreement"
+            }
+          ]
+        },
+        "4->0": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Destructive Disagreement",
+          "count": 33,
+          "examples": [
+            {
+              "PairID": "5xv44uRG700_UgzePrnbM9YHn0K2c6d4AaABAg.ACWkmJQYVA3AEiWSvHGt3T",
+              "ParentText": "In welchem Land leben wir denn und für welches Land arbeiten sie?🤔",
+              "ChildText": "Auch ohne die Erinnerung durch die AfD wissen wir, welches Land hier ist und welcher Nation die Staatsbürger angehören. Benötigen Sie etwa die ständige Erinnerung daran?\nDann wäre die AfD allerdings auch nicht richtig, mit der Erinnerungskultur haben die das nicht so.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "ON0xT0rBeds_UgxepXzSztdk4MoyGJt4AaABAg.ARtJB7RL1R5ARtTss-lpmR",
+              "ParentText": "Und was ist mit den über Eine Million Menschen die für ihr Land auf die Straße gehen und habt ihr darüber nachgedacht wer da gegen die Regierung demonstriert das der Mossad der Israelis das angezettelt hat.\nLeute wie wäre es wenn ihr euch um Deutschland kümmert, hier wird die Opposition bekämpft abe",
+              "ChildText": "du bist ja komisch, alle rechtsradikalen sollten das mal mitmachen. schon das rumgeheule von rechts als ein paar Tage Stromausfall in Berlin war . In  der Ukraine hats mal  unter -20 Grad. \nDie Menschen in Krisengebieten haben es verdient, egal wo, dass man zumindest das macht was möglich ist",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            },
+            {
+              "PairID": "Qyds5R3ORmc_Ugz6-7dvrwL9s8XOdkB4AaABAg.AEHmg4tE-W-AEt00Slaf0X",
+              "ParentText": "@Energiewende-Rechner : \"Gewinn ist nichts Schlechtes ...\"\n> Hier mal ein etwas anderer Blickwinkel: Gewinn ist das, was den Angestellten & Zulieferern an Lohn vorenthalten & den Kunden & Mietern zu viel abknöpft wird.",
+              "ChildText": "@User_08460 >  Und, wie viel (monatlichen) GEWINN machen Sie & Ihre Investoren dabei?!\nDie Alternative ist, dass gar nicht gebaut wird. Geil oder?",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Disagreement"
+            }
+          ]
+        },
+        "4->1": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Destructive Agreement",
+          "count": 2,
+          "examples": [
+            {
+              "PairID": "gC-kDfnA68c_UgybHLKLqCDWbGidwbd4AaABAg.9-67RZLO6Ez9-BrdX-I2pB",
+              "ParentText": "@User_226654 , na so was, nur weil in deiner Klasse so etwas nicht sein soll, was wir natürlich nicht prüfen können und nur dein Wort haben, soll es auch sonst nirgends statt finden? Lehnst dich da nicht sehr weit raus? Wahrscheinlich ist deine Vermutung, das bedeutet NICHTS.\n\n\nSchaue doch rein in d",
+              "ChildText": "@User_324545 Leider ist es bei den Reportern heutzutage so, dass sie sich immer die dümmsten Schweine raussuchen. War doch bei Pegida nicht anders...",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            },
+            {
+              "PairID": "wjJgQs1wdho_Ugzr-FoXkuMRxVAPOwB4AaABAg.9v_2C03eJyDA3p1H-YS0Vn",
+              "ParentText": "Ja diese Frau symbolisiert doch Kompetenz und Führungskraft sie hätte in der DDR auch einen guten Grenzschützen abgegeben :D",
+              "ChildText": "Genau. Hessen ist Ostdeutschland und die Linke 1:1 SED. Sie sind bestens informiert. Ein Hoch auf unsere Bildungspolitik!",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Destructive Agreement"
+            }
+          ]
+        },
+        "4->2": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Neutral/Rephrase",
+          "count": 19,
+          "examples": [
+            {
+              "PairID": "Tt_Og1CUsrg_UgyeltpnZ_s7x9SAGA14AaABAg.94tdnPzCNPA94u2GtoHWdA",
+              "ParentText": "*DAS  WIRD  DER  SPD  ABER  GEFALLEN*\nHelmut Schmidt wusste schon, *das geht nicht gut*                 *O-Ton*  1995\n\n\"Muslime können sich *nicht* in unsere Gesellschaft integrieren. \n\nWer bei Muslimen von Integration spricht ist entweder dumm  *oder aber, er führt Böses im Schilde\"*\n\n*Wer den Will",
+              "ChildText": "Wobei diese Zitate angezweifelt werden - man müsste zuverlässige Quellen finden, die das belegen.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "hH7gDTruejQ_UgwFd85QKf6kZpZwBW54AaABAg.9dIy7hY4_gs9dVyy6fsvqR",
+              "ParentText": "Eine Türkin mit zwei Personalausweisen    Türkisch u deutsch    wo gibt es denn so was",
+              "ChildText": "nur in DE? Jeder Ausländer der eingebürgert wird, darf wählen. Sowohl hier als auch dort, in der Türkei oder auch ein Ami mit deutschem Perso.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            },
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0UB87Qs3y",
+              "ParentText": "Mal so nebenbei: Pumuckl schwafelt irgendwas von Pult säubern - wichtiger wäre es den Präsidenten-Platz zu säubern…🤔",
+              "ChildText": "Ein gute Sitzungspräsidentin ! Da sollte man Ihre Rede am 25.06.2021 mal hören bezugnehmend auf diese Rede des AfD Politikers. Dort hat sie allen Politikern ins Gewissen geredet. Da wurde keine Partei ausgenommen !",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Neutral/Rephrase"
+            }
+          ]
+        },
+        "4->3": {
+          "true_label": "Constructive Disagreement",
+          "pred_label": "Constructive Agreement",
+          "count": 9,
+          "examples": [
+            {
+              "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACqs34KqMje",
+              "ParentText": "Die Ticketpreise bei der Bahn sind eine absolute Frechheit. Teilweise haben sich Streckenpreise im Nahverkehr mehr als verdoppelt in den letzten Jahren. Die Tages-/Ländertickets (gilt ab 9 Uhr, nur bis zur Ländergrenze, etc) sind auch eine Zumutung. Und jetzt wird auch noch das 49€ Ticket 20% teurer",
+              "ChildText": "Ja,denn bei mir in der kleinsten Großstadt Niedersachsen, kostet die  Monatskarte BUS ( wir haben nur Bus) fast 75 € . Nur für die Stadt. 58 € für DEUTSCHLAND.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "b4fLjOVoKag_UgzGo0ijxtzJrgKkqPR4AaABAg.ANAKijl9bpsANAPiIozQYn",
+              "ParentText": "Nur in einem Punkt seid ihr besser als die AfD und zwar, dass ihr nicht rassistisch seid, sonst bringt die linke Politik nur Chaos und leere Versprechungen. Die AfD gehört verboten und ihr solltet bei unter 5% verwarnt werden und wenn ihr gute Politik macht, könnt ihr wieder mitreden.",
+              "ChildText": "Ich verfolge den Kanal erst seit kurzem. Höre hier zu 100%  mehr Lösungen als seit Jahrzehnten von CDU, SPD und AbgrundFürDeutschland zusammen.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            },
+            {
+              "PairID": "KyNua7-q36w_UgzjHcoL8jet6bshEX54AaABAg.APLG38BeqzvAPLYMjCqBvL",
+              "ParentText": "Die CDU muss endlich weg",
+              "ChildText": "Zumindest der Merz-Teil aus der Regierung raus. Es gibt zum Glück noch andere in der CDU aber die haben leider nicht die Macht zur Zeit.",
+              "true_label": "Constructive Disagreement",
+              "pred_label": "Constructive Agreement"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "stance": {
+    "shallow_XGB_B+bert_pca": {
+      "macro_f1": 0.5232,
+      "n_test": 1088,
+      "labels": [
+        "Against",
+        "Neutral",
+        "Support"
+      ],
+      "confusion_matrix": [
+        [
+          133,
+          203,
+          6
+        ],
+        [
+          76,
+          552,
+          4
+        ],
+        [
+          26,
+          62,
+          26
+        ]
+      ],
+      "offdiag_examples": {
+        "0->1": {
+          "true_label": "Against",
+          "pred_label": "Neutral",
+          "count": 203,
+          "examples": [
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+              "ParentText": "@User_80778 \"für die\" genau. Der Staat bezahlt Einfamilienhäuser für Flüchtlinge.  Entweder bist du ein Russenbot oder hast eine Psychose.",
+              "ChildText": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "61XL3yHFuPg_Ugx26kYVqHdlNm_YtiB4AaABAg.9E-D65Q0vcH9E3kPcE9HgD",
+              "ParentText": "@User_310043 na ich weéss. Vor Jahren fuhr Papst Johannes nach Afrika und predigte dort GEGEN Kondome,mehr muss man dazu nicht schreiben!",
+              "ChildText": "@User_168962 \nJa, natürlich hat es etwas geholfen,\ndie Bevölkerung hat sich seitdem etwa verdoppelt!\nDiesen Überschuss bekommen wir nun als Geschenk in Gestalt\n junger Testosteronäffchen.",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+              "ParentText": "Die AFD ist für mich die einzige Partei die seit Jahren vor diesen Themen gewarnt haben, nun bewahrheitet sich alles... Deshalb nur noch die AFD!",
+              "ChildText": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten.",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            }
+          ]
+        },
+        "0->2": {
+          "true_label": "Against",
+          "pred_label": "Support",
+          "count": 6,
+          "examples": [
+            {
+              "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAEJSZew5gNG",
+              "ParentText": "Sprachkurse finanzieren : das kann ich als Sozialarbeiterin bei der Arbeitsbeschaffung nur Unterschreiben. Viele Migranten wollen arbeiten, wir bekommen bei meiner Arbeit jeden Tag mindestens von 3 Leuten Anfrage zur Hilfe beim Arbeit suchen. Die WOLLEN! und jetzt wird aber die Finanzierung der Spra",
+              "ChildText": "sowas passiert wenn man jeden rein lässt!!!!!!!!! die migrationspolitik von den ganz linken und der linken ampel ist migrantenfeindlich. das hat system",
+              "true_label": "Against",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "Ff3fFj3msiY_UgyLH__guffNnkyLg694AaABAg.9IZt01hXO9V9I_Y1KZNxFq",
+              "ParentText": "@User_294744 Konzerne die viel Strom verbrauchen bezahlen in Deutschland ihren Strom nicht. Da mit sie Wettbewerbsfähig bleiben. Konzernmafia halt. Genauso Amerikanische Konzerne die in Deutschland keine Steuern zahlen müssen. Die Amis hätten die Atombomben lieber in Deutschland reinschmeißen sollen",
+              "ChildText": "@User_23342 Das ist kompletter Unsinn. \n\nEs ist lediglich so, dass Großverbraucher von den ganzen Öko-Unsinnsumlagen (EEG etc.) befreit sind, da es sonst schon sehr viele Unternehmen in Deutschland gar nicht mehr gäbe. Das betrifft aber auch schon kleine Unternehmen, wie Metallgießereien.\n\nMit dem w",
+              "true_label": "Against",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "Hh7sba8b0Oc_UgxjOtZb_t-NC4XOx154AaABAg.APU05UMQsBRAPZ0-jkiHUB",
+              "ParentText": "​​@gerhardbair7915ach ja, und Batteriespeicher sind mit einer Effizienz von 60% und aufwärts mehr als doppelt so effizient wie fossile Energieträger.\nLetztere haben zwar auf dem Papier eine hohe Energiedichte aber eine grottige Effizienz wenn es um alles andere als reine Wärmeerzeugung geht: beispie",
+              "ChildText": "@User_31934 Für Solarzellen werden große Mengen seltene Erden benötigt, die nicht umfangreich recycelt werden können. Sonnenenergie mag \"unendlich\" sein, Solaranlagen sind es aber nicht. Man muss dafür Silicium, Kadmium, Blei etc. abbauen, welches limitierte Bodenschätze sind, genau wie Kohle, Gas e",
+              "true_label": "Against",
+              "pred_label": "Support"
+            }
+          ]
+        },
+        "1->0": {
+          "true_label": "Neutral",
+          "pred_label": "Against",
+          "count": 76,
+          "examples": [
+            {
+              "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+              "ParentText": "Und was macht ihr mit den deutschen Sozialbetrügern??",
+              "ChildText": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw.",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "CfIA490rTNQ_UgyHvoLAKvzzMwzc_7x4AaABAg.945e3vEaZg49cGB863izqg",
+              "ParentText": "Nicht auszuhalten, das WIR diese Politiker bezahlen ! \nDANKE AfD! 🇩🇪👍🏻💙",
+              "ChildText": "Wer politiker wird, dank der wähler ,.. der wird für Blödsinn bis ans Lebens Ende großzügig bezahlt.von unseren steuern .ohne Arbeit ,kein Geld. es liegt genug Dreck in den Städten herum .",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "EsOAdVHEYbE_UgxWOAIfov8ZD54IZ4p4AaABAg.9EElQsd6kQp9EFUTzRsfVh",
+              "ParentText": "Und wenn es so weitergeht dann haben wir mehr Migranten als Deutsche in diesen Land",
+              "ChildText": "dann macht halt endlich mal Kinder, ihr Deutsche, statt immer nur die olle Opferrolle und Jammerlappen Schau... aber ihr habt keinen Bock auf Verantwortung...lieber Tinder Dates ausmachen, wenn überhaupt Dates stattfinden. \nKinder? Viel zu teuer, stressig und dreckig...außerdem wer will denn Kinder ",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            }
+          ]
+        },
+        "1->2": {
+          "true_label": "Neutral",
+          "pred_label": "Support",
+          "count": 4,
+          "examples": [
+            {
+              "PairID": "hAB3zYIMF9Y_UgwSOWl6LOTwaRF1jhh4AaABAg.9JsZTExM3ai9JzauxZmCm4",
+              "ParentText": "Sehr gute Rede mit Hand und Fuß und absolut wahr.E-Mobilität ist ein nicht zu Ende gedachtes Gebilde,man sieht nur bei der Vermarktung den geldbringenden Teil des Ganzen .Den kostintensivsten und schädlichsten Teil verschweigt man.Doch kann nicht Jemand diesen widerlichen Zwischenrufern die Schnüss ",
+              "ChildText": "E-Mobilität wurde schon bis zum Ende durchdacht und dann aufgegeben... 1910! 🤔😉😊",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "Hh7sba8b0Oc_UgxJdowRrwsBwcivNQJ4AaABAg.APX4z9DP6DoAQ0sLNkEvqR",
+              "ParentText": "​@KarlHeinzSpockund trotzdem ist Lüge schreiben kein Argument, sondern infantile Gegenreaktion😂 Oh man. Natürlich weißt du es besser als ich, du weißt alles immer besser. Nur dass das ganze Land pleite geht an dem Schwachsinn, weil die Realität eben jeden Schwachsinn aufdeckt. Aber in deinem Kopf gi",
+              "ChildText": "@User_75406 \n\ndu schriebst oben:\n\"ich habe zu recht darauf hingewiesen, dass es real keine hohen Kosten sind\"\n\ndas ist sachlich falsch. du lügst oder du verstehst es nicht, sagte ich bereits oben.\n\ndeine antwort darauf, offenbar weil es dir an sachargumenten fehlt: \n\"und trotzdem ist Lüge schreiben ",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "XnhWptOoBLQ_Ugz50pU8irMQ-dGXS8J4AaABAg.AR4auYo6OT0AR4cAJFQ-ze",
+              "ParentText": "Warum hat die Linke und die Afd es eigentlich nötig sich ständig hier auf Youtube zu profilieren??? Haben die Beiden sonst nichts zu bieten. Keine andere Partei hat das nötig.",
+              "ChildText": "Es ist genau umgekehrt: Die anderen Parteien haben es noch nicht verstanden, wie sie junge Wähler erreichen können.",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            }
+          ]
+        },
+        "2->0": {
+          "true_label": "Support",
+          "pred_label": "Against",
+          "count": 26,
+          "examples": [
+            {
+              "PairID": "Kb2zh_XQMQ8_UgwadljY0lk181hdH2B4AaABAg.A8WwRM3avNSA9nR21c6FI5",
+              "ParentText": "Na klar hilft es gegen Wohnungsmangel.....",
+              "ChildText": "Schon vor 2015 wurden die Sozialwohnungen von 4 mio auf 1 mio reduziert... Ich erinnere mich noch gut wie ab ca 2009 die Mieten explodiert sind... Aber ja... Die Einwanderer sind Schuld... 🙄",
+              "true_label": "Support",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "oOgc61xpF4Q_UgzmNFGyjBezW9YMUqZ4AaABAg.A8dgXLUJ9jYA93Lr-AB0MZ",
+              "ParentText": "Die Menschen mit Einwanderungsgeschichte die hier arbeiten und sich integriert haben sind nicht das Problem. Gruß von einem AFDler",
+              "ChildText": "Dann versteh ich nicht warum du AFD wählst. Zum einen Hetzt die AFD gegen alle die sie als nicht Deutsch empfindet und zum anderen würden die Vorschläge der AFD den wenigen die dann noch bleiben dürften die Integration massiv erschweren.",
+              "true_label": "Support",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "EsOAdVHEYbE_UgwbrtXmQpJMH5WLz9p4AaABAg.9EE1--dWYu29EF5_DMqPmu",
+              "ParentText": "Sehr gute Rede Herr Gauland\nWarum wird das unflätige Verhalten derjenigen,die die Wahrheit nicht hören wollen ,vom Bundestagspräsident gerügt.",
+              "ChildText": "Das war ne richtige kackrede (sorry für den ausdruck) so lustlos... so wie die AfD halt ne, die hat doch keine anderen hobbys als uns Deutschland zu versauen. Und unsere Zukunft auch",
+              "true_label": "Support",
+              "pred_label": "Against"
+            }
+          ]
+        },
+        "2->1": {
+          "true_label": "Support",
+          "pred_label": "Neutral",
+          "count": 62,
+          "examples": [
+            {
+              "PairID": "oOk7ori_ExE_UgiUPbgt_pmvXHgCoAEC.8QFFZf3_5Hs8QFVS823yDi",
+              "ParentText": "Man kann auf jedem Haus auch Solarzellen bauen , wenn man will ! Und auf jedem Haus das bringt eine ganze Menge !! #DIELINKE",
+              "ChildText": "Na dann sthet doch schon viel Fläche zur Verfügenung, wenn die Vorraussezung stimmt !",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "EwqXTn3jJnk_Ugz2qkXp8vWJ-NOs2Kd4AaABAg.9NnzZYLC0M89Oe8yMCOR4u",
+              "ParentText": "@User_284478 Oh doch... sehr sehr viele... da hat sich in den 40 Jahren, in denen ich von meinem alten Standpunkt abrücken musste, einiges angesammelt... 😎",
+              "ChildText": "@User_173314 du hast aber noch nichts überzeugendes gebracht, die dubiose Studie die du aufgezeigt hast konnte ich ja schon widerlegen, alles andere sind seltsame Spekulationen/Verschwörungstheorien, die keinen Sinn ergeben",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "R4LRqEazb18_UgyL3L1dQQSUJ5P2eEh4AaABAg.9_fo9neqPPI9aL5u6Y0wwW",
+              "ParentText": "Das ist Ökosozialismus in Reinkultur. \nDeshalb AfD meine Partei für Deutschland",
+              "ChildText": "Steckt auch was hinter Ihrem ausgedachten Begriff \"Ökosozialismus\"?",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            }
+          ]
+        }
+      }
+    },
+    "bert_xlmr": {
+      "macro_f1": 0.5429,
+      "n_test": 1088,
+      "labels": [
+        "Against",
+        "Neutral",
+        "Support"
+      ],
+      "confusion_matrix": [
+        [
+          173,
+          138,
+          31
+        ],
+        [
+          108,
+          499,
+          25
+        ],
+        [
+          29,
+          50,
+          35
+        ]
+      ],
+      "offdiag_examples": {
+        "0->1": {
+          "true_label": "Against",
+          "pred_label": "Neutral",
+          "count": 138,
+          "examples": [
+            {
+              "PairID": "61XL3yHFuPg_Ugx26kYVqHdlNm_YtiB4AaABAg.9E-D65Q0vcH9E3kPcE9HgD",
+              "ParentText": "@User_310043 na ich weéss. Vor Jahren fuhr Papst Johannes nach Afrika und predigte dort GEGEN Kondome,mehr muss man dazu nicht schreiben!",
+              "ChildText": "@User_168962 \nJa, natürlich hat es etwas geholfen,\ndie Bevölkerung hat sich seitdem etwa verdoppelt!\nDiesen Überschuss bekommen wir nun als Geschenk in Gestalt\n junger Testosteronäffchen.",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0__t6hMyQ",
+              "ParentText": "@User_148787 \n\nTotalitarismus ist Totalitarismus!\nDer NationalSOZIALISMUS hatte auch Aspekte der Diktatur des Proletariats. Daher bleibt auf Parteilinie!\n\"Impfen macht frei!\"\nWeiß doch jeder! Stand ja auch schon über den Eingängen zu den Konzentrationslagern. Oder stand da \"Duschen macht frei!\" ? Eg",
+              "ChildText": "@User_169825 hmmm steht doch jetzt überall in den Main stream Medien. Aber wir wissen ja alle wie ihr Kommunisten denkt und wieviele tote auf eure Kappe gehen.",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21DGgBARq",
+              "ParentText": "Habe den Eindruck das viele unserer Bundesminster keine Ahnung von Ihren Job haben .Es wird immer schlimmer mit dem Versagen die unsere Volksvertreter sind.",
+              "ChildText": "Dann wählt doch endlich die AFD die brauchen jetzt viele viele Stimmen.",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            }
+          ]
+        },
+        "0->2": {
+          "true_label": "Against",
+          "pred_label": "Support",
+          "count": 31,
+          "examples": [
+            {
+              "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+              "ParentText": "Die AFD ist für mich die einzige Partei die seit Jahren vor diesen Themen gewarnt haben, nun bewahrheitet sich alles... Deshalb nur noch die AFD!",
+              "ChildText": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten.",
+              "true_label": "Against",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gULNSkGThM",
+              "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+              "ChildText": "Merz, warum machst du einen Rückzieher? Steh doch dazu. Das sind Tatsachen die man nicht weg quatschen kann.",
+              "true_label": "Against",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gUaxvKiMCa",
+              "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+              "ChildText": "me, von der Strasse ist Merz ganz gewiss nicht.\nWar leitend bei Blackrock,WEF\nHatte in seiner aktiven Zeit im Bundestag 150(!!!!) Neben/Beraterjobs,\nSieht in den erneuerbaren Energien große Chancen (für Black Rock)",
+              "true_label": "Against",
+              "pred_label": "Support"
+            }
+          ]
+        },
+        "1->0": {
+          "true_label": "Neutral",
+          "pred_label": "Against",
+          "count": 108,
+          "examples": [
+            {
+              "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gUMiu26MsI",
+              "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+              "ChildText": "Der BlackRock - Außendienstmitarbeiter tut was man ihm sagt 🤮🤮😡😡",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+              "ParentText": "Und was macht ihr mit den deutschen Sozialbetrügern??",
+              "ChildText": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw.",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "26XwmBX8_9U_Ugx_6DLbA0XXXzGFgJF4AaABAg.AStMfoTptZUAStMt0vg54W",
+              "ParentText": "Sehr gute Berichterstattung von Herrn Hilse. Weg mit den Altparteien und Kriegstreibern. Raus aus der EU und WHO und UNO unbedingt Die AFD hat die besten Politiker für Deutschland Punkt.",
+              "ChildText": "und auch raus aus der Nato",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            }
+          ]
+        },
+        "1->2": {
+          "true_label": "Neutral",
+          "pred_label": "Support",
+          "count": 25,
+          "examples": [
+            {
+              "PairID": "W_ruQlie9ag_UgxUbVHXF3kamfRzVyN4AaABAg.9OPJQoeC6969OPN0bQlIa4",
+              "ParentText": "Wunderbar, muss ich mir merken: „Gendersprache ist Idiotensprache!“ Super! Drei Worte, alles ausgedrückt!",
+              "ChildText": "Ja, dümmer geht es nicht. Und so eine Aussage in einer Debatte um das Klimaschutzgesetz. Ich bin mir sicher, dass du es dir auch deswegen gut merken kannst, weil die Aussage nur aus drei Worten besteht. Mehr ist vermutlich auch unzumutbar.",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "G3SEJEG5nOM_UgziwbJMYe4XQm825J94AaABAg.9aS85Xy1Xyp9bCqN0aTkjx",
+              "ParentText": "@User_376750 Mal im Ernst, mit dem Auto braucht er vlt 15 min. Mit dem Fahrrad 25 min. Macht also gerade Mal 10 min Ersparnis. Und deswegen gleich ein Auto kaufen? Ich weiß ja nicht, ob das das Geld wert ist.",
+              "ChildText": "@User_162582 im ersten beitrag schrieb ich, dass das erreichen seines ausbuldungsbetrieb per öpnv je weg rund eine stunde dauert. danach schrieb ich, das er mit dem pkw gesamt 1,5h zeit spart.\ndas heutige wetter ... 28 grad und schwüle luft. hättest du lust mit dem rad zu fahren? ich nicht. btw, er ",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "hAB3zYIMF9Y_UgwSOWl6LOTwaRF1jhh4AaABAg.9JsZTExM3ai9JzauxZmCm4",
+              "ParentText": "Sehr gute Rede mit Hand und Fuß und absolut wahr.E-Mobilität ist ein nicht zu Ende gedachtes Gebilde,man sieht nur bei der Vermarktung den geldbringenden Teil des Ganzen .Den kostintensivsten und schädlichsten Teil verschweigt man.Doch kann nicht Jemand diesen widerlichen Zwischenrufern die Schnüss ",
+              "ChildText": "E-Mobilität wurde schon bis zum Ende durchdacht und dann aufgegeben... 1910! 🤔😉😊",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            }
+          ]
+        },
+        "2->0": {
+          "true_label": "Support",
+          "pred_label": "Against",
+          "count": 29,
+          "examples": [
+            {
+              "PairID": "EsOAdVHEYbE_UgwbrtXmQpJMH5WLz9p4AaABAg.9EE1--dWYu29EF5_DMqPmu",
+              "ParentText": "Sehr gute Rede Herr Gauland\nWarum wird das unflätige Verhalten derjenigen,die die Wahrheit nicht hören wollen ,vom Bundestagspräsident gerügt.",
+              "ChildText": "Das war ne richtige kackrede (sorry für den ausdruck) so lustlos... so wie die AfD halt ne, die hat doch keine anderen hobbys als uns Deutschland zu versauen. Und unsere Zukunft auch",
+              "true_label": "Support",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "tMHZe4hakc0_UgwOc1U2-MNMqi5T5YB4AaABAg.91T-RTAsad291UPMTz6SKN",
+              "ParentText": "@User_76312 typisch linksgruenhoering, die Deutschlandzerstoerer, aber nachher nicht heulen und nach Mama rufen, bzw. schreien, denn was anderes können diese Rotfaschisten ja nicht.",
+              "ChildText": "@User_366134 Oh Gott was soll man da noch sagen.\nHier ist alles bestätigt was Deutschland über die AfD denkt.\nKeine Argumente, nur Beleidigungen und Sätze wie aus dem AfD Deppen Baukasten.\nImmer dieselben 0815 Dinge wie linksversifft, Links-Grün bla bla bla. \nJeder der nicht ihrer Meinung ist ist di",
+              "true_label": "Support",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "kqqgFHSsJs4_Ugym5jIXygwbeNU2c2d4AaABAg.AJM0KKvqFB-AKzmTJ8-DyC",
+              "ParentText": "Sehr gute Rede, schade, dass den Grünen die Fähigkeit fehlt, den Inhalt zu verstehen",
+              "ChildText": "Es ist wirklich Unsinn, was er erzählt. Es ist wirklich erschreckend, dass das Leute glauben.",
+              "true_label": "Support",
+              "pred_label": "Against"
+            }
+          ]
+        },
+        "2->1": {
+          "true_label": "Support",
+          "pred_label": "Neutral",
+          "count": 50,
+          "examples": [
+            {
+              "PairID": "oOk7ori_ExE_UgiUPbgt_pmvXHgCoAEC.8QFFZf3_5Hs8QFVS823yDi",
+              "ParentText": "Man kann auf jedem Haus auch Solarzellen bauen , wenn man will ! Und auf jedem Haus das bringt eine ganze Menge !! #DIELINKE",
+              "ChildText": "Na dann sthet doch schon viel Fläche zur Verfügenung, wenn die Vorraussezung stimmt !",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "kqqgFHSsJs4_UgyI5yyvOGuHY8Z7LtR4AaABAg.ATGRXFIVeOGATHZiIg2xgW",
+              "ParentText": "Manuel Krauthausen hat so recht, Die Links - Grünen wollen nur Deutschland ruinieren und für mich Volksverräter. juristisch alle Anzeigen.",
+              "ChildText": "WAS DU GERADE REALISIERT HAST IST REINE BOSHEIT WIE NEID WEIL GRÜNEN EINFACH MEHR KULTUR BESITZEN UND NOT LAST BUT NOT LEAST ....INTELIGENZQUTIENT WAS  MAN HIER MIT DIESEM AFD MANN DER ANSCHEINEND VOM SPIELZIMMER ERFAHRUNGEN ERZÄHLT ...FURCHTBAR\nGEHE MAL ZU EINEM INTELLEKTUELLEN, DER  DIR GENAU ERZÄ",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "gC-kDfnA68c_UgybHLKLqCDWbGidwbd4AaABAg.9-67RZLO6Ez9-Bl46e2IkY",
+              "ParentText": "Marci Leiser Schule muss objektiv bleiben. Alles andere ist Propaganda.",
+              "ChildText": "@User_335762 Komisch, dass es in allen Gymnasien im Landkreis so ist. Und dem Rechtspopulismus der AfD glauben zu schenken zeigt, dass sie sich keine eigene Meinung gebildet haben sondern einfach blind hinterherlaufen.",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            }
+          ]
+        }
+      }
+    },
+    "bert_gbert": {
+      "macro_f1": 0.5272,
+      "n_test": 1088,
+      "labels": [
+        "Against",
+        "Neutral",
+        "Support"
+      ],
+      "confusion_matrix": [
+        [
+          158,
+          152,
+          32
+        ],
+        [
+          102,
+          497,
+          33
+        ],
+        [
+          35,
+          43,
+          36
+        ]
+      ],
+      "offdiag_examples": {
+        "0->1": {
+          "true_label": "Against",
+          "pred_label": "Neutral",
+          "count": 152,
+          "examples": [
+            {
+              "PairID": "Ff3fFj3msiY_Ugz40IvQeRCchgTwQnN4AaABAg.9I_X-j5H8D-9I_Yf4iaH2z",
+              "ParentText": "Herr Kotré irrt, Kernenergie IST schmutzig, gefährlich UND kann bei Mißbrauch tödlich enden!",
+              "ChildText": "Genauso wie  mit dem Gabel und Küchenmesser falche nutzen",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gULNSkGThM",
+              "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+              "ChildText": "Merz, warum machst du einen Rückzieher? Steh doch dazu. Das sind Tatsachen die man nicht weg quatschen kann.",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0__t6hMyQ",
+              "ParentText": "@User_148787 \n\nTotalitarismus ist Totalitarismus!\nDer NationalSOZIALISMUS hatte auch Aspekte der Diktatur des Proletariats. Daher bleibt auf Parteilinie!\n\"Impfen macht frei!\"\nWeiß doch jeder! Stand ja auch schon über den Eingängen zu den Konzentrationslagern. Oder stand da \"Duschen macht frei!\" ? Eg",
+              "ChildText": "@User_169825 hmmm steht doch jetzt überall in den Main stream Medien. Aber wir wissen ja alle wie ihr Kommunisten denkt und wieviele tote auf eure Kappe gehen.",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            }
+          ]
+        },
+        "0->2": {
+          "true_label": "Against",
+          "pred_label": "Support",
+          "count": 32,
+          "examples": [
+            {
+              "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gUaxvKiMCa",
+              "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+              "ChildText": "me, von der Strasse ist Merz ganz gewiss nicht.\nWar leitend bei Blackrock,WEF\nHatte in seiner aktiven Zeit im Bundestag 150(!!!!) Neben/Beraterjobs,\nSieht in den erneuerbaren Energien große Chancen (für Black Rock)",
+              "true_label": "Against",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "Ff3fFj3msiY_UgyLH__guffNnkyLg694AaABAg.9IZt01hXO9V9I_Y1KZNxFq",
+              "ParentText": "@User_294744 Konzerne die viel Strom verbrauchen bezahlen in Deutschland ihren Strom nicht. Da mit sie Wettbewerbsfähig bleiben. Konzernmafia halt. Genauso Amerikanische Konzerne die in Deutschland keine Steuern zahlen müssen. Die Amis hätten die Atombomben lieber in Deutschland reinschmeißen sollen",
+              "ChildText": "@User_23342 Das ist kompletter Unsinn. \n\nEs ist lediglich so, dass Großverbraucher von den ganzen Öko-Unsinnsumlagen (EEG etc.) befreit sind, da es sonst schon sehr viele Unternehmen in Deutschland gar nicht mehr gäbe. Das betrifft aber auch schon kleine Unternehmen, wie Metallgießereien.\n\nMit dem w",
+              "true_label": "Against",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "tMHZe4hakc0_UgypwfzUBnNu6CuYVLF4AaABAg.91cVtUz0xgq91duigqUDCm",
+              "ParentText": "Der deutsche Diesel ist mit seinem supermodernem Abgasreinigungsverfahren mit unter das Umweltfreundlichste was die europäische-, angeführt von der deutschen Wirtschaft für die Menschen getan hat.",
+              "ChildText": "Vollkommen richtig: um so schlimmer den Dieselmotor gleich sofort abzusägen. Die Wähler werden das hoffentlich erkennen von welchen Parteien das kam.",
+              "true_label": "Against",
+              "pred_label": "Support"
+            }
+          ]
+        },
+        "1->0": {
+          "true_label": "Neutral",
+          "pred_label": "Against",
+          "count": 102,
+          "examples": [
+            {
+              "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+              "ParentText": "Und was macht ihr mit den deutschen Sozialbetrügern??",
+              "ChildText": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw.",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "26XwmBX8_9U_Ugx_6DLbA0XXXzGFgJF4AaABAg.AStMfoTptZUAStMt0vg54W",
+              "ParentText": "Sehr gute Berichterstattung von Herrn Hilse. Weg mit den Altparteien und Kriegstreibern. Raus aus der EU und WHO und UNO unbedingt Die AFD hat die besten Politiker für Deutschland Punkt.",
+              "ChildText": "und auch raus aus der Nato",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f-hF92kOv",
+              "ParentText": "@User_61760 die nicht Arbeiten brauchen ......Und wenn sie dann 57 Jahre sind bekommen sie die Grundsicherung wo der Deutsche 45 Jahre Malochen muss dafür",
+              "ChildText": "@User_03791 Das eigene Volk bekommt etwa 150mrd durch das Sozialsystem. Und da ist bei weitem nicht alles mit eingerechnet.",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            }
+          ]
+        },
+        "1->2": {
+          "true_label": "Neutral",
+          "pred_label": "Support",
+          "count": 33,
+          "examples": [
+            {
+              "PairID": "ON0xT0rBeds_UgxepXzSztdk4MoyGJt4AaABAg.ARtJB7RL1R5ARtTss-lpmR",
+              "ParentText": "Und was ist mit den über Eine Million Menschen die für ihr Land auf die Straße gehen und habt ihr darüber nachgedacht wer da gegen die Regierung demonstriert das der Mossad der Israelis das angezettelt hat.\nLeute wie wäre es wenn ihr euch um Deutschland kümmert, hier wird die Opposition bekämpft abe",
+              "ChildText": "du bist ja komisch, alle rechtsradikalen sollten das mal mitmachen. schon das rumgeheule von rechts als ein paar Tage Stromausfall in Berlin war . In  der Ukraine hats mal  unter -20 Grad. \nDie Menschen in Krisengebieten haben es verdient, egal wo, dass man zumindest das macht was möglich ist",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "ON0xT0rBeds_UgyIx2om1Jz0ZTi0Eyt4AaABAg.ARtQJZqrFmoARtSnjXvU3V",
+              "ParentText": "Wie wär's denn mal mit Waffenlieferungen an die Demonstranten/Opposition!?\n--> würde mehr bringen als lauwarme Worte!",
+              "ChildText": "Ja, genau! Sollen sich alle tot metzeln oder was?\nWas ist das denn für ein blöder Kommentar!\nMan sollte das dringend auf anderem Wege lösen!\nGing ja früher auch immer wieder. Nur heutzutage scheint das gar nicht mehr versucht zu werden.",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "W_ruQlie9ag_UgxUbVHXF3kamfRzVyN4AaABAg.9OPJQoeC6969OPN0bQlIa4",
+              "ParentText": "Wunderbar, muss ich mir merken: „Gendersprache ist Idiotensprache!“ Super! Drei Worte, alles ausgedrückt!",
+              "ChildText": "Ja, dümmer geht es nicht. Und so eine Aussage in einer Debatte um das Klimaschutzgesetz. Ich bin mir sicher, dass du es dir auch deswegen gut merken kannst, weil die Aussage nur aus drei Worten besteht. Mehr ist vermutlich auch unzumutbar.",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            }
+          ]
+        },
+        "2->0": {
+          "true_label": "Support",
+          "pred_label": "Against",
+          "count": 35,
+          "examples": [
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9jyn8XZ11V",
+              "ParentText": "@User_40335 Zum Beispiel, Grenzen schließen/sichern und sich anschließend zuerst um das Wohl der einheimischen Bevölkerung kümmern ???",
+              "ChildText": "​@User_79852\n\nKlappt ja in Ungarn gut, den leuten gehts so gut. Oder den Ethnostaat Japan, mit 200%er verschuldung. Ach. Sowas löst wohl keine Probleme? Und was machst du wenn leute trotzdem noch fliehen? Und wer bist du zu sagen du gehörst hier her? Eine welt ohne grenzen wäre doch anstrebenswert!",
+              "true_label": "Support",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "Kb2zh_XQMQ8_UgwadljY0lk181hdH2B4AaABAg.A8WwRM3avNSA9nR21c6FI5",
+              "ParentText": "Na klar hilft es gegen Wohnungsmangel.....",
+              "ChildText": "Schon vor 2015 wurden die Sozialwohnungen von 4 mio auf 1 mio reduziert... Ich erinnere mich noch gut wie ab ca 2009 die Mieten explodiert sind... Aber ja... Die Einwanderer sind Schuld... 🙄",
+              "true_label": "Support",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "oOgc61xpF4Q_UgzmNFGyjBezW9YMUqZ4AaABAg.A8dgXLUJ9jYA93Lr-AB0MZ",
+              "ParentText": "Die Menschen mit Einwanderungsgeschichte die hier arbeiten und sich integriert haben sind nicht das Problem. Gruß von einem AFDler",
+              "ChildText": "Dann versteh ich nicht warum du AFD wählst. Zum einen Hetzt die AFD gegen alle die sie als nicht Deutsch empfindet und zum anderen würden die Vorschläge der AFD den wenigen die dann noch bleiben dürften die Integration massiv erschweren.",
+              "true_label": "Support",
+              "pred_label": "Against"
+            }
+          ]
+        },
+        "2->1": {
+          "true_label": "Support",
+          "pred_label": "Neutral",
+          "count": 43,
+          "examples": [
+            {
+              "PairID": "oOk7ori_ExE_UgiUPbgt_pmvXHgCoAEC.8QFFZf3_5Hs8QFVS823yDi",
+              "ParentText": "Man kann auf jedem Haus auch Solarzellen bauen , wenn man will ! Und auf jedem Haus das bringt eine ganze Menge !! #DIELINKE",
+              "ChildText": "Na dann sthet doch schon viel Fläche zur Verfügenung, wenn die Vorraussezung stimmt !",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "kqqgFHSsJs4_UgyI5yyvOGuHY8Z7LtR4AaABAg.ATGRXFIVeOGATHZiIg2xgW",
+              "ParentText": "Manuel Krauthausen hat so recht, Die Links - Grünen wollen nur Deutschland ruinieren und für mich Volksverräter. juristisch alle Anzeigen.",
+              "ChildText": "WAS DU GERADE REALISIERT HAST IST REINE BOSHEIT WIE NEID WEIL GRÜNEN EINFACH MEHR KULTUR BESITZEN UND NOT LAST BUT NOT LEAST ....INTELIGENZQUTIENT WAS  MAN HIER MIT DIESEM AFD MANN DER ANSCHEINEND VOM SPIELZIMMER ERFAHRUNGEN ERZÄHLT ...FURCHTBAR\nGEHE MAL ZU EINEM INTELLEKTUELLEN, DER  DIR GENAU ERZÄ",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "1Nyff2B3XzM_UgxObxM_-YJ7pGA10yl4AaABAg.AM4lU4hVdRZAMLZJ_5dQJX",
+              "ParentText": "Kapitalismus und Nachhaltigkeit sind nicht vereinbar. Auf zum Sozialismus! 🚩🚩✊",
+              "ChildText": "Auf jeden Fall. Er muss aber demokratisch bleiben!",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            }
+          ]
+        }
+      }
+    },
+    "llm_gemma4_31b_full_instructions_zero_shot": {
+      "macro_f1": 0.7927,
+      "n_test": 1088,
+      "labels": [
+        "Against",
+        "Neutral",
+        "Support"
+      ],
+      "confusion_matrix": [
+        [
+          269,
+          62,
+          11
+        ],
+        [
+          58,
+          534,
+          40
+        ],
+        [
+          4,
+          17,
+          93
+        ]
+      ],
+      "offdiag_examples": {
+        "0->1": {
+          "true_label": "Against",
+          "pred_label": "Neutral",
+          "count": 62,
+          "examples": [
+            {
+              "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0__t6hMyQ",
+              "ParentText": "@User_148787 \n\nTotalitarismus ist Totalitarismus!\nDer NationalSOZIALISMUS hatte auch Aspekte der Diktatur des Proletariats. Daher bleibt auf Parteilinie!\n\"Impfen macht frei!\"\nWeiß doch jeder! Stand ja auch schon über den Eingängen zu den Konzentrationslagern. Oder stand da \"Duschen macht frei!\" ? Eg",
+              "ChildText": "@User_169825 hmmm steht doch jetzt überall in den Main stream Medien. Aber wir wissen ja alle wie ihr Kommunisten denkt und wieviele tote auf eure Kappe gehen.",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "O-2CNQg69zo_UgzAc3YgLTkChG6swbB4AaABAg.9pp7_WAwN4D9pqIrpvu9O4",
+              "ParentText": "Wieder eine hervorragende Rede von Karsten!Die Versagerin und Küchenhilfe KGE kann man einfach  nicht mehr für voll nehmen!",
+              "ChildText": "Küchenhilfen leisten einen wertvollen Beitrag zur Gesellschaft... Die Dame im Bundestag nicht. 😅",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "TcEuuL6iTF0_Ugx41koHCQOP_Qd6sVl4AaABAg.9RuZJoJaj0h9Rua0o2eGT4",
+              "ParentText": "Was denn?",
+              "ChildText": "@User_126484 der 12 Jährige weiß das kommt , er kann selbständig denken . Er ist kein 🐑 .",
+              "true_label": "Against",
+              "pred_label": "Neutral"
+            }
+          ]
+        },
+        "0->2": {
+          "true_label": "Against",
+          "pred_label": "Support",
+          "count": 11,
+          "examples": [
+            {
+              "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gULNSkGThM",
+              "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+              "ChildText": "Merz, warum machst du einen Rückzieher? Steh doch dazu. Das sind Tatsachen die man nicht weg quatschen kann.",
+              "true_label": "Against",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "Aq7ryGkapuE_Ugxl6IGG5njvTB-Fqzp4AaABAg.9EmXwDHaMJN9IcjeFti6I8",
+              "ParentText": "Tolles junge Mädchen hoffentlich sehen das viele junge Menschen",
+              "ChildText": "Ja ich habe das tatsächlich mit einer Schulklasse durchgenommen das Video. Das Thema war PCR und DNA und dieser Vortrag ist ein wunderbares Beispiel für schlechte wissenschaftliche Arbeit. Die Behauptung, die sie auf stellt können bei genauerem hinsehen und lesen bereits von Oberstufenschülern entta",
+              "true_label": "Against",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "_mRLOtbVa-Q_UgztyvQRM4UQ8ZouBad4AaABAg.91LxJyc7SDr9OFpqm3dXQ_",
+              "ParentText": "Es gibt auch zuviel CO². Sie müssen es sich so vorstellen: Wasser is fürt gut Pflanzen und Bäume. Aber das heißt nicht, dass Pflanzen und [kleine] Bäume, also Setzlinge, nicht übergossen werden können. Gießen Sie mal jeden Tag eine Erdbeer-Pflanze mit einem Liter Wasser, mal schauen, was mit der Pfl",
+              "ChildText": "@User_85454 verstehe das mit dem Wasser und Vergleich CO2 nicht. sollten wir 5 % CO2 haben, wäre die Erde wohl ein Dschungel",
+              "true_label": "Against",
+              "pred_label": "Support"
+            }
+          ]
+        },
+        "1->0": {
+          "true_label": "Neutral",
+          "pred_label": "Against",
+          "count": 58,
+          "examples": [
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9eMHiPe7YD",
+              "ParentText": "@User_80778 Die haben alle eine ganz kleine Wohnung.",
+              "ChildText": "@User_00950 Du meinst die Zweitwohnung...für die man 2.000€ abrechnen kann?!",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21z8d-lEI",
+              "ParentText": "Dann wählt doch endlich die AFD die brauchen jetzt viele viele Stimmen.",
+              "ChildText": "@User_264788 meine Stimme haben sie schon immer gehabt.",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "5xv44uRG700_UgzePrnbM9YHn0K2c6d4AaABAg.ACWkmJQYVA3AEiWSvHGt3T",
+              "ParentText": "In welchem Land leben wir denn und für welches Land arbeiten sie?🤔",
+              "ChildText": "Auch ohne die Erinnerung durch die AfD wissen wir, welches Land hier ist und welcher Nation die Staatsbürger angehören. Benötigen Sie etwa die ständige Erinnerung daran?\nDann wäre die AfD allerdings auch nicht richtig, mit der Erinnerungskultur haben die das nicht so.",
+              "true_label": "Neutral",
+              "pred_label": "Against"
+            }
+          ]
+        },
+        "1->2": {
+          "true_label": "Neutral",
+          "pred_label": "Support",
+          "count": 40,
+          "examples": [
+            {
+              "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f-hF92kOv",
+              "ParentText": "@User_61760 die nicht Arbeiten brauchen ......Und wenn sie dann 57 Jahre sind bekommen sie die Grundsicherung wo der Deutsche 45 Jahre Malochen muss dafür",
+              "ChildText": "@User_03791 Das eigene Volk bekommt etwa 150mrd durch das Sozialsystem. Und da ist bei weitem nicht alles mit eingerechnet.",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "4oWNKOs5LiM_UgwTCiDovYzQOvyLubB4AaABAg.AUB_DOVJlcgAUDLl2kY56B",
+              "ParentText": "Die AFD erkennt unsere Probleme",
+              "ChildText": "😂 weil Putler sie aufklärt?",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            },
+            {
+              "PairID": "HXEAHjxO1Mc_UgyseGWHr55Dqh3YCjJ4AaABAg.APpZL3ARQbHAPuPM1XEFvP",
+              "ParentText": "@User_81780 die lieben ihren metzger. aber angst haben sie vor dem aktivisten dem das tierwohl am herzen liegt. davor warnt sie der metzger nämlich stets und ständig.",
+              "ChildText": "@User_20874 Der Bauer macht Angst vor den Aktivisten, damit der Metzger schnell mund ungesehen das Bolzenschussgerät ansetzen kann. \n\nTja so funktioniert Kapitallismus und Konservatismus. Und die ganzen Schafe rennen den Metzger hinterher weil er Ihn Futter verspricht, vor den Bolzenschussgerät.",
+              "true_label": "Neutral",
+              "pred_label": "Support"
+            }
+          ]
+        },
+        "2->0": {
+          "true_label": "Support",
+          "pred_label": "Against",
+          "count": 4,
+          "examples": [
+            {
+              "PairID": "SprMcgfgqYI_UgzjOAPun5MyY2RhwlR4AaABAg.9WrDG5rx7NN9Wu5a6N5rrI",
+              "ParentText": "Das muss für die Grünen sehr schmerzhaft sein. 🤣🤣",
+              "ChildText": "Solange die Endlagerfrage nicht geklärt ist, ist diese Technologie abzulehnen. Da kann Herr Kotré noch so sehr Zukunftstechnologien ohne diese Problematik herbeifabulieren.",
+              "true_label": "Support",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "Hh7sba8b0Oc_UgxJdowRrwsBwcivNQJ4AaABAg.APX4z9DP6DoAPZkRnuGuYa",
+              "ParentText": "@User_15378 Ich bin kein Führsprecher für französische KKW. Das unterstellst du aber. Und nein, es war kein Glück, dass kein deutsches hoch gegangen ist, es war eine technische und regulatorische Leistung, in der wir weltweit führend waren. Und deine irrationale Angst hatte ich schon angesprochen, d",
+              "ChildText": "@User_75406 \nnochmal zu: \"alle bauen kkws\"\nquelle: iaea (international atomic energy agency)\ndort: \"pris\"=power reactor information systems....\ndort wähle die rubrik \"under construction\":\nwer baut lt dieser datenbank zur zeit kkws in europa:\ngroßbritannien: 2\nslowakei 1\nukraine 2\ntürkei 4\nsonst kein",
+              "true_label": "Support",
+              "pred_label": "Against"
+            },
+            {
+              "PairID": "ktDLL7nyW8A_UgwC8V9ohdWt72pWZu14AaABAg.A6uUe-beWE0ADhtguU_lET",
+              "ParentText": "Wie viele hat sich bei sich zu Hause aufgenommen?",
+              "ChildText": "@User_36819 wie viele arme Rentner hast du bei dir aufgenommen?",
+              "true_label": "Support",
+              "pred_label": "Against"
+            }
+          ]
+        },
+        "2->1": {
+          "true_label": "Support",
+          "pred_label": "Neutral",
+          "count": 17,
+          "examples": [
+            {
+              "PairID": "gC-kDfnA68c_UgybHLKLqCDWbGidwbd4AaABAg.9-67RZLO6Ez9-Bl46e2IkY",
+              "ParentText": "Marci Leiser Schule muss objektiv bleiben. Alles andere ist Propaganda.",
+              "ChildText": "@User_335762 Komisch, dass es in allen Gymnasien im Landkreis so ist. Und dem Rechtspopulismus der AfD glauben zu schenken zeigt, dass sie sich keine eigene Meinung gebildet haben sondern einfach blind hinterherlaufen.",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "4oWNKOs5LiM_UgwZMQPfG9BsRwS7nb54AaABAg.AUAnCh7p_ViAUE7nA3Kcq-",
+              "ParentText": "Naja, Bürgerbeteiligung und direkt anfangen zu bauen ist doch ein Widerspruch.",
+              "ChildText": "Das muss es nicht. Es lang ja ein Blick in die sehr pragmatischen Niederlande. Politischer Wille zur Bündelung: Das niederländische Recht versucht, alle Genehmigungen (Umwelt, Bau, Wasser) in einem einzigen Verfahren zu bündeln - Stichwort: Omgevingswet. In D dominieren komplexe, dezentrale Planfest",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            },
+            {
+              "PairID": "ioyfuDqZmZk_UgwUpmkLhPM7oMhFgiJ4AaABAg.AEo6nvOBu2VAEp_pcoBKKT",
+              "ParentText": "Wie die alle gucken und sich denken: \"Fuck, hoffentlich hören meine Wähler diese Argumente nicht. Bei der Wahl brauche ich die kleinen Leute noch, damit ich danach meinen Parteispendern noch mehr Wohlstand zuschustern kann.\"",
+              "ChildText": "Die Gesichter sagen alles 😂 Die wissen halt auch alle, dass Jan recht hat. Der Unterschied zwischen ihm und den anderen ist aber, dass die alle genau diese Milliardäre im Rücken haben die mit Scheinen wedeln.",
+              "true_label": "Support",
+              "pred_label": "Neutral"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

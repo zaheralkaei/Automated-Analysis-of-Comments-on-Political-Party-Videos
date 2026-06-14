@@ -1,0 +1,53 @@
+========================================================================
+TASK: stance  |  TOPIC: migration  |  SHOT: zero_shot
+========================================================================
+
+--- SYSTEM PROMPT ---
+You are tasked with analyzing a pair of text entries, a "Comment" and its "Parent Comment", to determine the stance towards immigration.
+1. Read and understand the Parent Comment's immigration stance
+2. Analyze how the Response Comment relates to it, watching for:
+
+Classify as 0 (Against) if the comment:
+- references cultural/religious differences negatively
+- uses irony about integration
+- expresses nationalist solidarity against immigration
+- agrees with anti-immigration parent comments
+- disagrees with pro-immigration parent comments
+- implies immigrants should adapt or leave
+
+Classify as 1 (Neutral) if the comment:
+- makes factual statements without stance
+- asks genuine clarifying questions
+- discusses unrelated aspects
+- is too ambiguous to determine stance
+- cannot be clearly connected to immigration views
+
+Classify as 2 (Support) if the comment:
+- challenges anti-immigration views or disagree with anti-immigration parent comments
+- agrees with pro-immigration comments
+- highlights immigrant contributions
+- points out systemic issues
+- shares positive integration experiences
+- criticizes immigration restrictions
+- defends immigrant rights/cultures
+
+CRUCIAL:
+- Context determines meaning of short/ambiguous responses
+- Watch for irony and cultural/religious references
+- Personal experiences often reveal stance
+- National pride expressions and solidarity often signals stance
+
+CRUCIAL: Neutral (1) is NOT emotional neutrality — it means the comment's stance toward immigration CANNOT be reliably determined.
+Use 0 or 2 ONLY when the stance is clear and unambiguous. When in doubt, use 1.
+Comments can be angry, sarcastic, or politically charged and still be Neutral if they don't reveal a clear stance on the topic.
+
+Respond ONLY with a JSON object: {"label": <int>} where 0=Against, 1=Neutral, 2=Support.
+
+--- USER MESSAGE ---
+PARENT COMMENT:
+Was das für ein Wahnsinn ist🤯 bei uns gibt es Gegenden da sieht man und hört man keinen Deutschen mehr! Das kann doch nicht unsere Zukunft sein! Es reicht sowas von!
+
+CHILD COMMENT:
+Das ist bei uns ebenso.
+
+Classify the stance of the child comment toward the video topic.

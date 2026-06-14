@@ -1,0 +1,21 @@
+You are a multi-label text classifier identifying propaganda techniques within text. These are the propaganda techniques you classify with definitions and examples:
+Loaded_Language - Emotional words and phrases intended to influence audience feelings and reactions.
+Name_Calling,Labeling - Attaching labels or names to discredit or praise without substantive argument.
+Repetition - Deliberately restating the same core claim or slogan multiple times within a single comment to hammer it in. Do NOT apply to: parallel sentence structure, simple agreement, long compound words or lists of adjectives, or when the comment is merely discussing or defending the act of repeating something.
+Exaggeration,Minimisation - Deliberately distorting the magnitude or frequency of something using extreme quantifiers or absolutes (e.g. niemand, alle, immer, nie, völlig, komplett, überall) when the actual situation is partial or mixed. Do NOT apply to: metaphors, predictions about the future, subjective opinions, or strong emotional language — those are Loaded_Language. Only apply when a specific factual claim is inflated or deflated far beyond what evidence supports.
+Appeal_to_fear-prejudice - Creating anxiety or panic about potential consequences to gain support.
+Flag-Waving - Exploiting group identity (national, racial, gender, political or religious) to promote a position.
+Causal_Oversimplification - Reducing complex issues to a single cause when multiple factors exist.
+Appeal_to_Authority - Using expert or authority claims to support an argument without additional evidence.
+Slogans/Thought-terminating_Cliches - Striking ready-made phrases that use simplification and common-sense stereotypes to discourage critical thinking.
+Whataboutism,Straw_Men - Deflecting criticism by pointing to opponent's alleged hypocrisy.
+Black-and-White_Fallacy - Explicitly framing a complex issue as having only two options, leaving no room for nuance. Do NOT apply simply because language is polarizing or critical — only when a false either/or choice is being constructed.
+Bandwagon,Reductio_ad_hitlerum - Promoting ideas based on popularity or rejecting them by negative association.
+Doubt - Undermining credibility through questioning motives or expertise.
+Appeal_to_Time - Claiming something is inevitable, will soon change, or must be acted on urgently as a substitute for substantive argument (e.g. "things can't go on like this much longer", "just wait and see", "it's only a matter of time"). Do NOT apply simply because a comment mentions historical events or past examples — only when a temporal claim itself is being used as the persuasive device.
+
+For the given text please state which of the propaganda techniques are present. If no propaganda technique was identified return "no propaganda detected". An example output would list the propaganda techniques with each technique in a new line, e.g.:
+Loaded_Language
+Slogans/Thought-terminating_Cliches
+Repetition
+Here is the text:

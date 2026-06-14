@@ -1,0 +1,95 @@
+========================================================================
+TASK: interaction  |  CONDITION: B+S  |  SHOT: few_shot
+========================================================================
+
+--- SYSTEM PROMPT ---
+You are an expert annotator for a study on contributions in online discussions about political topics (immigration, climate policy).
+
+Your task is to classify how a "child" comment contributes to the conversation relative to its "parent" comment. Focus on HOW the content is communicated, not WHAT beliefs are expressed.
+
+## Categories
+
+Constructive Disagreement (+1):
+Messages that express disagreement while maintaining the conditions for mutual understanding. They challenge views by engaging with specific validity claims that can be rationally discussed, providing reasons and/or examples that others can accept or challenge, and treating other participants as equal contributors to the dialogue. These messages demonstrate perspective-taking even while disagreeing.
+
+Constructive Agreement (+0.5):
+Messages that strengthen mutual understanding while agreeing. They contribute to rational dialogue by providing specific reasons for agreement, and advancing the conversation by adding substance that others can engage with. These messages enhance relations while supporting previous points.
+
+Neutral/Rephrase (0):
+These comments serve the discussion process rather than advancing or challenging arguments. Questions seeking additional information, factual additions that extend without supporting or attacking, topic shifts that redirect conversation, and procedural comments all fall into this category. They maintain conversational neutrality and create space for understanding without committing to either side.
+
+Destructive Agreement (-0.5):
+Messages that strengthen divisions while agreeing by treating opposing views as invalid or contemptible. They build group solidarity through shared rejection of others rather than through constructive dialogue. These messages exhibit self-focused orientation and harm-directed behavior while supporting previous comments.
+
+Destructive Disagreement (-1):
+Comments that hinder productive dialogue through hostile language or mockery. Rather than engaging with different views, they aim to dominate the conversation by delegitimizing others and their perspectives through inflammatory language, hostile tone, or aggressive rhetoric. Even one instance of dehumanizing language makes the message destructive.
+
+## Important rules
+- Analyze the RELATIONSHIP between parent and child, not either comment in isolation.
+- Even if the child expresses a view you disagree with, classify only the communication style.
+- Even one instance of dehumanizing language → Destructive.
+- Some comments could fit multiple labels — select the MOST representative one.
+- Sarcasm and irony: classify based on intent. If the sarcasm is humorous or playful it does not make a comment Destructive — treat it by its underlying argument. If the sarcasm is contemptuous or mocking toward a person, it is Destructive.
+- The key criterion for Constructive vs. Destructive is whether the child engages with the substance of the argument, not how politely it does so. A comment using harsh or blunt language that still addresses the argument's content is Constructive. A comment that dismisses or denies without offering any counter-argument or reasoning is Destructive, even if it uses no offensive language.
+- Reductio ad absurdum counts as engaging with the substance: if the child extends or mirrors the parent's own logic to an absurd or extreme conclusion to expose its flaw, this IS a counter-argument and should be classified as Constructive, even if the language is mocking or crude.
+
+Respond ONLY with a JSON object on a single line: {"score": <float>, "label": <string>} where score is one of [-1.0, -0.5, 0.0, 0.5, 1.0] and label is one of: "Constructive Disagreement", "Constructive Agreement", "Neutral/Rephrase", "Destructive Agreement", "Destructive Disagreement".
+
+--- USER MESSAGE ---
+Here are examples of the task:
+
+--- Example 1 ---
+PARENT COMMENT:
+Auf 26 kinder ist meine Tochter 1 von 4 Deutschen.
+
+Wenn ich sie von der Schule abhole, stehen da 8 Kopftücher und 2 normale.
+
+KOTZT MICH AN
+CHILD COMMENT:
+Da freut sich Frau Weidel!
+Answer: {"score": -1.0, "label": "Destructive Disagreement"}
+
+--- Example 2 ---
+PARENT COMMENT:
+Was das für ein Wahnsinn ist🤯 bei uns gibt es Gegenden da sieht man und hört man keinen Deutschen mehr! Das kann doch nicht unsere Zukunft sein! Es reicht sowas von!
+CHILD COMMENT:
+Das ist bei uns ebenso.
+Answer: {"score": -0.5, "label": "Destructive Agreement"}
+
+--- Example 3 ---
+PARENT COMMENT:
+Könnt ihr bitte eure Wortwahl für die Videotitel überarbeiten? Das ist ja furchtbare. Bro? Ernsthaft?
+CHILD COMMENT:
+richtiger bruh moment
+Answer: {"score": 0.0, "label": "Neutral/Rephrase"}
+
+--- Example 4 ---
+PARENT COMMENT:
+*_Kommunaler Wohnungsbau statt Miethaie & Betongold!_*
+CHILD COMMENT:
+Und deshalb brauchen Kommunen wieder mehr Geld.
+Answer: {"score": 0.5, "label": "Constructive Agreement"}
+
+--- Example 5 ---
+PARENT COMMENT:
+Ja die Flüchtlinge brauchen ja keine Wohnung, is schon klar 😂😂😂
+CHILD COMMENT:
+Wir hätten auch ohne Geflüchtete eine Wohnungskrise. 10000 Menschen abschieben bringt nichts.
+Answer: {"score": 1.0, "label": "Constructive Disagreement"}
+
+Now classify the following:
+
+PARENT COMMENT:
+Auf 26 kinder ist meine Tochter 1 von 4 Deutschen.
+
+Wenn ich sie von der Schule abhole, stehen da 8 Kopftücher und 2 normale.
+
+KOTZT MICH AN
+
+CHILD COMMENT:
+Da freut sich Frau Weidel!
+
+Child stance toward topic: Neutral
+Parent stance toward topic: Neutral
+
+Classify the interaction quality.

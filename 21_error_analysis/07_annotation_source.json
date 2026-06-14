@@ -1,0 +1,66 @@
+{
+  "interaction": {
+    "shallow": {
+      "gold_n": 90,
+      "gold_error_rate": 0.4222,
+      "llm_n": 998,
+      "llm_error_rate": 0.3537,
+      "chi2": 1.6832991067559888,
+      "pval": 0.1944866550047428,
+      "dof": 1,
+      "note": "pval < 0.05 => annotation source significantly affects error rate"
+    },
+    "bert": {
+      "gold_n": 90,
+      "gold_error_rate": 0.4778,
+      "llm_n": 998,
+      "llm_error_rate": 0.4128,
+      "chi2": 1.4314414456590743,
+      "pval": 0.2315293378032634,
+      "dof": 1,
+      "note": "pval < 0.05 => annotation source significantly affects error rate"
+    },
+    "llm": {
+      "gold_n": 90,
+      "gold_error_rate": 0.3667,
+      "llm_n": 998,
+      "llm_error_rate": 0.3036,
+      "chi2": 1.5379606223592068,
+      "pval": 0.21492161786150432,
+      "dof": 1,
+      "note": "pval < 0.05 => annotation source significantly affects error rate"
+    }
+  },
+  "stance": {
+    "shallow": {
+      "gold_n": 90,
+      "gold_error_rate": 0.2,
+      "llm_n": 998,
+      "llm_error_rate": 0.3597,
+      "chi2": 9.30050534537833,
+      "pval": 0.0022909065662852775,
+      "dof": 1,
+      "note": "pval < 0.05 => annotation source significantly affects error rate"
+    },
+    "bert": {
+      "gold_n": 90,
+      "gold_error_rate": 0.2111,
+      "llm_n": 998,
+      "llm_error_rate": 0.3627,
+      "chi2": 8.3394635506405,
+      "pval": 0.0038793050605763894,
+      "dof": 1,
+      "note": "pval < 0.05 => annotation source significantly affects error rate"
+    },
+    "llm": {
+      "gold_n": 90,
+      "gold_error_rate": 0.2,
+      "llm_n": 998,
+      "llm_error_rate": 0.1743,
+      "chi2": 0.3737761236759237,
+      "pval": 0.5409531177608052,
+      "dof": 1,
+      "note": "pval < 0.05 => annotation source significantly affects error rate"
+    }
+  }
+}

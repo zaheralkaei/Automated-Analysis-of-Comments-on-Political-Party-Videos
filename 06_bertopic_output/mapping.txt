@@ -1,0 +1,14 @@
+Migration
+Topic	Docs	Keywords
+1	477	migranten, migration, flüchtlinge, asyl, grenzen, illegale
+9	106	extreme rechte, polizei, clans, migranten, rassismus
+11	90	islam, muslime, islamismus, koran
+33	29	massenmigration, syrien, heimat
+35	27	migrationshintergrund, kopftuch
+
+
+Climate/Energy
+Topic	Docs	Keywords
+3	272	co2, klima, energiewende, kernenergie, strom
+4	160	auto, bahn, diesel, verbrennungsmotor, verkehrswende
+36	27	katastrophe, hochwasser, rheinland-pfalz, klimakatastrophe

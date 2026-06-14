@@ -1,0 +1,23 @@
+{
+  "child_len_words": 0.299241,
+  "mention_count": 0.122029,
+  "child_quest_count": 0.111814,
+  "child_avg_word_len": 0.078582,
+  "child_caps_ratio": 0.066941,
+  "vocab_overlap": 0.064664,
+  "len_ratio": 0.056138,
+  "child_first_person_ratio": 0.054381,
+  "sent_neu": 0.054025,
+  "parent_caps_ratio": 0.053843,
+  "sent_pos": 0.052279,
+  "parent_len_words": 0.048764,
+  "child_neg_count": 0.03917,
+  "sent_compound": 0.036754,
+  "word_count_diff": 0.034924,
+  "child_excl_count": 0.030477,
+  "child_ttr": 0.028649,
+  "sent_neg": 0.019105,
+  "child_political_count": 0.012543,
+  "child_intensifier_count": 0.004052,
+  "has_url": 0.0
+}

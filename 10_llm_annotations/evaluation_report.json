@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "n_pairs": 700,
+    "model": "claude-opus-4-6",
+    "prompt_version": "v1.0",
+    "evaluation_date": "2026-06-05T05:55:15.825119+00:00"
+  },
+  "interaction": {
+    "kappa_quadratic": 0.562,
+    "kappa_unweighted": 0.5465,
+    "mae": 0.3657,
+    "pearson_r": 0.5623,
+    "pearson_p": 0.0
+  },
+  "stance": {
+    "kappa": 0.4359,
+    "per_class_f1": {
+      "Against": 0.5153,
+      "Neutral": 0.7979,
+      "Support": 0.5548
+    },
+    "macro_f1": 0.6227,
+    "support": {
+      "Against": 78,
+      "Neutral": 568,
+      "Support": 54
+    }
+  },
+  "parent_stance": {
+    "kappa": 0.4401,
+    "per_class_f1": {
+      "Against": 0.5459,
+      "Neutral": 0.7647,
+      "Support": 0.6457
+    },
+    "macro_f1": 0.6521,
+    "support": {
+      "Against": 109,
+      "Neutral": 538,
+      "Support": 49
+    },
+    "n_evaluated": 696
+  },
+  "techniques": {
+    "per_label_f1": {
+      "Appeal_to_Authority": 0.3714,
+      "Appeal_to_Time": 0.5753,
+      "Appeal_to_fear-prejudice": 0.5792,
+      "Bandwagon,Reductio_ad_hitlerum": 0.1702,
+      "Black-and-White_Fallacy": 0.3333,
+      "Causal_Oversimplification": 0.5472,
+      "Doubt": 0.3946,
+      "Exaggeration,Minimisation": 0.4906,
+      "Flag-Waving": 0.4865,
+      "Loaded_Language": 0.7547,
+      "Name_Calling,Labeling": 0.735,
+      "Repetition": 0.3478,
+      "Slogans/Thought-terminating_Cliches": 0.35,
+      "Whataboutism,Straw_Men": 0.3095
+    },
+    "macro_f1": 0.4604,
+    "hamming_loss": 0.1181
+  }
+}

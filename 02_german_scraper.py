@@ -1,0 +1,209 @@
+# Based on https://github.com/BassiDavide/YouTube_Hybrid_Interactions_Analysis
+# by D. Bassi, M. J. Maggini, R. Vieira and M. Pereira-Fariña,
+# "A Pipeline for the Analysis of User Interactions in YouTube Comments:
+# A Hybridization of LLMs and Rule-Based Methods," 2024 11th International
+# Conference on Social Networks Analysis, Management and Security (SNAMS),
+# Gran Canaria, Spain, 2024, pp. 146-153, doi: 10.1109/SNAMS64316.2024.10883781.
+
+import os
+import re
+import csv
+import json
+from pathlib import Path
+from dotenv import load_dotenv
+from googleapiclient.errors import HttpError
+from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api._errors import (
+    IpBlocked, RequestBlocked, NoTranscriptFound,
+    TranscriptsDisabled, VideoUnavailable, AgeRestricted, PoTokenRequired,
+)
+from utils.api_helpers import build_youtube_client, execute_with_retry
+from utils.jsonl_io import save_jsonl
+
+load_dotenv()
+
+ytt_api = YouTubeTranscriptApi()   
+
+TRANSCRIPT_LANGUAGES = os.getenv("TRANSCRIPT_LANGUAGES", "de,de-DE").split(",")
+BASE_DATA_DIR = Path(os.getenv("BASE_DATA_DIR", "./data"))
+IN_CSV = BASE_DATA_DIR / "01_channel_videos" / "combined_videos.csv"
+OUT_DIR = BASE_DATA_DIR / "02_raw_scraped"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def extract_video_id(url: str):
+    """Adapted verbatim from Scraper_Com&Subs_url.py (Bassi et al. 2024) lines 20-31."""
+    patterns = [
+        r'(?:https?://)?(?:www\.)?(?:youtube\.com/(?:[^/\n\s]+/\S+/|(?:v|e(?:mbed)?)/|\S*?[?&]v=)|youtu\.be/)([a-zA-Z0-9_-]{11})',
+        r'(?:https?://)?(?:www\.)?youtube\.com/shorts/([a-zA-Z0-9_-]{11})',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, url)
+        if match:
+            return match.group(1)
+    return None
+
+
+def fetch_german_transcript(video_id: str):
+    """Try German transcript first (manual or auto), then any language as fallback.
+    IpBlocked / RequestBlocked are re-raised so the caller can stop early.
+    Returns (segments, lang, is_auto).
+    """
+    try:
+        transcript_list = ytt_api.list(video_id)
+
+
+        try:
+            t = transcript_list.find_transcript(TRANSCRIPT_LANGUAGES)
+            segs = list(t.fetch())
+            return segs, t.language_code, t.is_generated
+        except (IpBlocked, RequestBlocked):
+            raise   
+        except Exception:
+            pass
+
+
+        for t in transcript_list:
+            try:
+                segs = list(t.fetch())
+                print(f"  No German transcript, used: {t.language_code}")
+                return segs, t.language_code, t.is_generated
+            except (IpBlocked, RequestBlocked):
+                raise
+            except Exception:
+                continue
+
+        return [], "", False
+
+    except (IpBlocked, RequestBlocked) as e:
+        print(f"  IP BLOCKED ({video_id}): {type(e).__name__} — stopping scraper")
+        raise   
+    except (TranscriptsDisabled, PoTokenRequired):
+        return [], "", False
+    except (VideoUnavailable, AgeRestricted):
+        return [], "", False
+    except NoTranscriptFound:
+        return [], "", False
+    except Exception:
+        return [], "", False
+
+
+def fetch_replies(youtube, comments_file, parent_id: str, thread_id: str, video_id: str):
+    """Adapted verbatim from Scraper_Com&Subs_url.py lines 33-59 (Bassi et al. 2024)."""
+    page_token = None
+    while True:
+        req = youtube.comments().list(
+            part="snippet",
+            parentId=parent_id,
+            maxResults=100,
+            pageToken=page_token,
+            textFormat="plainText",
+        )
+        resp = execute_with_retry(req)
+        for reply in resp.get("items", []):
+            s = reply["snippet"]
+            comments_file.write(json.dumps({
+                "CommentID": reply["id"],
+                "ThreadID": thread_id,
+                "VideoID": video_id,
+                "ParentCommentID": parent_id,
+                "CommentText": s["textDisplay"],
+                "AuthorName": s["authorDisplayName"],
+                "NumberOfLikes": s["likeCount"],
+                "IsReply": "True",
+                "Timestamp": s["publishedAt"],
+            }, ensure_ascii=False) + "\n")
+        page_token = resp.get("nextPageToken")
+        if not page_token:
+            break
+
+
+def is_already_scraped(video_id: str) -> bool:
+    return (OUT_DIR / f"comments_{video_id}.jsonl").exists()
+
+
+def scrape_video(youtube, video_id: str, comments_path: Path, transcript_path: Path):
+    """Adapted from Scraper_Com&Subs_url.py lines 61-116 (Bassi et al. 2024)."""
+    # Transcript
+    segments, lang, is_auto = fetch_german_transcript(video_id)
+    if segments:
+        with open(transcript_path, "w", encoding="utf-8") as tf:
+            for seg in segments:
+                tf.write(json.dumps({
+                    "VideoID": video_id,
+                    "Timestamp": seg.start,
+                    "Transcript": seg.text,
+                    "Language": lang,
+                    "IsAutoGenerated": is_auto,
+                }, ensure_ascii=False) + "\n")
+        print(f"  Transcript: {len(segments)} segments ({lang}, auto={is_auto})")
+    else:
+        print(f"  Transcript: not available")
+
+    # Comments
+    page_token = None
+    comment_count = 0
+    with open(comments_path, "w", encoding="utf-8") as cf:
+        while True:
+            req = youtube.commentThreads().list(
+                part="snippet",
+                videoId=video_id,
+                maxResults=100,
+                pageToken=page_token,
+                order="time",
+                textFormat="plainText",
+            )
+            resp = execute_with_retry(req)
+            for item in resp.get("items", []):
+                thread_id = item["id"]
+                top = item["snippet"]["topLevelComment"]
+                s = top["snippet"]
+                cf.write(json.dumps({
+                    "CommentID": top["id"],
+                    "ThreadID": thread_id,
+                    "VideoID": video_id,
+                    "ParentCommentID": "",
+                    "CommentText": s["textDisplay"],
+                    "AuthorName": s["authorDisplayName"],
+                    "NumberOfLikes": s["likeCount"],
+                    "IsReply": "False",
+                    "Timestamp": s["publishedAt"],
+                }, ensure_ascii=False) + "\n")
+                comment_count += 1
+                if item["snippet"].get("totalReplyCount", 0) > 0:
+                    fetch_replies(youtube, cf, top["id"], thread_id, video_id)
+            page_token = resp.get("nextPageToken")
+            if not page_token:
+                break
+    print(f"  Comments: {comment_count} top-level")
+
+
+def main():
+    youtube = build_youtube_client()
+    with open(IN_CSV, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+
+    print(f"Scraping {len(rows)} videos...")
+    for i, row in enumerate(rows, 1):
+        video_id = extract_video_id(row["url"])
+        if not video_id:
+            print(f"[{i}/{len(rows)}] Cannot parse URL: {row['url']}")
+            continue
+        if is_already_scraped(video_id):
+            print(f"[{i}/{len(rows)}] Already scraped: {video_id}")
+            continue
+        print(f"[{i}/{len(rows)}] {video_id} — {row['title'][:60]}")
+        try:
+            scrape_video(
+                youtube, video_id,
+                OUT_DIR / f"comments_{video_id}.jsonl",
+                OUT_DIR / f"transcripts_{video_id}.jsonl",
+            )
+        except HttpError as e:
+            print(f"  Skipping {video_id}: HTTP {e.resp.status} — {e}")
+
+    print("\nDone.")
+
+
+if __name__ == "__main__":
+    main()

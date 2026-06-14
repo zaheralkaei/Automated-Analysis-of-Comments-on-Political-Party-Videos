@@ -1,0 +1,222 @@
+{
+  "interaction": {
+    "n_test": 1088,
+    "n_correct": 697,
+    "pct_correct": 64.1,
+    "n_errors": 391,
+    "confusion_matrix": {
+      "0": {
+        "0": 167,
+        "1": 55,
+        "2": 12,
+        "3": 0,
+        "4": 31
+      },
+      "1": {
+        "0": 32,
+        "1": 307,
+        "2": 20,
+        "3": 7,
+        "4": 18
+      },
+      "2": {
+        "0": 12,
+        "1": 39,
+        "2": 67,
+        "3": 6,
+        "4": 25
+      },
+      "3": {
+        "0": 2,
+        "1": 22,
+        "2": 5,
+        "3": 11,
+        "4": 17
+      },
+      "4": {
+        "0": 28,
+        "1": 38,
+        "2": 17,
+        "3": 5,
+        "4": 145
+      }
+    },
+    "special_confusion": {
+      "constructive_agree_vs_disagree": 22,
+      "destructive_agree_vs_disagree": 87
+    },
+    "top_errors": [
+      {
+        "PairID": "03PxJ6gmfWo_UgxYbv35TzSEvf2k-a94AaABAg.AIcbe56dNDRAIckscHRsIa",
+        "y_true": 0,
+        "y_pred": 2,
+        "child_text": "​@User_06317😂😂😂 Der war gut..",
+        "parent_text": "Falsch. Wir haben in beiden Wahlgängen geschlossen gegen Merz gestimmt."
+      },
+      {
+        "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACqs34KqMje",
+        "y_true": 4,
+        "y_pred": 3,
+        "child_text": "Ja,denn bei mir in der kleinsten Großstadt Niedersachsen, kostet die  Monatskarte BUS ( wir haben nur Bus) fast 75 € . Nur für die Stadt. 58 € für DEUTSCHLAND.",
+        "parent_text": "Die Ticketpreise bei der Bahn sind eine absolute Frechheit. Teilweise haben sich Streckenpreise im Nahverkehr mehr als verdoppelt in den letzten Jahren. Die Tages-/Ländertickets (gilt ab 9 Uhr, nur bis zur Ländergrenze, etc) sind auch eine Zumutung. Und jetzt wird auch noch das 49€ Ticket 20% teurer"
+      },
+      {
+        "PairID": "26XwmBX8_9U_Ugx_6DLbA0XXXzGFgJF4AaABAg.AStMfoTptZUAStMt0vg54W",
+        "y_true": 3,
+        "y_pred": 2,
+        "child_text": "und auch raus aus der Nato",
+        "parent_text": "Sehr gute Berichterstattung von Herrn Hilse. Weg mit den Altparteien und Kriegstreibern. Raus aus der EU und WHO und UNO unbedingt Die AFD hat die besten Politiker für Deutschland Punkt."
+      },
+      {
+        "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA94nGx4QSte",
+        "y_true": 2,
+        "y_pred": 3,
+        "child_text": "​@User_81021 ein Schulabschluss garantiert keine bessere Arbeit. Es kann nicht unbegrenzt gute Jobs für alle geben. Mein Abi hat mir auch quasi nichts gebracht. Das macht aber Deutschland nicht schlechter. Immerhin wurde der Mindestlohn eingeführt. Der Steuerfreibetrag wurde angehoben.",
+        "parent_text": "​@User_60291 Die Hoffnung stirbt zuletzt, aber sie stirbt. Ich sehe eine schwache Linke, welche in meinen Augen keine gute Oppositionsarbeit macht und sogar häufig rechtspopulistisch wirkt. Ob nun NSDAP oder SED, Ost oder West, arm oder reich, schlau oder dumm, vermutlich ist der Mensch einfach zu p"
+      },
+      {
+        "PairID": "2E4s7MQUIFI_UgzVq_y_0FBjnz9ku8J4AaABAg.A9ekmckEt7jA9fOJ-9Zm0G",
+        "y_true": 2,
+        "y_pred": 0,
+        "child_text": "@User_85067 hä? Was genau meinst du?",
+        "parent_text": "mir kommt das Kotzen bei solchen Tönen.Geh doch nach Hamburg zur Islamismus- ISIS Demo"
+      },
+      {
+        "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21z8d-lEI",
+        "y_true": 2,
+        "y_pred": 1,
+        "child_text": "@User_264788 meine Stimme haben sie schon immer gehabt.",
+        "parent_text": "Dann wählt doch endlich die AFD die brauchen jetzt viele viele Stimmen."
+      },
+      {
+        "PairID": "61XL3yHFuPg_Ugx26kYVqHdlNm_YtiB4AaABAg.9E-D65Q0vcH9E3kPcE9HgD",
+        "y_true": 1,
+        "y_pred": 0,
+        "child_text": "@User_168962 \nJa, natürlich hat es etwas geholfen,\ndie Bevölkerung hat sich seitdem etwa verdoppelt!\nDiesen Überschuss bekommen wir nun als Geschenk in Gestalt\n junger Testosteronäffchen.",
+        "parent_text": "@User_310043 na ich weéss. Vor Jahren fuhr Papst Johannes nach Afrika und predigte dort GEGEN Kondome,mehr muss man dazu nicht schreiben!"
+      },
+      {
+        "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8lpvpF4h1t",
+        "y_true": 0,
+        "y_pred": 1,
+        "child_text": "Worte bringen nichts raus das elende stinkende araberpack.",
+        "parent_text": "Bett, Brot und Seife. Dann hauen sie von alleine ab, wir müssen nicht Milliarden für Rückflieger ausgeben."
+      },
+      {
+        "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+        "y_true": 3,
+        "y_pred": 1,
+        "child_text": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten.",
+        "parent_text": "Die AFD ist für mich die einzige Partei die seit Jahren vor diesen Themen gewarnt haben, nun bewahrheitet sich alles... Deshalb nur noch die AFD!"
+      },
+      {
+        "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9SfjTNoX7wO",
+        "y_true": 1,
+        "y_pred": 0,
+        "child_text": "@User_195857 Sie kann nicht anders...",
+        "parent_text": "@User_124006 warum ignorierst du jetzt meine Frage und stellst den Verdacht auf, dass ich linksextrem sei?"
+      }
+    ]
+  },
+  "stance": {
+    "n_test": 1088,
+    "n_correct": 711,
+    "pct_correct": 65.3,
+    "n_errors": 377,
+    "confusion_matrix": {
+      "0": {
+        "0": 133,
+        "1": 203,
+        "2": 6
+      },
+      "1": {
+        "0": 76,
+        "1": 552,
+        "2": 4
+      },
+      "2": {
+        "0": 26,
+        "1": 62,
+        "2": 26
+      }
+    },
+    "special_confusion": {
+      "against_support_confusion": 32
+    },
+    "top_errors": [
+      {
+        "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+        "y_true": 1,
+        "y_pred": 0,
+        "child_text": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw.",
+        "parent_text": "Und was macht ihr mit den deutschen Sozialbetrügern??"
+      },
+      {
+        "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+        "y_true": 0,
+        "y_pred": 1,
+        "child_text": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂",
+        "parent_text": "@User_80778 \"für die\" genau. Der Staat bezahlt Einfamilienhäuser für Flüchtlinge.  Entweder bist du ein Russenbot oder hast eine Psychose."
+      },
+      {
+        "PairID": "61XL3yHFuPg_Ugx26kYVqHdlNm_YtiB4AaABAg.9E-D65Q0vcH9E3kPcE9HgD",
+        "y_true": 0,
+        "y_pred": 1,
+        "child_text": "@User_168962 \nJa, natürlich hat es etwas geholfen,\ndie Bevölkerung hat sich seitdem etwa verdoppelt!\nDiesen Überschuss bekommen wir nun als Geschenk in Gestalt\n junger Testosteronäffchen.",
+        "parent_text": "@User_310043 na ich weéss. Vor Jahren fuhr Papst Johannes nach Afrika und predigte dort GEGEN Kondome,mehr muss man dazu nicht schreiben!"
+      },
+      {
+        "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+        "y_true": 0,
+        "y_pred": 1,
+        "child_text": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten.",
+        "parent_text": "Die AFD ist für mich die einzige Partei die seit Jahren vor diesen Themen gewarnt haben, nun bewahrheitet sich alles... Deshalb nur noch die AFD!"
+      },
+      {
+        "PairID": "CfIA490rTNQ_UgyHvoLAKvzzMwzc_7x4AaABAg.945e3vEaZg49cGB863izqg",
+        "y_true": 1,
+        "y_pred": 0,
+        "child_text": "Wer politiker wird, dank der wähler ,.. der wird für Blödsinn bis ans Lebens Ende großzügig bezahlt.von unseren steuern .ohne Arbeit ,kein Geld. es liegt genug Dreck in den Städten herum .",
+        "parent_text": "Nicht auszuhalten, das WIR diese Politiker bezahlen ! \nDANKE AfD! 🇩🇪👍🏻💙"
+      },
+      {
+        "PairID": "EsOAdVHEYbE_UgxWOAIfov8ZD54IZ4p4AaABAg.9EElQsd6kQp9EFUTzRsfVh",
+        "y_true": 1,
+        "y_pred": 0,
+        "child_text": "dann macht halt endlich mal Kinder, ihr Deutsche, statt immer nur die olle Opferrolle und Jammerlappen Schau... aber ihr habt keinen Bock auf Verantwortung...lieber Tinder Dates ausmachen, wenn überhaupt Dates stattfinden. \nKinder? Viel zu teuer, stressig und dreckig...außerdem wer will denn Kinder ",
+        "parent_text": "Und wenn es so weitergeht dann haben wir mehr Migranten als Deutsche in diesen Land"
+      },
+      {
+        "PairID": "Ff3fFj3msiY_Ugz40IvQeRCchgTwQnN4AaABAg.9I_X-j5H8D-9I_Yf4iaH2z",
+        "y_true": 0,
+        "y_pred": 1,
+        "child_text": "Genauso wie  mit dem Gabel und Küchenmesser falche nutzen",
+        "parent_text": "Herr Kotré irrt, Kernenergie IST schmutzig, gefährlich UND kann bei Mißbrauch tödlich enden!"
+      },
+      {
+        "PairID": "Kb2zh_XQMQ8_UgwadljY0lk181hdH2B4AaABAg.A8WwRM3avNSA9nR21c6FI5",
+        "y_true": 2,
+        "y_pred": 0,
+        "child_text": "Schon vor 2015 wurden die Sozialwohnungen von 4 mio auf 1 mio reduziert... Ich erinnere mich noch gut wie ab ca 2009 die Mieten explodiert sind... Aber ja... Die Einwanderer sind Schuld... 🙄",
+        "parent_text": "Na klar hilft es gegen Wohnungsmangel....."
+      },
+      {
+        "PairID": "ON0xT0rBeds_UgxepXzSztdk4MoyGJt4AaABAg.ARtJB7RL1R5ARtTss-lpmR",
+        "y_true": 1,
+        "y_pred": 0,
+        "child_text": "du bist ja komisch, alle rechtsradikalen sollten das mal mitmachen. schon das rumgeheule von rechts als ein paar Tage Stromausfall in Berlin war . In  der Ukraine hats mal  unter -20 Grad. \nDie Menschen in Krisengebieten haben es verdient, egal wo, dass man zumindest das macht was möglich ist",
+        "parent_text": "Und was ist mit den über Eine Million Menschen die für ihr Land auf die Straße gehen und habt ihr darüber nachgedacht wer da gegen die Regierung demonstriert das der Mossad der Israelis das angezettelt hat.\nLeute wie wäre es wenn ihr euch um Deutschland kümmert, hier wird die Opposition bekämpft abe"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAEJSZew5gNG",
+        "y_true": 0,
+        "y_pred": 2,
+        "child_text": "sowas passiert wenn man jeden rein lässt!!!!!!!!! die migrationspolitik von den ganz linken und der linken ampel ist migrantenfeindlich. das hat system",
+        "parent_text": "Sprachkurse finanzieren : das kann ich als Sozialarbeiterin bei der Arbeitsbeschaffung nur Unterschreiben. Viele Migranten wollen arbeiten, wir bekommen bei meiner Arbeit jeden Tag mindestens von 3 Leuten Anfrage zur Hilfe beim Arbeit suchen. Die WOLLEN! und jetzt wird aber die Finanzierung der Spra"
+      }
+    ]
+  },
+  "techniques": {
+    "note": "Multi-label task — see metrics.json for per-label F1."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "interaction": {
+    "shallow": {
+      "n_boundary": 590,
+      "n_non_boundary": 498,
+      "boundary_error_rate": 0.3475,
+      "non_boundary_error_rate": 0.3735,
+      "off_by_one_rate": 0.1645,
+      "mannwhitney_stat": 143085.0,
+      "mannwhitney_pval": 0.3728231940349288,
+      "boundary_error_examples": [
+        {
+          "PairID": "26XwmBX8_9U_Ugx_6DLbA0XXXzGFgJF4AaABAg.AStMfoTptZUAStMt0vg54W",
+          "y_true": 3,
+          "y_pred": 2,
+          "raw_score": 0.5,
+          "ChildText": "und auch raus aus der Nato"
+        },
+        {
+          "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA94nGx4QSte",
+          "y_true": 2,
+          "y_pred": 3,
+          "raw_score": 0.0,
+          "ChildText": "​@User_81021 ein Schulabschluss garantiert keine bessere Arbeit. Es kann nicht unbegrenzt gute Jobs für alle geben. Mein Abi hat mir auch quasi nichts gebracht. Das macht aber Deutschland nicht schlec"
+        },
+        {
+          "PairID": "2E4s7MQUIFI_UgzVq_y_0FBjnz9ku8J4AaABAg.A9ekmckEt7jA9fOJ-9Zm0G",
+          "y_true": 2,
+          "y_pred": 0,
+          "raw_score": 0.0,
+          "ChildText": "@User_85067 hä? Was genau meinst du?"
+        }
+      ]
+    },
+    "bert": {
+      "n_boundary": 590,
+      "n_non_boundary": 498,
+      "boundary_error_rate": 0.4441,
+      "non_boundary_error_rate": 0.3876,
+      "off_by_one_rate": 0.1792,
+      "mannwhitney_stat": 155213.0,
+      "mannwhitney_pval": 0.05984436956869738,
+      "boundary_error_examples": [
+        {
+          "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+          "y_true": 1,
+          "y_pred": 4,
+          "raw_score": -0.5,
+          "ChildText": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw."
+        },
+        {
+          "PairID": "26XwmBX8_9U_Ugx_6DLbA0XXXzGFgJF4AaABAg.AStMfoTptZUAStMt0vg54W",
+          "y_true": 3,
+          "y_pred": 1,
+          "raw_score": 0.5,
+          "ChildText": "und auch raus aus der Nato"
+        },
+        {
+          "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA94nGx4QSte",
+          "y_true": 2,
+          "y_pred": 4,
+          "raw_score": 0.0,
+          "ChildText": "​@User_81021 ein Schulabschluss garantiert keine bessere Arbeit. Es kann nicht unbegrenzt gute Jobs für alle geben. Mein Abi hat mir auch quasi nichts gebracht. Das macht aber Deutschland nicht schlec"
+        }
+      ]
+    },
+    "llm": {
+      "n_boundary": 590,
+      "n_non_boundary": 498,
+      "boundary_error_rate": 0.4,
+      "non_boundary_error_rate": 0.2008,
+      "off_by_one_rate": 0.1213,
+      "mannwhitney_stat": 176174.0,
+      "mannwhitney_pval": 1.4215763068447705e-12,
+      "boundary_error_examples": [
+        {
+          "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+          "y_true": 1,
+          "y_pred": 3,
+          "raw_score": -0.5,
+          "ChildText": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw."
+        },
+        {
+          "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21z8d-lEI",
+          "y_true": 2,
+          "y_pred": 3,
+          "raw_score": 0.0,
+          "ChildText": "@User_264788 meine Stimme haben sie schon immer gehabt."
+        },
+        {
+          "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8mWP_FqJfB",
+          "y_true": 1,
+          "y_pred": 3,
+          "raw_score": -0.5,
+          "ChildText": "@User_204314 Oh man da musste ich lachen. Dein Bekannter höchstwahrscheinlich nicht. Das ist wirklich blöd"
+        }
+      ]
+    }
+  }
+}

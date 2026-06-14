@@ -1,0 +1,2520 @@
+{
+  "interaction": {
+    "families_included": [
+      "shallow",
+      "bert",
+      "llm"
+    ],
+    "n_shared_pairs": 1088,
+    "n_hard_cases": 117,
+    "hard_cases": [
+      {
+        "PairID": "XXoE5qXtkHY_UgzFx0rIQKo9gFs7XBV4AaABAg.9FblzpP094B9Fc0_nbFuZ4",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Und was genau ist die Alternative, liebe Alternative für Deutschland? Kohle und Atomkraft....? Wir müssen vorwärts denken...",
+        "ChildText": "Das Land zukleistern mit Windrädern und Solaranlagen ist demnach die Lösung? \nDeutschland ist auf seinem Weg der \"Energiewende\" so allein wie mit seiner \"Willkommenskultur\".\r\n\r\nLt. DENA-STUDIE (Deutsche Energie Agentur) wird die Stromversorgung 2050 deutlich mehr kosten als heute. Ursache hierfür si"
+      },
+      {
+        "PairID": "JRIZCwVdUAM_Ugx8B9ig7rFksa0jSmZ4AaABAg.8oEPeguzQel8oETuwIf-GM",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Bester Mann.\nIn Zukunft Curio in die Talkshows schicken",
+        "ChildText": "Dann nehmen Sahra Wagenknecht und Annalena Baerbock ihn auseinander."
+      },
+      {
+        "PairID": "mw-35k8Fu6w_Ugw_pbh9Wo1UgeEgRNN4AaABAg.92lg0_aYnZM92o07Ejq4Ib",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 1,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Sehr gut Herr Curio sehr gut.... Danke nochmal fürs Selfie. Lg",
+        "ChildText": "Curio sieht aus wie Graf Zahl aus der Sesamstraße"
+      },
+      {
+        "PairID": "eif6OpfdR7Q_Ugz1Q6aD8jXzMuLxx4l4AaABAg.9iuJ5JL74Xq9ivrqj9jh69",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Der AfDSpaniel schon wieder🤡",
+        "ChildText": "...der hat wenigstens Ahnung von dem, was er da spricht! Ein blitzgescheiter Mann!!!"
+      },
+      {
+        "PairID": "AqpU8NnJwWY_UgxHtyADsA0msC6OuaZ4AaABAg.ARr7Sj93Yd2ARxB8lW9JJn",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "@User_54442 Ich meinte was \"sicheres Land erreichen\" mit \"natürlich wird an der Grenze abgeschoben\" zu tun hat?\nWenn sie hier sicher sind, würden sie doch Asyl finden und wir haben als Demokratie mit Menschenrechten eine Pflicht zur Akzeptanz von Asyl, müssten ihr Anliegen also entsprechen zulassen.",
+        "ChildText": "​@User_01991 in dem Moment in dem du ein sicheres Land erreichst bist du nicht mehr auf der Flucht. Und dass Asyl zeitlich begrenzt ist, ist dir auch klar, oder? Ausnahmslos jeder, der seit 2015 angekommen ist muss wieder in seine Heimat zurück und sollte uns extrem dankbar sein, dass wir ihn überha"
+      },
+      {
+        "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8m1J4UTutV",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_259564 Das sind ja nicht gerade die arabischen Vollversorgten. Sondern eher Menschen aus dem Ostblock.",
+        "ChildText": "@User_221985 😂🤣😂🤣 die Vollversorgten aus dem Ostblock: Sinti und Roma, Rumänen  Bulgaren, Kosovaren, Albaner, Tschetschenien...und am teuersten die Edelflüchtlinge der Ukraine!\nUnd Afghanistan und Syrer sind keine Araber 🙈🙈\nNatürlich muss die unkontrollierte Einwanderung ein Ende haben und vor allem"
+      },
+      {
+        "PairID": "J1TtGHgiQEQ_UgwwZ_QcASqK1DDTlbh4AaABAg.A4uLBlK8eoaADTsdGssm0h",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Diese Diskussion muss dringendst im Bundestag geführt werden.",
+        "ChildText": "Im Bundestag haben die Deutschlandzerstörer die Macht ,dank der Wahlentscheidung der deutschen Wähler."
+      },
+      {
+        "PairID": "Ff3fFj3msiY_Ugz40IvQeRCchgTwQnN4AaABAg.9I_X-j5H8D-9I_Yf4iaH2z",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 1,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Herr Kotré irrt, Kernenergie IST schmutzig, gefährlich UND kann bei Mißbrauch tödlich enden!",
+        "ChildText": "Genauso wie  mit dem Gabel und Küchenmesser falche nutzen"
+      },
+      {
+        "PairID": "gC-kDfnA68c_UgybHLKLqCDWbGidwbd4AaABAg.9-67RZLO6Ez9-YTy4ewU2Z",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Hans Landa Schon klar😏. Ich bin übrigens Lehrerin und ich weiß wie leicht es ist Schüler zu beeinflussen. Im Übrigen muss man nicht der AFD hinterherlaufen um zu erkennen was hier läuft!",
+        "ChildText": "@User_335762 in wie vielen Schulen warst du um dich deswegen zu erkundigen?"
+      },
+      {
+        "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzAI5iAqAfn5z",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "@User_83397 Du individualisiert damit kollektive Probleme. So funktioniert Politik nicht.",
+        "ChildText": "@User_58905 Die Linken bestehen doch nicht aus einer Person, jeder von denen kann bestimmt 1 bis 2 aufnehmen"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_Ugw5Jyv501ZO1SzwBNB4AaABAg.AEH_kwyGwCdAEL487ImTFf",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "@User_06189 Was spricht für dich im Programm der Linken dagegen, ein Unternehmen zu gründen?",
+        "ChildText": "@User_70735 Da muss ich nicht in euer Programm schauen, eure gesamte ideologie spricht dagegen. Links bedeutet mehr Staat, mehr Regulierung, mehr Steuern, mehr Zensur, noch weiter weg von der freien Marktwirtschaft hin zur Planwirtschaft."
+      },
+      {
+        "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8lpvpF4h1t",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Bett, Brot und Seife. Dann hauen sie von alleine ab, wir müssen nicht Milliarden für Rückflieger ausgeben.",
+        "ChildText": "Worte bringen nichts raus das elende stinkende araberpack."
+      },
+      {
+        "PairID": "9kcdXGIzu54_Ugymoi1Be5M5LrrHSqt4AaABAg.9ny5sEgtjuM9nyF7BHZOj_",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Das schlimmste daran ist,das man nur zusehen kann",
+        "ChildText": "Falsch ganz falsch sogar das Volk kann sich wehren um auf die Straße zu gehen und das passiert eben nicht \nJedes Volk kann in der Lage sein seine Tyrannei zu beenden und diese 3 ungebildeten hampelmänner aus dem Land zu jagen \nDas deutsche Volk schläft lieber weiter und lässt alles über sich ergehen"
+      },
+      {
+        "PairID": "kqqgFHSsJs4_Ugym5jIXygwbeNU2c2d4AaABAg.AJM0KKvqFB-AKzmTJ8-DyC",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Sehr gute Rede, schade, dass den Grünen die Fähigkeit fehlt, den Inhalt zu verstehen",
+        "ChildText": "Es ist wirklich Unsinn, was er erzählt. Es ist wirklich erschreckend, dass das Leute glauben."
+      },
+      {
+        "PairID": "TtX1dH3rRqU_UgyORrV7846-8a4hjm94AaABAg.ADkhYi1hoe9ADkkjj46M8H",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Danke ❤",
+        "ChildText": "Das ist genau dieses \"linke Geschwätz\", das die Mehrheit der Deutschen nicht mehr hören kann! Nur noch diejenigen in der \"linken Blase\". Die Linke (allgemein) holte und holt bei Kritik immer gleich die Nazikeule raus. Auch das interessiert niemanden (mehr)! Wo sind denn die Beileidsbekundungen der L"
+      },
+      {
+        "PairID": "sNbVF9xEA0w_UgxcgYC_4cyuocEOyH14AaABAg.A2PmFae00eiA2tR_0CWfhN",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 0,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Bin ausgetreten bei euch.\nInzwischen macht ihr zu ideologische Politik",
+        "ChildText": "Politik braucht Ideologie. Sozialismus ist der einzige Weg zur Gerechtigkeit.\nDafür stand Die Linke schon immer und dafür wird sie auch immer stehen.\nIch hoffe, du wählst jetzt nicht die rechte Imperialistin und Putinistin Wagenknecht?\nBei ihr hast du es mit einer tatsächlich gefährlichen Ideologin "
+      },
+      {
+        "PairID": "KNirVat8c98_UgyV4UVDZtaA45t_oD54AaABAg.9_UJx3z74oK9_UOayV9Uul",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "...Kanzler😄 😂",
+        "ChildText": "@User_358549 Ein Krimineller."
+      },
+      {
+        "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gULNSkGThM",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 4,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+        "ChildText": "Merz, warum machst du einen Rückzieher? Steh doch dazu. Das sind Tatsachen die man nicht weg quatschen kann."
+      },
+      {
+        "PairID": "MW2ap6osShU_Ugxtg8V9r_bJuyWGaWZ4AaABAg.A4L63i_BjuhA4NPSo8qJ4A",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Meine Kommentare werden ständig gelöscht 🥵",
+        "ChildText": "Verrückt meine Theorie wurde auch gelöscht😳🤨"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAEHbS9k6RNA",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 4,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Wo soll man da denn überhaupt bei dir anfangen?!\nSo wie es aussieht, solltest DU mal Sprachunterricht NEHMEN, bevor du es ANDEREN VERBIETEN WILLST! Lern mal deutsch in schriftlicher Form. Das ist ja reiner Augenkrebs.\n\nHast du selber mal versucht, dich mit einem Übersetzer mit jemand anderen persönl",
+        "ChildText": "@User_84827 Hi, ich verstehe deine Rage, aber ich denke nicht, dass das Angreifen einer Rechtschreibschwäche besonders förderlich für den Diskurs ist. Aber den Rest unterschreib ich :)"
+      },
+      {
+        "PairID": "wyNgNBGeWj8_Ugw-tl_NpXhfXCRJ-1Z4AaABAg.8qgXBedylFd8quxMJFPRi7",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_314302 ließ weiter Relotius News  !",
+        "ChildText": "@User_204599 wozu? es gibt doch compact."
+      },
+      {
+        "PairID": "6hLsxkD7DiA_UgyzZ1Y0fgalSkcUhbl4AaABAg.9w01aOmAWYM9wqVvitAXuC",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_17587  dumm nur dass ihr keine Massen habt...",
+        "ChildText": "@User_76638 Wahrheit tut am meisten weh"
+      },
+      {
+        "PairID": "x2rnYnNOHrA_Ugz6UvLyMO_CdaxjmHR4AaABAg.AOhFBeqXO4bAOhHZv3GNkr",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 4,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Eine total verblödete Regierung Die gehören nicht nur eingesperrt sondern.......",
+        "ChildText": "Auch Teile der Gesellschaft bitte dazu kalkulieren"
+      },
+      {
+        "PairID": "ioyfuDqZmZk_Ugyue19ZRTu-WEO6CSR4AaABAg.AEo47B_JOzXAEor6KqsXgS",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "​@User_49457 das ist doch zusätzlich ein Thema der linken. Immobilienpreise usw. Da wollen sie doch auch Gesetzliche Grenzen einführen, dass aus Wohnraum kein unnötiger Übergewinn erzeugt wird.",
+        "ChildText": "@User_69457 Das ist ja auch in Ordnung dagegen sage ich nichts aber das man einen Gewinn machen möchte wenn man vermietet das ist klar das kapieren die linken nicht die kennen nur den Erfolgreichen Leuten weg nehmen und Hartz 4 geben)))"
+      },
+      {
+        "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9ehTp9SCPV",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "@User_80778 ja es war ironisch gemeint. Es wird nicht klappen mit dem integrieren wenn man nichtmal klar kommt mit den Menschen die schon hier sind. Und es kommen mehr und mehr. Also erstmal für genügend Kapazitäten sorgen.",
+        "ChildText": "@User_01543 Remigration wäre mir lieber. Der Krieg in Syrien und Afghanistan ist vorbei. Somit ist der Schutzstatus nicht mehr gegeben."
+      },
+      {
+        "PairID": "8b4RcqEFJ44_Ugx7zGWjpYHJdZ3-zxJ4AaABAg.ACGUEjZjvIzADKHep-NgqK",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "@User_266792 Man kennt ja diese Dame. Es ist immer wieder die gleiche Vorgehensweise.",
+        "ChildText": "@User_202216 Dame??? Wo denn?"
+      },
+      {
+        "PairID": "kvqJGabgao8_UgyDmISOlfzIY2DrcZh4AaABAg.ATCoDKAazBrATD6UD4183V",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Und Philipp windet sich auf seinem Stuhl und weiß gar nicht wie er reagieren soll. Außer Stirnfalten und schwer atmen fällt ihm da nichts ein. Das sagt wohl alles.",
+        "ChildText": "ja was soll er auch machen, Gysi spricht hier mit ihm nicht wie mit einem der Mittäter, zu denen er ja eigentlich zählt sondern erinnert ihn daran dass leute wie er und in einem anderen Leben vielleicht auch er betroffen sind von all diesen Machenschaften."
+      },
+      {
+        "PairID": "oJVrgAel8K8_UgwdZqx3qdTsOE8Vl-t4AaABAg.8nZExRmx6by8nf947sbT_9",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "wie denn, wenn 90% nix raffen?\n mein freundeskreis ist quasi nicht mehr existent, seitdem ich ausgemüllt hab. in der familie stehts auch kurz davor",
+        "ChildText": "@User_342058 , leider hast Du Recht.\nUnd jetzt Frage Ich \nWozu ist die AfD gut ?\nIn meinen Augen nur eine weitere Partei des Systems.\nWozu braucht es Politiker ?\nIch bin durchaus kritisch eingestellt was das Hier und Jetzt angeht."
+      },
+      {
+        "PairID": "rZlrVpF6O30_UgykEms1O8-WcYNcROt4AaABAg.9blZmOdo9lW9cCxXbFO3Xy",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 3,
+          "bert": 3,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Leider lassen sich 90% der Wähler sehr wohl bescheißen",
+        "ChildText": "Leider kann man alleine nicht eine Wahl anfechten oder kontrollieren, denn ich glaube nicht das es bei den Wahlen mit rechten Dingen zu geht (Berlin)"
+      },
+      {
+        "PairID": "Ec-KqpZu_OU_UgzcBNlzVZMxd4lXU4Z4AaABAg.9AeWdTXtKj19AgVV-pjgmi",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_74857 ich hab verstanden...Alle in die Nacktbar...",
+        "ChildText": "@User_12553 made my day!!!"
+      },
+      {
+        "PairID": "Em4WkXB1bEI_Ugxp24HpIxg8xVh28kd4AaABAg.9QVQgYxFPrK9QY2EnyPIfP",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 3,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_241120 das Wahlergebnis steht längst fest. Es wird betrogen wie in den USA-",
+        "ChildText": "@User_328781 genau das ist meine Befürchtung, dennoch sollten wir alle unsere Stimmen abgeben und auf die Straße gehen. Ich arbeite im Krankenhaus, wenn die Impfpflicht für Mitarbeiter kommt, gehe ich auch demonstrieren und dann wie!!! Die können sich auf etwas gefasst machen."
+      },
+      {
+        "PairID": "kqqgFHSsJs4_UgwYKszy_XjqyHRMBot4AaABAg.AJhjdQeKDibAJiCJCXQo70",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Das verstehen die grünen Halbintelligenzler nicht. Die merken schon lange nichts mehr....Ideologie frisst Hirn....😂",
+        "ChildText": "Farbenblind?\nDer Spruch passt perfekt auf blau🎉"
+      },
+      {
+        "PairID": "oOgc61xpF4Q_UgzmNFGyjBezW9YMUqZ4AaABAg.A8dgXLUJ9jYAC9Uw60_QdR",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 2,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Remigration",
+        "ChildText": "Maul ​@User_61767"
+      },
+      {
+        "PairID": "isc6Hay1JYs_Ugyhas7GbtoGGxrTMlJ4AaABAg.AMy70NJ1fpOAMyM5dqow3W",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Blödsinn, die einzige Lügnerin ist die linke. Die Kriminalstatistik ist eindeutig. Aber Realitätsverlust ist die linksgrüne DNA.",
+        "ChildText": "Wenn die Kriminalstatistik so eindeutig ist, wieso lügt die Linke denn da? Gewaltätige Nazis (ugs. für AfD-Wähler) verüben jeden Tag Straftaten. 2024 über 43.000."
+      },
+      {
+        "PairID": "PPjRqPUmPvk_UgxwBkOiZjiMdjNR2Md4AaABAg.9TnQfZ_1FMl9TpVN-vMWuv",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_161360 mit \"Die Polen\" meinst du warscheinlich die aktuelle Polnische Regierung!",
+        "ChildText": "@User_182487 Die polnische Regierung die Volkeswille umsetzt. Kennt der Deutsche garnicht"
+      },
+      {
+        "PairID": "HXEAHjxO1Mc_Ugy0EwoFNmkWwdDZjQJ4AaABAg.APpx5b3_bC-APpycotjUkp",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 3,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Ist es wirklich versagen oder vieleicht doch eher so gewolt",
+        "ChildText": "Guter Punkt. Durchaus gewollt!"
+      },
+      {
+        "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9SfjTNoX7wO",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_124006 warum ignorierst du jetzt meine Frage und stellst den Verdacht auf, dass ich linksextrem sei?",
+        "ChildText": "@User_195857 Sie kann nicht anders..."
+      },
+      {
+        "PairID": "En-ko2OErwE_UgyTMREDyBxJ0Ktc7HJ4AaABAg.AIFk-l3CUbKAIFySF9rZlk",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Dann sollten wir dennoch nicht über den Bruch von Asylrecht reden, sondern über die Beseitigung von Fluchtursachen.",
+        "ChildText": "​@User_08460 Richtig, aber bei der Betrachtung von Fluchtursachen kommen wir zu des Pudels Kern. Und das ist der politische Islam. Mit welchem sich gerade die Linken nicht gerne beschäftigen und jede Debatte mit der Rassismuskeule niederknüpoeln. Der politische Islam ist aber eine vergleichbare Ideo"
+      },
+      {
+        "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0__t6hMyQ",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "@User_148787 \n\nTotalitarismus ist Totalitarismus!\nDer NationalSOZIALISMUS hatte auch Aspekte der Diktatur des Proletariats. Daher bleibt auf Parteilinie!\n\"Impfen macht frei!\"\nWeiß doch jeder! Stand ja auch schon über den Eingängen zu den Konzentrationslagern. Oder stand da \"Duschen macht frei!\" ? Eg",
+        "ChildText": "@User_169825 hmmm steht doch jetzt überall in den Main stream Medien. Aber wir wissen ja alle wie ihr Kommunisten denkt und wieviele tote auf eure Kappe gehen."
+      },
+      {
+        "PairID": "bJ7v7RDHdY0_UgyAKr4PnJI1T08Zeil4AaABAg.ATyDFKaMc4SATyDqEuMKzF",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Vielen Dank für diese wichtige Einordnung in unserer ansonsten bis auf in Spanien größtenteils moralisch bankrotten, westlichen politischen Führung.",
+        "ChildText": "p.s. die Presse ist größtenteils genauso moralisch bankrott und berichtet wirklich wahnsinnig einseitig die Perspektive der USA und Israels. \nUnd Gaza nicht vergessen, das nun wieder komplett abgeriegelt ist und weiter dem Erdboden gleichgemacht wird..."
+      },
+      {
+        "PairID": "odXMmIr_kNA_UgzyN9AbY1GM1GC1Hc14AaABAg.8xSEXwpv6Xw8xSoO50Jmuh",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Schön das in den GEZ-Medien nichts kommt! Armes Deutschland!!!!",
+        "ChildText": "guckst du die noch? ...denk eher an deine Gesundheit! ;-)"
+      },
+      {
+        "PairID": "expB5ZRlP64_UgweSyb2F5cZbx6U9wp4AaABAg.ADscho3oDFdADse-L0XhN5",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "❤ Briefwahl jetzt Die Linke ❤ 😊",
+        "ChildText": "@User_86653  schon beantragt ^^"
+      },
+      {
+        "PairID": "WPDqtwuXiPk_Ugz4vWmIs7ybUIHj3QF4AaABAg.9S3VqliiZ_Q9SQ76nSR5g4",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 3,
+          "bert": 3,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Die Linke hat ein progressiveres Wahlprogramm als für Grünen. Warum soll man sich mit der ZweitenWahl begnügen Wenn man auch die erste Wahl haben kann Quelle: WDR Klimacheck - wer mitmachen will engagiert sich in der Ökologischen Plattform des jeweiligen Bundeslandes oder bei der BAG Klimagerechtigk",
+        "ChildText": "Deshalb sagen wir es nochmals \nAufstehen und gemeinsam etwas tun \nDamit Klima und Gerechtigkeit in aller Richtung vollzogen werden kann \nIst jeder Bürger und Bürgerinnen sehr gefragt. \nDankeschön ❤"
+      },
+      {
+        "PairID": "42Qh8NxHWPk_UgzEn919Q-ODT0GJawp4AaABAg.A4cAv2C0412A4hXMMeR4Kt",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Urlaub in der Heimat,aus der man geflohen ist? Ja ne is klar",
+        "ChildText": "2/3 der Fläche der Ukraine ist kriegsfrei. Einfach mal Landkarte anschauen. Warum leben die nicht dort? Weil in Deutschland Schlaraffien ist. Warum arbeiten die Ukrainer in allen anderen Ländern zu 80 % plus? usw."
+      },
+      {
+        "PairID": "STGMi7ZpGZ8_Ugyuj7j86pfyMUPYIyN4AaABAg.AKqjvfI2DVFAKsDlOstKGg",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Je mehr Kommentare, desto größer die Reichweite! ❤❤❤",
+        "ChildText": "Dafür lass ich auch noch einen da! ❤"
+      },
+      {
+        "PairID": "KNirVat8c98_UgzxrMo9x4JYKCAaDKJ4AaABAg.9_USvZq43vD9_Yv-3Vk4pP",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Talent würde ich sowas nicht nennen.",
+        "ChildText": "@User_147162 😉"
+      },
+      {
+        "PairID": "Hh7sba8b0Oc_Ugz4aZohccJ_odvnr994AaABAg.APUZMjtzR6VAPiT7XpjWR_",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 3,
+          "bert": 3,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Das schöne an dieser Rede ist eigentlich, dass schrittweise genau die Argumentationen, die so gerne gegen die EE aufgeführt werden angesprochen und kurz entkrägtet wurden, ohne dabei absolute einseitige Wege propagiert wurde. Sie lässt Raum für die Diskussion, wie man das bewerkstelligen kann, währe",
+        "ChildText": "Die Linke ist jetzt eine Alternative. SPD und CDU versagen wieder mal vollständig. Ich wähle die Linke oder die Grünen"
+      },
+      {
+        "PairID": "SprMcgfgqYI_UgwyRZzG5EjTQNtSJYJ4AaABAg.9WrDq0FiKbt9WrXStm4MZx",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "@User_348150 An China zahlt die BRD zur Zeit 430 Millionen, nur Syrien bekommt 630 Millionen.",
+        "ChildText": "@User_195678 vom Focus , 630 Millionen Euro: Warum Deutschland Entwicklungshilfe an Weltmacht China zahlt . Syrien erhielt im Jahr 2019 rund 683,5 Millionen Euro Entwicklungshilfe von Deutschland. \nEgal wer  und wieviel , es ist unser Steuergeld . Und Rentner sammeln Flaschen und viele  Millionen Ki"
+      },
+      {
+        "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACsAYAVDzJ2",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 3,
+          "bert": 4,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Die Ticketpreise bei der Bahn sind eine absolute Frechheit. Teilweise haben sich Streckenpreise im Nahverkehr mehr als verdoppelt in den letzten Jahren. Die Tages-/Ländertickets (gilt ab 9 Uhr, nur bis zur Ländergrenze, etc) sind auch eine Zumutung. Und jetzt wird auch noch das 49€ Ticket 20% teurer",
+        "ChildText": "Nein. Das soll die Leute fern halten und der Plan geht leider auf."
+      },
+      {
+        "PairID": "xUv4NmkVNRk_UgwKMJbwTdwn-zdTWfB4AaABAg.9QehLFZkX379QpGVbmUCpy",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_243864 Sehr Konstruktiver Beitrag.",
+        "ChildText": "@User_111962 hahaha echt 😂😂😂"
+      },
+      {
+        "PairID": "4oWNKOs5LiM_Ugy62dRy3UsF8_cmuSB4AaABAg.AUApTs-yYINAUB6sJXBE2f",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Könnt ihr bitte eure Wortwahl für die Videotitel überarbeiten? Das ist ja furchtbare. Bro? Ernsthaft?",
+        "ChildText": "Ich find's cool!"
+      },
+      {
+        "PairID": "v2oSMS0fZz4_UgyagPtcKckhVu_D0pN4AaABAg.AKKSCrYERxdAKPAhV6zydE",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Klartext. Hat meine Stimme.",
+        "ChildText": "Meine auch"
+      },
+      {
+        "PairID": "1M0QdAIJSRs_UgwaIucHrKDmX3mXr4h4AaABAg.9ly1wF1q2iG9ly6FWMQpl_",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Die USA hat den Anschlag bereits zugegeben",
+        "ChildText": "Indirekt, in den Interviews.. doch direkt in den Kommentaren😁"
+      },
+      {
+        "PairID": "W_ruQlie9ag_UgxUbVHXF3kamfRzVyN4AaABAg.9OPJQoeC6969OPVWG8LBkY",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Ja, dümmer geht es nicht. Und so eine Aussage in einer Debatte um das Klimaschutzgesetz. Ich bin mir sicher, dass du es dir auch deswegen gut merken kannst, weil die Aussage nur aus drei Worten besteht. Mehr ist vermutlich auch unzumutbar.",
+        "ChildText": "@User_92994 haben Sie die Anträge der Grünen schon mal gelesen? Da braucht man eine Übersetzungsliste für.\nIm übrigen ist Gender in der Verwaltung verboten nur es hält sich keiner dran.\nAlle Verwaltungen hatten sich dazu verpflichtet..\n\nhttps://www.rechtschreibrat.com/"
+      },
+      {
+        "PairID": "mNnX_k9Blfw_UgxEl6ozyf4b0nqsXXl4AaABAg.AHsMge24NKpAHtb7Br5i4D",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Schickt die flüchtlinge zu den Politikern, die haben genug Platz.",
+        "ChildText": "Das machen sie so lange, bis jemand weint."
+      },
+      {
+        "PairID": "qaThP9P5ezU_UgxspJDMK9zzq9corVt4AaABAg.9lJlo6L7w_G9lOJLYdUP3J",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Ford in Köln ist doch das beste Beispiel. Nur meidet jeder die Kritik an der Ampel um Ärger aus dem Weg zu gehen. Das ist Demokratie in Deutschland heute, armes Deutschland.",
+        "ChildText": "Wenn die Amis zukünftig selbst entwickeln wollen und nicht mehr in Deutschland, dann sollte man als Verbraucher Ford hart boykottieren."
+      },
+      {
+        "PairID": "xUv4NmkVNRk_UgwKMJbwTdwn-zdTWfB4AaABAg.9QehLFZkX379QjxO430tWX",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_111962 = SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, \r\nSAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SAntifa, SA",
+        "ChildText": "@User_243864 Sehr Konstruktiver Beitrag."
+      },
+      {
+        "PairID": "F06RKatZGCw_UgzjGJaMkwKmq2tpGVB4AaABAg.9rDpSqwNSlr9rDuvEdxtWg",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 1,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "💙 Wir, die Junge Gemeinde aus der Lüneburger Heide sagen nur noch, und zwar nur noch die Alternative für Deutschland.💙",
+        "ChildText": "Wir brauchen 100 Tausende Wahlbeobachter!!\nDie Wahl in Berlin hat gezeigt was hinter den Kulissen passiert ist und die Wahl musste zum Teil neu stattfinden!!"
+      },
+      {
+        "PairID": "wit8lkyq5rg_UgwnoxoiDLhvC3R3jy94AaABAg.AS6t6jzL42ZAS8C1E0kvG4",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Wir fragen uns wie weit wir hier in Deutschland von solchen Verhältnissen entfernt sind?\nFragen wir doch einfach mal die rechte CDU wie lang sie sich noch aktiv gegen die Einleitung der Prüfung für ein AFD Verfahren stellt!",
+        "ChildText": "Man kann nur hoffen, dass wir hier so schnell wie möglich etwas wie ICE bekommen 😊"
+      },
+      {
+        "PairID": "cZ8tR6ds9dU_UgzDgp1mnmQn2eBwoet4AaABAg.9h1jcbL8Hyj9h22GDJQrCh",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Aber ihr habt sie trotzdem wiedergewählt 🤷🏻",
+        "ChildText": "🤦🏼‍♂️🤦🏼‍♂️🤦🏼‍♂️"
+      },
+      {
+        "PairID": "-7xrJwRWo5k_Ugy-oM12tmzTBbsT_1l4AaABAg.9v-U_3Bxero9v0RmIuoYow",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 4,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Und wohin sollen wir Deutsche flüchten,wenn das so weitergeht?",
+        "ChildText": "Flüchten aber trotzdem weiter Steuern zahlen wäre optimal."
+      },
+      {
+        "PairID": "bQCDrwWlTGA_Ugxao_FcEbENZ4Y6dsx4AaABAg.AF3KYXBt8vLAF4nnlnXITj",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 1,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Und mit so einer Haltung und so einem Niveau verdoppelt man die Umfragewerte im Wahlergebnis. Eine Stimme für die Linke am Sonntag, war eine Stimme gegen den Unterbietungswettbewerb der gesamten anderen Parteien.",
+        "ChildText": "Nö, ich habe das erste Mal wieder links gewählt, weil ich nicht wollte das die linke raus fliegt u d weil sie was für mein portmonai tun."
+      },
+      {
+        "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA8OvhWAvtmd",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 4,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Danke euch... Die letzten Aufrechten... \n\nIhr habt so Recht!",
+        "ChildText": "Meines Wissen fallen ca 50 Mrd € an Kosten an fùr die Versorgung der Migranten. Dieses Geld muss erwirtschaftet werden und fehlt an andere Stelle. Deutschland wird nicht ganz Afrika aufnehmen können. Die Augen davor zu verschließen ist Unklug."
+      },
+      {
+        "PairID": "KNirVat8c98_UgzCzccrDYg4aPhVhxR4AaABAg.9_UHPXHLf859_UUZjcU-Wm",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Arroganz hoffentlich bekommen alle Beteiligten ihre gerechte Strafe .Wir haben etwas gemacht 🤥Ja armes Deutschland 👏👏",
+        "ChildText": "Die RAF Zeit ist nicht lange her!"
+      },
+      {
+        "PairID": "xOfBxIY13So_UgxX95lAdkZJFoBn62N4AaABAg.9Eqv5zLAOUi9EtWFDdkAyk",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 3,
+          "bert": 1,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Mein Vater fährt schon seit über 30 Jahren LKW in Deutschland, er meinte, dass es einen erheblichen Fachkräftemangel in diesem Bereich gibt!!! Und wir sind eine türkische Familie!!!",
+        "ChildText": "Dann seit Ihr bei der AFD auch an der richtigen Stelle.\nNur diese Partei handelt und aggiert vernünftig und mittig - Sie gehört endlich an die Macht!\nBitte endlich vernünftig wählen!"
+      },
+      {
+        "PairID": "P7RNRZxZTaE_Ugz4OwM93agMYkKDIG94AaABAg.9dL2wiWZ5Ef9dk-EzTcTBe",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 3,
+          "bert": 3,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Korrekt. Die entscheidende Stelle findet sich als Erwägungsgrund 9a im Vorspann der Position des Ministerrats für die geplante Reform der Verordnung zu CO2-Emissionsnormen: \"Nach Beratungen mit Interessensvertretern wird die Kommission einen Vorschlag dazu machen, wie nach 2035 Fahrzeuge zugelassen ",
+        "ChildText": "@User_279096 Na, dann werden wir uns eben billige Traktoren kaufen müssen, um zur Arbeit zu fahren... 😎👍"
+      },
+      {
+        "PairID": "SprMcgfgqYI_UgwyRZzG5EjTQNtSJYJ4AaABAg.9WrDq0FiKbt9WtOHvDFqng",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "@User_235442 \nNicht wollen, sondern können, weil sie selbst den Strom benötigen. Was dann!\nWir schrammen doch sowieso schon ständig am Blackout entlang.\nDer berühmte Satz \"Es ist nicht die Frage ob, sondern wann!\"",
+        "ChildText": "@User_296443 Ja aber der Grund für einen Blackout ist ein anderer"
+      },
+      {
+        "PairID": "4eI8XvYvN0s_UgxrYlA1GLHXD3zYo4Z4AaABAg.ACfvGC-naCtACgcHaUYW8_",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Der Mann ist bei einer Behörde beschäftigt, schon mal darüber nachgedacht, dass der Staat direkt hinter dieser Tat stecken könnte?",
+        "ChildText": "auf diese Idee waere ich nie gekommen.."
+      },
+      {
+        "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21z8d-lEI",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Dann wählt doch endlich die AFD die brauchen jetzt viele viele Stimmen.",
+        "ChildText": "@User_264788 meine Stimme haben sie schon immer gehabt."
+      },
+      {
+        "PairID": "8vwbPCpeV8M_UgylwSVjJYAbcCmRAf94AaABAg.9mnnN_psC8_9ms18q21QFS",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Warum Stoppt niemand diesen Wahnsinn",
+        "ChildText": "Fang du doch damit an"
+      },
+      {
+        "PairID": "Uv9iR4HWSIw_UgxKzEzxqzB2Ed1xn2h4AaABAg.9FJUQ3xnPmM9FOSnH3syob",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 4,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Mein Gott,  was ist an diesen Argumenten falsch? Keiner von den Altparteien bejaht die Aussage! Also, man kann nur  noch die AfD wählen! Die Altparteien sind selbst Schuld!",
+        "ChildText": "Das ist ja klar, die Ideen und Anregungen kommen von den anderen, deshalb ist"
+      },
+      {
+        "PairID": "bJ7v7RDHdY0_UgyR8pouuaUDD2dXbrB4AaABAg.ATyVQs5QwzgAU2yU1u7b0L",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Merz: Ich habe keine Angst vor einem Atomkrieg. Frieden gibt es auf jedem Friedhof.",
+        "ChildText": "Letztens erst vom \"Koloss auf tönernen Füßen\" fabuliert,  irgendwoher kenne ich das..."
+      },
+      {
+        "PairID": "eXdkETk4GhU_UgxlZu4o3nIi8Ykw2fV4AaABAg.9M8wJDs7niV9M8xp9Ddoo6",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 4,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Ich verstehe nicht warum es keine Strafen für Zwischenrufe gibt!",
+        "ChildText": "Weil die schlimmsten Zwischenrufer im Präsidium sitzen"
+      },
+      {
+        "PairID": "En-ko2OErwE_Ugye1HTkd-qTQ8E1Pr14AaABAg.AIC9914O1dKAIEIkbGjGlE",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 3,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Die einzigen die Grundsatzfragen stellen, ist die Linke. Klassenkampf und internationale Solidarität!",
+        "ChildText": "Aber immernoch relevant!"
+      },
+      {
+        "PairID": "a1pCCuJHibk_Ugyd-kWmnDNaW52Hgap4AaABAg.AOOKjgGHzu3AOh-6XI1Pxu",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "​@User_13793 Nee, da habe ich 12 Monate im Winterschlaf gelegen ... 😅 Quatsch, natürlich habe ich es miterlebt, leider. Nur weißt du, in der grauen Vorzeit _- vor Covid -_ gab es das Händeschütteln als Gruss oder Abschied noch. Ich erinnere mich vage...",
+        "ChildText": "​@User_32486 Nicht alles neue ist automatisch eine Verschlechterung. Deswegen wähle ich auch nicht die AfD, weil das zwar eine neue Partei ist, aber mit sowas von alten Inhalten..."
+      },
+      {
+        "PairID": "mNnX_k9Blfw_UgxEl6ozyf4b0nqsXXl4AaABAg.AHsMge24NKpAHuHIwhPclu",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Das machen sie so lange, bis jemand weint.",
+        "ChildText": "@User_10348 lol, „weint“??? Irlmaier sagt Hallo!!"
+      },
+      {
+        "PairID": "z095WXRHmFA_Ugxsg6qvSanw9cr5gBB4AaABAg.9GHiAWEneAu9GHiMENlclD",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Voll rassistisch☝️\nNach 40zig Jahren einfach die grauen Wölfe verbieten.\nSKANDAL 😳",
+        "ChildText": "13 hanschar\nzeigt ihnen warum es solange dauert"
+      },
+      {
+        "PairID": "HM4DHx83qEY_Ugy_D8eTYUlHKBQAnv54AaABAg.9brX19lzyYX9bwdWjTG1Nw",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 3,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Richtig der soll Rad fahren,damit die Straße frei ist, deshalb spart ma n sich ein Tempolimit ☝👍",
+        "ChildText": "@User_39613 Dann muß auch keiner mehr zur Arbeit fahren, upps und dann."
+      },
+      {
+        "PairID": "v2oSMS0fZz4_UgyQoct04X0Bflu91Sl4AaABAg.AKLRWv7bMzkAKnj6MpZhWL",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Ganz im Ernst wer Strompreise mit Faschismus vergleicht verhöhnt die Opfer des 2 weltkriegs und besitz null Respekt und Anstand",
+        "ChildText": "@User_76564 Öhm, jedes mal wenn die Welt Linker wurde wurde sie für alle besser. Jedes mal wo die Welt rechter wurde war es für alle Schlechter...."
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAEHfQlWHrUG",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Ich habe da ein weiteres Problem tatsächlich. \nWenn ich einen Spanischkurs mache und sage: ich brauche den für meinen Beruf, dann kann ich den steuerlich geltend machen. \nWenn ich einen Deutschkurs mache, dann kommt der Staat und sagt: Ja, aber die deutsche Sprache verwendest du auch im Alltag. Dami",
+        "ChildText": "@User_76176 Krass das wusste ich gar nicht"
+      },
+      {
+        "PairID": "gC-kDfnA68c_UgybHLKLqCDWbGidwbd4AaABAg.9-67RZLO6Ez9-6lz_hMZP6",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Wer von Lehrkräften zu was gezwungen wird sollte umgehend Anzeige erstatten.",
+        "ChildText": "Funktioniert aber nicht. Macht einen zum Paria. Die Welle läßt sowas von grüßen!"
+      },
+      {
+        "PairID": "VrEnAgHBSOc_Ugx5756Ci2yMJ_3Lqu94AaABAg.AT858akwyrdAT8LQH6di9V",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Das ist nicht ganz richtig. Wir sind am unteren Ende des Mittelstandes. Unsre Tochter ist nebenher Arbeiten gegangen und hat sich so den Führerschein zusammen gespart. Es geht wenn man bereit ist Leistung zu bringen. Trotzdem finde ich die Führerschein Kosten unverschämt. Warum muß man in einem Auto",
+        "ChildText": "Es ist ja löblich, Leistung zu bringen. Aber warum muss immer der Bürger noch mehr und noch mehr und noch mehr leisten bei dreister Verteuerung?"
+      },
+      {
+        "PairID": "ioyfuDqZmZk_Ugx2cS0177hgmzr1pnR4AaABAg.AEqLfse2ScpAEvPjy-R5d-",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Da wird der Alice ganz schwindelig 😵‍💫",
+        "ChildText": "Die hat ihren Hauptwohnsitz in einem Land, das eine Vermögenssteuer hat."
+      },
+      {
+        "PairID": "TI0T1pGMPUM_UgzdkvWB-Oc1NjFTpmt4AaABAg.9ioTq0S7u0L9lTrf9SPLZ0",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 1,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Das Volk  muss mal  aufstehen  und sich nix mehr gefallen lassen",
+        "ChildText": "Ich bin Russland Deutsche hab mit Nachbar gesprochen, die antwortete mir uns geht doch gut! Das ist Problem"
+      },
+      {
+        "PairID": "4eI8XvYvN0s_UgzpxSzdZZu9uC-5D2p4AaABAg.ACg-3otUrg0ACgN87Z3pMC",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Ist auch nur eine Behauptung. Wer hann das bestätigen oder beweisen?",
+        "ChildText": "@User_252797 wenn die AfD auch nur eine kleine, missverständliche Äußerung tut, wird sofort von der Presse „Lüge, Lüge“ gerufen. \nDa hier keinerlei Widerspruch erfolgt, können wir uns darauf verlassen, dass alles stimmt, was er sagt.\nAnsonsten kannst du ja googeln ."
+      },
+      {
+        "PairID": "9kcdXGIzu54_UgypWdribWJAe40GJF54AaABAg.9nyn1y-6dgt9o-v2iajqry",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Warum schmeißt man diese Zwischenrufer nicht raus? Bei uns in der Schule gab es so was nicht. Frage: In welche Schule sind diese Leute gegangen?",
+        "ChildText": "Frage ist auch wie die erzogen wurden . Sowas haben wir schon vor der Schule von den Eltern gelernt ."
+      },
+      {
+        "PairID": "v2oSMS0fZz4_UgwsvMWrREBVbI3UXfV4AaABAg.AKKJle_vAV1AKKL0A0AF8P",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Ich checke nicht wie man solche und viele weitere Fakten einfach ignorieren kann und sein (Wahl-)Verhalten nicht ändert. Ergibt keinen Sinn für mich",
+        "ChildText": "Die Linke hat in meinen Augen nicht viel mit dem Kommunismus zu tun.  Zumindest nicht in dem Ausmaß, in dem die Hater die Linke darstellen wollen. Auch vermehrte Verstaatlichung und freie Wirtschaft schließen sich für mich nicht aus.\nEin gutes Beispiel wären Rasthöfe an Autobahnen oder riesige Wohnu"
+      },
+      {
+        "PairID": "_9wDuU0GIJU_UgzM1Rz48nAYUPrMysF4AaABAg.9DSx8CywJnx9DYfrFP1_w8",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 4,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Deswegen gehn sie ja da nicht hin.\nWie wir aus Corona gelernt haben, hätte man die Grenzen ja doch schliessen können.....",
+        "ChildText": "@User_292259 nur nach innen ,von aussen kamen da immer welche rein auch aus hochrisiko gebieten wie china oder iran kein problem"
+      },
+      {
+        "PairID": "5hHkJeF77vY_UgxsEleeOLYB2-z6Z4V4AaABAg.AIuf9_qg8W1AIuiZfcCsPp",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Nicht mal die AFD kann das mehr retten fürchte ich! Trotzdem bekommt sie meine Stimme, weil ich noch einen kleinen Funken Hoffnung habe!",
+        "ChildText": "doch können sie .. aber der gedanke das es sofort geht muss aus den köpfen raus .  schritt für schritt ."
+      },
+      {
+        "PairID": "PPjRqPUmPvk_UgyJwPdLr8HB8o1v1Ut4AaABAg.9TnMTMC4E9P9Tsg2ccbkPz",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 0,
+          "llm": 4
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Solange die Bevölkerung die AfD wählt, ändert sich auch nichts. Aus Unrecht kann kein Recht erwachsen. Die AfD ist nichts weiter als eine gesteuerte Opposition, die euch im BRD Kreisverkehr gefangen hält. Lernt eure Geschichte kennen!",
+        "ChildText": "@User_215825 Du hast recht,\nTROTZDEM ist die AfD das kleinere Übel von allen. \nWenn´s nach mir geht = https://de.wikipedia.org/wiki/Georg_Friedrich_Prinz_von_Preu%C3%9Fen"
+      },
+      {
+        "PairID": "4oWNKOs5LiM_UgxVBJoc47KeEeou6o54AaABAg.AUB94tt13oRAUDb--eafKA",
+        "y_true": 3,
+        "y_pred_per_family": {
+          "shallow": 4,
+          "bert": 1,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "​@User_07929 hoffentlich verstehst du irgendwann mal, dass es nicht um links oder rechts geht sondern wie man alle oder zumindest so viele wie möglich/nötig vereint. Worte sind die niedrigste Form der Kommunikation. Entscheidend ist was davor steht und was danach kommt.",
+        "ChildText": "@User_78260 ja es geht um oben gegen unten. Nur haben die oben die rechten auf ihre Seite gezogen. Propaganda und Beeinflussung des Meinungskorridor sind die Kriegsführung der Milliardäre. Vielleicht versteht das auch der Otto Normalverbraucher bald… viel Glück 🌈🍀😜😘"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgyrJEq7iPxjnyeU9VB4AaABAg.AEHCRiYHoHIAEK5OxgK-rb",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "@User_30607 es gibt keinen linksradikalismus.",
+        "ChildText": "Schon mal was von der Antifa gehört.?  Oder kommen sie aus einer anderen Welt? ​@User_37637"
+      },
+      {
+        "PairID": "2E4s7MQUIFI_UgxrJH3FZDxCnTqOQlx4AaABAg.A9eEXFgIfgmA9eMP-mYhnl",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Lern erstmal deutsche Grammatik!",
+        "ChildText": "@User_52423 Es müsste heißen: Lernen Sie erst einmal deutsche Grammatik.\nSie sind so ein lustiger Typ 😁😁"
+      },
+      {
+        "PairID": "WPDqtwuXiPk_UgxJV1mFXydSleb-Li14AaABAg.9SJFj_dyN_X9SQ7PoUDi06",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Das beste Konzept der großen Parteien!",
+        "ChildText": "Lässt sehr zu wünschen übrig.......  !"
+      },
+      {
+        "PairID": "8nw2BpjYz4o_UgxDgxICWK80ZpxZzsp4AaABAg.9FgB8Ff8ZxO9FgDmv396mK",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 1,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Guardian Spirit wohl zu viel Warhammer gezockt oder ?",
+        "ChildText": "@User_376915  Aber so ganz falsch liegt er wohl nicht. Eine Christin kann sie jedenfalls nicht sein."
+      },
+      {
+        "PairID": "isc6Hay1JYs_UgxQ_es_8a4q5E-WE0p4AaABAg.AMwFd7cynjhAU8nKXkC5sd",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "​@alexanderhartmann6105stimmt Deutschland hat keine Kultur klug erkannt",
+        "ChildText": "@User_60090 Solche Parolen bringen gar nichts. Damit machst du  dein Gegenüber von vornherein mundtot . Es zeigt auch dein Desinteresse an einer fairen Auseinandersetzung und letztendlich deine Intoleranz."
+      },
+      {
+        "PairID": "b4fLjOVoKag_UgzGo0ijxtzJrgKkqPR4AaABAg.ANAKijl9bpsANAPiIozQYn",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 2,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Nur in einem Punkt seid ihr besser als die AfD und zwar, dass ihr nicht rassistisch seid, sonst bringt die linke Politik nur Chaos und leere Versprechungen. Die AfD gehört verboten und ihr solltet bei unter 5% verwarnt werden und wenn ihr gute Politik macht, könnt ihr wieder mitreden.",
+        "ChildText": "Ich verfolge den Kanal erst seit kurzem. Höre hier zu 100%  mehr Lösungen als seit Jahrzehnten von CDU, SPD und AbgrundFürDeutschland zusammen."
+      },
+      {
+        "PairID": "ioyfuDqZmZk_Ugx8HJg6zDPzGL6rf4R4AaABAg.AFIPIvNk2HRAFS2F_DdhUu",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Vollidiot van Aken,will 1000,000\nZuwanderer im Jahr. Das zeigt der ist irre.",
+        "ChildText": "Du hast es das Wahlprogramm ja gar nicht gelesen😂"
+      },
+      {
+        "PairID": "EjBwr4-3_rA_UgwLUoSacFZjTvnipcV4AaABAg.AJ13cdgU8BLAJ4lnZOZRH8",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 0,
+          "llm": 3
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Unfassbar was in Deutschland abgeht. Meine deutsche Freundin plant die die Auswanderung. Ich werde auch nicht in Deutschland bleiben. Hätte mir das niemals vorstellen können. Wie bescheuert sind mittlerweile die deutschen Politiker die an der macht sind. Und der deutsche schlafwandelt, seit er späte",
+        "ChildText": "Bitte wander nicht aus. Du und deine Freundin, ihr seid wichtig für Deutschland. Ihr könnt was ändern: einfach bei der nächsten Wahl im Lokal die AFD wählen und versuchen, eure Freunde und Verwandte davon zu überzeugen, die AFD zu wählen, wenn sie nicht bereits AFD-Anhänger sind."
+      },
+      {
+        "PairID": "nhrQrziOmoc_Ugx1MOWvHU-GxI_RZih4AaABAg.9bKDENG1qGj9bULknUX7U1",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Klar hat sie Recht. Aber das ist politisch ja so gewollt Menschen aus aller Welt hier einreisen zu lassen.",
+        "ChildText": "Nicht aus. ...aller Welt"
+      },
+      {
+        "PairID": "2PnFPF1eHHc_UgxnBfAkF9feeTcJ1A14AaABAg.93rZXV95wHc94gujxXwwc2",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "AfD-Wähler stinken.",
+        "ChildText": "Strafbare, gruppenbezogene Hassrede....wunderbar😏 \n\nMach dein Ding, Netz-DG 😂✌"
+      },
+      {
+        "PairID": "PLkbKr2OCj8_UgxzarSoGullxjSr6KV4AaABAg.A2rA0cF6u20A2zaABxOfJz",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 1,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Ich will die hier nicht haben !!!!",
+        "ChildText": "Mal vernünftig nachdenken."
+      },
+      {
+        "PairID": "uMbKPbNYVY8_UgyNdmPgvUDuhxk8-JR4AaABAg.9X8FHyOgSca9XRD74fCVLx",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@jnk751Alsoooo… alles was sie gerade an Argumenten gebracht haben , kann man ohne viel nachzudenken sofort widerlegen, aber ich habe so fern das über ihre Mutter zutrifft was sie behaupten, vollen Respekt vor dem was ihre Mutter geleistet hat.Denn das muss echt sehr sehr vieles sein. Einen schönen A",
+        "ChildText": "@User_230706 Wenn das so einfach zu widerlegen ist, dann wird das für Sie nicht lange dauern. Vielleicht haben sie ja schon mal was von der Diktierfunktion gehört. Da brauchen Sie Ihre netten Fingerchen gar nicht in Bewegung setzen! 😉"
+      },
+      {
+        "PairID": "wjJgQs1wdho_Ugzr-FoXkuMRxVAPOwB4AaABAg.9v_2C03eJyDA3p1H-YS0Vn",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Ja diese Frau symbolisiert doch Kompetenz und Führungskraft sie hätte in der DDR auch einen guten Grenzschützen abgegeben :D",
+        "ChildText": "Genau. Hessen ist Ostdeutschland und die Linke 1:1 SED. Sie sind bestens informiert. Ein Hoch auf unsere Bildungspolitik!"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_Ugw5Jyv501ZO1SzwBNB4AaABAg.AEH_kwyGwCdAG6PRw8dv8_",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "@User_70735 alles.",
+        "ChildText": "@User_22888 Wo spricht für dich die Abschaffung der Mehrwertsteuer auf Grundnahrungsmittel gegen Unternehmensgründung?"
+      },
+      {
+        "PairID": "gbz_LecnBGs_UgwUqK8YzpyPY13KKyB4AaABAg.9pisDwHJQvd9pjiPv01p9s",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 1,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Die Medien berichten nicht mehr über Habeck/ Graichen. Ich hoffe dass dieses Thema nicht weiterhin verschwiegen werden kann.",
+        "ChildText": "Genauso wenig wird über Beatrix von Storch's verbindung zum Mövenpick Milliardär Augsut Fink besprochen oder ihre Vernetztung im Adel🧐"
+      },
+      {
+        "PairID": "AdVcczlRomw_UgyD1fcl0cPmMlapST14AaABAg.9gGrgXNKNUy9gH9m3I3b5I",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Nein das Volk kann sie abschalten jeder einzelne muss sein Stimme  erheben",
+        "ChildText": "@User_340351 Ich fürchte, da kannst Du lange warten..."
+      },
+      {
+        "PairID": "kvqJGabgao8_Ugwd-FNV05-X-ga75St4AaABAg.ATCq0agZSw8ATFnCzi7Fi6",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 3,
+          "bert": 3,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Naja finde das jetzt nicht so verwerflich. Das die Diäten kompetitiv zur freien Wirtschaft sind ist wichtig. Und dank Inflation müssen die alle paar Jahre angepasst werden.",
+        "ChildText": "@User_71099 ich bin einfach dafür, dass wir das belgische System einführen. Dann hat jede Putzfrau, jeder Handwerker und jeder Politiker kein Problem mehr mit der Inflation. Aber dann wäre es ja fair und gerecht, also nicht machbar mit CDU und AFD.  Selbst die SPD traut sich da einfach nicht dran. T"
+      },
+      {
+        "PairID": "H8f7d2LUFFs_UgyCS3vct9qljK1Vl6F4AaABAg.9HU_dpl755Z9Hbf9EFmbum",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Vielleicht bekommt die Warze dann von den vielen Flüchtlingen auch Mal nen Mann ab. Ein Deutscher fasst diese Frau nicht Mal mit der Kneifzange an.",
+        "ChildText": "Hallo Maria. 🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️\nDanke für die netten Worte. \nIch wünsche dir und deiner Familie ein frohes Weihnachtsfest. Und vor allem Gesundheit."
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxfDgLsEpshioqh6894AaABAg.AEJZuvjKGnZAEJctL9heQt",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Eure Linke, die ich mal gewählt habe, ist beim Thema Migration total verblendet und ignoriert die Probleme der Bevölkerung. Eure unendliche Toleranz steigt eindeutig mit dem Abstand zum Problem. Wer abends nicht ueber dunkle Plätze und Bahnhöfe muss als Frau, wer nicht als Lehrer an Hauptschulen arb",
+        "ChildText": "Als Frau kann ich über eure selbst zugewiesene Beschützer Rolle nur bitter lachen. \n\nWer bei Rammstein, bei #meetoo und bei der Bär vs Mann Debatte nicht auf unserer Seite war, kann sich seine scheinheilige Solidarität jetzt auch stecken. \n\nDass ich bei Männern generell ständig auf der Hut sein muss"
+      },
+      {
+        "PairID": "VrEnAgHBSOc_UgwyBscXyJPCXHk1Lb54AaABAg.AT8CTo2DNsEAT8ZKBzYXxo",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "@User_36530  kein plan wo ihr so eure teuren führerscheine gemacht habt, aber ich hab vor 11 jahren auch nur knapp 1200€ gezahlt",
+        "ChildText": "@User_32447 Ich hab meinen vor 10 Jahren für 3200€ gemacht xD"
+      },
+      {
+        "PairID": "GRW4ac7bRkQ_UgxUMjHFbv6x0p9sn4l4AaABAg.9avVqHxGadP9avXZKKwjhn",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Es ist doch immer wieder schön zu erleben wie unsere Demokratie auch diesen \"Schwachsinn\" ohne Beschädigung aushält.",
+        "ChildText": "Du glaubst noch, sie hält es aus!"
+      },
+      {
+        "PairID": "STGMi7ZpGZ8_Ugwn7TNlmIpRorV9kdd4AaABAg.AKqaaW_d0GxAKqnyoSxGYI",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "@Die Linke im Bundestag \nKönnt ihr bitte in die Infobox Infos packen wie der Redner heißt (steht auch nicht immer im Titel), wie die Debatte heißt, wann die Debatte war um welche Themen es geht usw. ?\nDas ist nicht viel Aufwand und man kann dadurch Reden auch später wiederfinden.",
+        "ChildText": "1. Methode: In eine Suchmaschine Name ein paar Stichwörter aus der Rede: Zack Treffer \n2. Home-Page der die Linken / Themen / Reden\nAntwort auf die Frage: \"Das Sondervermögen für Infrastruktur ist eine Mogelpackung\" Rede von Sascha Wagner, 08. Juli 2025"
+      },
+      {
+        "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0UB87Qs3y",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Mal so nebenbei: Pumuckl schwafelt irgendwas von Pult säubern - wichtiger wäre es den Präsidenten-Platz zu säubern…🤔",
+        "ChildText": "Ein gute Sitzungspräsidentin ! Da sollte man Ihre Rede am 25.06.2021 mal hören bezugnehmend auf diese Rede des AfD Politikers. Dort hat sie allen Politikern ins Gewissen geredet. Da wurde keine Partei ausgenommen !"
+      },
+      {
+        "PairID": "TcEuuL6iTF0_UgwnvpFaIMpBT6TqwcF4AaABAg.9RuZrtg3HT09_oVqtI87uX",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Grüner Sinn ,wirrer Geist .",
+        "ChildText": "Begründung bitte"
+      },
+      {
+        "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACqs34KqMje",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 3,
+          "bert": 3,
+          "llm": 3
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Die Ticketpreise bei der Bahn sind eine absolute Frechheit. Teilweise haben sich Streckenpreise im Nahverkehr mehr als verdoppelt in den letzten Jahren. Die Tages-/Ländertickets (gilt ab 9 Uhr, nur bis zur Ländergrenze, etc) sind auch eine Zumutung. Und jetzt wird auch noch das 49€ Ticket 20% teurer",
+        "ChildText": "Ja,denn bei mir in der kleinsten Großstadt Niedersachsen, kostet die  Monatskarte BUS ( wir haben nur Bus) fast 75 € . Nur für die Stadt. 58 € für DEUTSCHLAND."
+      },
+      {
+        "PairID": "61XL3yHFuPg_UgwJLcGXFCBH9OrhDcR4AaABAg.9E-EnFn5bUj9E4SQIQZ8WO",
+        "y_true": 4,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_10387 Das ist alles schon mal gefragt und auch beantwortet worden!\nHabe es selber gelesen, einige Zeit gemerkt, aber da ich keine Merkel Biografin bin, wieder vergessen!\nMir langt das, was ich jetzt hier sehe und erlebe und das ist Vernichtung unseres Landes und unserer Heimat pur‼️‼️",
+        "ChildText": "@User_207848\nLeider keine einzige vernünftige Antwort auf die gestellte hier Fragen \n\nTraurig, sehr TRAURIG 😞"
+      }
+    ]
+  },
+  "stance": {
+    "families_included": [
+      "shallow",
+      "bert",
+      "llm"
+    ],
+    "n_shared_pairs": 1088,
+    "n_hard_cases": 75,
+    "hard_cases": [
+      {
+        "PairID": "2E4s7MQUIFI_UgyoCZCYD3du8mlreqd4AaABAg.A9e0n3Mdvx7A9fHS8wlhPL",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Sie hat gar  keine",
+        "ChildText": "@User_46618 Die Weidel da haben Sie sicher Recht."
+      },
+      {
+        "PairID": "DWKpnt7wRDA_UgwVcW-tpog5NyCwteh4AaABAg.9TF7YhJHfiO9VQ_mQtS01Z",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@Der letzte Kürbis Maul, du bist schon der letzte Kürbis.",
+        "ChildText": "@User_386143 Es wäre natürlich schön, wenn sie ihre Frage bis zum Ende formulieren würden.\nAber ich denke ihr Anliegen zu verstehen.\nNein, ich bin nicht immer Tolerant. Aber auf jeden Fall nicht nicht doppelmoralisch.\nUnd genau das ist der Punkt mit euch so toleranten Leuten, die dann anders denkend"
+      },
+      {
+        "PairID": "KyNua7-q36w_UgxLpTzY-qbIg4CMljp4AaABAg.APJW3WBgQUYAPMGYbenHEe",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Sie spricht Klartext. Deshalb die Linke in alle Parlamente. ❤",
+        "ChildText": "😂😂😂😂😂😂"
+      },
+      {
+        "PairID": "Ez0kSon3DmY_Ugzi8oBUHoIe-ycEqgt4AaABAg.ABOX7sHH1AjABYE7MO9zx_",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Alice kann ich stundenlang zuhören.",
+        "ChildText": "Aber nur wenn Mann taub ist"
+      },
+      {
+        "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gULNSkGThM",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Ihr sprecht es aus und Herr Merz rudert zurück, inklusive Entschuldigung.",
+        "ChildText": "Merz, warum machst du einen Rückzieher? Steh doch dazu. Das sind Tatsachen die man nicht weg quatschen kann."
+      },
+      {
+        "PairID": "wjJgQs1wdho_Ugwv3SXg-y74bap7ZkN4AaABAg.9vXtUlg5DwgA0nYXL9lbeJ",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "wilkommen auf der hellen seite der macht. oder auf der hellen seite wohl eher 😅",
+        "ChildText": "Ach Kommunismus ist die helle Seite der Macht. Ist mir neu."
+      },
+      {
+        "PairID": "cRvupgVT-qo_Ugx5jPpdoJcvBiBO6Wh4AaABAg.A2j6z0kTaEHA2jKloB_a-8",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Weil die genau wissen das die ihre letzen Atemzüge im Bundestag machen",
+        "ChildText": "@User_362743 Ja hoffentlich bald"
+      },
+      {
+        "PairID": "9kcdXGIzu54_Ugymoi1Be5M5LrrHSqt4AaABAg.9ny5sEgtjuM9ny96tYuQQx",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_200579 das wird sich so schnell nicht ändern",
+        "ChildText": "@User_43144 \nWer den ÖRR in der Hand hat - hat das Wahlvieh in der Hand. \nEinen Wehrmutstropfen gibt es...60% aller Wähler machen die Rentner (CDU/SPD) aus, zugleich auch grösstenteils ÖRR Zuseher, die sind wir in ein paar Jahren los, dann könnte sich das Blatt wenden."
+      },
+      {
+        "PairID": "mw-35k8Fu6w_Ugw2j5TVYLR_yN0n2Hl4AaABAg.92laD3gfAWf92oFco-PZt4",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Eine Schande die Flüchtlinge bekommen ein Gehalt fürs Nichtstun und unsere Rentner die das Finanzieren dürfen zur Tafel gehen wie abartig ist das eigentlich",
+        "ChildText": "Ein Schweizer meint:  Curio  for  Canzler !"
+      },
+      {
+        "PairID": "PPjRqPUmPvk_UgyRjFNi9IHiHYsv-Od4AaABAg.9TnLELoGnGw9Tr9dBo9g7l",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "So wie man wählt, so bekommt man es serviert....",
+        "ChildText": "@-angelalexi5258 Das sind lediglich kleine, unbedeutende Abweichungen, die gar keiner Aufmerksamkeit bedürfen! \nDU NAAAZIII! \n\n😁😁😉😉"
+      },
+      {
+        "PairID": "Aq7ryGkapuE_Ugxl6IGG5njvTB-Fqzp4AaABAg.9EmXwDHaMJN9IcjeFti6I8",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Tolles junge Mädchen hoffentlich sehen das viele junge Menschen",
+        "ChildText": "Ja ich habe das tatsächlich mit einer Schulklasse durchgenommen das Video. Das Thema war PCR und DNA und dieser Vortrag ist ein wunderbares Beispiel für schlechte wissenschaftliche Arbeit. Die Behauptung, die sie auf stellt können bei genauerem hinsehen und lesen bereits von Oberstufenschülern entta"
+      },
+      {
+        "PairID": "WGlMpT_dXb0_UgxcseMpuGNGcfiA66N4AaABAg.9DfR6NpwJMv9DnFMd__nwx",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Wenn Frau Weidel Bundeskanzlerin wäre würde es uns allen tausend mal besser gehen,  die Raute des Grauens und ihre ganzen korrupten Speichellecker müssen schnellstens weg.",
+        "ChildText": "Ja Fr.Weidel 💐Bundes Kanzlerin!"
+      },
+      {
+        "PairID": "X7Se7nABZWI_UgztFz-ehCZwp-RKUol4AaABAg.A4LmBvSCEOmA4LvZ5Y90qX",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "ich bin ein migrant und wähle die AFD! ich will das alte Deutschland wieder wie es war in die 90iger und danach.💙💙💙💙💙💙💙💙💙💙",
+        "ChildText": "Gegen Menschen wie dich hat keiner was."
+      },
+      {
+        "PairID": "rZlrVpF6O30_UgxToaTfFOai6M0weJh4AaABAg.9bla8l8fXeY9bp-0opOr4g",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_35469 Sehr geehrte Frau Siefert, kleiner Hinweis ich sehe keine Opfer, noch presst uns keiner aus.",
+        "ChildText": "@User_357049 Das mag bei dir so sein. Trotzdem beutet uns die Regierung aus, nur um mit dem Geld der Steuerzahler dann viele Milliarden zu verpulvern. Und wenn man sieht, das viele Milliarden dahin gehen, wo es völlig unsinnig ist, China, Griechenland und vieles mehr, dann sollte es auch einen Herrn"
+      },
+      {
+        "PairID": "JRIZCwVdUAM_Ugx8B9ig7rFksa0jSmZ4AaABAg.8oEPeguzQel8oEe0aZxsE-",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Bester Mann.\nIn Zukunft Curio in die Talkshows schicken",
+        "ChildText": "Zerebrat Eightyseven \nDen kenn ich zwar nicht, aber ich geb' Dir unbedingt Recht."
+      },
+      {
+        "PairID": "oOgc61xpF4Q_UgzmNFGyjBezW9YMUqZ4AaABAg.A8dgXLUJ9jYAC9Uw60_QdR",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Remigration",
+        "ChildText": "Maul ​@User_61767"
+      },
+      {
+        "PairID": "TcEuuL6iTF0_Ugx41koHCQOP_Qd6sVl4AaABAg.9RuZJoJaj0h9Rua0o2eGT4",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Was denn?",
+        "ChildText": "@User_126484 der 12 Jährige weiß das kommt , er kann selbständig denken . Er ist kein 🐑 ."
+      },
+      {
+        "PairID": "2E4s7MQUIFI_Ugxgz0FjeNeg19_5Re14AaABAg.A9enaHFaRqPA9eoNDOnUBJ",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Jannina nimm möglichst viele Migranten bei dir zu Hause auf",
+        "ChildText": "Diese Forderung macht das Gutmenschenbild kaputt - darum ist das Hassrede."
+      },
+      {
+        "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9SObaL42fB0",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Ich sage es nur sehr ungerne aber jede Stimme für die AFD ist letztendlich eine Stimme für Rot Rot Grün.\nOlaf Scholz freut sich wahrscheinlich insgeheim über jeden AFD Wähler denn diese Stimme gefährdet seine Wahl zum Bundeskanzler nicht mehr.\nIch habe in den letzten Jahren immer AFD gewählt und bei",
+        "ChildText": "Bist du durchgedreht oder so? Was ist das wieder für ne linke Taktik?"
+      },
+      {
+        "PairID": "QYgQVU22q6g_UgwszoT-m4VYdRHHVUp4AaABAg.9DkMP3TF5l-9DlDZg7mH9I",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Deutschland wird zugrunde gerichtet und das schlimmste ist, dass die Mehrheit der Bevölkerung es fraglos hinnimmt",
+        "ChildText": "Ich gehöre zu den Hirnlosen - aber das sind immerhin über 85%......"
+      },
+      {
+        "PairID": "cA96V0Tqe1Y_Ugw9PS9QeEMMhD-fHwx4AaABAg.93tnqaWE_Yf93zPp7BXmH7",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Das ist ausgeschlossen! Die AFD hat keine Chance weil eure Damen (50% der Wähler) die Parteien wählen werden die für den Zuzug neuer arabischer und afrikanischer Jungs stehen... warum wohl???",
+        "ChildText": "@User_342933 weil die so auf die langen Schw...ze stehen, oder? Und die knackigen schwarzen Körper?\nOder weil die so Schlimmes erlebt haben in Ihren Adidas Klamotten und Nike Air Turnschuhen."
+      },
+      {
+        "PairID": "Qyds5R3ORmc_Ugzb8yfzugzOkBU5iap4AaABAg.AEoUGNLIYScAF-ox_nJJjt",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Jan van Aken ist GROSSARTIG!!! ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+        "ChildText": "Nur Asis finden den gut."
+      },
+      {
+        "PairID": "kC_mtpsvUJo_Ugxh5gdhgAYqJrBqYcx4AaABAg.9Zy3Q3ju0079_3FQgUDMLg",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Wer soll der Linken das glauben?\r\nAls der Kriegsverbrecher Putin die völkerrechtswidrige Annexion der Krim feierte, feierte außer den schlimmsten Rechtsextremen ausschließlich Mitglieder der LINKEN mit ;-)  \r\nAnscheinend ist die \"extreme Rechte\" nicht gleich \"extreme Rechte\" (in Putins Russland) ;-)",
+        "ChildText": "@User_57999 isso"
+      },
+      {
+        "PairID": "wyNgNBGeWj8_Ugw-tl_NpXhfXCRJ-1Z4AaABAg.8qgXBedylFd8qv3MwfDW6e",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_204599 wozu? es gibt doch compact.",
+        "ChildText": "@User_314302 ja aber Compact lügt doch, Relotius News widerspiegelt eure Gesinnung  !"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAENSfa3ZcrR",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Sprachkurse finanzieren : das kann ich als Sozialarbeiterin bei der Arbeitsbeschaffung nur Unterschreiben. Viele Migranten wollen arbeiten, wir bekommen bei meiner Arbeit jeden Tag mindestens von 3 Leuten Anfrage zur Hilfe beim Arbeit suchen. Die WOLLEN! und jetzt wird aber die Finanzierung der Spra",
+        "ChildText": "Ja dann laßt sie halt arbeiten, es scheitert doch an der SPD nicht an der AfD."
+      },
+      {
+        "PairID": "GRW4ac7bRkQ_UgxUMjHFbv6x0p9sn4l4AaABAg.9avVqHxGadP9avYfR27wK0",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Es ist doch immer wieder schön zu erleben wie unsere Demokratie auch diesen \"Schwachsinn\" ohne Beschädigung aushält.",
+        "ChildText": "Ja klar, Ulrich Köchling,immer schön Ideologien hinterherlaufen.Das Ergebnis ist,es hat Ihr Gehirn beschädigt."
+      },
+      {
+        "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0__t6hMyQ",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "@User_148787 \n\nTotalitarismus ist Totalitarismus!\nDer NationalSOZIALISMUS hatte auch Aspekte der Diktatur des Proletariats. Daher bleibt auf Parteilinie!\n\"Impfen macht frei!\"\nWeiß doch jeder! Stand ja auch schon über den Eingängen zu den Konzentrationslagern. Oder stand da \"Duschen macht frei!\" ? Eg",
+        "ChildText": "@User_169825 hmmm steht doch jetzt überall in den Main stream Medien. Aber wir wissen ja alle wie ihr Kommunisten denkt und wieviele tote auf eure Kappe gehen."
+      },
+      {
+        "PairID": "xOfBxIY13So_UgxX95lAdkZJFoBn62N4AaABAg.9Eqv5zLAOUi9EtWFDdkAyk",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Mein Vater fährt schon seit über 30 Jahren LKW in Deutschland, er meinte, dass es einen erheblichen Fachkräftemangel in diesem Bereich gibt!!! Und wir sind eine türkische Familie!!!",
+        "ChildText": "Dann seit Ihr bei der AFD auch an der richtigen Stelle.\nNur diese Partei handelt und aggiert vernünftig und mittig - Sie gehört endlich an die Macht!\nBitte endlich vernünftig wählen!"
+      },
+      {
+        "PairID": "rZlrVpF6O30_UgxToaTfFOai6M0weJh4AaABAg.9bla8l8fXeY9bpqgdTJjzE",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_357049 Ich habe von Opfer bringen geschrieben, nicht, dass wir welche sind.\n\nAußerdem war das eine Formulierung im übertragenen Sinne.\n\nIhre Interprätation ist jedoch interessant.",
+        "ChildText": "@User_35469 Sehr geehrte Frau Seifert, keiner muss hier etwas opfern."
+      },
+      {
+        "PairID": "8nw2BpjYz4o_UgxDgxICWK80ZpxZzsp4AaABAg.9FgB8Ff8ZxO9FpYuanedFK",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_376915  Aber so ganz falsch liegt er wohl nicht. Eine Christin kann sie jedenfalls nicht sein.",
+        "ChildText": "@User_169002 Ist sie auch nicht."
+      },
+      {
+        "PairID": "1eUG3aYpHWY_UgyhBbLy1gGxJKW4rbV4AaABAg.9gUIxm9wKM09gUJXRr4Bew",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Curio als Kanzler, dann würde es voran gehen.",
+        "ChildText": "Nein Curio als Innenminister und Alice als Kanzlerin, Chrupalla Vizekanzler"
+      },
+      {
+        "PairID": "61XL3yHFuPg_UgwezOZDNrQ9y980vZt4AaABAg.9E-Hntxr4IX9E0orTJZ9Ua",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 2,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Psychische Defekte der Altparteien. Treffer.  Gott sei Dank gibt es die AfD. Danke sehr.",
+        "ChildText": "Nur kann die AfD wegen der vielen dumm Menschen auch nicht wirklich viel machen."
+      },
+      {
+        "PairID": "Uv9iR4HWSIw_UgyurvgErehpW83Am954AaABAg.9FJRkPYTaLR9FJSmlDedRh",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "An dem Tag an dem die AFD den ersten Kanzler stellt, dieser Tag wird mein persönlicher Feiertag.\n👍💙",
+        "ChildText": "Meiner auch ,   jeder Politiker der AfD hat mehr drauf wie irgend ein Politiker der alt Parteien .Immer mehr Menschen haben dass inzwischen auch schon festgestellt. Kluge fragen immer nur dumme antworten.  Wir brauchen die AfD um nicht vor die Hunde zu gehen."
+      },
+      {
+        "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9Sfjld3_OSj",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_124006 warum ignorierst du jetzt meine Frage und stellst den Verdacht auf, dass ich linksextrem sei?",
+        "ChildText": "@User_195857 warum geht ihr zu zweit auf mich los, so antifamäßig asozial und unterstellt mit rechtsradikal zu sein? Kommt das auch aus eurem Elternhaus oder eher Schule?"
+      },
+      {
+        "PairID": "kvqJGabgao8_UgyDmISOlfzIY2DrcZh4AaABAg.ATCoDKAazBrATCqZqgvu2Q",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Und Philipp windet sich auf seinem Stuhl und weiß gar nicht wie er reagieren soll. Außer Stirnfalten und schwer atmen fällt ihm da nichts ein. Das sagt wohl alles.",
+        "ChildText": "Isso. Von diesem und Video mit Reichinek zuletzt, sind das des Tors Reaktionsoptionen, soweit beobachtet (fairerweise nur biased da nur eine Quelle) :\n- Aussage Unterbrechen und Leugnen\n- Gestikulieren als wären Fakten ein Irrsinn\n- Ablenken zu andrem Thema/Frage mit Gegenfrage statt Antwort umgehen"
+      },
+      {
+        "PairID": "ioyfuDqZmZk_UgwUpmkLhPM7oMhFgiJ4AaABAg.AEo6nvOBu2VAExp8PM20gx",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Das große Problem ist, dass du vielen von diesen AfD- und CDU-Wählern noch so vielen Fakten erklären kannst, es macht keinen Unterschied. Dann sagen die einfach: „Ne, das glaube ich nicht.“",
+        "ChildText": "@User_04602 Isso. Bei der AfD hat das schon nen sektenhaften Charakter. Die Weidel ist wie ein Guru. Ob die Bauchtanz macht oder Fragen korrekt beantwortet, ist völlig egal geworden."
+      },
+      {
+        "PairID": "dDGWntK0r3o_Ugy8QW-HO-J1oLpTW414AaABAg.9P5He27egtD9P5KPreQjhT",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Diese Altparteien, denen vergeht noch das Lachen, die Altparteien haben ihre Orientierung verloren und finden diese auch nicht wieder",
+        "ChildText": "Weil es korrupte, verlogene, verkommene und schmarotzende Gestalten sind - und sonst nichts !😉"
+      },
+      {
+        "PairID": "AqpU8NnJwWY_UgwhDThduZVKfg4M5Fh4AaABAg.ARqrk0jGmMQARuxnLrwjVY",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Tolle Unterstützung,  danke!\nLinksdruck für die Demokratie, für mehr Demokratie",
+        "ChildText": "Noch mehr links?"
+      },
+      {
+        "PairID": "xUv4NmkVNRk_UgwKMJbwTdwn-zdTWfB4AaABAg.9QehLFZkX379Qf5XYh9v93",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 2,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Wenn du die AfD wählst, werden homosexuelle wie in 3. Welt Ländern diskriminiert, wir unsere Umwelt mit Atomkraft zerstören und die Steuer für Reiche gesenkt, während Sanktionen für die, die Hilfe brauchen erhoben werden. Damit wird die Kluft zwischen Arm und Reich einfach nur größer. Was für eine m",
+        "ChildText": "@User_111962 ja Alice Weidel ist ja nicht lesbisch und ist nicht afd Parteivorsitzendeund was ist falsch an atomkraft"
+      },
+      {
+        "PairID": "lG156KWmHa8_UgxYBnbCasiH4hg083d4AaABAg.9mgHF29ROOf9mgHvlWcemG",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Grade bei älteren Menschen  die trifft das härter wenn sie das gewohnte Umfeld verlieren werden krank oder verkraften das nicht gesundheitlich",
+        "ChildText": "Das ist diesen Politdarstellern doch vollkommen egal."
+      },
+      {
+        "PairID": "KCcugsXF8m8_UgySa1YLZc-02O8RNHl4AaABAg.9mpezFNL9bH9n1I1rQ9NBw",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Aus der Kirche austreten, Altparteien abwählen.",
+        "ChildText": "Bin 1997 aus der Kirche ausgetreten. Das müssen noch viel mehr tun."
+      },
+      {
+        "PairID": "61XL3yHFuPg_UgwJLcGXFCBH9OrhDcR4AaABAg.9E-EnFn5bUj9EvBbWvsTbe",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_163388\nHamburg gehörte zu DDR?",
+        "ChildText": "@User_10387 Was ist daran traurig?War FDJ Sekretärin für Agitation und  Propaganda in der Akademie für Wissenschaft der DDR.War anfangs gegen die Eröffnung der Grenze.Hat sich gut verkauft. Immer der Fahne nach,egal wo Sie hinweht. Vieles was in der DDR praktiziert wurde ,wendet Sie leider heute an."
+      },
+      {
+        "PairID": "KrHzZy9TAic_UgzUn7ftFxJNRYMMLAN4AaABAg.9j3UYPxbl6t9j3hX--PnMj",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Dass der Butler da noch ne Maske tragen muss, ist mehr als erniedrigend.",
+        "ChildText": "Er ist Pöbel Corna kennt sich aus ."
+      },
+      {
+        "PairID": "ktDLL7nyW8A_Ugw6xWPcy0A9nEVNw694AaABAg.AENFhUCcJzdAMrnWAaje5e",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 2,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Man hätte zumindest einmal Palmer zu Wort kommen lassen sollen",
+        "ChildText": "Ja, warum auch Meinungswettbewerb zulassen. In einer Echokammer lebt es sich viel schöner 😂"
+      },
+      {
+        "PairID": "nddNHtMoqXg_Ugx6gb_7zJ7-bB5MCZN4AaABAg.9q62FuU70UX9q6Cj4OIRh9",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Kleine Korrektur - es handelt sich nicht um eine Fehlentscheidung, sondern um eine volle und böswillige Absicht.",
+        "ChildText": "​@User_209793 richtig"
+      },
+      {
+        "PairID": "RlLBt2OYHH8_UgyNnKy8aMU9vOCmVpZ4AaABAg.9Fdn8_TXSnF9FtTQ_wYV7m",
+        "y_true": 0,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "@User_17983 Also das ich auf dem Kanal von der AfD nicht wirklich auf Intellektuelle treffen werde, war mir schon vorher bewusst. Deswegen lohnt sich die Diskussion auch nicht :)",
+        "ChildText": "@User_122143 Das ist doch Unsinn was Du hier erzählst.\nDu hast mich gefragt... ich habe geantwortet. Wenn Du hier nichts adäquates für Dein Hirn findest dann quatsch doch nicht."
+      },
+      {
+        "PairID": "byULNSSCGq0_UgxWBZqw2SARVGyW_RF4AaABAg.90BsqvsRyeb90h2qByBwDj",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Ich finde das künstliche Lachen nur als dumme Geste aber das gibt Stimmen für die AFD",
+        "ChildText": "Dämlichen Weiber, schlimmer wie im Kindergarten, ich könnte denen das Maul stopfen 👊😡"
+      },
+      {
+        "PairID": "ON0xT0rBeds_UgxepXzSztdk4MoyGJt4AaABAg.ARtJB7RL1R5ARtTss-lpmR",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Und was ist mit den über Eine Million Menschen die für ihr Land auf die Straße gehen und habt ihr darüber nachgedacht wer da gegen die Regierung demonstriert das der Mossad der Israelis das angezettelt hat.\nLeute wie wäre es wenn ihr euch um Deutschland kümmert, hier wird die Opposition bekämpft abe",
+        "ChildText": "du bist ja komisch, alle rechtsradikalen sollten das mal mitmachen. schon das rumgeheule von rechts als ein paar Tage Stromausfall in Berlin war . In  der Ukraine hats mal  unter -20 Grad. \nDie Menschen in Krisengebieten haben es verdient, egal wo, dass man zumindest das macht was möglich ist"
+      },
+      {
+        "PairID": "Hh7sba8b0Oc_UgxJdowRrwsBwcivNQJ4AaABAg.APX4z9DP6DoAQ0sLNkEvqR",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 2
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "​@KarlHeinzSpockund trotzdem ist Lüge schreiben kein Argument, sondern infantile Gegenreaktion😂 Oh man. Natürlich weißt du es besser als ich, du weißt alles immer besser. Nur dass das ganze Land pleite geht an dem Schwachsinn, weil die Realität eben jeden Schwachsinn aufdeckt. Aber in deinem Kopf gi",
+        "ChildText": "@User_75406 \n\ndu schriebst oben:\n\"ich habe zu recht darauf hingewiesen, dass es real keine hohen Kosten sind\"\n\ndas ist sachlich falsch. du lügst oder du verstehst es nicht, sagte ich bereits oben.\n\ndeine antwort darauf, offenbar weil es dir an sachargumenten fehlt: \n\"und trotzdem ist Lüge schreiben "
+      },
+      {
+        "PairID": "hAB3zYIMF9Y_UgwSOWl6LOTwaRF1jhh4AaABAg.9JsZTExM3ai9JzauxZmCm4",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 2,
+          "bert": 2,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Sehr gute Rede mit Hand und Fuß und absolut wahr.E-Mobilität ist ein nicht zu Ende gedachtes Gebilde,man sieht nur bei der Vermarktung den geldbringenden Teil des Ganzen .Den kostintensivsten und schädlichsten Teil verschweigt man.Doch kann nicht Jemand diesen widerlichen Zwischenrufern die Schnüss ",
+        "ChildText": "E-Mobilität wurde schon bis zum Ende durchdacht und dann aufgegeben... 1910! 🤔😉😊"
+      },
+      {
+        "PairID": "Xw8enEYHPnY_UgxH6qK2dFDgOjbb4TB4AaABAg.9l74IcGH3_W9lCalWa52Mo",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Die Grünen sind primitiv und gefährlich.",
+        "ChildText": "Siehe deren Wähler wie Claudia Crisula Sch...aus Bayern!!!!"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxFFaZCEy0NuASfLoF4AaABAg.AEHP_qOJPTHAEHQwFi7QtT",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "War ein absoluter Traumauftritt von Jan von Aken",
+        "ChildText": "ich hätte ihn gerne noch NAZIS RAUS rufen hören!!!!"
+      },
+      {
+        "PairID": "0g8nnp7tB70_UgzuFBgzEuILUe6NqE94AaABAg.AEeM33w3wr_AEo05HHoSs1",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Ich bin soo beeindruckt von Euch, dass Ihr innerhalb weniger Wochen von 3 auf 7%!! geklettert seid! Soo nice, vielleicht schaffen wir ja die 8%?",
+        "ChildText": "Glaube vor allem, dass viele Nichtwähler eingefangen werden können....die, die früher gesagt haben wählen bringt ja eh nix, aber eigentlich aus dem Klassischen Arbeitermilliue kommen. Die Merken vielleicht jetzt gerade bei dem gedanken unser Land dem Rechtskonservativen Lager zu überlassen, dass sie"
+      },
+      {
+        "PairID": "VkaHEoND_sM_Ugwr2roS4DkQhPRQ4th4AaABAg.9ovkXgj4SW49ovoGBY3eXk",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Zum \"Fremdschämen\" und zum🤮. Das darf alles nicht wahr sein🤭😭😱",
+        "ChildText": "An Widerstand führt kein Weg mehr vorbei. Eine neue Ordnung muss in Deutschland kommen"
+      },
+      {
+        "PairID": "KLJBTxmT1Xk_UgzOZ7KShsDw8dZSj9t4AaABAg.9jjSN_zQaot9jk2oNN-Da5",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "So wahr!",
+        "ChildText": "Seit dem die Ampel   regiert geht es mit Deutschland BERGAB  den Bürgern geht es viel schlechter   kein Wunder das DIELEUTE nicht überrascht sind das diese Regierung beseitigt werden sollte   lieber eher als zu spät"
+      },
+      {
+        "PairID": "H8f7d2LUFFs_UgyCS3vct9qljK1Vl6F4AaABAg.9HU_dpl755Z9Hbf9EFmbum",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Vielleicht bekommt die Warze dann von den vielen Flüchtlingen auch Mal nen Mann ab. Ein Deutscher fasst diese Frau nicht Mal mit der Kneifzange an.",
+        "ChildText": "Hallo Maria. 🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️🙋‍♀️\nDanke für die netten Worte. \nIch wünsche dir und deiner Familie ein frohes Weihnachtsfest. Und vor allem Gesundheit."
+      },
+      {
+        "PairID": "wit8lkyq5rg_UgyJNDuPxueCiCE4PWx4AaABAg.AS75AIw0OY2AS7uFbSTksD",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Bald auch in Deutschland wenn die AFD kommt 😓",
+        "ChildText": "Wir werden die AFD alle gemeinsam verhindern!\nHabt alle noch mehr Mut genen die AFD, aber vorallem für die Menschlichkeit, Bildung und Solidarität aktiv zu werden!!! Wir werden das schaffen! 💪"
+      },
+      {
+        "PairID": "QpZd_pYnIDo_UgyWxtU45TFcbsp-2hd4AaABAg.9rJLNduNe6W9reRZRff0xc",
+        "y_true": 1,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 2
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "AfD ist untrennbar mit wahren, ehrlichen Fakten und Tatsachen und mit der aufrechten Fürsorge für Deutsche in Deutschland.",
+        "ChildText": "Warum, wandering,viele, Deutsche Fachkraefte,aus!!!"
+      },
+      {
+        "PairID": "VrEnAgHBSOc_UgwcsrW8PPjUcxB1vB14AaABAg.AT8YWbKchLkATApFvPI16r",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Super Idee! ❤️\nDie Zukunft ist links! ❤️",
+        "ChildText": "Absolut!❤"
+      },
+      {
+        "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA8L5K3_RcF1",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Danke euch... Die letzten Aufrechten... \n\nIhr habt so Recht!",
+        "ChildText": "Die letzten Aufrechten sehe ich vielleicht noch in der Partei \"Die Partei\". Eine starke linke Partei braucht Deutschland dringend. Leider sehe ich eine ganz traurigen Rechtsruck selbst im linken Spektrum, sogar populistisch. Oder habe ich es nie gesehen. Mir wird klar, dass die SED auch nur eine mod"
+      },
+      {
+        "PairID": "2E4s7MQUIFI_UgylBQdFz1BzJ0Lb0Q14AaABAg.A9cYjcKBGG6A9crBTDpAnL",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Ahja, Faschisten im Bundestag gehen klar, aber sobald man diese dann als Stinktier bezeichnet ist alles böse und unparlamentarisch...",
+        "ChildText": "Sie war ja auch noch zurückhaltend. 😊"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgxE3dskiuyvhmXO_DR4AaABAg.AEHTj73rBYrAEHbS9k6RNA",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Wo soll man da denn überhaupt bei dir anfangen?!\nSo wie es aussieht, solltest DU mal Sprachunterricht NEHMEN, bevor du es ANDEREN VERBIETEN WILLST! Lern mal deutsch in schriftlicher Form. Das ist ja reiner Augenkrebs.\n\nHast du selber mal versucht, dich mit einem Übersetzer mit jemand anderen persönl",
+        "ChildText": "@User_84827 Hi, ich verstehe deine Rage, aber ich denke nicht, dass das Angreifen einer Rechtschreibschwäche besonders förderlich für den Diskurs ist. Aber den Rest unterschreib ich :)"
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgzxzKblcW5NQI6SRZ14AaABAg.AEWlMorkgY5AEY5WXsNsPf",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Sehe hier nur Antideutsche 🤡",
+        "ChildText": "also dich?"
+      },
+      {
+        "PairID": "gC-kDfnA68c_UgybHLKLqCDWbGidwbd4AaABAg.9-67RZLO6Ez9-Bl46e2IkY",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "AfD",
+        "ParentText": "Marci Leiser Schule muss objektiv bleiben. Alles andere ist Propaganda.",
+        "ChildText": "@User_335762 Komisch, dass es in allen Gymnasien im Landkreis so ist. Und dem Rechtspopulismus der AfD glauben zu schenken zeigt, dass sie sich keine eigene Meinung gebildet haben sondern einfach blind hinterherlaufen."
+      },
+      {
+        "PairID": "Qyds5R3ORmc_UgzE-wR4fkRsowDe-sd4AaABAg.AEHvfk2jpawAEHwvYpA_Gm",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Die Begeisterung des bestellten Publikums zu gewinnen ist aber wirklich keine Kunst als Linker.",
+        "ChildText": "Nicht immer von der Alternative fürs Denken auf die anderen Parteien schließen. Bloß weil Afder ihre Claqueure bezahlt machen das nicht alle."
+      },
+      {
+        "PairID": "AqpU8NnJwWY_Ugxx7AaXFL6nrsPG01d4AaABAg.ARqlhOOu68dARqyyvP6uvd",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Der Westen wird nicht nur von Russland und China bedroht, sondern auch von innen. Das dominant gewordene linksliberale Weltbild zerstört Tradition, Familie und Nation. Es hat Freiheit in Haltlosigkeit verwandelt.",
+        "ChildText": "😂😂😂 Überdosis Blödzeitung studiert?"
+      },
+      {
+        "PairID": "eKTOWD3Xzfw_Ugwa_myx9OhmK6LwvIx4AaABAg.AN2vTla6zf-AN5WxsXZsZ1",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Von den Rechten hat noch nie jemand gemordet, wo liegt der Fehler.",
+        "ChildText": "@User_18860  das ist doch jetzt nicht dein scheiß Ernst oder?"
+      },
+      {
+        "PairID": "RPfktIoeJO8_Ugg2dw8pK44K83gCoAEC.8A-YHLL7o7O8A6YbRB_kn_",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "liebe Frau Kipping, Sie haben ja Recht, das Deutschland eine Regierungskrise hat. Nur wenn Sie dies doch schon erkannt haben, warum stimmen Sie dann immer noch in vielen Dingen des Merkels zu? Warum protestieren Sie im Bundestag? \nUnd es ist auch richtig, das Strobl zeitweise wirklich nervt, aber fi",
+        "ChildText": "Gerhard Röhrmann Diesen Zynismus kann ich zwar nachvollziehen, aber er ist in meinen Augen nicht tragbar. Unsere Gesellschaft hat sich allein in den letzen 200 Jahren so radikal verändert, dass sie nicht mehr wieder zu erkennen ist. Warum sollte sich nicht auch die Ungerechtigkeit des Kapitalismus ä"
+      },
+      {
+        "PairID": "EROxE0gufgk_UgzumIPrd7XOhFwdoJl4AaABAg.AESoHt-O1hAAEWXk822UIJ",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "AfD",
+        "ParentText": "Wir vergessen nicht!!!",
+        "ChildText": "bitte auch die Opfer deutscher Bombardierungen nicht - Rotterdam, London, Coventry etc..."
+      },
+      {
+        "PairID": "eKTOWD3Xzfw_Ugwa_myx9OhmK6LwvIx4AaABAg.AN2vTla6zf-AN2wi-k3se4",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Von den Rechten hat noch nie jemand gemordet, wo liegt der Fehler.",
+        "ChildText": "In welcher Welt? Rechte Politik geht ohne Mord gar nicht."
+      },
+      {
+        "PairID": "ioyfuDqZmZk_UgwUpmkLhPM7oMhFgiJ4AaABAg.AEo6nvOBu2VAEp_pcoBKKT",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Wie die alle gucken und sich denken: \"Fuck, hoffentlich hören meine Wähler diese Argumente nicht. Bei der Wahl brauche ich die kleinen Leute noch, damit ich danach meinen Parteispendern noch mehr Wohlstand zuschustern kann.\"",
+        "ChildText": "Die Gesichter sagen alles 😂 Die wissen halt auch alle, dass Jan recht hat. Der Unterschied zwischen ihm und den anderen ist aber, dass die alle genau diese Milliardäre im Rücken haben die mit Scheinen wedeln."
+      },
+      {
+        "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACsAYAVDzJ2",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 0,
+          "llm": 1
+        },
+        "category": "climate",
+        "party": "Linke",
+        "ParentText": "Die Ticketpreise bei der Bahn sind eine absolute Frechheit. Teilweise haben sich Streckenpreise im Nahverkehr mehr als verdoppelt in den letzten Jahren. Die Tages-/Ländertickets (gilt ab 9 Uhr, nur bis zur Ländergrenze, etc) sind auch eine Zumutung. Und jetzt wird auch noch das 49€ Ticket 20% teurer",
+        "ChildText": "Nein. Das soll die Leute fern halten und der Plan geht leider auf."
+      },
+      {
+        "PairID": "En-ko2OErwE_UgzvhO9CU_aamVvh-YZ4AaABAg.AIDKySQZTuqAIRZNDdZd5g",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 1,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Wie viel Kinder haben in Deutschland kein Spielplatz von den heruntergekommen Schulen nicht zu sprechen.",
+        "ChildText": "Ich verstehe das Argument nicht. Wäre doch toll, wenn jedes Kind auf den Spielplatz und in eine vernünftige Schule kann."
+      },
+      {
+        "PairID": "0g8nnp7tB70_Ugx0BfedyAnrUIghvRd4AaABAg.AEfbRHFidQ4AEfbs5RFzlL",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 0,
+          "bert": 0,
+          "llm": 1
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Ihr Wollt an Israel Waffen liefern. Linke wollen den Massacker an Frauen und Kindern unterstützen, den Genozid unterstützen. Nicht mit mir💪 Macht die Augen auf und schaut nicht weg.",
+        "ChildText": "Das Massaker. Da wird sich immer über den Verlust der Sprache beschwert und dann ständig sowas. Classic Faschogeheuchel"
+      },
+      {
+        "PairID": "ktDLL7nyW8A_UgwC8V9ohdWt72pWZu14AaABAg.A6uUe-beWE0ADhtguU_lET",
+        "y_true": 2,
+        "y_pred_per_family": {
+          "shallow": 1,
+          "bert": 1,
+          "llm": 0
+        },
+        "category": "migration",
+        "party": "Linke",
+        "ParentText": "Wie viele hat sich bei sich zu Hause aufgenommen?",
+        "ChildText": "@User_36819 wie viele arme Rentner hast du bei dir aufgenommen?"
+      }
+    ]
+  }
+}

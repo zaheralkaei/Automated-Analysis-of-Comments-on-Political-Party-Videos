@@ -1,0 +1,41 @@
+[
+  {
+    "PairID": "Qyds5R3ORmc_Ugwhtu6-DD9xgLO6N2p4AaABAg.AEICRLTwvt_AJUXxJ6Dxhi",
+    "VideoID": "Qyds5R3ORmc",
+    "Topic": "migration",
+    "ParentText": "Die Linken für soziale Gerechtigkeit ❤",
+    "ChildText": "Scheiß auf Integration.",
+    "InteractionScore": -1.0,
+    "InteractionLabel": "-1.0  Destructive Disagreement",
+    "StanceLabel": 0,
+    "Techniques": [
+      "Loaded_Language",
+      "Name_Calling,Labeling"
+    ]
+  },
+  {
+    "PairID": "61XL3yHFuPg_UgwJLcGXFCBH9OrhDcR4AaABAg.9E-EnFn5bUj9E3mhSD27an",
+    "VideoID": "61XL3yHFuPg",
+    "Topic": "migration",
+    "ParentText": "Merkel ist DIE treibende Kraft und hier geht es nicht um ausleben von Gutmenschentum,das ist eiskaltes Kalkül. HOOTONPLAN, KALGARIPLAN!",
+    "ChildText": "Merkel hat keine deutsche Abstammung",
+    "InteractionScore": -0.5,
+    "InteractionLabel": "-0.5  Destructive Agreement",
+    "StanceLabel": 0,
+    "Techniques": [
+      "Flag-Waving",
+      "Whataboutism,Straw_Men"
+    ]
+  },
+  {
+    "PairID": "4oWNKOs5LiM_Ugy62dRy3UsF8_cmuSB4AaABAg.AUApTs-yYINAUB707N5fI5",
+    "VideoID": "4oWNKOs5LiM",
+    "Topic": "climate",
+    "ParentText": "Könnt ihr bitte eure Wortwahl für die Videotitel überarbeiten? Das ist ja furchtbare. Bro? Ernsthaft?",
+    "ChildText": "richtiger bruh moment",
+    "InteractionScore": 0.0,
+    "InteractionLabel": " 0.0  Neutral / Rephrase",
+    "StanceLabel": 1,
+    "Techniques": []
+  }
+]

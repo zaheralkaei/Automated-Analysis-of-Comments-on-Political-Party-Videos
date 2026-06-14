@@ -1,0 +1,540 @@
+{
+  "source": "shallow_LR_B+groberta",
+  "n_techniques": 14,
+  "per_technique": {
+    "Appeal_to_Authority": {
+      "tp": 14,
+      "fp": 137,
+      "fn": 9,
+      "tn": 928,
+      "precision": 0.0927,
+      "recall": 0.6087,
+      "f1": 0.1609,
+      "fp_examples": [
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+          "ChildText": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂"
+        },
+        {
+          "PairID": "KNirVat8c98_UgzxrMo9x4JYKCAaDKJ4AaABAg.9_USvZq43vD9_WsP_WFMLR",
+          "ChildText": "Er stellt sich aber den Fragen direkt und beantwortet sie. Kann mich nicht daran erinnern, dass Merkel so etwas gemacht hat."
+        },
+        {
+          "PairID": "ON0xT0rBeds_UgxepXzSztdk4MoyGJt4AaABAg.ARtJB7RL1R5ARtTss-lpmR",
+          "ChildText": "du bist ja komisch, alle rechtsradikalen sollten das mal mitmachen. schon das rumgeheule von rechts als ein paar Tage Stromausfall in Berlin war . In  der Ukraine hats mal  unter -20 Grad. \nDie Mensch"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "-jc4cfE7Mok_UgyJQXmuCOMYFK7py5d4AaABAg.9xV_ugP97ok9xykW3kP3CY",
+          "ChildText": "@User_05329 Also Fakt ist, sie wurde Frei gesprochen und das kann sicher kein Zufall sein oder daran liegen das dass Italienische Gericht sie so sehr mochte"
+        },
+        {
+          "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P0fj6l9vfF",
+          "ChildText": "Alles muss auf den Tisch - G N A D E N L O S - ohne jedwede Toleranz gegenüber dieser korrupten und verlogenen Alt-Kartell-Polit-Bande - stecken alle unter einer Decke. Müssen sie ja, anders geht's un"
+        },
+        {
+          "PairID": "EsOAdVHEYbE_UgyXCwS86wS62GJmXop4AaABAg.9EE-88tH1bT9EEBk1O72JJ",
+          "ChildText": "Danke Herr Doktor Gauland.,klare Worte.💙💙💙💙💙"
+        }
+      ]
+    },
+    "Appeal_to_fear-prejudice": {
+      "tp": 90,
+      "fp": 173,
+      "fn": 32,
+      "tn": 793,
+      "precision": 0.3422,
+      "recall": 0.7377,
+      "f1": 0.4675,
+      "fp_examples": [
+        {
+          "PairID": "5xv44uRG700_UgzePrnbM9YHn0K2c6d4AaABAg.ACWkmJQYVA3AEiWSvHGt3T",
+          "ChildText": "Auch ohne die Erinnerung durch die AfD wissen wir, welches Land hier ist und welcher Nation die Staatsbürger angehören. Benötigen Sie etwa die ständige Erinnerung daran?\nDann wäre die AfD allerdings a"
+        },
+        {
+          "PairID": "EsOAdVHEYbE_UgxWOAIfov8ZD54IZ4p4AaABAg.9EElQsd6kQp9EFUTzRsfVh",
+          "ChildText": "dann macht halt endlich mal Kinder, ihr Deutsche, statt immer nur die olle Opferrolle und Jammerlappen Schau... aber ihr habt keinen Bock auf Verantwortung...lieber Tinder Dates ausmachen, wenn überha"
+        },
+        {
+          "PairID": "ON0xT0rBeds_UgxepXzSztdk4MoyGJt4AaABAg.ARtJB7RL1R5ARtTss-lpmR",
+          "ChildText": "du bist ja komisch, alle rechtsradikalen sollten das mal mitmachen. schon das rumgeheule von rechts als ein paar Tage Stromausfall in Berlin war . In  der Ukraine hats mal  unter -20 Grad. \nDie Mensch"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "61XL3yHFuPg_Ugx26kYVqHdlNm_YtiB4AaABAg.9E-D65Q0vcH9E3kPcE9HgD",
+          "ChildText": "@User_168962 \nJa, natürlich hat es etwas geholfen,\ndie Bevölkerung hat sich seitdem etwa verdoppelt!\nDiesen Überschuss bekommen wir nun als Geschenk in Gestalt\n junger Testosteronäffchen."
+        },
+        {
+          "PairID": "PPjRqPUmPvk_UgyRjFNi9IHiHYsv-Od4AaABAg.9TnLELoGnGw9TnpCfaJ36r",
+          "ChildText": "@User_65358 SO IST ES. \nDieses \"jeder gegen jeden\"/Depression ist Systembedingt. \"Unser\" Systemansatz ist so. Folglich \"muss\" auch jeder den Anderen schlecht machen und lügen, damit er besser da steht"
+        },
+        {
+          "PairID": "cA96V0Tqe1Y_Ugw9PS9QeEMMhD-fHwx4AaABAg.93tnqaWE_Yf93vU46IoReo",
+          "ChildText": "Mit dem Messer geht es besser.  In diesem Sinne liebe DEUTSCHE MITZIVILISTEN - Nehmt die ZUKUNFT Eure eigene Hand."
+        }
+      ]
+    },
+    "Bandwagon,Reductio_ad_hitlerum": {
+      "tp": 14,
+      "fp": 155,
+      "fn": 17,
+      "tn": 902,
+      "precision": 0.0828,
+      "recall": 0.4516,
+      "f1": 0.14,
+      "fp_examples": [
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9jyn8XZ11V",
+          "ChildText": "​@User_79852\n\nKlappt ja in Ungarn gut, den leuten gehts so gut. Oder den Ethnostaat Japan, mit 200%er verschuldung. Ach. Sowas löst wohl keine Probleme? Und was machst du wenn leute trotzdem noch flie"
+        },
+        {
+          "PairID": "5xv44uRG700_UgzePrnbM9YHn0K2c6d4AaABAg.ACWkmJQYVA3AEiWSvHGt3T",
+          "ChildText": "Auch ohne die Erinnerung durch die AfD wissen wir, welches Land hier ist und welcher Nation die Staatsbürger angehören. Benötigen Sie etwa die ständige Erinnerung daran?\nDann wäre die AfD allerdings a"
+        },
+        {
+          "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+          "ChildText": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten."
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "4oWNKOs5LiM_UgwTCiDovYzQOvyLubB4AaABAg.AUB_DOVJlcgAUDLl2kY56B",
+          "ChildText": "😂 weil Putler sie aufklärt?"
+        },
+        {
+          "PairID": "PPjRqPUmPvk_UgyRjFNi9IHiHYsv-Od4AaABAg.9TnLELoGnGw9TnpCfaJ36r",
+          "ChildText": "@User_65358 SO IST ES. \nDieses \"jeder gegen jeden\"/Depression ist Systembedingt. \"Unser\" Systemansatz ist so. Folglich \"muss\" auch jeder den Anderen schlecht machen und lügen, damit er besser da steht"
+        },
+        {
+          "PairID": "VrEnAgHBSOc_Ugwt0SBuUfN84nKZ5zt4AaABAg.AT89hX3pq3vATFimb3RcJw",
+          "ChildText": "Wenn man etwas verteilen will / möchte, dann sollte es sich schon lohnen (!) Nicht nur finanziell, sondern auch in der Sache.\nRin Staat, der einen nicht höngrn lässt, ausnutzt und verarscht oder einem"
+        }
+      ]
+    },
+    "Black-and-White_Fallacy": {
+      "tp": 34,
+      "fp": 144,
+      "fn": 13,
+      "tn": 897,
+      "precision": 0.191,
+      "recall": 0.7234,
+      "f1": 0.3022,
+      "fp_examples": [
+        {
+          "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA94nGx4QSte",
+          "ChildText": "​@User_81021 ein Schulabschluss garantiert keine bessere Arbeit. Es kann nicht unbegrenzt gute Jobs für alle geben. Mein Abi hat mir auch quasi nichts gebracht. Das macht aber Deutschland nicht schlec"
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9jyn8XZ11V",
+          "ChildText": "​@User_79852\n\nKlappt ja in Ungarn gut, den leuten gehts so gut. Oder den Ethnostaat Japan, mit 200%er verschuldung. Ach. Sowas löst wohl keine Probleme? Und was machst du wenn leute trotzdem noch flie"
+        },
+        {
+          "PairID": "5xv44uRG700_UgzePrnbM9YHn0K2c6d4AaABAg.ACWkmJQYVA3AEiWSvHGt3T",
+          "ChildText": "Auch ohne die Erinnerung durch die AfD wissen wir, welches Land hier ist und welcher Nation die Staatsbürger angehören. Benötigen Sie etwa die ständige Erinnerung daran?\nDann wäre die AfD allerdings a"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "wjJgQs1wdho_Ugy1bBNlICyz5s-w2cl4AaABAg.9vXXOoodbGk9xLrrLXxVcV",
+          "ChildText": "Die sich im Tiefflug befindende  Linke (alias SED) ist das absolute Karriere-Endgulag.\n\nAber wer würde sie mit ihrem Lebenslauf (langjährige Grünen-Politikerin) auch sonst einstellen, außer unserer ju"
+        },
+        {
+          "PairID": "XXoE5qXtkHY_UgxlnudAF7gylEeAqhR4AaABAg.9FbGth7mii29FfrYPZd6bA",
+          "ChildText": "@User_69457 Tja ,entweder Kind oder stehen geblieben in der Entwicklung 😂😂"
+        },
+        {
+          "PairID": "2PnFPF1eHHc_UgxnBfAkF9feeTcJ1A14AaABAg.93rZXV95wHc93sbjscFCdb",
+          "ChildText": "Das mag sein, dass ich nach einer 12h Nachtschicht von der Lokomotive steige und nicht wie frisch geduscht dufte.\n\nAber immerhin bewege ich täglich mehrere tausend Tonnen Güter durch dieses Land, bin "
+        }
+      ]
+    },
+    "Causal_Oversimplification": {
+      "tp": 98,
+      "fp": 164,
+      "fn": 36,
+      "tn": 790,
+      "precision": 0.374,
+      "recall": 0.7313,
+      "f1": 0.4949,
+      "fp_examples": [
+        {
+          "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA94nGx4QSte",
+          "ChildText": "​@User_81021 ein Schulabschluss garantiert keine bessere Arbeit. Es kann nicht unbegrenzt gute Jobs für alle geben. Mein Abi hat mir auch quasi nichts gebracht. Das macht aber Deutschland nicht schlec"
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f-hF92kOv",
+          "ChildText": "@User_03791 Das eigene Volk bekommt etwa 150mrd durch das Sozialsystem. Und da ist bei weitem nicht alles mit eingerechnet."
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9jyn8XZ11V",
+          "ChildText": "​@User_79852\n\nKlappt ja in Ungarn gut, den leuten gehts so gut. Oder den Ethnostaat Japan, mit 200%er verschuldung. Ach. Sowas löst wohl keine Probleme? Und was machst du wenn leute trotzdem noch flie"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gUMiu26MsI",
+          "ChildText": "Der BlackRock - Außendienstmitarbeiter tut was man ihm sagt 🤮🤮😡😡"
+        },
+        {
+          "PairID": "61XL3yHFuPg_Ugx26kYVqHdlNm_YtiB4AaABAg.9E-D65Q0vcH9E3kPcE9HgD",
+          "ChildText": "@User_168962 \nJa, natürlich hat es etwas geholfen,\ndie Bevölkerung hat sich seitdem etwa verdoppelt!\nDiesen Überschuss bekommen wir nun als Geschenk in Gestalt\n junger Testosteronäffchen."
+        },
+        {
+          "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8lpvpF4h1t",
+          "ChildText": "Worte bringen nichts raus das elende stinkende araberpack."
+        }
+      ]
+    },
+    "Doubt": {
+      "tp": 98,
+      "fp": 205,
+      "fn": 41,
+      "tn": 744,
+      "precision": 0.3234,
+      "recall": 0.705,
+      "f1": 0.4434,
+      "fp_examples": [
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9eMHiPe7YD",
+          "ChildText": "@User_00950 Du meinst die Zweitwohnung...für die man 2.000€ abrechnen kann?!"
+        },
+        {
+          "PairID": "4oWNKOs5LiM_UgwTCiDovYzQOvyLubB4AaABAg.AUB_DOVJlcgAUDLl2kY56B",
+          "ChildText": "😂 weil Putler sie aufklärt?"
+        },
+        {
+          "PairID": "KNirVat8c98_UgzxrMo9x4JYKCAaDKJ4AaABAg.9_USvZq43vD9_WsP_WFMLR",
+          "ChildText": "Er stellt sich aber den Fragen direkt und beantwortet sie. Kann mich nicht daran erinnern, dass Merkel so etwas gemacht hat."
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9jyn8XZ11V",
+          "ChildText": "​@User_79852\n\nKlappt ja in Ungarn gut, den leuten gehts so gut. Oder den Ethnostaat Japan, mit 200%er verschuldung. Ach. Sowas löst wohl keine Probleme? Und was machst du wenn leute trotzdem noch flie"
+        },
+        {
+          "PairID": "ON0xT0rBeds_UgyIx2om1Jz0ZTi0Eyt4AaABAg.ARtQJZqrFmoARtSnjXvU3V",
+          "ChildText": "Ja, genau! Sollen sich alle tot metzeln oder was?\nWas ist das denn für ein blöder Kommentar!\nMan sollte das dringend auf anderem Wege lösen!\nGing ja früher auch immer wieder. Nur heutzutage scheint da"
+        },
+        {
+          "PairID": "PPjRqPUmPvk_UgyRjFNi9IHiHYsv-Od4AaABAg.9TnLELoGnGw9TnpCfaJ36r",
+          "ChildText": "@User_65358 SO IST ES. \nDieses \"jeder gegen jeden\"/Depression ist Systembedingt. \"Unser\" Systemansatz ist so. Folglich \"muss\" auch jeder den Anderen schlecht machen und lügen, damit er besser da steht"
+        }
+      ]
+    },
+    "Exaggeration,Minimisation": {
+      "tp": 213,
+      "fp": 157,
+      "fn": 66,
+      "tn": 652,
+      "precision": 0.5757,
+      "recall": 0.7634,
+      "f1": 0.6564,
+      "fp_examples": [
+        {
+          "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACqs34KqMje",
+          "ChildText": "Ja,denn bei mir in der kleinsten Großstadt Niedersachsen, kostet die  Monatskarte BUS ( wir haben nur Bus) fast 75 € . Nur für die Stadt. 58 € für DEUTSCHLAND."
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f-hF92kOv",
+          "ChildText": "@User_03791 Das eigene Volk bekommt etwa 150mrd durch das Sozialsystem. Und da ist bei weitem nicht alles mit eingerechnet."
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+          "ChildText": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gULNSkGThM",
+          "ChildText": "Merz, warum machst du einen Rückzieher? Steh doch dazu. Das sind Tatsachen die man nicht weg quatschen kann."
+        },
+        {
+          "PairID": "1eUG3aYpHWY_Ugx4Dt9dwKgTd7ps0l94AaABAg.9gUIV6xIJui9gUaxvKiMCa",
+          "ChildText": "me, von der Strasse ist Merz ganz gewiss nicht.\nWar leitend bei Blackrock,WEF\nHatte in seiner aktiven Zeit im Bundestag 150(!!!!) Neben/Beraterjobs,\nSieht in den erneuerbaren Energien große Chancen (f"
+        },
+        {
+          "PairID": "Ff3fFj3msiY_Ugz5DeaYKoN7p3nXmHB4AaABAg.9IZrx6VHwp89I_CtDjwd-r",
+          "ChildText": "@User_381378 man gut das ich diese, unsere jetzige Regierung, noch NIE Gewählt habe....."
+        }
+      ]
+    },
+    "Flag-Waving": {
+      "tp": 52,
+      "fp": 104,
+      "fn": 17,
+      "tn": 915,
+      "precision": 0.3333,
+      "recall": 0.7536,
+      "f1": 0.4622,
+      "fp_examples": [
+        {
+          "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACqs34KqMje",
+          "ChildText": "Ja,denn bei mir in der kleinsten Großstadt Niedersachsen, kostet die  Monatskarte BUS ( wir haben nur Bus) fast 75 € . Nur für die Stadt. 58 € für DEUTSCHLAND."
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9jyn8XZ11V",
+          "ChildText": "​@User_79852\n\nKlappt ja in Ungarn gut, den leuten gehts so gut. Oder den Ethnostaat Japan, mit 200%er verschuldung. Ach. Sowas löst wohl keine Probleme? Und was machst du wenn leute trotzdem noch flie"
+        },
+        {
+          "PairID": "Xw8enEYHPnY_UgxH6qK2dFDgOjbb4TB4AaABAg.9l74IcGH3_W9lCalWa52Mo",
+          "ChildText": "Siehe deren Wähler wie Claudia Crisula Sch...aus Bayern!!!!"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "561vf7Hnepc_UgzMrowOHrNahCQGUp14AaABAg.9_1ozetkQi59_21z8d-lEI",
+          "ChildText": "@User_264788 meine Stimme haben sie schon immer gehabt."
+        },
+        {
+          "PairID": "61XL3yHFuPg_Ugx26kYVqHdlNm_YtiB4AaABAg.9E-D65Q0vcH9E3kPcE9HgD",
+          "ChildText": "@User_168962 \nJa, natürlich hat es etwas geholfen,\ndie Bevölkerung hat sich seitdem etwa verdoppelt!\nDiesen Überschuss bekommen wir nun als Geschenk in Gestalt\n junger Testosteronäffchen."
+        },
+        {
+          "PairID": "EsOAdVHEYbE_UgxWOAIfov8ZD54IZ4p4AaABAg.9EElQsd6kQp9EFUTzRsfVh",
+          "ChildText": "dann macht halt endlich mal Kinder, ihr Deutsche, statt immer nur die olle Opferrolle und Jammerlappen Schau... aber ihr habt keinen Bock auf Verantwortung...lieber Tinder Dates ausmachen, wenn überha"
+        }
+      ]
+    },
+    "Loaded_Language": {
+      "tp": 428,
+      "fp": 113,
+      "fn": 114,
+      "tn": 433,
+      "precision": 0.7911,
+      "recall": 0.7897,
+      "f1": 0.7904,
+      "fp_examples": [
+        {
+          "PairID": "1y83BTCxccs_UgzsF6W8SF6_1VcEqoF4AaABAg.ACqXYEve0haACqs34KqMje",
+          "ChildText": "Ja,denn bei mir in der kleinsten Großstadt Niedersachsen, kostet die  Monatskarte BUS ( wir haben nur Bus) fast 75 € . Nur für die Stadt. 58 € für DEUTSCHLAND."
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+          "ChildText": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂"
+        },
+        {
+          "PairID": "483ra5MLbUo_UgxkJq5Pvrl97MysvQh4AaABAg.9P-wElPoQ659P7YFhXcDr9",
+          "ChildText": "@User_361706 Lass es, es hat keinen Zweck sich mit Dir zu diskutieren. Du machst es, wie es dir recht ist und bist angriffslustig  - man sieht es bei den anderen Kommentaren. Schade um die Zeit!"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9eMHiPe7YD",
+          "ChildText": "@User_00950 Du meinst die Zweitwohnung...für die man 2.000€ abrechnen kann?!"
+        },
+        {
+          "PairID": "Kb2zh_XQMQ8_UgwadljY0lk181hdH2B4AaABAg.A8WwRM3avNSA9nR21c6FI5",
+          "ChildText": "Schon vor 2015 wurden die Sozialwohnungen von 4 mio auf 1 mio reduziert... Ich erinnere mich noch gut wie ab ca 2009 die Mieten explodiert sind... Aber ja... Die Einwanderer sind Schuld... 🙄"
+        },
+        {
+          "PairID": "KyNua7-q36w_Ugwq1dhXCLgNnUH4QBx4AaABAg.APMGVIiLxrDAPOIoFcsnll",
+          "ChildText": "Hast du auch irgend ein substanzielles argument oder nur geschwurbel?"
+        }
+      ]
+    },
+    "Name_Calling,Labeling": {
+      "tp": 275,
+      "fp": 176,
+      "fn": 81,
+      "tn": 556,
+      "precision": 0.6098,
+      "recall": 0.7725,
+      "f1": 0.6815,
+      "fp_examples": [
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9jyn8XZ11V",
+          "ChildText": "​@User_79852\n\nKlappt ja in Ungarn gut, den leuten gehts so gut. Oder den Ethnostaat Japan, mit 200%er verschuldung. Ach. Sowas löst wohl keine Probleme? Und was machst du wenn leute trotzdem noch flie"
+        },
+        {
+          "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8mWP_FqJfB",
+          "ChildText": "@User_204314 Oh man da musste ich lachen. Dein Bekannter höchstwahrscheinlich nicht. Das ist wirklich blöd"
+        },
+        {
+          "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+          "ChildText": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten."
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "61XL3yHFuPg_Ugx26kYVqHdlNm_YtiB4AaABAg.9E-D65Q0vcH9E3kPcE9HgD",
+          "ChildText": "@User_168962 \nJa, natürlich hat es etwas geholfen,\ndie Bevölkerung hat sich seitdem etwa verdoppelt!\nDiesen Überschuss bekommen wir nun als Geschenk in Gestalt\n junger Testosteronäffchen."
+        },
+        {
+          "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9SfjTNoX7wO",
+          "ChildText": "@User_195857 Sie kann nicht anders..."
+        },
+        {
+          "PairID": "Hh7sba8b0Oc_UgxJdowRrwsBwcivNQJ4AaABAg.APX4z9DP6DoAPZVDMudv4m",
+          "ChildText": "so, mittlerweile steht's 3:0 in puncto argumenten.\nich könnte noch seitenweise weitere argumente posten, aber um es mit ralfis worten zu sagen: Wozu sollte ich weiter mit dir reden, wenn du dich nicht"
+        }
+      ]
+    },
+    "Repetition": {
+      "tp": 20,
+      "fp": 116,
+      "fn": 15,
+      "tn": 937,
+      "precision": 0.1471,
+      "recall": 0.5714,
+      "f1": 0.2339,
+      "fp_examples": [
+        {
+          "PairID": "5xv44uRG700_UgzePrnbM9YHn0K2c6d4AaABAg.ACWkmJQYVA3AEiWSvHGt3T",
+          "ChildText": "Auch ohne die Erinnerung durch die AfD wissen wir, welches Land hier ist und welcher Nation die Staatsbürger angehören. Benötigen Sie etwa die ständige Erinnerung daran?\nDann wäre die AfD allerdings a"
+        },
+        {
+          "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8lpvpF4h1t",
+          "ChildText": "Worte bringen nichts raus das elende stinkende araberpack."
+        },
+        {
+          "PairID": "8AyfvLm9Wfg_Ugxr1pI2IrBDY5rHWlV4AaABAg.9xkI8xy3S7I9xk_-aZ0l7e",
+          "ChildText": "Migrationspolitik ... Corona ... Energiewende. Seltsam, dass es irgendwie immer die vermeintlichen Rechtsextremen und Demokratiefeinde sind, die am Ende recht behalten."
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "dDGWntK0r3o_Ugy8QW-HO-J1oLpTW414AaABAg.9P5He27egtD9P5O43FN0_4",
+          "ChildText": "@User_350806 Siecher Siecher"
+        },
+        {
+          "PairID": "561vf7Hnepc_UgxYfVxs5DozMAcu1uV4AaABAg.9_1oDpryT3W9_Gy-JHSjxM",
+          "ChildText": "@User_224821 RICHTIG!!\n....und weshalb ist das so?\nWeshalb sind wir alle eng verwandt?\nBin mal gespannt was du so drauf hast."
+        },
+        {
+          "PairID": "v4cYM5f5K_Y_UgwqNqZ08SQ0iCdpDc14AaABAg.9r6HdlLyqFH9rQApyVk1rF",
+          "ChildText": "Da mache ich mit, da bin ich bei, jeden Tag 🤮🤮🤮🤮🤮"
+        }
+      ]
+    },
+    "Slogans/Thought-terminating_Cliches": {
+      "tp": 57,
+      "fp": 203,
+      "fn": 45,
+      "tn": 783,
+      "precision": 0.2192,
+      "recall": 0.5588,
+      "f1": 0.3149,
+      "fp_examples": [
+        {
+          "PairID": "5xv44uRG700_UgzePrnbM9YHn0K2c6d4AaABAg.ACWkmJQYVA3AEiWSvHGt3T",
+          "ChildText": "Auch ohne die Erinnerung durch die AfD wissen wir, welches Land hier ist und welcher Nation die Staatsbürger angehören. Benötigen Sie etwa die ständige Erinnerung daran?\nDann wäre die AfD allerdings a"
+        },
+        {
+          "PairID": "6i8D-gCh690_UgzhXNoHvqjoHmMJ5oV4AaABAg.A8lXjOe2P7oA8lpvpF4h1t",
+          "ChildText": "Worte bringen nichts raus das elende stinkende araberpack."
+        },
+        {
+          "PairID": "ON0xT0rBeds_UgxepXzSztdk4MoyGJt4AaABAg.ARtJB7RL1R5ARtTss-lpmR",
+          "ChildText": "du bist ja komisch, alle rechtsradikalen sollten das mal mitmachen. schon das rumgeheule von rechts als ein paar Tage Stromausfall in Berlin war . In  der Ukraine hats mal  unter -20 Grad. \nDie Mensch"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "1eUG3aYpHWY_UgzJvDgtou_Baael-8t4AaABAg.9gUOl_tfatC9gUabAT_8Wu",
+          "ChildText": "Bei mir würde keiner ohne Gegenleistung Geld bekommen.... draußen ist genug Arbeit...Parks pflegen...Müll aufsammeln usw."
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+          "ChildText": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂"
+        },
+        {
+          "PairID": "9utgQOQ4ylc_UgySA_Yc39U65813pId4AaABAg.9SObLpNAaR_9SfjTNoX7wO",
+          "ChildText": "@User_195857 Sie kann nicht anders..."
+        }
+      ]
+    },
+    "Whataboutism,Straw_Men": {
+      "tp": 24,
+      "fp": 155,
+      "fn": 16,
+      "tn": 893,
+      "precision": 0.1341,
+      "recall": 0.6,
+      "f1": 0.2192,
+      "fp_examples": [
+        {
+          "PairID": "27acPLs8As0_UgzLVcg8kweVRqbkXIh4AaABAg.A8KlWvG34yPA94nGx4QSte",
+          "ChildText": "​@User_81021 ein Schulabschluss garantiert keine bessere Arbeit. Es kann nicht unbegrenzt gute Jobs für alle geben. Mein Abi hat mir auch quasi nichts gebracht. Das macht aber Deutschland nicht schlec"
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f96UEmtt1",
+          "ChildText": "@User_40335 Ich würde die euch in Rechnung stellen. Jeder, der einen abgehnten Asylanten aufgebrummt bekommt, soll ihn auch verköstigen und die Kosten seiner Straftaten zahlen !\" Einfache Lösung \" 🙂"
+        },
+        {
+          "PairID": "5xv44uRG700_UgzePrnbM9YHn0K2c6d4AaABAg.ACWkmJQYVA3AEiWSvHGt3T",
+          "ChildText": "Auch ohne die Erinnerung durch die AfD wissen wir, welches Land hier ist und welcher Nation die Staatsbürger angehören. Benötigen Sie etwa die ständige Erinnerung daran?\nDann wäre die AfD allerdings a"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9eMHiPe7YD",
+          "ChildText": "@User_00950 Du meinst die Zweitwohnung...für die man 2.000€ abrechnen kann?!"
+        },
+        {
+          "PairID": "2E4s7MQUIFI_Ugy8Zhf1uq01WLy4Jud4AaABAg.A9eBFyvM4rzA9f-hF92kOv",
+          "ChildText": "@User_03791 Das eigene Volk bekommt etwa 150mrd durch das Sozialsystem. Und da ist bei weitem nicht alles mit eingerechnet."
+        },
+        {
+          "PairID": "Ff3fFj3msiY_Ugz40IvQeRCchgTwQnN4AaABAg.9I_X-j5H8D-9I_Yf4iaH2z",
+          "ChildText": "Genauso wie  mit dem Gabel und Küchenmesser falche nutzen"
+        }
+      ]
+    },
+    "Appeal_to_Time": {
+      "tp": 22,
+      "fp": 124,
+      "fn": 15,
+      "tn": 927,
+      "precision": 0.1507,
+      "recall": 0.5946,
+      "f1": 0.2404,
+      "fp_examples": [
+        {
+          "PairID": "5xv44uRG700_UgzePrnbM9YHn0K2c6d4AaABAg.ACWkmJQYVA3AEiWSvHGt3T",
+          "ChildText": "Auch ohne die Erinnerung durch die AfD wissen wir, welches Land hier ist und welcher Nation die Staatsbürger angehören. Benötigen Sie etwa die ständige Erinnerung daran?\nDann wäre die AfD allerdings a"
+        },
+        {
+          "PairID": "EsOAdVHEYbE_UgxWOAIfov8ZD54IZ4p4AaABAg.9EElQsd6kQp9EFUTzRsfVh",
+          "ChildText": "dann macht halt endlich mal Kinder, ihr Deutsche, statt immer nur die olle Opferrolle und Jammerlappen Schau... aber ihr habt keinen Bock auf Verantwortung...lieber Tinder Dates ausmachen, wenn überha"
+        },
+        {
+          "PairID": "Hh7sba8b0Oc_Ugx1wOHyzm5SuGkQsqB4AaABAg.APVQkjjL6CRAPX0qCwiKfQ",
+          "ChildText": "Ja, davon haben Konservative zwar etwas, aber sie ist so konserviert worden, dass sie sich seit deren Jugend nicht mehr weiterentwickelt hat. Anders gesagt: Die stehen eines Morgens auf, sehen, wie di"
+        }
+      ],
+      "fn_examples": [
+        {
+          "PairID": "ON0xT0rBeds_UgyIx2om1Jz0ZTi0Eyt4AaABAg.ARtQJZqrFmoARtSnjXvU3V",
+          "ChildText": "Ja, genau! Sollen sich alle tot metzeln oder was?\nWas ist das denn für ein blöder Kommentar!\nMan sollte das dringend auf anderem Wege lösen!\nGing ja früher auch immer wieder. Nur heutzutage scheint da"
+        },
+        {
+          "PairID": "tWJhS3gZnDY_UgxOgWQvFaz5UiOyURN4AaABAg.9c_iZgmVfZf9coUgTkIJs1",
+          "ChildText": "@User_185546\nDu gehörst eigentlich, in die geschlossene Anstalt. Warte aber nicht zu lange !!"
+        },
+        {
+          "PairID": "cA96V0Tqe1Y_Ugw9PS9QeEMMhD-fHwx4AaABAg.93tnqaWE_Yf93zS5zUeFMW",
+          "ChildText": "@User_129435 Hey , Du liest aber gern hier.  Zweifelst an Deiner Grünen Ideologie oder? Dämmert es langsam?"
+        }
+      ]
+    }
+  },
+  "ranked_by_f1_asc": [
+    "Bandwagon,Reductio_ad_hitlerum",
+    "Appeal_to_Authority",
+    "Whataboutism,Straw_Men",
+    "Repetition",
+    "Appeal_to_Time",
+    "Black-and-White_Fallacy",
+    "Slogans/Thought-terminating_Cliches",
+    "Doubt",
+    "Flag-Waving",
+    "Appeal_to_fear-prejudice",
+    "Causal_Oversimplification",
+    "Exaggeration,Minimisation",
+    "Name_Calling,Labeling",
+    "Loaded_Language"
+  ]
+}

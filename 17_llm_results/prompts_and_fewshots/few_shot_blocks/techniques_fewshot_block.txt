@@ -1,0 +1,18 @@
+Here are examples of the task:
+
+--- Example 1 ---
+COMMENT:
+Scheiß auf Integration.
+Answer: {"techniques": ["Loaded_Language", "Name_Calling,Labeling"]}
+
+--- Example 2 ---
+COMMENT:
+Merkel hat keine deutsche Abstammung
+Answer: {"techniques": ["Flag-Waving", "Whataboutism,Straw_Men"]}
+
+--- Example 3 ---
+COMMENT:
+richtiger bruh moment
+Answer: {"techniques": []}
+
+Now classify the following:

@@ -1,0 +1,24 @@
+Here are examples of the task:
+
+--- Example 1 ---
+PARENT COMMENT:
+Was das für ein Wahnsinn ist🤯 bei uns gibt es Gegenden da sieht man und hört man keinen Deutschen mehr! Das kann doch nicht unsere Zukunft sein! Es reicht sowas von!
+CHILD COMMENT:
+Das ist bei uns ebenso.
+Answer: {"label": 0}  # Against
+
+--- Example 2 ---
+PARENT COMMENT:
+Warum Stoppt niemand diesen Wahnsinn
+CHILD COMMENT:
+Wer  soll das  machen
+Answer: {"label": 1}  # Neutral
+
+--- Example 3 ---
+PARENT COMMENT:
+Können doch gerne ein paar Migranten bei sich zuhause aufnehmen
+CHILD COMMENT:
+Ich nehme gerne Flüchtlinge auf!
+Answer: {"label": 2}  # Support
+
+Now classify the following:

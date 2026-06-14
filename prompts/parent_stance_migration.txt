@@ -1,0 +1,40 @@
+You are tasked with determining the stance of a PARENT comment toward immigration policy.
+You are given the "Comment to classify" (the parent comment) and a "Context" (the reply comment, for reference only).
+
+Your task is to classify the stance of the "Comment to classify" — the PARENT comment — NOT the reply.
+
+Classify as 0 (Against) if the parent comment:
+- references cultural/religious differences negatively
+- uses irony about integration
+- expresses nationalist solidarity against immigration
+- criticizes immigration or immigrants explicitly
+- implies immigrants should adapt or leave
+- frames immigration as a threat or problem
+
+Classify as 1 (Neutral) if the parent comment:
+- makes factual statements without a clear stance
+- asks genuine clarifying questions
+- discusses unrelated aspects
+- is too ambiguous to determine stance
+- cannot be clearly connected to immigration views
+
+Classify as 2 (Support) if the parent comment:
+- challenges anti-immigration views
+- highlights immigrant contributions
+- points out systemic issues in migration debates
+- shares positive integration experiences
+- criticizes immigration restrictions
+- defends immigrant rights or cultures
+
+CRUCIAL:
+- Classify the PARENT comment only — ignore the reply comment's stance
+- Context determines meaning of short/ambiguous parent comments
+- Watch for irony and cultural/religious references
+- Personal experiences often reveal stance
+- National pride and solidarity expressions often signal stance
+
+CRUCIAL: Neutral (1) is NOT emotional neutrality — it means the parent comment's stance toward immigration CANNOT be reliably determined.
+Use 0 or 2 ONLY when the stance is clear and unambiguous. When in doubt, use 1.
+CRUCIAL: Answer ONLY with the number (0, 1, or 2).
+
+The following is the content to analyze:

@@ -1,0 +1,292 @@
+{
+  "summary": {
+    "n_pairs": 700,
+    "annotators": [
+      "A",
+      "Z"
+    ],
+    "n_identical_all_tasks": 75,
+    "n_conflict_any_task": 625,
+    "n_identical_per_task": {
+      "interaction": 398,
+      "stance_child": 612,
+      "stance_parent": 609,
+      "techniques": 135
+    }
+  },
+  "interaction": {
+    "task": "InteractionScore",
+    "scale": "ordinal",
+    "ordered_values": [
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "n": 700,
+    "n_agree": 398,
+    "percent_exact_agreement": 0.5686,
+    "percent_adjacent_agreement": 0.7586,
+    "cohen_kappa_unweighted": 0.4558,
+    "cohen_kappa_linear_weighted": 0.4869,
+    "cohen_kappa_quadratic_weighted": 0.494,
+    "krippendorff_alpha_nominal": 0.4528,
+    "krippendorff_alpha_ordinal": 0.494,
+    "distribution_a": {
+      "-1.0": 227,
+      "-0.5": 147,
+      "0.0": 121,
+      "0.5": 65,
+      "1.0": 140
+    },
+    "distribution_z": {
+      "-1.0": 142,
+      "-0.5": 176,
+      "0.0": 143,
+      "0.5": 98,
+      "1.0": 141
+    },
+    "confusion_matrix_a_rows_z_cols": {
+      "-1.0": {
+        "-1.0": 120,
+        "-0.5": 26,
+        "0.0": 32,
+        "0.5": 4,
+        "1.0": 45
+      },
+      "-0.5": {
+        "-1.0": 5,
+        "-0.5": 111,
+        "0.0": 13,
+        "0.5": 14,
+        "1.0": 4
+      },
+      "0.0": {
+        "-1.0": 7,
+        "-0.5": 24,
+        "0.0": 50,
+        "0.5": 36,
+        "1.0": 4
+      },
+      "0.5": {
+        "-1.0": 1,
+        "-0.5": 9,
+        "0.0": 14,
+        "0.5": 35,
+        "1.0": 6
+      },
+      "1.0": {
+        "-1.0": 9,
+        "-0.5": 6,
+        "0.0": 34,
+        "0.5": 9,
+        "1.0": 82
+      }
+    }
+  },
+  "stance_child": {
+    "task": "StanceLabel (child)",
+    "scale": "nominal",
+    "label_map": {
+      "0": "Against/Skeptic",
+      "1": "Neutral",
+      "2": "Pro"
+    },
+    "n": 700,
+    "n_agree": 612,
+    "percent_exact_agreement": 0.8743,
+    "cohen_kappa_unweighted": 0.6395,
+    "krippendorff_alpha_nominal": 0.6391,
+    "distribution_a": {
+      "0": 73,
+      "1": 559,
+      "2": 68
+    },
+    "distribution_z": {
+      "0": 100,
+      "1": 552,
+      "2": 48
+    },
+    "confusion_matrix_a_rows_z_cols": {
+      "0": {
+        "0": 59,
+        "1": 14,
+        "2": 0
+      },
+      "1": {
+        "0": 32,
+        "1": 516,
+        "2": 11
+      },
+      "2": {
+        "0": 9,
+        "1": 22,
+        "2": 37
+      }
+    }
+  },
+  "stance_parent": {
+    "task": "ParentStanceLabel",
+    "scale": "nominal",
+    "label_map": {
+      "0": "Against/Skeptic",
+      "1": "Neutral",
+      "2": "Pro"
+    },
+    "n": 700,
+    "n_agree": 609,
+    "percent_exact_agreement": 0.87,
+    "cohen_kappa_unweighted": 0.6655,
+    "krippendorff_alpha_nominal": 0.6647,
+    "distribution_a": {
+      "0": 95,
+      "1": 550,
+      "2": 55
+    },
+    "distribution_z": {
+      "0": 129,
+      "1": 517,
+      "2": 54
+    },
+    "confusion_matrix_a_rows_z_cols": {
+      "0": {
+        "0": 79,
+        "1": 13,
+        "2": 3
+      },
+      "1": {
+        "0": 43,
+        "1": 493,
+        "2": 14
+      },
+      "2": {
+        "0": 7,
+        "1": 11,
+        "2": 37
+      }
+    }
+  },
+  "techniques": {
+    "task": "Techniques",
+    "scale": "multi-label",
+    "n_categories": 14,
+    "categories": [
+      "Appeal_to_Authority",
+      "Appeal_to_Time",
+      "Appeal_to_fear-prejudice",
+      "Bandwagon,Reductio_ad_hitlerum",
+      "Black-and-White_Fallacy",
+      "Causal_Oversimplification",
+      "Doubt",
+      "Exaggeration,Minimisation",
+      "Flag-Waving",
+      "Loaded_Language",
+      "Name_Calling,Labeling",
+      "Repetition",
+      "Slogans/Thought-terminating_Cliches",
+      "Whataboutism,Straw_Men"
+    ],
+    "n": 700,
+    "n_exact_set_agreement": 135,
+    "percent_exact_set_agreement": 0.1929,
+    "mean_jaccard": 0.3353,
+    "multi_label_f1_a_as_ref": {
+      "f1": 0.3918,
+      "precision": 0.3588,
+      "recall": 0.4315
+    },
+    "multi_label_f1_z_as_ref": {
+      "f1": 0.3918,
+      "precision": 0.4315,
+      "recall": 0.3588
+    },
+    "mean_f1": 0.3918,
+    "per_technique": {
+      "Appeal_to_Authority": {
+        "count_a": 13,
+        "count_z": 43,
+        "percent_agreement": 0.94,
+        "cohen_kappa": 0.228
+      },
+      "Appeal_to_Time": {
+        "count_a": 58,
+        "count_z": 24,
+        "percent_agreement": 0.9171,
+        "cohen_kappa": 0.2566
+      },
+      "Appeal_to_fear-prejudice": {
+        "count_a": 39,
+        "count_z": 119,
+        "percent_agreement": 0.8686,
+        "cohen_kappa": 0.3644
+      },
+      "Bandwagon,Reductio_ad_hitlerum": {
+        "count_a": 50,
+        "count_z": 20,
+        "percent_agreement": 0.9,
+        "cohen_kappa": -0.0426
+      },
+      "Black-and-White_Fallacy": {
+        "count_a": 18,
+        "count_z": 9,
+        "percent_agreement": 0.9671,
+        "cohen_kappa": 0.1333
+      },
+      "Causal_Oversimplification": {
+        "count_a": 24,
+        "count_z": 124,
+        "percent_agreement": 0.8229,
+        "cohen_kappa": 0.1111
+      },
+      "Doubt": {
+        "count_a": 153,
+        "count_z": 66,
+        "percent_agreement": 0.7614,
+        "cohen_kappa": 0.1217
+      },
+      "Exaggeration,Minimisation": {
+        "count_a": 30,
+        "count_z": 89,
+        "percent_agreement": 0.8643,
+        "cohen_kappa": 0.147
+      },
+      "Flag-Waving": {
+        "count_a": 72,
+        "count_z": 82,
+        "percent_agreement": 0.8229,
+        "cohen_kappa": 0.0958
+      },
+      "Loaded_Language": {
+        "count_a": 204,
+        "count_z": 306,
+        "percent_agreement": 0.7143,
+        "cohen_kappa": 0.3969
+      },
+      "Name_Calling,Labeling": {
+        "count_a": 184,
+        "count_z": 199,
+        "percent_agreement": 0.7843,
+        "cohen_kappa": 0.4576
+      },
+      "Repetition": {
+        "count_a": 17,
+        "count_z": 6,
+        "percent_agreement": 0.97,
+        "cohen_kappa": 0.0752
+      },
+      "Slogans/Thought-terminating_Cliches": {
+        "count_a": 122,
+        "count_z": 84,
+        "percent_agreement": 0.8143,
+        "cohen_kappa": 0.2644
+      },
+      "Whataboutism,Straw_Men": {
+        "count_a": 38,
+        "count_z": 58,
+        "percent_agreement": 0.8971,
+        "cohen_kappa": 0.1973
+      }
+    }
+  }
+}

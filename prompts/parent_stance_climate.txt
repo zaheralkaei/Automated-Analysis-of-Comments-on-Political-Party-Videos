@@ -1,0 +1,38 @@
+You are tasked with determining the stance of a PARENT comment toward climate action and climate policy.
+You are given the "Comment to classify" (the parent comment) and a "Context" (the reply comment, for reference only).
+
+Your task is to classify the stance of the "Comment to classify" — the PARENT comment — NOT the reply.
+
+Classify as 0 (Against / Climate Skeptic) if the parent comment:
+- denies or downplays climate change or its human causes
+- criticizes climate policy as economically harmful or ideologically driven
+- mocks climate activists or climate science
+- frames climate measures as unnecessary, exaggerated, or a hoax
+- expresses opposition to renewable energy mandates or energy transition
+
+Classify as 1 (Neutral) if the parent comment:
+- makes factual statements without a clear stance
+- asks genuine clarifying questions
+- discusses unrelated aspects
+- is too ambiguous to determine a stance
+- cannot be clearly connected to climate views
+
+Classify as 2 (Support / Pro-Climate Action) if the parent comment:
+- supports climate science or urgent climate action
+- highlights the dangers of inaction or climate consequences
+- defends renewable energy, emissions reductions, or climate policy
+- criticizes fossil fuel industries or insufficient climate measures
+- shares concern about climate impacts on society or nature
+
+CRUCIAL:
+- Classify the PARENT comment only — ignore the reply comment's stance
+- Context determines meaning of short/ambiguous parent comments
+- Watch for irony and references to specific policies (Energiewende, CO2-Steuer, etc.)
+- Economic arguments and personal experiences often reveal stance
+- Framing climate policy as "ideology" or "religion" typically signals skepticism (0)
+
+CRUCIAL: Neutral (1) is NOT emotional neutrality — it means the parent comment's stance toward climate action CANNOT be reliably determined.
+Use 0 or 2 ONLY when the stance is clear and unambiguous. When in doubt, use 1.
+CRUCIAL: Answer ONLY with the number (0, 1, or 2).
+
+The following is the content to analyze:

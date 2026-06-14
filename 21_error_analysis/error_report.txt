@@ -1,0 +1,104 @@
+======================================================================
+STEP 21 — ERROR ANALYSIS REPORT
+======================================================================
+
+--- 1. CONFUSION MATRICES ------------
+  Task: interaction
+    shallow_XGB_B+S+T+E2                                macro-F1=0.5514  n=1088
+    bert_xlmr                                           macro-F1=0.5054  n=1088
+    bert_gbert                                          macro-F1=0.5048  n=1088
+    llm_gemma4_31b_full_instructions_zero_shot          macro-F1=0.6549  n=1088
+  Task: stance
+    shallow_XGB_B+bert_pca                              macro-F1=0.5232  n=1088
+    bert_xlmr                                           macro-F1=0.5429  n=1088
+    bert_gbert                                          macro-F1=0.5272  n=1088
+    llm_gemma4_31b_full_instructions_zero_shot          macro-F1=0.7927  n=1088
+
+--- 2. STRATUM ERROR RATES ------------
+  Task: interaction
+    shallow_XGB_B+S+T+E2
+      climate|Linke                   n= 202  err=0.421  f1=0.526
+      migration|Linke                 n= 277  err=0.379  f1=0.545
+      climate|AfD                     n= 304  err=0.342  f1=0.513
+      migration|AfD                   n= 305  err=0.318  f1=0.501
+    bert_xlmr
+      migration|Linke                 n= 277  err=0.484  f1=0.444
+      climate|Linke                   n= 202  err=0.446  f1=0.500
+      climate|AfD                     n= 304  err=0.385  f1=0.507
+      migration|AfD                   n= 305  err=0.374  f1=0.473
+    llm_gemma4_31b_full_instructions_zero_shot
+      migration|AfD                   n= 305  err=0.354  f1=0.599
+      climate|AfD                     n= 304  err=0.349  f1=0.563
+      climate|Linke                   n= 202  err=0.262  f1=0.693
+      migration|Linke                 n= 277  err=0.249  f1=0.706
+  Task: stance
+    shallow_XGB_B+bert_pca
+      migration|AfD                   n= 305  err=0.420  f1=0.439
+      migration|Linke                 n= 277  err=0.372  f1=0.502
+      climate|AfD                     n= 304  err=0.309  f1=0.580
+      climate|Linke                   n= 202  err=0.257  f1=0.507
+    bert_xlmr
+      migration|AfD                   n= 305  err=0.403  f1=0.440
+      migration|Linke                 n= 277  err=0.368  f1=0.536
+      climate|AfD                     n= 304  err=0.329  f1=0.559
+      climate|Linke                   n= 202  err=0.277  f1=0.487
+    llm_gemma4_31b_full_instructions_zero_shot
+      migration|Linke                 n= 277  err=0.202  f1=0.786
+      migration|AfD                   n= 305  err=0.190  f1=0.778
+      climate|AfD                     n= 304  err=0.158  f1=0.779
+      climate|Linke                   n= 202  err=0.148  f1=0.752
+
+--- 3. HARD CASES ------------
+  interaction   hard=117  total=1088  (10.8%)  families=['shallow', 'bert', 'llm']
+  stance        hard=75  total=1088  (6.9%)  families=['shallow', 'bert', 'llm']
+
+--- 4. MODEL DISAGREEMENT ------------
+  interaction   full-agree=0.404
+    bert_vs_llm: 0.524
+    bert_vs_shallow: 0.642
+    llm_vs_shallow: 0.532
+  stance        full-agree=0.505
+    bert_vs_llm: 0.650
+    bert_vs_shallow: 0.700
+    llm_vs_shallow: 0.622
+
+--- 5. BOUNDARY CASE ANALYSIS ------------
+  Task: interaction
+    shallow               boundary_err=0.3475  non_boundary_err=0.3735  MW-p=0.3728231940349288
+    bert                  boundary_err=0.4441  non_boundary_err=0.3876  MW-p=0.05984436956869738
+    llm                   boundary_err=0.4  non_boundary_err=0.2008  MW-p=1.4215763068447705e-12
+
+--- 6. TECHNIQUE FP/FN ------------
+  Source: shallow_LR_B+groberta
+  Worst 5 techniques by F1:
+    Bandwagon,Reductio_ad_hitlerum                 F1=0.140  P=0.083  R=0.452  fp=155 fn=17
+    Appeal_to_Authority                            F1=0.161  P=0.093  R=0.609  fp=137 fn=9
+    Whataboutism,Straw_Men                         F1=0.219  P=0.134  R=0.600  fp=155 fn=16
+    Repetition                                     F1=0.234  P=0.147  R=0.571  fp=116 fn=15
+    Appeal_to_Time                                 F1=0.240  P=0.151  R=0.595  fp=124 fn=15
+
+--- 7. ANNOTATION SOURCE EFFECT ------------
+  Task: interaction
+    shallow               gold_err=0.4222  llm_err=0.3537  chi2-p=0.1944866550047428
+    bert                  gold_err=0.4778  llm_err=0.4128  chi2-p=0.2315293378032634
+    llm                   gold_err=0.3667  llm_err=0.3036  chi2-p=0.21492161786150432
+  Task: stance
+    shallow               gold_err=0.2  llm_err=0.3597  chi2-p=0.0022909065662852775
+    bert                  gold_err=0.2111  llm_err=0.3627  chi2-p=0.0038793050605763894
+    llm                   gold_err=0.2  llm_err=0.1743  chi2-p=0.5409531177608052
+
+--- 8. FEATURE CORRELATION WITH ERRORS ------------
+  Task: interaction  (family=shallow_XGB_B+S+T+E2  n=1088)
+    sent_compound                        r=+0.0617  p=0.0420
+    sent_neg                             r=-0.0600  p=0.0479
+    parent_len_words                     r=+0.0438  p=0.1490
+    sent_neu                             r=+0.0408  p=0.1791
+    child_excl_count                     r=-0.0360  p=0.2350
+  Task: stance  (family=shallow_XGB_B+bert_pca  n=1088)
+    mention_count                        r=-0.1292  p=0.0000
+    child_quest_count                    r=-0.0633  p=0.0369
+    sent_pos                             r=+0.0515  p=0.0892
+    parent_len_words                     r=+0.0487  p=0.1082
+    sent_neu                             r=-0.0390  p=0.1981
+
+======================================================================

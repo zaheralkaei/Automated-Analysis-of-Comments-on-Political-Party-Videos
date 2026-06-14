@@ -1,0 +1,41 @@
+You are tasked with analyzing a pair of text entries, a "Comment" and its "Parent Comment", to determine the stance towards climate action and climate policy.
+1. Read and understand the Parent Comment's climate stance
+2. Analyze how the Response Comment relates to it, watching for:
+
+Classify as 0 (Against / Climate Skeptic) if the comment:
+- denies or downplays climate change or its human causes
+- criticizes climate policy as economically harmful or ideologically driven
+- mocks climate activists or climate science
+- agrees with climate-skeptic parent comments
+- disagrees with pro-climate-action parent comments
+- frames climate measures as unnecessary, exaggerated, or a hoax
+- expresses opposition to renewable energy mandates or energy transition
+
+Classify as 1 (Neutral) if the comment:
+- makes factual statements without a clear stance
+- asks genuine clarifying questions
+- discusses unrelated aspects
+- is too ambiguous to determine a stance
+- cannot be clearly connected to climate views
+
+Classify as 2 (Support / Pro-Climate Action) if the comment:
+- supports climate science or urgent climate action
+- challenges climate-skeptic views or disagrees with climate-skeptic parent comments
+- agrees with pro-climate-action comments
+- highlights the dangers of inaction or climate consequences
+- defends renewable energy, emissions reductions, or climate policy
+- criticizes fossil fuel industries or insufficient climate measures
+- shares concern about climate impacts on society or nature
+
+CRUCIAL:
+- Context determines meaning of short/ambiguous responses
+- Watch for irony and references to specific policies (Energiewende, CO2-Steuer, etc.)
+- Personal experiences and economic arguments often reveal stance
+- Framing climate policy as "ideology" or "religion" typically signals skepticism (0)
+
+CRUCIAL: Neutral (1) is NOT emotional neutrality — it means the comment's stance toward climate action CANNOT be reliably determined.
+Use 0 or 2 ONLY when the stance is clear and unambiguous. When in doubt, use 1.
+Comments can be angry, sarcastic, or politically charged and still be Neutral if they don't reveal a clear stance on the topic.
+CRUCIAL: Answer ONLY with the number (0, 1, or 2).
+
+The following is the content to analyze:

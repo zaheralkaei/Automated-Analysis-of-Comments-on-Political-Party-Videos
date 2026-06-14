@@ -1,0 +1,958 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-06T15:57:09.157394+00:00"
+  },
+  "collection": [
+    {
+      "category": "climate",
+      "party": "AfD",
+      "channel": "AfD TV",
+      "videos": "41",
+      "comments": "12744",
+      "threads": "8416",
+      "pairs": "3837"
+    },
+    {
+      "category": "climate",
+      "party": "AfD",
+      "channel": "AfD-Fraktion Bundestag",
+      "videos": "345",
+      "comments": "108034",
+      "threads": "79164",
+      "pairs": "26279"
+    },
+    {
+      "category": "climate",
+      "party": "Linke",
+      "channel": "Die Linke im Bundestag",
+      "videos": "17",
+      "comments": "1975",
+      "threads": "1045",
+      "pairs": "777"
+    },
+    {
+      "category": "climate",
+      "party": "Linke",
+      "channel": "DieLinke",
+      "videos": "41",
+      "comments": "3162",
+      "threads": "1767",
+      "pairs": "1179"
+    },
+    {
+      "category": "migration",
+      "party": "AfD",
+      "channel": "AfD TV",
+      "videos": "168",
+      "comments": "76659",
+      "threads": "52931",
+      "pairs": "21062"
+    },
+    {
+      "category": "migration",
+      "party": "AfD",
+      "channel": "AfD-Fraktion Bundestag",
+      "videos": "442",
+      "comments": "303859",
+      "threads": "230955",
+      "pairs": "65248"
+    },
+    {
+      "category": "migration",
+      "party": "Linke",
+      "channel": "Die Linke im Bundestag",
+      "videos": "25",
+      "comments": "3171",
+      "threads": "2015",
+      "pairs": "939"
+    },
+    {
+      "category": "migration",
+      "party": "Linke",
+      "channel": "DieLinke",
+      "videos": "64",
+      "comments": "16655",
+      "threads": "9027",
+      "pairs": "6646"
+    },
+    {
+      "category": "climate",
+      "party": "AfD",
+      "channel": "SUBTOTAL",
+      "videos": "386",
+      "comments": "120778",
+      "threads": "87580",
+      "pairs": "30116"
+    },
+    {
+      "category": "climate",
+      "party": "Linke",
+      "channel": "SUBTOTAL",
+      "videos": "58",
+      "comments": "5137",
+      "threads": "2812",
+      "pairs": "1956"
+    },
+    {
+      "category": "migration",
+      "party": "AfD",
+      "channel": "SUBTOTAL",
+      "videos": "610",
+      "comments": "380518",
+      "threads": "283886",
+      "pairs": "86310"
+    },
+    {
+      "category": "migration",
+      "party": "Linke",
+      "channel": "SUBTOTAL",
+      "videos": "89",
+      "comments": "19826",
+      "threads": "11042",
+      "pairs": "7585"
+    },
+    {
+      "category": "TOTAL",
+      "party": "",
+      "channel": "",
+      "videos": "1143",
+      "comments": "526259",
+      "threads": "385320",
+      "pairs": "125967"
+    }
+  ],
+  "sample": [
+    {
+      "stratum": "climate_AfD",
+      "available": "9839",
+      "requested": "500",
+      "sampled": "500",
+      "total_comments": "2632",
+      "total_pairs": "1999"
+    },
+    {
+      "stratum": "climate_Linke",
+      "available": "723",
+      "requested": "500",
+      "sampled": "500",
+      "total_comments": "2204",
+      "total_pairs": "1442"
+    },
+    {
+      "stratum": "migration_AfD",
+      "available": "26704",
+      "requested": "500",
+      "sampled": "500",
+      "total_comments": "2691",
+      "total_pairs": "1984"
+    },
+    {
+      "stratum": "migration_Linke",
+      "available": "2595",
+      "requested": "500",
+      "sampled": "500",
+      "total_comments": "2683",
+      "total_pairs": "1874"
+    }
+  ],
+  "coverage": {
+    "total_pairs": 7277,
+    "gold_annotated": 700,
+    "llm_annotated": 6577,
+    "failed": 55,
+    "gold_pct": 9.6,
+    "llm_pct": 90.4
+  },
+  "annotation_breakdown": {
+    "climate_AfD": {
+      "gold": 175,
+      "llm": 1824,
+      "failed": 7,
+      "total": 1999
+    },
+    "climate_Linke": {
+      "gold": 175,
+      "llm": 1245,
+      "failed": 5,
+      "total": 1420
+    },
+    "migration_AfD": {
+      "gold": 175,
+      "llm": 1809,
+      "failed": 19,
+      "total": 1984
+    },
+    "migration_Linke": {
+      "gold": 175,
+      "llm": 1699,
+      "failed": 24,
+      "total": 1874
+    }
+  },
+  "label_distributions": {
+    "climate_AfD": {
+      "pair_count": 1999,
+      "stance": {
+        "Against": {
+          "count": 595,
+          "pct": 29.9
+        },
+        "Neutral": {
+          "count": 1259,
+          "pct": 63.2
+        },
+        "Support": {
+          "count": 139,
+          "pct": 7.0
+        }
+      },
+      "interaction_4bin": {
+        "Constructive": {
+          "count": 390,
+          "pct": 19.5
+        },
+        "Slight/Neutral": {
+          "count": 257,
+          "pct": 12.9
+        },
+        "Moderately Destructive": {
+          "count": 916,
+          "pct": 45.8
+        },
+        "Highly Destructive": {
+          "count": 436,
+          "pct": 21.8
+        }
+      },
+      "interaction": {
+        "Constructive": {
+          "count": 390,
+          "pct": 19.5
+        },
+        "Slight/Neutral": {
+          "count": 257,
+          "pct": 12.9
+        },
+        "Moderately Destructive": {
+          "count": 916,
+          "pct": 45.8
+        },
+        "Highly Destructive": {
+          "count": 436,
+          "pct": 21.8
+        }
+      },
+      "interaction_5class": {
+        "Constructive Disagreement": {
+          "count": 301,
+          "pct": 15.1
+        },
+        "Constructive Agreement": {
+          "count": 89,
+          "pct": 4.5
+        },
+        "Neutral/Rephrase": {
+          "count": 257,
+          "pct": 12.9
+        },
+        "Destructive Agreement": {
+          "count": 916,
+          "pct": 45.8
+        },
+        "Destructive Disagreement": {
+          "count": 436,
+          "pct": 21.8
+        }
+      },
+      "interaction_3bin": {
+        "Constructive": {
+          "count": 390,
+          "pct": 19.5
+        },
+        "Neutral/Rephrase": {
+          "count": 257,
+          "pct": 12.9
+        },
+        "Destructive": {
+          "count": 1352,
+          "pct": 67.6
+        }
+      },
+      "agreement_split": {
+        "Agreement": {
+          "count": 1005,
+          "pct": 50.3
+        },
+        "Neutral": {
+          "count": 257,
+          "pct": 12.9
+        },
+        "Disagreement": {
+          "count": 737,
+          "pct": 36.9
+        }
+      },
+      "techniques": {
+        "Appeal_to_Authority": {
+          "count": 64,
+          "pct": 3.2
+        },
+        "Appeal_to_fear-prejudice": {
+          "count": 235,
+          "pct": 11.8
+        },
+        "Bandwagon,Reductio_ad_hitlerum": {
+          "count": 36,
+          "pct": 1.8
+        },
+        "Black-and-White_Fallacy": {
+          "count": 73,
+          "pct": 3.7
+        },
+        "Causal_Oversimplification": {
+          "count": 189,
+          "pct": 9.5
+        },
+        "Doubt": {
+          "count": 272,
+          "pct": 13.6
+        },
+        "Exaggeration,Minimisation": {
+          "count": 504,
+          "pct": 25.2
+        },
+        "Flag-Waving": {
+          "count": 155,
+          "pct": 7.8
+        },
+        "Loaded_Language": {
+          "count": 1038,
+          "pct": 51.9
+        },
+        "Name_Calling,Labeling": {
+          "count": 776,
+          "pct": 38.8
+        },
+        "Repetition": {
+          "count": 66,
+          "pct": 3.3
+        },
+        "Slogans/Thought-terminating_Cliches": {
+          "count": 192,
+          "pct": 9.6
+        },
+        "Whataboutism,Straw_Men": {
+          "count": 53,
+          "pct": 2.7
+        },
+        "Appeal_to_Time": {
+          "count": 87,
+          "pct": 4.4
+        }
+      }
+    },
+    "climate_Linke": {
+      "pair_count": 1420,
+      "stance": {
+        "Against": {
+          "count": 152,
+          "pct": 10.7
+        },
+        "Neutral": {
+          "count": 1032,
+          "pct": 72.9
+        },
+        "Support": {
+          "count": 232,
+          "pct": 16.4
+        }
+      },
+      "interaction_4bin": {
+        "Constructive": {
+          "count": 543,
+          "pct": 38.2
+        },
+        "Slight/Neutral": {
+          "count": 244,
+          "pct": 17.2
+        },
+        "Moderately Destructive": {
+          "count": 251,
+          "pct": 17.7
+        },
+        "Highly Destructive": {
+          "count": 382,
+          "pct": 26.9
+        }
+      },
+      "interaction": {
+        "Constructive": {
+          "count": 543,
+          "pct": 38.2
+        },
+        "Slight/Neutral": {
+          "count": 244,
+          "pct": 17.2
+        },
+        "Moderately Destructive": {
+          "count": 251,
+          "pct": 17.7
+        },
+        "Highly Destructive": {
+          "count": 382,
+          "pct": 26.9
+        }
+      },
+      "interaction_5class": {
+        "Constructive Disagreement": {
+          "count": 387,
+          "pct": 27.3
+        },
+        "Constructive Agreement": {
+          "count": 156,
+          "pct": 11.0
+        },
+        "Neutral/Rephrase": {
+          "count": 244,
+          "pct": 17.2
+        },
+        "Destructive Agreement": {
+          "count": 251,
+          "pct": 17.7
+        },
+        "Destructive Disagreement": {
+          "count": 382,
+          "pct": 26.9
+        }
+      },
+      "interaction_3bin": {
+        "Constructive": {
+          "count": 543,
+          "pct": 38.2
+        },
+        "Neutral/Rephrase": {
+          "count": 244,
+          "pct": 17.2
+        },
+        "Destructive": {
+          "count": 633,
+          "pct": 44.6
+        }
+      },
+      "agreement_split": {
+        "Agreement": {
+          "count": 407,
+          "pct": 28.7
+        },
+        "Neutral": {
+          "count": 244,
+          "pct": 17.2
+        },
+        "Disagreement": {
+          "count": 769,
+          "pct": 54.2
+        }
+      },
+      "techniques": {
+        "Appeal_to_Authority": {
+          "count": 67,
+          "pct": 4.7
+        },
+        "Appeal_to_fear-prejudice": {
+          "count": 93,
+          "pct": 6.5
+        },
+        "Bandwagon,Reductio_ad_hitlerum": {
+          "count": 35,
+          "pct": 2.5
+        },
+        "Black-and-White_Fallacy": {
+          "count": 67,
+          "pct": 4.7
+        },
+        "Causal_Oversimplification": {
+          "count": 184,
+          "pct": 13.0
+        },
+        "Doubt": {
+          "count": 192,
+          "pct": 13.5
+        },
+        "Exaggeration,Minimisation": {
+          "count": 356,
+          "pct": 25.1
+        },
+        "Flag-Waving": {
+          "count": 56,
+          "pct": 3.9
+        },
+        "Loaded_Language": {
+          "count": 628,
+          "pct": 44.2
+        },
+        "Name_Calling,Labeling": {
+          "count": 426,
+          "pct": 30.0
+        },
+        "Repetition": {
+          "count": 55,
+          "pct": 3.9
+        },
+        "Slogans/Thought-terminating_Cliches": {
+          "count": 142,
+          "pct": 10.0
+        },
+        "Whataboutism,Straw_Men": {
+          "count": 33,
+          "pct": 2.3
+        },
+        "Appeal_to_Time": {
+          "count": 41,
+          "pct": 2.9
+        }
+      }
+    },
+    "migration_AfD": {
+      "pair_count": 1984,
+      "stance": {
+        "Against": {
+          "count": 1126,
+          "pct": 57.2
+        },
+        "Neutral": {
+          "count": 743,
+          "pct": 37.7
+        },
+        "Support": {
+          "count": 100,
+          "pct": 5.1
+        }
+      },
+      "interaction_4bin": {
+        "Constructive": {
+          "count": 313,
+          "pct": 15.8
+        },
+        "Slight/Neutral": {
+          "count": 241,
+          "pct": 12.1
+        },
+        "Moderately Destructive": {
+          "count": 1081,
+          "pct": 54.5
+        },
+        "Highly Destructive": {
+          "count": 349,
+          "pct": 17.6
+        }
+      },
+      "interaction": {
+        "Constructive": {
+          "count": 313,
+          "pct": 15.8
+        },
+        "Slight/Neutral": {
+          "count": 241,
+          "pct": 12.1
+        },
+        "Moderately Destructive": {
+          "count": 1081,
+          "pct": 54.5
+        },
+        "Highly Destructive": {
+          "count": 349,
+          "pct": 17.6
+        }
+      },
+      "interaction_5class": {
+        "Constructive Disagreement": {
+          "count": 244,
+          "pct": 12.3
+        },
+        "Constructive Agreement": {
+          "count": 69,
+          "pct": 3.5
+        },
+        "Neutral/Rephrase": {
+          "count": 241,
+          "pct": 12.1
+        },
+        "Destructive Agreement": {
+          "count": 1081,
+          "pct": 54.5
+        },
+        "Destructive Disagreement": {
+          "count": 349,
+          "pct": 17.6
+        }
+      },
+      "interaction_3bin": {
+        "Constructive": {
+          "count": 313,
+          "pct": 15.8
+        },
+        "Neutral/Rephrase": {
+          "count": 241,
+          "pct": 12.1
+        },
+        "Destructive": {
+          "count": 1430,
+          "pct": 72.1
+        }
+      },
+      "agreement_split": {
+        "Agreement": {
+          "count": 1150,
+          "pct": 58.0
+        },
+        "Neutral": {
+          "count": 241,
+          "pct": 12.1
+        },
+        "Disagreement": {
+          "count": 593,
+          "pct": 29.9
+        }
+      },
+      "techniques": {
+        "Appeal_to_Authority": {
+          "count": 46,
+          "pct": 2.3
+        },
+        "Appeal_to_fear-prejudice": {
+          "count": 346,
+          "pct": 17.4
+        },
+        "Bandwagon,Reductio_ad_hitlerum": {
+          "count": 41,
+          "pct": 2.1
+        },
+        "Black-and-White_Fallacy": {
+          "count": 99,
+          "pct": 5.0
+        },
+        "Causal_Oversimplification": {
+          "count": 224,
+          "pct": 11.3
+        },
+        "Doubt": {
+          "count": 171,
+          "pct": 8.6
+        },
+        "Exaggeration,Minimisation": {
+          "count": 522,
+          "pct": 26.3
+        },
+        "Flag-Waving": {
+          "count": 221,
+          "pct": 11.1
+        },
+        "Loaded_Language": {
+          "count": 1064,
+          "pct": 53.6
+        },
+        "Name_Calling,Labeling": {
+          "count": 679,
+          "pct": 34.2
+        },
+        "Repetition": {
+          "count": 66,
+          "pct": 3.3
+        },
+        "Slogans/Thought-terminating_Cliches": {
+          "count": 203,
+          "pct": 10.2
+        },
+        "Whataboutism,Straw_Men": {
+          "count": 42,
+          "pct": 2.1
+        },
+        "Appeal_to_Time": {
+          "count": 121,
+          "pct": 6.1
+        }
+      }
+    },
+    "migration_Linke": {
+      "pair_count": 1874,
+      "stance": {
+        "Against": {
+          "count": 487,
+          "pct": 26.2
+        },
+        "Neutral": {
+          "count": 971,
+          "pct": 52.3
+        },
+        "Support": {
+          "count": 399,
+          "pct": 21.5
+        }
+      },
+      "interaction_4bin": {
+        "Constructive": {
+          "count": 691,
+          "pct": 36.9
+        },
+        "Slight/Neutral": {
+          "count": 249,
+          "pct": 13.3
+        },
+        "Moderately Destructive": {
+          "count": 315,
+          "pct": 16.8
+        },
+        "Highly Destructive": {
+          "count": 619,
+          "pct": 33.0
+        }
+      },
+      "interaction": {
+        "Constructive": {
+          "count": 691,
+          "pct": 36.9
+        },
+        "Slight/Neutral": {
+          "count": 249,
+          "pct": 13.3
+        },
+        "Moderately Destructive": {
+          "count": 315,
+          "pct": 16.8
+        },
+        "Highly Destructive": {
+          "count": 619,
+          "pct": 33.0
+        }
+      },
+      "interaction_5class": {
+        "Constructive Disagreement": {
+          "count": 552,
+          "pct": 29.5
+        },
+        "Constructive Agreement": {
+          "count": 139,
+          "pct": 7.4
+        },
+        "Neutral/Rephrase": {
+          "count": 249,
+          "pct": 13.3
+        },
+        "Destructive Agreement": {
+          "count": 315,
+          "pct": 16.8
+        },
+        "Destructive Disagreement": {
+          "count": 619,
+          "pct": 33.0
+        }
+      },
+      "interaction_3bin": {
+        "Constructive": {
+          "count": 691,
+          "pct": 36.9
+        },
+        "Neutral/Rephrase": {
+          "count": 249,
+          "pct": 13.3
+        },
+        "Destructive": {
+          "count": 934,
+          "pct": 49.8
+        }
+      },
+      "agreement_split": {
+        "Agreement": {
+          "count": 454,
+          "pct": 24.2
+        },
+        "Neutral": {
+          "count": 249,
+          "pct": 13.3
+        },
+        "Disagreement": {
+          "count": 1171,
+          "pct": 62.5
+        }
+      },
+      "techniques": {
+        "Appeal_to_Authority": {
+          "count": 49,
+          "pct": 2.6
+        },
+        "Appeal_to_fear-prejudice": {
+          "count": 188,
+          "pct": 10.0
+        },
+        "Bandwagon,Reductio_ad_hitlerum": {
+          "count": 55,
+          "pct": 2.9
+        },
+        "Black-and-White_Fallacy": {
+          "count": 101,
+          "pct": 5.4
+        },
+        "Causal_Oversimplification": {
+          "count": 259,
+          "pct": 13.8
+        },
+        "Doubt": {
+          "count": 202,
+          "pct": 10.8
+        },
+        "Exaggeration,Minimisation": {
+          "count": 517,
+          "pct": 27.6
+        },
+        "Flag-Waving": {
+          "count": 93,
+          "pct": 5.0
+        },
+        "Loaded_Language": {
+          "count": 904,
+          "pct": 48.2
+        },
+        "Name_Calling,Labeling": {
+          "count": 662,
+          "pct": 35.3
+        },
+        "Repetition": {
+          "count": 42,
+          "pct": 2.2
+        },
+        "Slogans/Thought-terminating_Cliches": {
+          "count": 171,
+          "pct": 9.1
+        },
+        "Whataboutism,Straw_Men": {
+          "count": 94,
+          "pct": 5.0
+        },
+        "Appeal_to_Time": {
+          "count": 51,
+          "pct": 2.7
+        }
+      }
+    },
+    "__overall__": {
+      "techniques_total": {
+        "Appeal_to_Authority": 226,
+        "Appeal_to_fear-prejudice": 862,
+        "Bandwagon,Reductio_ad_hitlerum": 167,
+        "Black-and-White_Fallacy": 340,
+        "Causal_Oversimplification": 856,
+        "Doubt": 837,
+        "Exaggeration,Minimisation": 1899,
+        "Flag-Waving": 525,
+        "Loaded_Language": 3634,
+        "Name_Calling,Labeling": 2543,
+        "Repetition": 229,
+        "Slogans/Thought-terminating_Cliches": 708,
+        "Whataboutism,Straw_Men": 222,
+        "Appeal_to_Time": 300
+      },
+      "techniques_ranked": [
+        "Loaded_Language",
+        "Name_Calling,Labeling",
+        "Exaggeration,Minimisation",
+        "Appeal_to_fear-prejudice",
+        "Causal_Oversimplification",
+        "Doubt",
+        "Slogans/Thought-terminating_Cliches",
+        "Flag-Waving",
+        "Black-and-White_Fallacy",
+        "Appeal_to_Time",
+        "Repetition",
+        "Appeal_to_Authority",
+        "Whataboutism,Straw_Men",
+        "Bandwagon,Reductio_ad_hitlerum"
+      ]
+    }
+  },
+  "thread_distributions": {
+    "migration_AfD": {
+      "total_threads": 500,
+      "bins": {
+        "Constructive": {
+          "count": 53,
+          "pct": 10.6
+        },
+        "Slight/Neutral": {
+          "count": 100,
+          "pct": 20.0
+        },
+        "Moderately Destructive": {
+          "count": 299,
+          "pct": 59.8
+        },
+        "Highly Destructive": {
+          "count": 48,
+          "pct": 9.6
+        }
+      }
+    },
+    "migration_Linke": {
+      "total_threads": 500,
+      "bins": {
+        "Constructive": {
+          "count": 137,
+          "pct": 27.4
+        },
+        "Slight/Neutral": {
+          "count": 136,
+          "pct": 27.2
+        },
+        "Moderately Destructive": {
+          "count": 130,
+          "pct": 26.0
+        },
+        "Highly Destructive": {
+          "count": 97,
+          "pct": 19.4
+        }
+      }
+    },
+    "climate_Linke": {
+      "total_threads": 500,
+      "bins": {
+        "Constructive": {
+          "count": 158,
+          "pct": 31.6
+        },
+        "Slight/Neutral": {
+          "count": 133,
+          "pct": 26.6
+        },
+        "Moderately Destructive": {
+          "count": 130,
+          "pct": 26.0
+        },
+        "Highly Destructive": {
+          "count": 79,
+          "pct": 15.8
+        }
+      }
+    },
+    "climate_AfD": {
+      "total_threads": 500,
+      "bins": {
+        "Constructive": {
+          "count": 64,
+          "pct": 12.8
+        },
+        "Slight/Neutral": {
+          "count": 118,
+          "pct": 23.6
+        },
+        "Moderately Destructive": {
+          "count": 270,
+          "pct": 54.0
+        },
+        "Highly Destructive": {
+          "count": 48,
+          "pct": 9.6
+        }
+      }
+    }
+  }
+}

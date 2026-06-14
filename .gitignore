@@ -1,0 +1,49 @@
+# --- Secrets / environment ---
+.env
+*.env
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# --- Large / regenerable intermediate data ---
+# Raw scraped comments (real usernames) and all downstream pipeline
+# intermediates through stage 05 are excluded; only the final
+# pairs/annotations/features (stages 08, 09, 11, 14) are tracked.
+data_a_b/02_raw_scraped/
+data_a_b/03_anonymized/
+data_a_b/04_username_fixed/
+data_a_b/05_relations/
+data_c_d/02_raw_scraped/
+data_c_d/03_anonymized/
+data_c_d/04_username_fixed/
+data_c_d/05_relations/
+
+# Precomputed embedding caches (regenerable via 14_feature_engineering.py)
+14_features/*.npz
+
+# Anonymized per-video comment dumps (privacy-sensitive, regenerable via
+# 07_topic_mapper.py from data_a_b|c_d/04_username_fixed/ + 06_bertopic_output/)
+07_filtered/climate/
+07_filtered/migration/
+
+# --- Large model checkpoints / trained model artifacts ---
+16_bert_results/checkpoints/
+06_bertopic_output/bertopic_model
+15_shallow_results/models/
+
+# --- Thesis review---
+papers/
+
+
+# --- OS / editor / Office cruft ---
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.doc
+~WRL*.tmp

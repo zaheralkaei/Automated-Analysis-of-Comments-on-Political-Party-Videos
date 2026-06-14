@@ -1,0 +1,24 @@
+Here are examples of the task:
+
+--- Example 1 ---
+PARENT COMMENT:
+Herr Dr. Spaniel, Sie haben doch keine Ahnung. Wenn wir nun nicht endlich eine CO2 Steuer bezahlen,  wird das Klima umkippen und in 10 bis 12 Jahren ist die Erde nicht mehr bewohnbar! Aber mit einer richtig hohen CO2 Steuer retten wir das Klima. So okay,  genug schwachsinniges Grünengelaber geschrieben. Sie können sich den Mund fusselig reden, die Hirntoten der Altpartein, allen voran die Grünen kriegen es nicht in ihre Birne. System runter gefahren wegen Stromausfall!
+CHILD COMMENT:
+Nicht zu vergessen Reichweite ich fahre mit unserem Airsoft Team 400 km wir haben einen Diesel mit 70l Tank und können die Strecke Problemlos Fahren selbst ein Tesla Modell S kommt da nicht mit und das Auto ist beladen
+Answer: {"label": 0}  # Against
+
+--- Example 2 ---
+PARENT COMMENT:
+Yo, wie hiess die nochmal?
+CHILD COMMENT:
+@User_97804 Luisa Neubauer
+Answer: {"label": 1}  # Neutral
+
+--- Example 3 ---
+PARENT COMMENT:
+Völlig verstrahlt, ihr könnt doch die Bahn zum wichtigsten Verkehrsmittel machen und die Privatflüge für die die es sich leisten können trotzdem erlaubt lassen, ist ja schließlich deren Geld was sie ausgeben und nicht eures
+CHILD COMMENT:
+Ist aber unser Planet, den sie damit zerstören.
+Answer: {"label": 2}  # Support
+
+Now classify the following:

@@ -1,0 +1,108 @@
+{
+  "gbert": {
+    "interaction": {
+      "macro_f1": 0.5048,
+      "accuracy": 0.5873,
+      "macro_precision": 0.5084,
+      "macro_recall": 0.5043,
+      "kappa_quadratic": 0.5035,
+      "mae": 0.4053,
+      "pearson_r": 0.5046,
+      "per_class_f1": [
+        0.6029,
+        0.6943,
+        0.4752,
+        0.1913,
+        0.5602
+      ]
+    },
+    "stance": {
+      "macro_f1": 0.5272,
+      "accuracy": 0.6351,
+      "macro_precision": 0.5367,
+      "macro_recall": 0.5214,
+      "kappa": 0.3187,
+      "per_class_f1": {
+        "Against": 0.4961,
+        "Neutral": 0.7508,
+        "Support": 0.3349
+      }
+    },
+    "techniques": {
+      "macro_f1": 0.3148,
+      "exact_match_accuracy": 0.3327,
+      "macro_precision": 0.5322,
+      "macro_recall": 0.2597,
+      "hamming_loss": 0.0871,
+      "per_label_f1": {
+        "Appeal_to_Authority": 0.0,
+        "Appeal_to_fear-prejudice": 0.4,
+        "Bandwagon,Reductio_ad_hitlerum": 0.0,
+        "Black-and-White_Fallacy": 0.0816,
+        "Causal_Oversimplification": 0.4245,
+        "Doubt": 0.3027,
+        "Exaggeration,Minimisation": 0.6615,
+        "Flag-Waving": 0.4124,
+        "Loaded_Language": 0.7858,
+        "Name_Calling,Labeling": 0.7047,
+        "Repetition": 0.0541,
+        "Slogans/Thought-terminating_Cliches": 0.2941,
+        "Whataboutism,Straw_Men": 0.0,
+        "Appeal_to_Time": 0.2857
+      }
+    }
+  },
+  "xlmr": {
+    "interaction": {
+      "macro_f1": 0.5054,
+      "accuracy": 0.5818,
+      "macro_precision": 0.5116,
+      "macro_recall": 0.5048,
+      "kappa_quadratic": 0.485,
+      "mae": 0.4306,
+      "pearson_r": 0.4883,
+      "per_class_f1": [
+        0.6075,
+        0.6711,
+        0.4444,
+        0.2301,
+        0.5741
+      ]
+    },
+    "stance": {
+      "macro_f1": 0.5429,
+      "accuracy": 0.6498,
+      "macro_precision": 0.5563,
+      "macro_recall": 0.5341,
+      "kappa": 0.3453,
+      "per_class_f1": {
+        "Against": 0.5307,
+        "Neutral": 0.7566,
+        "Support": 0.3415
+      }
+    },
+    "techniques": {
+      "macro_f1": 0.1911,
+      "exact_match_accuracy": 0.2325,
+      "macro_precision": 0.1782,
+      "macro_recall": 0.2188,
+      "hamming_loss": 0.1199,
+      "per_label_f1": {
+        "Appeal_to_Authority": 0.0,
+        "Appeal_to_fear-prejudice": 0.3582,
+        "Bandwagon,Reductio_ad_hitlerum": 0.0,
+        "Black-and-White_Fallacy": 0.0,
+        "Causal_Oversimplification": 0.4211,
+        "Doubt": 0.0,
+        "Exaggeration,Minimisation": 0.5929,
+        "Flag-Waving": 0.0,
+        "Loaded_Language": 0.7475,
+        "Name_Calling,Labeling": 0.5564,
+        "Repetition": 0.0,
+        "Slogans/Thought-terminating_Cliches": 0.0,
+        "Whataboutism,Straw_Men": 0.0,
+        "Appeal_to_Time": 0.0
+      }
+    }
+  }
+}
